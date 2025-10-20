@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เครื่องคำนวณราคาบรรจุภัณฑ์ - ERP LINKS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .tab-btn {
+            padding: 15px 30px;
+            background: white;
+            border: none;
+            border-radius: 10px 10px 0 0;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+            opacity: 0.7;
+        }
+
+        .tab-btn.active {
+            opacity: 1;
+            background: white;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-description {
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .input-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .input-group label {
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        .input-group input {
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background: #f5f5f5;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .summary-label {
+            color: #666;
+        }
+
+        .summary-value {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        .highlight-box .summary-row {
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .highlight-box .summary-label,
+        .highlight-box .summary-value {
+            color: white;
+        }
+
+        .price-value {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .input-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧮 เครื่องคำนวณราคา</h1>
+            <p>ERP LINKS - Packaging &amp; Printing Quote Calculator</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab(event, 'flexible')">📦 บรรจุภัณฑ์ยืดหยุ่น</button>
+            <button class="tab-btn" onclick="switchTab(event, 'offset')">📦 กล่องออฟเซ็ต</button>
+        </div>
+
+        <div id="flexible" class="tab-content active">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>📝</span>
+                        <span>ข้อมูลพื้นฐาน</span>
+                    </div>
+                    <p class="card-description">กรุณากรอกข้อมูลด้านล่างเพื่อคำนวณราคา</p>
+                </div>
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label>จำนวนซอง (pcs)</label>
+                        <input type="number" id="flex_qty" value="100000" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>กว้างซอง (mm)</label>
+                        <input type="number" id="flex_width" value="100" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>สูงซอง (mm)</label>
+                        <input type="number" id="flex_height" value="120" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>หน้าม้วน (web) กว้าง (mm)</label>
+                        <input type="number" id="flex_webwidth" value="1000" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>จำนวนสีพิมพ์</label>
+                        <input type="number" id="flex_colors" value="6" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>Ink ใช้ต่อ 1 ตร.ม. ต่อสี (g)</label>
+                        <input type="number" id="flex_ink" value="4" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>กาวใช้ต่อ 1 ตร.ม. (g)</label>
+                        <input type="number" id="flex_glue" value="3" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>ตั้งเสียพิมพ์ (m)</label>
+                        <input type="number" id="flex_print_waste" value="5000" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>ตั้งเสียเคลือบ/อื่นๆ (m)</label>
+                        <input type="number" id="flex_coat_waste" value="3000" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>ราคา/กล้ามหมึก (฿)</label>
+                        <input type="number" id="flex_ink_price" value="160" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>ขนาดต่อกล้าม (kg)</label>
+                        <input type="number" id="flex_can_size" value="4" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>ราคากาว (฿/กก.)</label>
+                        <input type="number" id="flex_glue_price" value="160" oninput="calculateFlexible()">
+                    </div>
+                    <div class="input-group">
+                        <label>กำไรสุทธิ (%)</label>
+                        <input type="number" id="flex_profit" value="15" oninput="calculateFlexible()">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>📊</span>
+                        <span>ชั้นฟิล์ม (FILM LAYERS)</span>
+                    </div>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table id="flex_film_table">
+                        <thead>
+                            <tr>
+                                <th>ชั้นฟิล์ม</th>
+                                <th class="text-right">Micron</th>
+                                <th class="text-right">ความหนาแน่น (g/cm³)</th>
+                                <th class="text-right">ราคา (฿/กก.)</th>
+                                <th class="text-right">น้ำหนัก (กก.)</th>
+                                <th class="text-right">ราคารวม (฿)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="flex_film_body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <span>🧮</span>
+                            <span>การคำนวณ</span>
+                        </div>
+                    </div>
+                    <div id="flex_calc_results"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <span>💰</span>
+                            <span>สรุปราคา</span>
+                        </div>
+                    </div>
+                    <div id="flex_summary_results"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>📈</span>
+                        <span>บันไดราคา (PRICE LADDER)</span>
+                    </div>
+                    <p class="card-description">ราคาแตกต่างตามจำนวนสั่งซื้อ</p>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="text-right">จำนวน</th>
+                                <th class="text-right">ต้นทุน/ชิ้น (฿)</th>
+                                <th class="text-right">ราคาขาย/ชิ้น (฿)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="flex_ladder_body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="offset" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>📝</span>
+                        <span>ข้อมูลพื้นฐาน</span>
+                    </div>
+                    <p class="card-description">กรุณากรอกข้อมูลกล่องและการพิมพ์</p>
+                </div>
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label>จำนวนกล่อง (pcs)</label>
+                        <input type="number" id="box_qty" value="10000" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>จำนวนหน้า/แผ่น (up)</label>
+                        <input type="number" id="box_up" value="4" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>กว้างแผ่นกระดาษ (cm)</label>
+                        <input type="number" id="box_sheet_w" value="65" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>สูงแผ่นกระดาษ (cm)</label>
+                        <input type="number" id="box_sheet_h" value="90" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>กว้างแบนกล่อง (cm)</label>
+                        <input type="number" id="box_flat_w" value="50" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>สูงแบนกล่อง (cm)</label>
+                        <input type="number" id="box_flat_h" value="70" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>GSM กระดาษ</label>
+                        <input type="number" id="box_gsm" value="350" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>ราคากระดาษ (฿/กก.)</label>
+                        <input type="number" id="box_paper_price" value="42" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>แผ่นตั้งเครื่อง (sheets)</label>
+                        <input type="number" id="box_makeready" value="300" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>% ของเสีย</label>
+                        <input type="number" id="box_waste" value="5" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>จำนวนสี</label>
+                        <input type="number" id="box_colors" value="4" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>ราคาเพลทต่อสี (฿)</label>
+                        <input type="number" id="box_plate" value="600" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>ความเร็วเครื่องพิมพ์ (sph)</label>
+                        <input type="number" id="box_speed" value="9000" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>อัตราค่าพิมพ์ (฿/ชม.)</label>
+                        <input type="number" id="box_rate" value="2500" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>ชั่วโมงตั้งเครื่อง (hrs)</label>
+                        <input type="number" id="box_setup" value="1.2" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>อัตราเคลือบ (฿/ตร.ม.)</label>
+                        <input type="number" id="box_lam" value="12" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>อัตราไดคัท (฿/1000)</label>
+                        <input type="number" id="box_diecut" value="180" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>กาวต่อชิ้น (฿)</label>
+                        <input type="number" id="box_glue" value="0.35" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>Overhead (%)</label>
+                        <input type="number" id="box_oh" value="15" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>กำไร (%)</label>
+                        <input type="number" id="box_profit" value="20" oninput="calculateOffset()">
+                    </div>
+                    <div class="input-group">
+                        <label>VAT (%)</label>
+                        <input type="number" id="box_vat" value="7" oninput="calculateOffset()">
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <span>🧮</span>
+                            <span>การคำนวณ</span>
+                        </div>
+                    </div>
+                    <div id="box_calc_results"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <span>💵</span>
+                            <span>ต้นทุน</span>
+                        </div>
+                    </div>
+                    <div id="box_cost_results"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span>💰</span>
+                        <span>สรุปราคา</span>
+                    </div>
+                </div>
+                <div id="box_summary_results"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const filmLayers = [
+            { name: "PET ชั้นบน", micron: 12, density: 1.38, price: 50 },
+            { name: "ALU Foil", micron: 7, density: 2.7, price: 200 },
+            { name: "PET ชั้นกลาง", micron: 12, density: 1.38, price: 50 },
+            { name: "LLDPE", micron: 90, density: 0.92, price: 68 }
+        ];
+
+        function switchTab(event, tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+            event.currentTarget.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        function formatNumber(value, decimals = 2) {
+            return parseFloat(value).toLocaleString(undefined, {
+                minimumFractionDigits: decimals,
+                maximumFractionDigits: decimals
+            });
+        }
+
+        function calculateFlexible() {
+            const qty = Number(document.getElementById('flex_qty').value) || 0;
+            const width = Number(document.getElementById('flex_width').value) || 0;
+            const height = Number(document.getElementById('flex_height').value) || 0;
+            const webWidth = Number(document.getElementById('flex_webwidth').value) || 0;
+            const colors = Number(document.getElementById('flex_colors').value) || 0;
+            const inkPerSqm = Number(document.getElementById('flex_ink').value) || 0;
+            const gluePerSqm = Number(document.getElementById('flex_glue').value) || 0;
+            const printWaste = Number(document.getElementById('flex_print_waste').value) || 0;
+            const coatWaste = Number(document.getElementById('flex_coat_waste').value) || 0;
+            const inkPrice = Number(document.getElementById('flex_ink_price').value) || 0;
+            const canSize = Number(document.getElementById('flex_can_size').value) || 1;
+            const gluePrice = Number(document.getElementById('flex_glue_price').value) || 0;
+            const profit = Number(document.getElementById('flex_profit').value) || 0;
+
+            if (qty <= 0 || width <= 0 || height <= 0 || webWidth <= 0) {
+                document.getElementById('flex_calc_results').innerHTML = '<p>กรุณากรอกข้อมูลให้ครบถ้วน</p>';
+                document.getElementById('flex_summary_results').innerHTML = '';
+                document.getElementById('flex_ladder_body').innerHTML = '';
+                document.getElementById('flex_film_body').innerHTML = '';
+                return;
+            }
+
+            const areaPerPouch = (width * height) / 1_000_000;
+            const pcsPerAcross = Math.max(1, Math.floor(webWidth / width));
+            const actualLength = qty / pcsPerAcross;
+            const totalWaste = printWaste + coatWaste;
+            const totalLength = actualLength + totalWaste;
+            const totalArea = (totalLength * webWidth) / 1_000;
+
+            const totalInkKg = (totalArea * inkPerSqm * colors) / 1_000;
+            const numCans = Math.ceil(totalInkKg / canSize);
+            const inkCost = numCans * inkPrice;
+
+            const totalGlueKg = (totalArea * gluePerSqm) / 1_000;
+            const glueCost = totalGlueKg * gluePrice;
+
+            let totalFilmCost = 0;
+            let filmRows = '';
+            filmLayers.forEach(layer => {
+                const weight = (totalArea * layer.micron * layer.density) / 1_000;
+                const cost = weight * layer.price;
+                totalFilmCost += cost;
+                filmRows += `
+                    <tr>
+                        <td>${layer.name}</td>
+                        <td class="text-right">${layer.micron}</td>
+                        <td class="text-right">${layer.density.toFixed(2)}</td>
+                        <td class="text-right">${formatNumber(layer.price)}</td>
+                        <td class="text-right">${formatNumber(weight, 3)}</td>
+                        <td class="text-right">${formatNumber(cost)}</td>
+                    </tr>
+                `;
+            });
+
+            filmRows += `
+                <tr style="background: #f5f5f5; font-weight: 600;">
+                    <td colspan="5">รวมฟิล์ม</td>
+                    <td class="text-right">${formatNumber(totalFilmCost)}</td>
+                </tr>
+            `;
+            document.getElementById('flex_film_body').innerHTML = filmRows;
+
+            const totalMaterial = inkCost + glueCost + totalFilmCost;
+            const costPerPcs = totalMaterial / qty;
+            const sellingTotal = totalMaterial * (1 + profit / 100);
+            const sellingPerPcs = sellingTotal / qty;
+
+            document.getElementById('flex_calc_results').innerHTML = `
+                <div class="summary-row">
+                    <span class="summary-label">พื้นที่/ซอง (ตร.ม.)</span>
+                    <span class="summary-value">${formatNumber(areaPerPouch, 4)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ชิ้น/แนวกว้าง</span>
+                    <span class="summary-value">${pcsPerAcross.toLocaleString()}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ความยาวงานจริง (m)</span>
+                    <span class="summary-value">${formatNumber(actualLength)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">รวมตั้งเสีย (m)</span>
+                    <span class="summary-value">${formatNumber(totalWaste)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ความยาวรวม (m)</span>
+                    <span class="summary-value">${formatNumber(totalLength)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">พื้นที่รวม (ตร.ม.)</span>
+                    <span class="summary-value">${formatNumber(totalArea)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">หมึกทั้งหมด (กก.)</span>
+                    <span class="summary-value">${formatNumber(totalInkKg)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">จำนวนกล้าม</span>
+                    <span class="summary-value">${numCans}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">กาวทั้งหมด (กก.)</span>
+                    <span class="summary-value">${formatNumber(totalGlueKg)}</span>
+                </div>
+            `;
+
+            document.getElementById('flex_summary_results').innerHTML = `
+                <div class="summary-row">
+                    <span class="summary-label">ค่าสีหมึก (฿)</span>
+                    <span class="summary-value">${formatNumber(inkCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่ากาว (฿)</span>
+                    <span class="summary-value">${formatNumber(glueCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่าวัสดุฟิล์ม (฿)</span>
+                    <span class="summary-value">${formatNumber(totalFilmCost)}</span>
+                </div>
+                <div class="highlight-box">
+                    <div class="summary-row">
+                        <span class="summary-label">ต้นทุนวัสดุรวม (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(totalMaterial)}</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="summary-label">ต้นทุนต่อซอง (฿)</span>
+                        <span class="summary-value">${formatNumber(costPerPcs, 4)}</span>
+                    </div>
+                    <div class="summary-row" style="border: none;">
+                        <span class="summary-label">ราคาขายรวม (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(sellingTotal)}</span>
+                    </div>
+                    <div class="summary-row" style="border: none;">
+                        <span class="summary-label">ราคาขายต่อซอง (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(sellingPerPcs, 4)}</span>
+                    </div>
+                </div>
+            `;
+
+            const volumes = [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000, 1000000];
+            const ladderRows = volumes.map(volume => {
+                const length = volume / pcsPerAcross;
+                const ladderTotalLength = length + totalWaste;
+                const ladderArea = (ladderTotalLength * webWidth) / 1_000;
+                const ladderInkKg = (ladderArea * inkPerSqm * colors) / 1_000;
+                const ladderCans = Math.ceil(ladderInkKg / canSize);
+                const ladderInkCost = ladderCans * inkPrice;
+                const ladderGlueKg = (ladderArea * gluePerSqm) / 1_000;
+                const ladderGlueCost = ladderGlueKg * gluePrice;
+                let ladderFilmCost = 0;
+                filmLayers.forEach(layer => {
+                    const weight = (ladderArea * layer.micron * layer.density) / 1_000;
+                    ladderFilmCost += weight * layer.price;
+                });
+                const ladderMaterial = ladderInkCost + ladderGlueCost + ladderFilmCost;
+                const ladderCostPer = ladderMaterial / volume;
+                const ladderSellPer = (ladderMaterial * (1 + profit / 100)) / volume;
+                return `
+                    <tr>
+                        <td class="text-right">${volume.toLocaleString()}</td>
+                        <td class="text-right">${formatNumber(ladderCostPer, 4)}</td>
+                        <td class="text-right">${formatNumber(ladderSellPer, 4)}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            document.getElementById('flex_ladder_body').innerHTML = ladderRows;
+        }
+
+        function calculateOffset() {
+            const qty = Number(document.getElementById('box_qty').value) || 0;
+            const up = Math.max(1, Number(document.getElementById('box_up').value) || 1);
+            const sheetW = Number(document.getElementById('box_sheet_w').value) || 0;
+            const sheetH = Number(document.getElementById('box_sheet_h').value) || 0;
+            const flatW = Number(document.getElementById('box_flat_w').value) || 0;
+            const flatH = Number(document.getElementById('box_flat_h').value) || 0;
+            const gsm = Number(document.getElementById('box_gsm').value) || 0;
+            const paperPrice = Number(document.getElementById('box_paper_price').value) || 0;
+            const makeready = Number(document.getElementById('box_makeready').value) || 0;
+            const wastePercent = Number(document.getElementById('box_waste').value) || 0;
+            const colors = Number(document.getElementById('box_colors').value) || 0;
+            const platePrice = Number(document.getElementById('box_plate').value) || 0;
+            const speed = Number(document.getElementById('box_speed').value) || 1;
+            const rate = Number(document.getElementById('box_rate').value) || 0;
+            const setupHours = Number(document.getElementById('box_setup').value) || 0;
+            const lamRate = Number(document.getElementById('box_lam').value) || 0;
+            const diecutRate = Number(document.getElementById('box_diecut').value) || 0;
+            const gluePerPiece = Number(document.getElementById('box_glue').value) || 0;
+            const ohPercent = Number(document.getElementById('box_oh').value) || 0;
+            const profitPercent = Number(document.getElementById('box_profit').value) || 0;
+            const vatPercent = Number(document.getElementById('box_vat').value) || 0;
+
+            if (qty <= 0 || sheetW <= 0 || sheetH <= 0 || flatW <= 0 || flatH <= 0 || gsm <= 0) {
+                document.getElementById('box_calc_results').innerHTML = '<p>กรุณากรอกข้อมูลให้ครบถ้วน</p>';
+                document.getElementById('box_cost_results').innerHTML = '';
+                document.getElementById('box_summary_results').innerHTML = '';
+                return;
+            }
+
+            const sheetAreaSqm = (sheetW * sheetH) / 10_000;
+            const flatAreaSqm = (flatW * flatH) / 10_000;
+            const sheetsForQty = Math.ceil(qty / up);
+            const sheetsWithWaste = Math.ceil(sheetsForQty * (1 + wastePercent / 100));
+            const totalSheets = sheetsWithWaste + makeready;
+
+            const paperWeightPerSheet = (sheetAreaSqm * gsm) / 1_000;
+            const totalPaperWeight = paperWeightPerSheet * totalSheets;
+            const paperCost = totalPaperWeight * paperPrice;
+
+            const plateCost = colors * platePrice;
+
+            const productionHours = totalSheets / speed;
+            const totalPressHours = productionHours + setupHours;
+            const printingCost = totalPressHours * rate;
+
+            const laminationArea = flatAreaSqm * qty;
+            const laminationCost = laminationArea * lamRate;
+
+            const diecutCost = (qty / 1_000) * diecutRate;
+            const glueCost = qty * gluePerPiece;
+
+            const directCost = paperCost + plateCost + printingCost + laminationCost + diecutCost + glueCost;
+            const overhead = directCost * (ohPercent / 100);
+            const subtotal = directCost + overhead;
+            const profit = subtotal * (profitPercent / 100);
+            const netTotal = subtotal + profit;
+            const vat = netTotal * (vatPercent / 100);
+            const grandTotal = netTotal + vat;
+
+            const costPerPiece = netTotal / qty;
+            const costPerPieceVat = grandTotal / qty;
+
+            document.getElementById('box_calc_results').innerHTML = `
+                <div class="summary-row">
+                    <span class="summary-label">จำนวนแผ่นงานจริง (sheets)</span>
+                    <span class="summary-value">${totalSheets.toLocaleString()}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">น้ำหนักกระดาษรวม (กก.)</span>
+                    <span class="summary-value">${formatNumber(totalPaperWeight)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ชั่วโมงพิมพ์รวม (hrs)</span>
+                    <span class="summary-value">${formatNumber(totalPressHours, 2)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">พื้นที่เคลือบรวม (ตร.ม.)</span>
+                    <span class="summary-value">${formatNumber(laminationArea)}</span>
+                </div>
+            `;
+
+            document.getElementById('box_cost_results').innerHTML = `
+                <div class="summary-row">
+                    <span class="summary-label">ค่ากระดาษ</span>
+                    <span class="summary-value">${formatNumber(paperCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่าเพลท</span>
+                    <span class="summary-value">${formatNumber(plateCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่าพิมพ์</span>
+                    <span class="summary-value">${formatNumber(printingCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่าเคลือบ</span>
+                    <span class="summary-value">${formatNumber(laminationCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่าไดคัท</span>
+                    <span class="summary-value">${formatNumber(diecutCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">ค่ากาว</span>
+                    <span class="summary-value">${formatNumber(glueCost)}</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">Overhead</span>
+                    <span class="summary-value">${formatNumber(overhead)}</span>
+                </div>
+            `;
+
+            document.getElementById('box_summary_results').innerHTML = `
+                <div class="highlight-box">
+                    <div class="summary-row">
+                        <span class="summary-label">ต้นทุนรวมก่อนกำไร (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(subtotal)}</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="summary-label">กำไร (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(profit)}</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="summary-label">สุทธิไม่รวม VAT (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(netTotal)}</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="summary-label">VAT (${vatPercent}%)</span>
+                        <span class="summary-value">${formatNumber(vat)}</span>
+                    </div>
+                    <div class="summary-row" style="border: none;">
+                        <span class="summary-label">ราคารวม VAT (฿)</span>
+                        <span class="summary-value price-value">${formatNumber(grandTotal)}</span>
+                    </div>
+                    <div class="summary-row" style="border: none;">
+                        <span class="summary-label">ราคาต่อกล่อง (ไม่รวม VAT)</span>
+                        <span class="summary-value">${formatNumber(costPerPiece, 4)}</span>
+                    </div>
+                    <div class="summary-row" style="border: none;">
+                        <span class="summary-label">ราคาต่อกล่อง (รวม VAT)</span>
+                        <span class="summary-value">${formatNumber(costPerPieceVat, 4)}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        calculateFlexible();
+        calculateOffset();
+    </script>
+</body>
+</html>
