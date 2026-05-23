@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>ERP ระบบคำนวณต้นทุนโรงพิมพ์ | Offset & Gravure</title>
+    <!-- Tailwind CSS + Font Awesome + Google Fonts + Chart.js -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        body { background: #f4f7fc; }
+        /* Custom scroll & transition */
+        .sidebar-item { transition: all 0.2s ease; cursor: pointer; }
+        .sidebar-item:hover { background-color: #1e40af; transform: translateX(4px); }
+        .active-sidebar { background-color: #1e3a8a; border-left: 4px solid #fbbf24; }
+        .card-hover { transition: transform 0.1s ease, box-shadow 0.2s; }
+        .card-hover:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); }
+        input, select, textarea { transition: all 0.2s; }
+        input:focus, select:focus, textarea:focus { border-color: #2563eb; ring: 2px solid #bfdbfe; outline: none; }
+        .profit-positive { color: #10b981; font-weight: 700; }
+        .warning-badge { background-color: #fee2e2; color: #b91c1c; }
+        .gauge-bar { height: 8px; border-radius: 12px; background: #e5e7eb; overflow: hidden; }
+        .gauge-fill { height: 100%; width: 0%; background: #10b981; transition: width 0.4s; }
+    </style>
+</head>
+<body class="antialiased">
+
+<div class="flex flex-col md:flex-row min-h-screen">
+    <!-- SIDEBAR (ซ้าย) -->
+    <aside class="w-full md:w-72 bg-blue-900 text-white shadow-xl z-20">
+        <div class="p-6 border-b border-blue-800 flex items-center gap-3">
+            <i class="fas fa-print text-3xl text-amber-300"></i>
+            <div>
+                <h1 class="text-xl font-bold tracking-tight">PackPlus ERP</h1>
+                <p class="text-xs text-blue-200">Printing Cost Engine</p>
+            </div>
+        </div>
+        <nav class="py-4 px-3">
+            <div class="space-y-1">
+                <div data-view="dashboard" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-tachometer-alt w-5"></i><span>Dashboard คำนวณต้นทุน</span></div>
+                <div data-view="quotation" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-file-invoice-dollar w-5"></i><span>New Quotation</span></div>
+                <div data-view="offset" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-chart-line w-5"></i><span>Offset Calculator</span></div>
+                <div data-view="gravure" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-fill-drip w-5"></i><span>Gravure Calculator</span></div>
+                <div data-view="materials" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-database w-5"></i><span>Material Database</span></div>
+                <div data-view="machinecost" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-microchip w-5"></i><span>Machine Cost Setting</span></div>
+                <div data-view="approval" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-check-double w-5"></i><span>Quotation Approval</span></div>
+                <div data-view="reports" class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 hover:bg-blue-800"><i class="fas fa-chart-pie w-5"></i><span>Reports</span></div>
+                <div class="sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg text-blue-100 opacity-70"><i class="fas fa-sliders-h w-5"></i><span>Settings</span></div>
+            </div>
+        </nav>
+        <div class="absolute bottom-4 left-4 text-xs text-blue-300 hidden md:block">v2.0 · ระบบเสนอราคาอัจฉริยะ</div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-1 p-4 md:p-6 overflow-x-auto">
+        <!-- ########## VIEW: DASHBOARD (ภาพรวมต้นทุน + ฟอร์มหลัก) ########## -->
+        <div id="view-dashboard" class="view-container hidden">
+            <div class="mb-6 flex flex-wrap justify-between items-center"><h2 class="text-2xl font-bold text-gray-800"><i class="fas fa-chalkboard-user text-blue-700 mr-2"></i>แผงควบคุมต้นทุน & งานล่าสุด</h2><span class="text-sm text-gray-500"><i class="far fa-calendar-alt"></i> อัปเดตวันนี้</span></div>
+            <!-- สรุป KPI ตัวเลข -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mb-8">
+                <div class="bg-white p-5 rounded-2xl shadow-md border-l-8 border-blue-600"><p class="text-gray-500 text-sm">📊 อัตรา Margin เฉลี่ย</p><p class="text-2xl font-bold text-gray-800">24.3%</p><span class="text-green-600 text-xs"><i class="fas fa-arrow-up"></i> +2.1%</span></div>
+                <div class="bg-white p-5 rounded-2xl shadow-md border-l-8 border-emerald-500"><p class="text-gray-500 text-sm">🏆 งานที่ชนะ (เดือนนี้)</p><p class="text-2xl font-bold text-gray-800">18 ใบเสนอ</p><span class="text-emerald-600 text-xs">อัตราชนะ 72%</span></div>
+                <div class="bg-white p-5 rounded-2xl shadow-md border-l-8 border-amber-400"><p class="text-gray-500 text-sm">📦 ต้นทุนวัตถุดิบผันผวน</p><p class="text-2xl font-bold text-gray-800">+5.7%</p><span class="text-red-500 text-xs">เทียบเดือนก่อน</span></div>
+                <div class="bg-white p-5 rounded-2xl shadow-md border-l-8 border-indigo-400"><p class="text-gray-500 text-sm">⚙️ เครื่องจักร利用率</p><p class="text-2xl font-bold text-gray-800">86%</p><span class="text-blue-600 text-xs">Offs./Grav.</span></div>
+            </div>
+            <!-- กราฟสรุปต้นทุนและล่าสุด -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-5 rounded-2xl shadow"><h3 class="font-semibold text-gray-700 mb-3"><i class="fas fa-chart-simple text-blue-500"></i> สัดส่วนต้นทุน (เฉลี่ย)</h3><canvas id="dashboardPieChart" height="180"></canvas></div>
+                <div class="bg-white p-5 rounded-2xl shadow"><h3 class="font-semibold text-gray-700 mb-3"><i class="fas fa-chart-line"></i> งานเสนอราคารายสัปดาห์</h3><canvas id="dashboardBarChart" height="180"></canvas></div>
+            </div>
+            <div class="mt-6 bg-white rounded-2xl shadow p-5"><h3 class="font-semibold text-gray-800"><i class="fas fa-clock"></i> ใบเสนอราคาล่าสุดที่ต้องอนุมัติ</h3><div class="overflow-x-auto mt-3"><table class="min-w-full text-sm"><thead class="bg-gray-100"><tr><th class="p-3 text-left">ลูกค้า</th><th>งาน</th><th>ยอดรวม</th><th>Margin</th><th>สถานะ</th></tr></thead><tbody><tr><td class="p-3">SCG Packaging</td><td>กล่องขนม Premium</td><td>฿185,200</td><td class="text-green-600">22.4%</td><td><span class="bg-yellow-100 px-2 py-1 rounded-full text-xs">รออนุมัติ</span></td></tr><tr class="bg-gray-50"><td>Betagro</td><td>ซองฟอยล์ Gravure</td><td>฿342,000</td><td class="text-green-600">27.1%</td><td><span class="bg-green-100 px-2 py-1 rounded-full text-xs">อนุมัติแล้ว</span></td></tr></tbody></table></div></div>
+        </div>
+
+        <!-- ########## VIEW: QUOTATION (หน้าคำนวณหลัก 3 คอลัมน์) ########## -->
+        <div id="view-quotation" class="view-container hidden">
+            <div class="flex justify-between items-center mb-4 flex-wrap"><h2 class="text-2xl font-bold"><i class="fas fa-calculator text-blue-700 mr-2"></i>เครื่องมือคำนวณต้นทุนงานพิมพ์</h2><div class="flex gap-2"><button id="duplicateQuotationBtn" class="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-lg text-sm"><i class="fas fa-copy"></i> Duplicate งานเดิม</button><button id="compareQtBtn" class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-lg text-sm"><i class="fas fa-chart-line"></i> เปรียบเทียบ 3 ระดับจำนวนผลิต</button></div></div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- โซน1: ข้อมูลลูกค้าและงาน -->
+                <div class="bg-white rounded-2xl shadow-md p-5 col-span-1">
+                    <h3 class="font-bold text-gray-800 border-b pb-2 mb-4"><i class="fas fa-user-check text-blue-600"></i> ข้อมูลงานและลูกค้า</h3>
+                    <div class="space-y-3">
+                        <div><label class="text-sm font-medium">ชื่อลูกค้า</label><input type="text" id="customerName" class="w-full border rounded-lg p-2" value="Modern Packaging Co.,Ltd."></div>
+                        <div><label class="text-sm font-medium">ชื่องาน/สินค้า</label><input type="text" id="jobName" class="w-full border rounded-lg p-2" value="Snack Box Premium"></div>
+                        <div><label class="text-sm font-medium">ประเภทงานพิมพ์</label><select id="printType" class="w-full border rounded-lg p-2"><option value="offset">Offset (ออฟเซต)</option><option value="gravure">Gravure (กราเวียร์)</option></select></div>
+                        <div><label class="text-sm font-medium">ประเภทบรรจุภัณฑ์</label><select id="packType" class="w-full border rounded-lg p-2"><option>กล่องกระดาษ</option><option>ฉลาก</option><option>ฟิล์ม</option><option>ซอง</option></select></div>
+                        <div><label class="text-sm font-medium">จำนวนสั่งผลิต (ชิ้น)</label><input type="number" id="qty" class="w-full border rounded-lg p-2" value="25000"></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>กว้าง (cm)</label><input type="text" id="sizeW" class="border p-2 rounded" value="20"></div><div><label>ยาว/สูง</label><input type="text" id="sizeH" class="border p-2 rounded" value="15"></div></div>
+                        <div><label>จำนวนสีพิมพ์</label><input type="number" id="colorsCount" class="w-full border rounded p-2" value="4"></div>
+                        <div><label>จำนวนแบบ</label><input type="number" id="designCount" class="w-full border p-2" value="1"></div>
+                        <div><label>หมายเหตุพิเศษ</label><textarea rows="2" class="w-full border p-2 rounded">เคลือบ UV ด้าน</textarea></div>
+                    </div>
+                </div>
+                <!-- โซน2: รายละเอียดต้นทุน (Offset / Gravure แบบไดนามิก) -->
+                <div class="bg-white rounded-2xl shadow-md p-5 col-span-1">
+                    <h3 class="font-bold text-gray-800 border-b pb-2 mb-4"><i class="fas fa-industry"></i> <span id="costSectionTitle">รายละเอียด Offset Printing</span></h3>
+                    <div id="offsetFieldsGroup" class="space-y-3">
+                        <div class="grid grid-cols-2 gap-2"><div><label>ประเภทกระดาษ</label><select class="border p-2 rounded w-full" id="paperType"><option>อาร์ตการ์ด 310 gsm</option><option>คราฟท์</option></select></div><div><label>แกรมกระดาษ</label><input id="paperGram" value="310" class="border p-2 rounded"></div></div>
+                        <div><label>ราคากระดาษ (ต่อ กก. หรือแผ่น)</label><input id="paperPrice" value="42" class="border p-2 rounded w-full"></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>ขนาดกระดาษก่อนพิมพ์</label><input id="paperSize" value="70x100 cm" class="border p-2 rounded"></div><div><label>ชิ้นต่อแผ่น</label><input id="pcsPerSheet" value="6" class="border p-2 rounded"></div></div>
+                        <div><label>จำนวนแผ่นที่ต้องใช้</label><input id="totalSheets" value="4200" class="border p-2 rounded"></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>% เผื่อเสีย</label><input id="wastePercent" value="5" class="border p-2 rounded"></div><div><label>ค่าเพลท (บาท)</label><input id="plateCost" value="2500" class="border p-2 rounded"></div></div>
+                        <div><label>ค่าหมึก (บาท)</label><input id="inkCostOffset" value="1800" class="border p-2 rounded w-full"></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>ค่าแรงพิมพ์</label><input id="laborCost" value="1200" class="border p-2 rounded"></div><div><label>ค่าเครื่อง(บาท/ชม.)</label><input id="machineHourRate" value="950" class="border p-2 rounded"></div></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>เวลาตั้งเครื่อง(ชม.)</label><input id="setupTime" value="1.5" class="border p-2 rounded"></div><div><label>เวลาพิมพ์(ชม.)</label><input id="printingTime" value="2.5" class="border p-2 rounded"></div></div>
+                        <div><label>งานหลังพิมพ์ (เลือกได้)</label><div class="flex flex-wrap gap-2 mt-1"><label class="inline-flex items-center"><input type="checkbox" value="laminate" class="postPress"> เคลือบ</label><label><input type="checkbox" value="diecut" class="postPress"> ไดคัท</label><label><input type="checkbox" value="glue" class="postPress"> พับกาว</label></div></div>
+                    </div>
+                    <div id="gravureFieldsGroup" class="space-y-3 hidden">
+                        <div class="grid grid-cols-2 gap-2"><div><label>ประเภทฟิล์ม</label><select id="filmType"><option>PET</option><option>OPP</option><option>PE</option></select></div><div><label>ความหนา( micron)</label><input id="filmThick" value="30" class="border p-2 rounded"></div></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>หน้ากว้างฟิล์ม(mm)</label><input id="filmWidth" value="500" class="border p-2 rounded"></div><div><label>ความยาวงาน(m)</label><input id="filmLength" value="2000" class="border p-2 rounded"></div></div>
+                        <div><label>ราคาฟิล์ม (บาท/กก.)</label><input id="filmPricePerKg" value="85" class="border p-2 rounded"></div>
+                        <div><label>น้ำหนักวัตถุดิบ(kg)</label><input id="rawWeight" value="120" class="border p-2 rounded"></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>จำนวนสี</label><input id="gravureColors" value="6" class="border p-2 rounded"></div><div><label>ค่ากระบอกพิมพ์/สี</label><input id="cylinderCost" value="4800" class="border p-2 rounded"></div></div>
+                        <div><label>ค่าหมึก (บาท/กก.) และปริมาณกก.</label><div class="flex gap-2"><input placeholder="บาท/กก" id="inkPriceGrav" value="120" class="border p-2 w-1/2"><input placeholder="ปริมาณกก." id="inkQtyGrav" value="22" class="border p-2 w-1/2"></div></div>
+                        <div><label>% Loss / ค่ากาว laminate</label><input id="gravureLoss" value="8" class="border p-2 rounded"></div>
+                        <div class="grid grid-cols-2 gap-2"><div><label>ค่าเครื่อง/ชม.</label><input id="gravMachineRate" value="1100" class="border p-2 rounded"></div><div><label>เวลาตั้งเครื่อง</label><input id="gravSetupTime" value="2" class="border p-2 rounded"></div></div>
+                        <div><label>งานหลังพิมพ์ :</label><select id="gravPostPress" class="border p-2 rounded w-full"><option>Laminate + Slitting</option><option>Pouch making</option></select></div>
+                    </div>
+                </div>
+                <!-- โซน3: ผลลัพธ์การคำนวณ -->
+                <div class="bg-white rounded-2xl shadow-md p-5 col-span-1">
+                    <h3 class="font-bold text-gray-800 border-b pb-2 mb-3"><i class="fas fa-chart-pie"></i> ผลลัพธ์ & กำไร</h3>
+                    <div id="costOutput" class="space-y-2 text-sm">
+                        <div class="flex justify-between"><span>ต้นทุนวัตถุดิบ:</span><span id="rawMatCost" class="font-mono">0.00</span></div><div class="flex justify-between"><span>ต้นทุนเพลท/กระบอก:</span><span id="toolCost">0.00</span></div>
+                        <div class="flex justify-between"><span>ต้นทุนหมึก:</span><span id="inkCostTotal">0.00</span></div><div class="flex justify-between"><span>ต้นทุนเครื่องจักร:</span><span id="machineCost">0.00</span></div>
+                        <div class="flex justify-between"><span>ต้นทุนแรงงาน:</span><span id="laborCostTotal">0.00</span></div><div class="flex justify-between"><span>งานหลังพิมพ์:</span><span id="postPressCost">0.00</span></div>
+                        <div class="border-t pt-2 font-bold flex justify-between"><span>ต้นทุนรวม:</span><span id="totalCost" class="text-blue-800">0.00</span></div>
+                        <div class="flex justify-between"><span>ต้นทุนต่อชิ้น:</span><span id="unitCost">0.00</span></div>
+                        <div><label class="text-xs">Markup % :</label><input type="number" id="markupPercent" value="28" class="w-24 border rounded p-1 text-sm"></div>
+                        <div class="flex justify-between font-semibold"><span>ราคาขายรวม:</span><span id="totalPrice" class="text-emerald-700">0.00</span></div><div class="flex justify-between"><span>ราคาขายต่อชิ้น:</span><span id="unitPrice">0.00</span></div>
+                        <div class="flex justify-between text-green-700"><span>Gross Profit:</span><span id="grossProfit">0.00</span></div><div class="flex justify-between"><span>Gross Margin % :</span><span id="marginPercent">0%</span></div>
+                        <div class="gauge-bar mt-2"><div id="marginGaugeFill" class="gauge-fill"></div></div><div id="marginWarning" class="text-xs text-red-600 mt-1"></div>
+                        <div class="flex justify-between"><span>จุดคุ้มทุน (ชิ้น):</span><span id="bep">0</span></div>
+                    </div>
+                    <div class="mt-3"><canvas id="costBreakdownChart" height="150"></canvas></div>
+                    <div class="flex flex-wrap gap-2 mt-4"><button id="calcBtn" class="bg-blue-700 text-white px-5 py-2 rounded-xl shadow"><i class="fas fa-sync-alt"></i> คำนวณราคา</button><button id="saveQuoteBtn" class="bg-emerald-600 text-white px-4 py-2 rounded-xl"><i class="fas fa-save"></i> บันทึกใบเสนอราคา</button><button id="pdfBtn" class="bg-amber-600 text-white px-4 py-2 rounded-xl"><i class="fas fa-file-pdf"></i> PDF</button><button id="approvalSendBtn" class="bg-indigo-600 text-white px-4 py-2 rounded-xl"><i class="fas fa-paper-plane"></i> ส่งอนุมัติ</button></div>
+                </div>
+            </div>
+        </div>
+        <!-- VIEW: OFFSET CALCULATOR / GRAVURE CALCULATOR (จะใช้ quotation โดยเปลี่ยนประเภท) และหน้า Material, Machine, Approval, Reports -->
+        <div id="view-materials" class="view-container hidden"><div class="bg-white p-5 rounded-2xl shadow"><h2 class="text-xl font-bold mb-4"><i class="fas fa-database"></i> ฐานข้อมูลวัตถุดิบ</h2><table class="min-w-full border"><thead class="bg-gray-100"><tr><th>ชื่อวัตถุดิบ</th><th>ประเภท</th><th>Supplier</th><th>หน่วย</th><th>ราคาล่าสุด</th><th>MOQ</th><th></th></tr></thead><tbody><tr><td>อาร์ตการ์ด 310g</td><td>กระดาษ</td><td>Double A</td><td>กก.</td><td>42฿</td><td>500</td><td><button class="text-blue-600"><i class="fas fa-edit"></i></button></td></tr><tr><td>ฟิล์ม PET 30mic</td><td>ฟิล์ม</td><td>Toray</td><td>กก.</td><td>85฿</td><td>300</td><td><i class="fas fa-edit"></i></td></tr><tr><td>หมึก Offset</td><td>หมึก</td><td>DIC</td><td>กก.</td><td>145฿</td><td>10</td><td></td></tr></tbody></table><button class="mt-4 bg-blue-100 px-4 py-2 rounded"><i class="fas fa-plus"></i> เพิ่มวัตถุดิบ</button></div></div>
+        <div id="view-machinecost" class="view-container hidden"><div class="bg-white p-5 rounded-2xl"><h2 class="text-xl font-bold mb-3"><i class="fas fa-microchip"></i> ตั้งค่าต้นทุนเครื่องจักร</h2><div class="overflow-x-auto"><table class="min-w-full"><thead><tr><th>เครื่อง</th><th>ประเภท</th><th>ค่าเสื่อม</th><th>ค่าไฟ/ชม.</th><th>ค่าแรง/ชม.</th><th>cost/hr</th></tr></thead><tbody><tr><td>Heidelberg XL106</td><td>Offset</td><td>320</td><td>180</td><td>450</td><td>950</td></tr><tr><td>Cerutti Gravure</td><td>Gravure</td><td>500</td><td>240</td><td>360</td><td>1100</td></tr></tbody></table></div></div></div>
+        <div id="view-approval" class="view-container hidden"><div class="bg-white rounded-2xl p-5"><h2 class="text-xl font-bold"><i class="fas fa-stamp"></i> อนุมัติใบเสนอราคา</h2><div class="space-y-4 mt-4"><div class="border p-4 rounded shadow-sm"><div class="flex justify-between"><div><p class="font-semibold">ลูกค้า: P&G Packaging</p><p>กล่องซักผ้า Premium | จำนวน 50,000 ชิ้น</p><p>ยอดขาย ฿425,000 | Margin 21.5%</p></div><div><button class="bg-green-600 text-white px-3 py-1 rounded mr-2">Approve</button><button class="bg-red-500 text-white px-3 py-1 rounded">Reject</button></div></div></div><div class="border p-4 rounded"><div class="flex justify-between"><div><p>ลูกค้า: SCG</p><p>ซอง Stand Pouch Gravure | Margin 16.2%</p></div><div><button class="bg-green-600 px-3 py-1 rounded">Approve</button> <button class="bg-red-500 px-3 py-1">Reject</button><textarea placeholder="comment" class="border text-sm w-full mt-2"></textarea></div></div></div></div></div></div>
+        <div id="view-reports" class="view-container hidden"><div class="bg-white p-5 rounded-2xl"><h2 class="text-xl font-bold"><i class="fas fa-chart-line"></i> รายงานวิเคราะห์</h2><div class="grid md:grid-cols-2 gap-4 mt-4"><canvas id="reportsMarginChart" height="150"></canvas><canvas id="reportsWinLoss" height="150"></canvas></div><div class="mt-4"><p><i class="fas fa-trophy text-amber-500"></i> ประเภทงานที่กำไรดีที่สุด: กล่องพรีเมียม (Margin 34%)</p><p><i class="fas fa-chart-simple"></i> ต้นทุนวัตถุดิบเปลี่ยนแปลง: กระดาษ +6% , ฟิล์ม +3%</p></div></div></div>
+    </main>
+</div>
+
+<script>
+    // ---- Global ----
+    let costBreakdownChart, dashboardPie, dashboardBar, reportsMarginChart, winLossChart;
+    function switchView(viewId) { document.querySelectorAll('.view-container').forEach(v => v.classList.add('hidden')); document.getElementById(`view-${viewId}`).classList.remove('hidden'); }
+    function setSidebarActive(selected){
+        document.querySelectorAll('.sidebar-item').forEach(el=>el.classList.remove('active-sidebar','bg-blue-800'));
+        const items=document.querySelectorAll(`.sidebar-item`);
+        for(let item of items){ if(item.innerText.toLowerCase().includes(selected) || (selected==='quotation' && item.innerText.includes('New Quotation'))){
+            item.classList.add('active-sidebar','bg-blue-800'); break; } }
+    }
+    document.querySelectorAll('.sidebar-item').forEach(el=>{ el.addEventListener('click',()=>{
+        let txt=el.innerText.trim().toLowerCase();
+        if(txt.includes('dashboard')){ switchView('dashboard'); setSidebarActive('dashboard'); initDashboardCharts(); }
+        else if(txt.includes('new quotation')){ switchView('quotation'); setSidebarActive('quotation'); }
+        else if(txt.includes('offset calculator')){ document.getElementById('printType').value='offset'; togglePrintTypeFields(); switchView('quotation'); setSidebarActive('offset calculator'); }
+        else if(txt.includes('gravure calculator')){ document.getElementById('printType').value='gravure'; togglePrintTypeFields(); switchView('quotation'); setSidebarActive('gravure calculator'); }
+        else if(txt.includes('material')){ switchView('materials'); setSidebarActive('material'); }
+        else if(txt.includes('machine cost')){ switchView('machinecost'); setSidebarActive('machinecost'); }
+        else if(txt.includes('quotation approval')){ switchView('approval'); setSidebarActive('approval'); }
+        else if(txt.includes('reports')){ switchView('reports'); setSidebarActive('reports'); initReportsCharts(); }
+        else{ switchView('quotation'); setSidebarActive('quotation'); }
+    })});
+    function togglePrintTypeFields(){ let type=document.getElementById('printType').value; const offsetDiv=document.getElementById('offsetFieldsGroup'); const gravureDiv=document.getElementById('gravureFieldsGroup'); const titleSpan=document.getElementById('costSectionTitle'); if(type==='offset'){ offsetDiv.classList.remove('hidden'); gravureDiv.classList.add('hidden'); titleSpan.innerText='รายละเอียด Offset Printing'; } else{ offsetDiv.classList.add('hidden'); gravureDiv.classList.remove('hidden'); titleSpan.innerText='รายละเอียด Gravure Printing'; } }
+    document.getElementById('printType').addEventListener('change',togglePrintTypeFields);
+    function calculateCosts(){
+        let type=document.getElementById('printType').value; let qty=parseFloat(document.getElementById('qty').value)||0;
+        let rawMat=0, tool=0, ink=0, machine=0, labor=0, post=0;
+        if(type==='offset'){
+            let paperCost= (parseFloat(document.getElementById('paperPrice').value)||0)*(parseFloat(document.getElementById('totalSheets').value)||0)*(1+(parseFloat(document.getElementById('wastePercent').value)||0)/100);
+            let plate=parseFloat(document.getElementById('plateCost').value)||0; ink=parseFloat(document.getElementById('inkCostOffset').value)||0;
+            let machineRate=parseFloat(document.getElementById('machineHourRate').value)||0; let setup=parseFloat(document.getElementById('setupTime').value)||0; let printTime=parseFloat(document.getElementById('printingTime').value)||0;
+            machine= machineRate*(setup+printTime); labor=parseFloat(document.getElementById('laborCost').value)||0;
+            let postCheck=0; document.querySelectorAll('.postPress:checked').forEach(cb=>{ if(cb.value==='laminate') postCheck+=1500; if(cb.value==='diecut') postCheck+=2200; if(cb.value==='glue') postCheck+=900; }); post=postCheck;
+            rawMat=paperCost; tool=plate;
+        } else {
+            let filmKg=parseFloat(document.getElementById('rawWeight').value)||0; let filmPrice=parseFloat(document.getElementById('filmPricePerKg').value)||0; rawMat=filmKg*filmPrice;
+            let cylinder= (parseFloat(document.getElementById('cylinderCost').value)||0)*(parseFloat(document.getElementById('gravureColors').value)||1); tool=cylinder;
+            let inkPrice=parseFloat(document.getElementById('inkPriceGrav').value)||0; let inkQty=parseFloat(document.getElementById('inkQtyGrav').value)||0; ink=inkPrice*inkQty;
+            let machineRateG=parseFloat(document.getElementById('gravMachineRate').value)||0; let setupG=parseFloat(document.getElementById('gravSetupTime').value)||0; machine=machineRateG*setupG; labor=0;
+            post= (parseFloat(document.getElementById('gravureLoss').value)||0)*50;
+        }
+        let totalCost=rawMat+tool+ink+machine+labor+post; let unitCost= qty? totalCost/qty:0;
+        let markup=(parseFloat(document.getElementById('markupPercent').value)||0)/100; let totalPrice=totalCost*(1+markup); let unitPrice= qty? totalPrice/qty:0; let profit=totalPrice-totalCost; let margin=(profit/totalPrice)*100;
+        document.getElementById('rawMatCost').innerText=rawMat.toFixed(2); document.getElementById('toolCost').innerText=tool.toFixed(2); document.getElementById('inkCostTotal').innerText=ink.toFixed(2); document.getElementById('machineCost').innerText=machine.toFixed(2); document.getElementById('laborCostTotal').innerText=labor.toFixed(2); document.getElementById('postPressCost').innerText=post.toFixed(2);
+        document.getElementById('totalCost').innerText=totalCost.toFixed(2); document.getElementById('unitCost').innerText=unitCost.toFixed(2); document.getElementById('totalPrice').innerText=totalPrice.toFixed(2); document.getElementById('unitPrice').innerText=unitPrice.toFixed(2); document.getElementById('grossProfit').innerText=profit.toFixed(2); document.getElementById('marginPercent').innerText=margin.toFixed(1)+'%';
+        let bep=(tool+ (machine?machine*0.8:0)) / (unitPrice - (rawMat+ink+post)/qty); document.getElementById('bep').innerText=Math.max(0,Math.floor(bep));
+        let fillPercent=Math.min(100,Math.max(0,margin)); document.getElementById('marginGaugeFill').style.width=fillPercent+'%'; if(margin<15) document.getElementById('marginWarning').innerHTML='⚠️ คำเตือน: Margin ต่ำกว่า 15% ควรปรับราคา'; else document.getElementById('marginWarning').innerHTML='';
+        if(costBreakdownChart) costBreakdownChart.destroy(); let ctx=document.getElementById('costBreakdownChart').getContext('2d'); costBreakdownChart=new Chart(ctx,{type:'pie',data:{labels:['วัตถุดิบ','เพลท/กระบอก','หมึก','เครื่องจักร','แรงงาน','หลังพิมพ์'], datasets:[{data:[rawMat,tool,ink,machine,labor,post],backgroundColor:['#1e3a8a','#f59e0b','#10b981','#6b7280','#8b5cf6','#ec489a']}]}});
+    }
+    function initDashboardCharts(){
+        if(dashboardPie) dashboardPie.destroy(); if(dashboardBar) dashboardBar.destroy();
+        let pieCtx=document.getElementById('dashboardPieChart').getContext('2d'); dashboardPie=new Chart(pieCtx,{type:'pie',data:{labels:['กระดาษ','เพลท','หมึก','เครื่องจักร'], datasets:[{data:[48,18,15,19],backgroundColor:['#2563eb','#f59e0b','#10b981','#9ca3af']}]}});
+        let barCtx=document.getElementById('dashboardBarChart').getContext('2d'); dashboardBar=new Chart(barCtx,{type:'bar',data:{labels:['ส.1','ส.2','ส.3','ส.4'], datasets:[{label:'จำนวนใบเสนอ',data:[12,9,15,11]}]}});
+    }
+    function initReportsCharts(){
+        if(reportsMarginChart) reportsMarginChart.destroy(); if(winLossChart) winLossChart.destroy();
+        let ctx1=document.getElementById('reportsMarginChart').getContext('2d'); reportsMarginChart=new Chart(ctx1,{type:'line',data:{labels:['ม.ค','ก.พ','มี.ค','เม.ย'], datasets:[{label:'Margin %',data:[22,24,23,26],borderColor:'#10b981'}]}});
+        let ctx2=document.getElementById('reportsWinLoss').getContext('2d'); winLossChart=new Chart(ctx2,{type:'doughnut',data:{labels:['งานที่ชนะ','งานที่เสีย'], datasets:[{data:[68,32],backgroundColor:['#34d399','#f87171']}]}});
+    }
+    document.getElementById('calcBtn').addEventListener('click',calculateCosts);
+    document.getElementById('saveQuoteBtn').addEventListener('click',()=>alert('บันทึกใบเสนอราคาเรียบร้อย (Demo)'));
+    document.getElementById('pdfBtn').addEventListener('click',()=>alert('สร้างไฟล์ PDF ใบเสนอราคา (จำลอง)'));
+    document.getElementById('approvalSendBtn').addEventListener('click',()=>alert('ส่งเรื่องให้ผู้บริหารอนุมัติแล้ว'));
+    document.getElementById('duplicateQuotationBtn').addEventListener('click',()=>alert('โหลดข้อมูลงานเดิมซ้ำ (สามารถปรับแก้)'));
+    document.getElementById('compareQtBtn').addEventListener('click',()=>{ let qty=document.getElementById('qty').value; alert(`เปรียบเทียบต้นทุน 3 ระดับ:\n10,000 ชิ้น : ต้นทุนต่อหน่วย ~ 4.85 บาท\n${qty} ชิ้น : ${document.getElementById('unitCost').innerText} บาท\n50,000 ชิ้น : ต้นทุนต่อหน่วย ~ 3.21 บาท`); });
+    togglePrintTypeFields(); calculateCosts(); switchView('quotation'); setSidebarActive('quotation'); initDashboardCharts();
+    setTimeout(()=>{ if(document.getElementById('costBreakdownChart')) calculateCosts(); },100);
+</script>
+</body>
+</html>
