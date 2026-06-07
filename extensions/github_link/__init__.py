@@ -22,6 +22,7 @@ Notes
 import importlib
 import inspect
 import os.path
+import sys
 
 import contextlib
 from urllib.parse import urlunsplit
@@ -42,10 +43,26 @@ def setup(app):
             return None
 
         module, fullname = info['module'], info['fullname']
-        # TODO: attributes/properties don't have modules, maybe try to look
-        #       them up based on their cached host object?
         if not module:
-            return None
+            # Attributes/properties may lack module info; search already-loaded
+            # modules for the host object using progressively shorter prefixes.
+            # Autodoc imports all documented modules, so they are in sys.modules.
+            parts = fullname.split('.')
+            for i in range(len(parts) - 1, 0, -1):
+                candidate = '.'.join(parts[:i])
+                if candidate not in sys.modules:
+                    continue
+                resolved = sys.modules[candidate]
+                for part in parts[i:]:
+                    resolved = getattr(resolved, part, None)
+                    if resolved is None:
+                        break
+                if resolved is not None:
+                    module = candidate
+                    fullname = '.'.join(parts[i:])
+                    break
+            if not module:
+                return None
 
         obj = importlib.import_module(module)
         for item in fullname.split('.'):
