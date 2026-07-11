@@ -1,0 +1,67 @@
+[
+  {
+    "id": "MAT-001",
+    "code": "KA125-B",
+    "name": "Kraft A-flute 125 gsm Liner",
+    "fluteType": "B",
+    "grade": "KRAFT",
+    "gsm": 125,
+    "standardSheetLength": 1000,
+    "standardSheetWidth": 700,
+    "pricePerTonne": 18500,
+    "densityFactor": 1.0,
+    "active": true
+  },
+  {
+    "id": "MAT-002",
+    "code": "KA150-C",
+    "name": "Kraft A-flute 150 gsm Liner",
+    "fluteType": "C",
+    "grade": "KRAFT",
+    "gsm": 150,
+    "standardSheetLength": 1200,
+    "standardSheetWidth": 800,
+    "pricePerTonne": 19200,
+    "densityFactor": 1.0,
+    "active": true
+  },
+  {
+    "id": "MAT-003",
+    "code": "KA175-BC",
+    "name": "Kraft A-flute 175 gsm Liner (BC)",
+    "fluteType": "BC",
+    "grade": "KRAFT",
+    "gsm": 175,
+    "standardSheetLength": 1400,
+    "standardSheetWidth": 1000,
+    "pricePerTonne": 20000,
+    "densityFactor": 1.0,
+    "active": true
+  },
+  {
+    "id": "MAT-004",
+    "code": "WT170-E",
+    "name": "White Top 170 gsm (E-flute)",
+    "fluteType": "E",
+    "grade": "WHITE_TOP",
+    "gsm": 170,
+    "standardSheetLength": 700,
+    "standardSheetWidth": 500,
+    "pricePerTonne": 24000,
+    "densityFactor": 1.0,
+    "active": true
+  },
+  {
+    "id": "MAT-005",
+    "code": "WT200-EB",
+    "name": "White Top 200 gsm (EB-flute)",
+    "fluteType": "EB",
+    "grade": "WHITE_TOP",
+    "gsm": 200,
+    "standardSheetLength": 900,
+    "standardSheetWidth": 650,
+    "pricePerTonne": 26000,
+    "densityFactor": 1.0,
+    "active": true
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "MC-001",
+    "name": "Bobst SPO 160 Flatbed Die-Cutter",
+    "type": "FLATBED_DIE_CUT",
+    "minSheetLength": 350,
+    "maxSheetLength": 1060,
+    "minSheetWidth": 280,
+    "maxSheetWidth": 760,
+    "speedSheetsPerHour": 7500,
+    "active": true,
+    "notes": "Primary flatbed — handles BC flute and heavy boards"
+  },
+  {
+    "id": "MC-002",
+    "name": "Bobst EXPERTCUT 106 PER",
+    "type": "FLATBED_DIE_CUT",
+    "minSheetLength": 400,
+    "maxSheetLength": 1060,
+    "minSheetWidth": 400,
+    "maxSheetWidth": 760,
+    "speedSheetsPerHour": 9000,
+    "active": true,
+    "notes": "High-speed flatbed — microflute and E-flute preferred"
+  },
+  {
+    "id": "MC-003",
+    "name": "Crosland 66 Rotary Die-Cutter",
+    "type": "ROTARY_DIE_CUT",
+    "minSheetLength": 300,
+    "maxSheetLength": 1060,
+    "minSheetWidth": 240,
+    "maxSheetWidth": 660,
+    "speedSheetsPerHour": 15000,
+    "active": true,
+    "notes": "Best for B/E flute short-run; rotary die tooling required"
+  },
+  {
+    "id": "MC-004",
+    "name": "ASAHI AR-102 Rotary Die-Cutter",
+    "type": "ROTARY_DIE_CUT",
+    "minSheetLength": 420,
+    "maxSheetLength": 1020,
+    "minSheetWidth": 300,
+    "maxSheetWidth": 720,
+    "speedSheetsPerHour": 12000,
+    "active": true,
+    "notes": "Medium-range rotary; good for BC and C flute"
+  },
+  {
+    "id": "MC-005",
+    "name": "Heidelberg SM 52 Offset Press",
+    "type": "OFFSET_PRINT",
+    "minSheetLength": 210,
+    "maxSheetLength": 520,
+    "minSheetWidth": 148,
+    "maxSheetWidth": 370,
+    "speedSheetsPerHour": 13000,
+    "active": true,
+    "notes": "4-colour offset for pre-print linerboard up to 520×370"
+  },
+  {
+    "id": "MC-006",
+    "name": "Heidelberg CD 74 Offset Press",
+    "type": "OFFSET_PRINT",
+    "minSheetLength": 300,
+    "maxSheetLength": 740,
+    "minSheetWidth": 210,
+    "maxSheetWidth": 530,
+    "speedSheetsPerHour": 15000,
+    "active": true,
+    "notes": "5-colour+UV; main press for premium packaging"
+  },
+  {
+    "id": "MC-007",
+    "name": "Bobst EXPERTFOLD 110 (offline — maintenance)",
+    "type": "FLATBED_DIE_CUT",
+    "minSheetLength": 350,
+    "maxSheetLength": 1100,
+    "minSheetWidth": 280,
+    "maxSheetWidth": 800,
+    "speedSheetsPerHour": 6000,
+    "active": false,
+    "notes": "Under scheduled maintenance — available from Q4"
+  }
+]
