@@ -153,18 +153,18 @@ off is visible to other users, and how the time off affects the **Payroll** app.
      request would be for three hours, since the two extra worked hours are used first, and deducted
      from the request.
 
-- :guilabel:`Public Holiday Included`: Enable this option if public holidays should be excluded from
-  a time off request.
+- :guilabel:`Public Holiday Included`: Enable this option if employees must use their own time off
+  balance for public holidays included in a time off request.
 
   .. example::
-     An employee in the United States requests time off for the week of July 4th, for a total of
-     five days. Since the 4th of July is a holiday in the United States, the time off request is
-     automatically modified for four days off instead of five. That is because the holiday is
-     included, and the user does not need to use their own vacation time for a public holiday.
+     The 4th of July is a public holiday in the United States. An employee requests time off for the
+     full business week, including July 4th.
 
-     This option reduces extra work for users, enabling them to make only one time off request for
-     the entire week, instead of making two separate requests, one for the days *before* the
-     holiday, and another one for the days *after* the holiday.
+     - If :guilabel:`Public Holiday Included` is enabled, the public holiday is *included* in the
+       employee's time off request. The employee uses five vacation days.
+
+     - If :guilabel:`Public Holiday Included` is disabled, the public holiday is *not* included in
+       the employee's time off request. The employee only uses four vacation days.
 
 - :guilabel:`Allow To Attach Supporting Document`: Enable this option to allow the employee to
   attach documents to the time off request. This is useful in situations where documentation is
@@ -452,13 +452,13 @@ Enter the following information on that new line:
 - :guilabel:`Start Date`: Using the date and time picker, select the date and time the holiday
   starts, then click :icon:`fa-check` :guilabel:`Apply`. By default, this field is configured for
   the current date. The start time is set according to the start time for the company (according to
-  the :ref:`working schedules <payroll/working-times>`). If the user's computer is set to a
+  the :doc:`working schedules <payroll/working_schedules>`). If the user's computer is set to a
   different time zone, the start time is adjusted accordingly, compared to the company's time zone.
 - :guilabel:`End Date`: Using the date and time picker, select the date and time the holiday ends,
   then click :icon:`fa-check` :guilabel:`Apply`. By default, this field is configured for the
-  current date, and the time is set to the end time for the company (according to the :ref:`working
-  schedules <payroll/working-times>`). If the user's computer is set to a different time zone, the
-  start time is adjusted accordingly, compared to the company's time zone.
+  current date, and the time is set to the end time for the company (according to the :doc:`working
+  schedules <payroll/working_schedules>`). If the user's computer is set to a different time zone,
+  the start time is adjusted accordingly, compared to the company's time zone.
 
   .. example::
      A company located in San Francisco operates from 9:00 AM - 6:00 PM, with an eight hour work day
@@ -474,8 +474,8 @@ Enter the following information on that new line:
 - :guilabel:`Working Hours`: If the holiday should only apply to employees who have a specific set
   of working hours, select the working hours from the drop-down menu. If left blank, the holiday
   applies to all employees.
-- :guilabel:`Work Entry Type`: If using the **Payroll** app, this field defines how the :ref:`work
-  entries <payroll/work-entries>` for the holiday appear. Select the work entry type from the
+- :guilabel:`Work Entry Type`: If using the **Payroll** app, this field defines how the :doc:`work
+  entries <payroll/work_entries>` for the holiday appear. Select the work entry type from the
   drop-down menu.
 
 .. image:: time_off/holidays.png

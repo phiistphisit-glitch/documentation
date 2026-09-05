@@ -92,7 +92,7 @@ blank :guilabel:`Salary Attachment` form loads. Enter the following information 
 - :guilabel:`Payslip Amount`: Enter the amount taken out of each paycheck in this field.
 - :guilabel:`Total Amount`: Enter the total amount to be paid for the salary attachment. Note that
   this field **only** appears if the :guilabel:`No End Date` option is **not** ticked.
-- :guilabel:`Negative Amount`: Tick this checkbox if the salary attachment
+- :guilabel:`Negative Amount`: Tick this checkbox if the salary attachment is a negative value.
 - :guilabel:`Occurrences`: This field is **not** editable, and only appears once both the
   :guilabel:`Payslip Amount` and :guilabel:`Total Amount` fields are populated. The number indicates
   the amount of payslips needed to complete the salary attachment.
@@ -163,6 +163,3 @@ Any salary attachment can be cancelled at any time. To cancel a salary attachmen
 individual attachment record from the main :guilabel:`Salary Attachment` dashboard to open the
 record. From the :guilabel:`Salary Attachment` record, click the :guilabel:`Cancel` button to cancel
 the salary attachment, and stop having the designated money taken out of future paychecks.
-
-.. seealso::
-   :doc:`salary_attachment`

@@ -7,6 +7,9 @@
 # Wil Odoo, 2025
 # Chloe Wang, 2025
 # "Chloe Wang (chwa)" <chwa@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2026.
+# Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
 #
 # Translators:
 #
@@ -14,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 08:33+0000\n"
-"PO-Revision-Date: 2025-09-03 22:50+0000\n"
-"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
+"POT-Creation-Date: 2026-06-05 19:23+0000\n"
+"PO-Revision-Date: 2026-07-06 12:18+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-18-doc/studio/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -24,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../../content/applications/studio.rst:6
 msgid "Studio"
@@ -34,8 +37,9 @@ msgstr "工作室"
 msgid ""
 "**Odoo Studio** is a toolbox used to customize Odoo without coding "
 "knowledge. For example, in any app, add or modify:"
-msgstr "**Odoo Studio** 是一个用于定制 Odoo "
-"的工具箱，无需编码知识。例如，在任何应用程序中添加或修改："
+msgstr ""
+"**Odoo Studio** 是一个用于定制 Odoo 的工具箱，无需编码知识。例如，在任何应用"
+"程序中添加或修改："
 
 #: ../../content/applications/studio.rst:21
 msgid ":doc:`Fields <studio/fields>`"
@@ -81,10 +85,10 @@ msgid ""
 "with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
 "icon and navigate to the relevant app and model."
 msgstr ""
-"要访问**Studio**，请导航到要修改的应用程序和模型，然后点击 :icon:`oi-"
-"studio`（:guilabel:`切换 Studio`）图标。或者，在打开任何应用程序的情况下，"
-"点击 :icon:`oi-studio`（:guilabel:`切换 "
-"Studio`）图标并导航到相关应用程序和模型。"
+"要访问**Studio**，请导航到要修改的应用程序和模型，然后点击 :icon:`oi-studio`"
+"（:guilabel:`切换 Studio`）图标。或者，在打开任何应用程序的情况下，点"
+"击 :icon:`oi-studio`（:guilabel:`切换 Studio`）图标并导航到相关应用程序和模"
+"型。"
 
 #: ../../content/applications/studio.rst:38
 msgid "To close **Studio**, click :guilabel:`Close` in the upper-right corner."
@@ -94,8 +98,9 @@ msgstr "要关闭 **Studio**，请点击右上角的 :guilabel:`关闭`。"
 msgid ""
 "Installing **Studio** in an Odoo database on the *Standard* pricing plan "
 "automatically triggers an upsell to the *Custom* pricing plan."
-msgstr "在 Odoo 数据库的*标准*定价计划中安装**Studio**，会自动触发向 *自定义* "
-"定价计划的追加销售。"
+msgstr ""
+"在 Odoo 数据库的*标准*定价计划中安装**Studio**，会自动触发向 *自定义* 定价计"
+"划的追加销售。"
 
 #: ../../content/applications/studio.rst:44
 msgid ""
@@ -107,15 +112,17 @@ msgstr "**适用于年度或多年期合同**：创建的追加销售订单有 3
 msgid ""
 "**For monthly contracts**: The subscription automatically switches to the "
 "*Custom* plan and the new rate is applied when the next bill is generated."
-msgstr "**适用于包月合同**：套餐自动切换到 *自定义* "
-"计划，新费率将在生成下一张账单时应用。"
+msgstr ""
+"**适用于包月合同**：套餐自动切换到 *自定义* 计划，新费率将在生成下一张账单时"
+"应用。"
 
 #: ../../content/applications/studio.rst:48
 msgid ""
 "For more information, refer to `Odoo's pricing page <https://www.odoo.com/"
 "pricing-plan>`_ or contact your account manager."
-msgstr "了解更多信息，请参阅 `Odoo 定价页面 <https://www.odoo.com/pricing-plan>`_ "
-"或联系您的客户经理。"
+msgstr ""
+"了解更多信息，请参阅 `Odoo 定价页面 <https://www.odoo.com/pricing-plan>`_ 或"
+"联系您的客户经理。"
 
 #: ../../content/applications/studio.rst:52
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
@@ -258,7 +265,7 @@ msgstr ""
 "当为按钮设置审批规则后，按钮标签旁会显示**用户头像**图标（每个图标代表一个审"
 "批步骤）。点击图标可查看具体步骤信息。"
 
-#: ../../content/applications/studio/approval_rules.rst:-1
+#: ../../content/applications/studio/approval_rules.rst:None
 msgid "Confirm button with two approval steps"
 msgstr "通过两个批准步骤确认按钮"
 
@@ -363,7 +370,8 @@ msgid ""
 "Automation rules allow the execution of one or more predefined actions in "
 "response to a specific trigger, e.g., create an activity when a field is set "
 "to a specific value, or archive a record 7 days after its last update."
-msgstr "自动化规则允许针对特定触发执行一个或多个预定义操作，例如，当某个字段设置为特"
+msgstr ""
+"自动化规则允许针对特定触发执行一个或多个预定义操作，例如，当某个字段设置为特"
 "定值时创建活动，或在最后一次更新 7 天后归档记录。"
 
 #: ../../content/applications/studio/automated_actions.rst:11
@@ -373,9 +381,9 @@ msgid ""
 "automation rule to run, e.g., the opportunity must be assigned to a specific "
 "salesperson, or the state of the record must not be :guilabel:`Draft`."
 msgstr ""
-"创建自动化规则时，:ref:`域筛选器 <studio/automated-actions/conditions>` "
-"允许您添加自动化规则运行必须满足的条件，例如，机会必须分配给特定的销售人员，"
-"或记录的状态必须不是 :guilabel:`草稿`。"
+"创建自动化规则时，:ref:`域筛选器 <studio/automated-actions/conditions>` 允许"
+"您添加自动化规则运行必须满足的条件，例如，机会必须分配给特定的销售人员，或记"
+"录的状态必须不是 :guilabel:`草稿`。"
 
 #: ../../content/applications/studio/automated_actions.rst:16
 msgid "To create an automation rule with **Odoo Studio**, proceed as follows:"
@@ -400,8 +408,9 @@ msgid ""
 "Select the :ref:`trigger <studio/automated-actions/trigger>` and, if "
 "necessary, fill in the fields that appear on the screen based on the chosen "
 "trigger."
-msgstr "选择 :ref:`触发器 <studio/automated-actions/trigger>` "
-"并根据所选触发器填写屏幕上出现的字段。"
+msgstr ""
+"选择 :ref:`触发器 <studio/automated-actions/trigger>` 并根据所选触发器填写屏"
+"幕上出现的字段。"
 
 #: ../../content/applications/studio/automated_actions.rst:22
 msgid ""
@@ -421,8 +430,9 @@ msgid ""
 "To ensure follow-up on less satisfied clients, this automation rule creates "
 "an activity 3 months after a sales order is created for clients with a "
 "satisfaction percentage lower than 30%."
-msgstr "为确保跟进满意度较低的客户，该自动化规则会在销售订单创建 3 "
-"个月后为满意度低于 30% 的客户创建活动。"
+msgstr ""
+"为确保跟进满意度较低的客户，该自动化规则会在销售订单创建 3 个月后为满意度低"
+"于 30% 的客户创建活动。"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an automation rule on the Subscription model"
@@ -433,9 +443,9 @@ msgid ""
 "Use the :guilabel:`Notes` tab to document the purpose and functioning of "
 "automation rules. This makes rules easier to maintain and facilitates "
 "collaboration between users."
-msgstr "使用 :guilabel:`笔记` "
-"标签页记录自动化规则的目的和功能。这将使规则更易于维护，并促进用户之间的协作"
-"。"
+msgstr ""
+"使用 :guilabel:`笔记` 标签页记录自动化规则的目的和功能。这将使规则更易于维"
+"护，并促进用户之间的协作。"
 
 #: ../../content/applications/studio/automated_actions.rst:39
 msgid ""
@@ -445,10 +455,10 @@ msgid ""
 "automation rule, and select the :guilabel:`Model` in "
 "the :guilabel:`Automation Rules` form."
 msgstr ""
-"要修改自动化规则所针对的 :doc:`模型 <models_modules_apps>`，请在 Studio "
-"中点击 :guilabel:`自动化` 前切换模型，或 :ref:`激活开发者模式 <developer-"
-"mode>`，创建或编辑自动化规则，并在 :guilabel:`自动化规则` 表单中选择 "
-":guilabel:`模型`。"
+"要修改自动化规则所针对的 :doc:`模型 <models_modules_apps>`，请在 Studio 中点"
+"击 :guilabel:`自动化` 前切换模型，或 :ref:`激活开发者模式 <developer-mode>`，"
+"创建或编辑自动化规则，并在 :guilabel:`自动化规则` 表单中选择 :guilabel:`模型"
+"`。"
 
 #: ../../content/applications/studio/automated_actions.rst:43
 msgid ""
@@ -458,10 +468,9 @@ msgid ""
 "case, the :guilabel:`Trigger` is set to :guilabel:`Stage is set to` by "
 "default, but it can be changed if necessary."
 msgstr ""
-"通过点击悬停在看板阶段名称上时出现的 :icon:`fa-cog`:guilabel:`（设置）` "
-"图标，然后选择 "
-":guilabel:`自动化`，可以从任何看板阶段创建自动化规则。在这种情况下，:guilabel"
-":`触发器`默认设置为 :guilabel:`阶段设置为`，但必要时可以更改。"
+"通过点击悬停在看板阶段名称上时出现的 :icon:`fa-cog`:guilabel:`（设置）` 图"
+"标，然后选择 :guilabel:`自动化`，可以从任何看板阶段创建自动化规则。在这种情况"
+"下，:guilabel:`触发器`默认设置为 :guilabel:`阶段设置为`，但必要时可以更改。"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Create automations from a kanban stage"
@@ -478,8 +487,8 @@ msgid ""
 "the :doc:`model <models_modules_apps>`. Five trigger categories are "
 "available overall:"
 msgstr ""
-":guilabel:`触发器` 用于定义自动化规则运行所需的活动类型。可用的触发器取决于 "
-":doc:`模型 <models_modules_apps>`。共有五个触发器类别："
+":guilabel:`触发器` 用于定义自动化规则运行所需的活动类型。可用的触发器取决"
+"于 :doc:`模型 <models_modules_apps>`。共有五个触发器类别："
 
 #: ../../content/applications/studio/automated_actions.rst:60
 msgid ":ref:`studio/automated-actions/trigger-values-updated`"
@@ -510,21 +519,24 @@ msgid ""
 "Domain filters allow you to determine the records an automation rule should "
 "target or exclude. Efficient filtering enhances overall performance as it "
 "avoids unnecessary processing on records that are not impacted by the rule."
-msgstr "域筛选器允许您确定自动化规则应针对或排除的记录。高效筛选可避免对不受规则影响"
+msgstr ""
+"域筛选器允许您确定自动化规则应针对或排除的记录。高效筛选可避免对不受规则影响"
 "的记录进行不必要的处理，从而提高整体性能。"
 
 #: ../../content/applications/studio/automated_actions.rst:76
 msgid ""
 ":ref:`Activate developer mode <developer-mode>` before creating an "
 "automation rule to have the most flexibility in adding domain filters."
-msgstr ":ref:`在创建自动化规则前激活开发者模式 <developer-"
-"mode>`，以便最灵活地添加域筛选器。"
+msgstr ""
+":ref:`在创建自动化规则前激活开发者模式 <developer-mode>`，以便最灵活地添加域"
+"筛选器。"
 
 #: ../../content/applications/studio/automated_actions.rst:79
 msgid ""
 "Depending on the trigger chosen, it is possible to define one or more "
 "conditions a record must meet *before* and/or *after* a trigger occurs."
-msgstr "根据所选触发器的不同，可以定义一个或多个记录在触发*前*和/或触发*后*必须满足的"
+msgstr ""
+"根据所选触发器的不同，可以定义一个或多个记录在触发*前*和/或触发*后*必须满足的"
 "条件。"
 
 #: ../../content/applications/studio/automated_actions.rst:82
@@ -533,16 +545,16 @@ msgid ""
 "meet *before* the trigger event occurs, e.g., the record must have `Type = "
 "Customer Invoice` and `Status = Posted`."
 msgstr ""
-":guilabel:`域名更新前` 定义了记录在触发事件发生*之前*必须满足的条件，例如，"
-"记录必须具有 `类型 = 客户发票` 和 `状态 = 已发布`。"
+":guilabel:`域名更新前` 定义了记录在触发事件发生*之前*必须满足的条件，例如，记"
+"录必须具有 `类型 = 客户发票` 和 `状态 = 已发布`。"
 
 #: ../../content/applications/studio/automated_actions.rst:85
 msgid ""
 "With :ref:`developer mode activated <developer-mode>`, click :guilabel:`Edit "
 "Domain`, if available, then :guilabel:`New Rule`."
 msgstr ""
-"在 :ref:`启动开发者模式 <developer-mode>` 下，点击 "
-":guilabel:`编辑域名`（如有），然后点击 :guilabel:`新规则`。"
+"在 :ref:`启动开发者模式 <developer-mode>` 下，点击 :guilabel:`编辑域名`（如"
+"有），然后点击 :guilabel:`新规则`。"
 
 #: ../../content/applications/studio/automated_actions.rst:88
 msgid ""
@@ -550,9 +562,8 @@ msgid ""
 "define the conditions a record must meet *after* the trigger event occurs, "
 "e.g., the customer invoice must have `Payment Status = Partially Paid`."
 msgstr ""
-":guilabel:`额外条件` 或在某些情况下 :guilabel:`应用于` "
-"筛选器定义触发事件发生后记录必须满足的条件，例如，客户发票必须具有 `付款状态 "
-"= 部分支付`。"
+":guilabel:`额外条件` 或在某些情况下 :guilabel:`应用于` 筛选器定义触发事件发生"
+"后记录必须满足的条件，例如，客户发票必须具有 `付款状态 = 部分支付`。"
 
 #: ../../content/applications/studio/automated_actions.rst:92
 msgid ""
@@ -570,10 +581,9 @@ msgid ""
 "checks the defined conditions and only executes the :ref:`action <studio/"
 "automated-actions/action>` if the record matches those conditions."
 msgstr ""
-"当发生 :ref:`触发条件 <studio/automated-actions/"
-"trigger>`（例如：已过账客户发票的支付状态更新）时，自动化规则将检查预设条件，"
-"仅当记录匹配这些条件时才会执行 :ref:`预设动作 <studio/automated-actions/"
-"action>`。"
+"当发生 :ref:`触发条件 <studio/automated-actions/trigger>`（例如：已过账客户发"
+"票的支付状态更新）时，自动化规则将检查预设条件，仅当记录匹配这些条件时才会执"
+"行 :ref:`预设动作 <studio/automated-actions/action>`。"
 
 #: ../../content/applications/studio/automated_actions.rst:100
 msgid ""
@@ -584,18 +594,18 @@ msgid ""
 "`Email is set` as the :guilabel:`Apply on` domain."
 msgstr ""
 "如果是个人而非公司的现有联系人首次设置电子邮件地址（与修改电子邮件地址相反）"
-"时应执行自动操作，则使用 `电子邮件未设置`和 `公司未设置`作为 "
-":guilabel:`域名更新前`，并使用 `电子邮件已设置`作为 :guilabel:`应用` 域。"
+"时应执行自动操作，则使用 `电子邮件未设置`和 `公司未设置`作为 :guilabel:`域名"
+"更新前`，并使用 `电子邮件已设置`作为 :guilabel:`应用` 域。"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a trigger with a Before Update Domain"
-msgstr ""
+msgstr "具有更新前域的触发器示例"
 
 #: ../../content/applications/studio/automated_actions.rst:109
 msgid ""
 "The :guilabel:`Before Update Domain` is not checked upon the creation of a "
 "record."
-msgstr ""
+msgstr ":guilabel:`更新前域`在记录创建时不会执行检查。"
 
 #: ../../content/applications/studio/automated_actions.rst:114
 msgid "Values Updated"
@@ -608,9 +618,9 @@ msgid ""
 "common changes, such as adding a specific tag (e.g., to a task) or setting a "
 "field's value (e.g., setting the :guilabel:`User` field)."
 msgstr ""
-"当数据库中发生特定变化时触发自动操作。这类触发器取决于模型，并基于常见的更改"
-"，如添加特定标记（如添加到任务中）或设置字段值（如设置 :guilabel:`用户` "
-"字段）。"
+"当数据库中发生特定变化时触发自动操作。这类触发器取决于模型，并基于常见的更"
+"改，如添加特定标记（如添加到任务中）或设置字段值（如设置 :guilabel:`用户` 字"
+"段）。"
 
 #: ../../content/applications/studio/automated_actions.rst:120
 msgid "Select the trigger, then select a value if required."
@@ -632,14 +642,16 @@ msgstr "时间条件"
 msgid ""
 "Trigger automated actions at a point in time relative to a date field or to "
 "the creation or update of a record. The following triggers are available:"
-msgstr "在与日期字段或记录的创建或更新相关的时间点触发自动操作。可使用以下触发器："
+msgstr ""
+"在与日期字段或记录的创建或更新相关的时间点触发自动操作。可使用以下触发器："
 
 #: ../../content/applications/studio/automated_actions.rst:137
 msgid ""
 ":guilabel:`Based on date field`: The action is triggered a defined period of "
 "time before or after the date of the selected date field."
-msgstr ":guilabel:`基于日期字段`：在所选日期字段的日期之前或之后的一段时间内触发操作"
-"。"
+msgstr ""
+":guilabel:`基于日期字段`：在所选日期字段的日期之前或之后的一段时间内触发操"
+"作。"
 
 #: ../../content/applications/studio/automated_actions.rst:139
 msgid ""
@@ -665,8 +677,8 @@ msgid ""
 "must also select the date field to be used to determine the delay."
 msgstr ""
 ":guilabel:`延迟`：指定分钟、小时、天或月的数量。要在触发日期前执行操作，请指"
-"定负数。如果选择了 :guilabel:`基于日期字段` "
-"触发器，还必须选择用于确定延迟的日期字段。"
+"定负数。如果选择了 :guilabel:`基于日期字段` 触发器，还必须选择用于确定延迟的"
+"日期字段。"
 
 #: ../../content/applications/studio/automated_actions.rst:151
 msgid ""
@@ -674,8 +686,8 @@ msgid ""
 "240 minutes, or 4 hours. This frequency is generally sufficient for delays "
 "such as 3 months after the order date or 7 days after the last update."
 msgstr ""
-"默认情况下，调度程序每 240 分钟或 4 小时检查一次时间触发的自动化规则。"
-"对于订单日期后 3 个月或上次更新后 7 天等延迟情况，这个频率一般就足够了。"
+"默认情况下，调度程序每 240 分钟或 4 小时检查一次时间触发的自动化规则。对于订"
+"单日期后 3 个月或上次更新后 7 天等延迟情况，这个频率一般就足够了。"
 
 #: ../../content/applications/studio/automated_actions.rst:155
 msgid ""
@@ -684,9 +696,8 @@ msgid ""
 "delays, e.g., 1 hour before the event start date and time, or 30 minutes "
 "after creation, can be respected as closely as possible."
 msgstr ""
-"对于少于相当于 2400 分钟或 40 "
-"小时的延迟，系统会重新计算该检查的频率，以确保尽可能遵守更细化的延迟，"
-"如事件开始日期和时间前 1 小时或创建后 30 分钟。"
+"对于少于相当于 2400 分钟或 40 小时的延迟，系统会重新计算该检查的频率，以确保"
+"尽可能遵守更细化的延迟，如事件开始日期和时间前 1 小时或创建后 30 分钟。"
 
 #: ../../content/applications/studio/automated_actions.rst:159
 msgid ""
@@ -705,9 +716,9 @@ msgid ""
 "to :menuselection:`Settings --> Technical --> Scheduled Actions` to see all "
 "scheduled actions for your database."
 msgstr ""
-"要查看或手动编辑调度程序的频率，在 :ref:`启动开发者模式 <developer-mode>` "
-"的情况下，进入 :menuselection:`设置 --> 技术 --> 计划行动` "
-"查看数据库的所有调度操作。"
+"要查看或手动编辑调度程序的频率，在 :ref:`启动开发者模式 <developer-mode>` 的"
+"情况下，进入 :menuselection:`设置 --> 技术 --> 计划行动` 查看数据库的所有调度"
+"操作。"
 
 #: ../../content/applications/studio/automated_actions.rst:168
 msgid ""
@@ -716,9 +727,9 @@ msgid ""
 "the value of the :guilabel:`Execute Every` field. Click :guilabel:`Run "
 "Manually` at any time to manually trigger this scheduled action."
 msgstr ""
-"在搜索栏中输入`自动化`，然后在结果列表中点击 "
-":guilabel:`自动化规则：检查和执行`。如果需要，更新 :guilabel:`执行每个` "
-"字段的值。随时点击 :guilabel:`手动运行`，手动触发此预定操作。"
+"在搜索栏中输入`自动化`，然后在结果列表中点击 :guilabel:`自动化规则：检查和执"
+"行`。如果需要，更新 :guilabel:`执行每个` 字段的值。随时点击 :guilabel:`手动运"
+"行`，手动触发此预定操作。"
 
 #: ../../content/applications/studio/automated_actions.rst:172
 msgid ""
@@ -726,11 +737,13 @@ msgid ""
 "the conditions to be met for the automation rule to run. "
 "Click :guilabel:`New Rule` to add another condition."
 msgstr ""
+":guilabel:`附加条件`: 点击 :guilabel:`添加条件`，然后指定自动化规则运行时需要"
+"满足的条件。点击  :guilabel:`新规则` 添加其他条件。"
 
 #: ../../content/applications/studio/automated_actions.rst:175
 msgid ""
 "The action is executed when the delay is reached and the conditions are met."
-msgstr ""
+msgstr "当达到延迟时间并满足条件时，就会执行该操作。"
 
 #: ../../content/applications/studio/automated_actions.rst:178
 msgid ""
@@ -739,9 +752,12 @@ msgid ""
 "the :guilabel:`Trigger` and set the :guilabel:`Delay` to "
 "`-30` :guilabel:`Minutes`."
 msgstr ""
+"要在日历事件开始*前* 30 分钟发送提醒电子邮件，请选择\\ :guilabel:`开始（日历"
+"事件）`\\ 作为\\ :guilabel:`触发器`\\ 的日期字段，并将\\ :guilabel:`延迟`\\ "
+"设置为`-30`\\ :guilabel:`分钟`\\ 。"
 
 #: ../../content/applications/studio/automated_actions.rst:0
-#: ../../content/applications/studio/automated_actions.rst:-1
+#: ../../content/applications/studio/automated_actions.rst:None
 msgid "Example of a Based on date field trigger"
 msgstr "基于日期字段触发器示例"
 
@@ -755,17 +771,19 @@ msgstr "触发自动操作："
 
 #: ../../content/applications/studio/automated_actions.rst:192
 msgid ":guilabel:`On save`: when a record is saved."
-msgstr ""
+msgstr ":guilabel:`保存时`\\ ：保存记录时。"
 
 #: ../../content/applications/studio/automated_actions.rst:193
 msgid ":guilabel:`On deletion`: when a record is deleted."
-msgstr ""
+msgstr ":guilabel:`删除时`：删除记录时。"
 
 #: ../../content/applications/studio/automated_actions.rst:194
 msgid ""
 ":guilabel:`On UI change`: when a field's value is changed on the :ref:`Form "
 "view <studio/views/general/form>`, even before the record is saved."
 msgstr ""
+":guilabel:`用户界面更改时`：当字段值在 :ref:`表格视图 <studio/views/general/"
+"form>` 上更改时，甚至在保存记录之前。"
 
 #: ../../content/applications/studio/automated_actions.rst:197
 msgid ""
@@ -798,9 +816,9 @@ msgid ""
 "Update Domain` and `ID is set` as the :guilabel:`Apply on` domain. Make sure "
 "the correct field is selected in the :guilabel:`When updating` field."
 msgstr ""
-"要触发记录创建时的自动化操作（例如，当创建新联系人时），请选择 :ref:`保存时 <"
-"studio/automated-actions/trigger-custom>`触发器，并使用 `ID 未设置`作为 "
-":guilabel:`更新前作用域`，使用 `ID 已设置`作为 :guilabel:`应用范围`。"
+"要触发记录创建时的自动化操作（例如，当创建新联系人时），请选择 :ref:`保存时 "
+"<studio/automated-actions/trigger-custom>`触发器，并使用 `ID 未设置`作"
+"为 :guilabel:`更新前作用域`，使用 `ID 已设置`作为 :guilabel:`应用范围`。"
 
 #: ../../content/applications/studio/automated_actions.rst:214
 msgid ""
@@ -819,10 +837,9 @@ msgid ""
 "when a modification is made manually. The action is not executed if the "
 "field is changed through another automation rule."
 msgstr ""
-":guilabel:`（界面更改时）`触发器只能与 :ref:`执行代码 <studio/"
-"automated-actions/action-execute-"
-"code>`操作配合使用，并且仅在手动进行修改时才会生效。如果字段是通过另一条自动"
-"化规则更改的，该操作则不会执行。"
+":guilabel:`（界面更改时）`触发器只能与 :ref:`执行代码 <studio/automated-"
+"actions/action-execute-code>`操作配合使用，并且仅在手动进行修改时才会生效。如"
+"果字段是通过另一条自动化规则更改的，该操作则不会执行。"
 
 #: ../../content/applications/studio/automated_actions.rst:228
 msgid "External"
@@ -832,16 +849,18 @@ msgstr "外部"
 msgid ""
 "Trigger automated actions based on a specific event in an external system or "
 "application using a :doc:`webhook <automated_actions/webhooks>`."
-msgstr "使用 :doc:`网络钩子 <automated_actions/"
-"webhooks>`，根据外部系统或应用程序中的特定事件触发自动操作。"
+msgstr ""
+"使用 :doc:`网络钩子 <automated_actions/webhooks>`，根据外部系统或应用程序中的"
+"特定事件触发自动操作。"
 
 #: ../../content/applications/studio/automated_actions.rst:233
 msgid ""
 "After the webhook is configured in Odoo, where the webhook's URL is "
 "generated and the target record defined, it needs to be implemented in the "
 "external system."
-msgstr "在 Odoo 中配置网络钩子（生成网络钩子 URL "
-"并定义目标记录）后，需要在外部系统中实施。"
+msgstr ""
+"在 Odoo 中配置网络钩子（生成网络钩子 URL 并定义目标记录）后，需要在外部系统中"
+"实施。"
 
 #: ../../content/applications/studio/automated_actions.rst:237
 #: ../../content/applications/studio/automated_actions/webhooks.rst:6
@@ -861,12 +880,12 @@ msgid ""
 "external system's webhook <studio/automated-actions/action-webhook>` when an "
 "event occurs in your Odoo database."
 msgstr ""
-"还可以设置一个自动操作，当 Odoo 数据库中发生事件时，该操作 :ref:`"
-"向外部系统的网络钩子 <studio/automated-actions/action-webhook>` 发送数据。"
+"还可以设置一个自动操作，当 Odoo 数据库中发生事件时，该操作 :ref:`向外部系统的"
+"网络钩子 <studio/automated-actions/action-webhook>` 发送数据。"
 
 #: ../../content/applications/studio/automated_actions.rst:249
 msgid ":doc:`Webhook documentation <automated_actions/webhooks>`"
-msgstr ""
+msgstr ":doc:`网络钩子说明文档 <automated_actions/webhooks>`"
 
 #: ../../content/applications/studio/automated_actions.rst:254
 msgid "Actions"
@@ -878,12 +897,16 @@ msgid ""
 "actions/trigger>`, click :guilabel:`Add an action` in the :guilabel:`Actions "
 "To Do` tab to define the action to be executed."
 msgstr ""
+"定义自动化规则的\\ :ref:`触发器 <studio/automated-actions/trigger>`\\ 后，"
+"在\\ :guilabel:`要执行的操作`\\ 选项卡中点击\\ :guilabel:`添加操作`\\ 以定义"
+"要执行的操作。"
 
 #: ../../content/applications/studio/automated_actions.rst:260
 msgid ""
 "You can define multiple actions for the same automation rule. By default, "
 "actions are executed in the order in which they were defined."
 msgstr ""
+"您可以为同一自动化规则定义多个操作。默认情况下，操作会按照定义的顺序执行。"
 
 #: ../../content/applications/studio/automated_actions.rst:263
 msgid ""
@@ -893,6 +916,10 @@ msgid ""
 "the :guilabel:`Send email` action is defined before the :guilabel:`Update "
 "record` action, the email uses the values set *before* the record is updated."
 msgstr ""
+"这意味着，例如，如果您定义了一个 :guilabel:`更新记录` 操作，然后又定义了一"
+"个 :guilabel:`发送电子邮件` 操作，其中电子邮件引用了已更新的字段，则电子邮件"
+"将使用已更新的值。但是，如果在:guilabel:`更新记录`操作之前定义了:guilabel:`发"
+"送电子邮件`操作，则电子邮件将使用更新记录*之前*设置的值。"
 
 #: ../../content/applications/studio/automated_actions.rst:268
 msgid ""
@@ -900,6 +927,8 @@ msgid ""
 "draggable` :guilabel:`(drag handle)` icon beside an action and drag it to "
 "the desired position."
 msgstr ""
+"要更改已定义操作的顺序，请点击操作旁边的 :icon:`oi-draggable`(拖动柄)`图标，"
+"并将其拖动到所需位置。"
 
 #: ../../content/applications/studio/automated_actions.rst:274
 msgid "Update Record"
@@ -913,9 +942,9 @@ msgid ""
 "right` :guilabel:`(right arrow)` next to the field name to access the list "
 "of related fields."
 msgstr ""
-"此操作更新记录的一个（相关）字段。点击 :guilabel:`更新` "
-"字段，在打开的列表中选择或搜索要更新的字段。如果需要，点击字段名旁的 :icon"
-":`oi-chevron-right`:guilabel:`（右箭头）` 以访问相关字段列表。"
+"此操作更新记录的一个（相关）字段。点击 :guilabel:`更新` 字段，在打开的列表中"
+"选择或搜索要更新的字段。如果需要，点击字段名旁的 :icon:`oi-chevron-"
+"right`:guilabel:`（右箭头）` 以访问相关字段列表。"
 
 #: ../../content/applications/studio/automated_actions.rst:281
 msgid ""
@@ -934,8 +963,8 @@ msgid ""
 "set the :guilabel:`Update` field to :guilabel:`Customer > Tags`, "
 "select :guilabel:`by Removing`, then select the tag."
 msgstr ""
-"如果您希望自动操作从客户记录中删除标签，请将 :guilabel:`更新` 字段设置为 "
-":guilabel:`客户 > 标签`，选择 :guilabel:`通过删除`，然后选择标签。"
+"如果您希望自动操作从客户记录中删除标签，请将 :guilabel:`更新` 字段设置"
+"为 :guilabel:`客户 > 标签`，选择 :guilabel:`通过删除`，然后选择标签。"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an Update Record action"
@@ -983,6 +1012,8 @@ msgid ""
 "To always assign the activity to the same user, select :guilabel:`Specific "
 "User`, then add the user in the :guilabel:`Responsible` field;"
 msgstr ""
+"要始终将活动分配给同一用户，请选择\\ :guilabel:`特定用户`\\ ，然后在\\ "
+":guilabel:`负责人`\\ 字段中添加用户；"
 
 #: ../../content/applications/studio/automated_actions.rst:315
 msgid ""
@@ -1084,6 +1115,8 @@ msgid ""
 "specific record. To do so, select the appropriate :guilabel:`WhatsApp "
 "Template` from the dropdown menu."
 msgstr ""
+"此操作用于向链接到特定记录的联系人发送 WhatsApp 消息。要执行此操作，请从下拉"
+"菜单中选择适当的\\ :guilabel:`WhatsApp 模板`\\ 。"
 
 #: ../../content/applications/studio/automated_actions.rst:362
 msgid "Add Followers and Remove Followers"
@@ -1093,7 +1126,7 @@ msgstr "添加关注者和删除关注者"
 msgid ""
 "This action is used to subscribe/unsubscribe existing contacts to/from the "
 "record."
-msgstr ""
+msgstr "此操作用于订阅/取消订阅现有联系人到记录/从记录取消订阅。"
 
 #: ../../content/applications/studio/automated_actions.rst:369
 msgid "Create Record"
@@ -1135,10 +1168,10 @@ msgid ""
 "create a new project task and then assign it to a specific user using "
 "an :guilabel:`Update Record` action."
 msgstr ""
-"您可以使用 :ref:`studio/automated-actions/action-update-record` "
-"操作创建另一个自动化规则，以便在必要时更新新记录的字段。例如，您可以使用 "
-":guilabel:`创建记录` 操作创建新项目任务，然后使用 :guilabel:`更新记录` "
-"操作将其分配给特定用户。"
+"您可以使用 :ref:`studio/automated-actions/action-update-record` 操作创建另一"
+"个自动化规则，以便在必要时更新新记录的字段。例如，您可以使用 :guilabel:`创建"
+"记录` 操作创建新项目任务，然后使用 :guilabel:`更新记录` 操作将其分配给特定用"
+"户。"
 
 #: ../../content/applications/studio/automated_actions.rst:392
 msgid "Execute Code"
@@ -1151,6 +1184,9 @@ msgid ""
 "code is not included in the *Standard* or *Custom* pricing plans and "
 "incurs :ref:`additional fees <charges_standard>`."
 msgstr ""
+"对于需要执行 :ref:`自定义代码 <studio/automated-actions/action-execute-code>`"
+"的自动化规则，请注意自定义代码的维护不包括在 *标准* 或 *自定义* 定价计划中，"
+"并会产生 :ref:`附加费用 <charges_standard>`。"
 
 #: ../../content/applications/studio/automated_actions.rst:400
 msgid ""
@@ -1188,39 +1224,39 @@ msgstr "`time`、`datetime`、`dateutil`、`timezone`：实用的Python时间处
 msgid ""
 "`float_compare`: utility function to compare floats based on specific "
 "precision"
-msgstr ""
+msgstr "`float_compare`：根据特定精度比较浮点数的实用程序函数"
 
 #: ../../content/applications/studio/automated_actions.rst:410
 msgid ""
 "`log(message, level='info')`: logging function to record debug information "
 "in ir.logging table"
-msgstr ""
+msgstr "`log(message, level='info')`：在 ir.logging 表中记录调试信息的日志函数"
 
 #: ../../content/applications/studio/automated_actions.rst:412
 msgid "`_logger.info(message)`: logger to emit messages in server logs"
-msgstr ""
+msgstr "`_logger.info(message)`：在服务器日志中发布消息的日志程序"
 
 #: ../../content/applications/studio/automated_actions.rst:413
 msgid "`UserError`: exception class for raising user-facing warning messages"
-msgstr ""
+msgstr "`UserError`：用于发出面向用户的警告信息的异常类"
 
 #: ../../content/applications/studio/automated_actions.rst:414
 msgid "`Command`: x2many commands namespace"
-msgstr ""
+msgstr "`指令`：x2many 指令命名空间"
 
 #: ../../content/applications/studio/automated_actions.rst:415
 msgid "`action = {...}`: to return an action"
-msgstr ""
+msgstr "`操作 = {...}`：返回一个操作"
 
 #: ../../content/applications/studio/automated_actions.rst:418
 msgid ""
 "The available variables are described both in the :guilabel:`Code` "
 "and :guilabel:`Help` tabs."
-msgstr ""
+msgstr "可用变量在 :guilabel:`代码` 和 :guilabel:`帮助` 选项卡中均有说明。"
 
 #: ../../content/applications/studio/automated_actions.rst:421
 msgid ":doc:`Odoo's ORM capabilities <../../developer/reference/backend/orm>`"
-msgstr ""
+msgstr ":doc:`Odoo 的 ORM 功能 <../../developer/reference/backend/orm>`"
 
 #: ../../content/applications/studio/automated_actions.rst:426
 msgid "Send Webhook Notification"
@@ -1232,6 +1268,8 @@ msgid ""
 "selected :guilabel:`Fields` to the webhook URL specified in "
 "the :guilabel:`URL` field."
 msgstr ""
+"此操作用于向 :guilabel:`URL` 字段中指定的 webhook URL 发送包含所"
+"选 :guilabel:`字段` 值的 `POST` API 请求。"
 
 #: ../../content/applications/studio/automated_actions.rst:431
 msgid ""
@@ -1239,6 +1277,8 @@ msgid ""
 "the request using a random record's data or dummy data if no record is "
 "available."
 msgstr ""
+":guilabel:`示例数据负载` 可预览请求中包含的数据，这些数据来自随机记录（若存在"
+"记录）或虚拟数据（若无可用记录）。"
 
 #: ../../content/applications/studio/automated_actions.rst:435
 msgid ""
@@ -1246,6 +1286,8 @@ msgid ""
 "to receive data from an external system <automated_actions/webhooks>` when a "
 "predefined event occurs in that system."
 msgstr ""
+"您还可以设置自动化动作，以便在外部系统发生预定义事件时，:doc:`通过网络钩子接"
+"收来自该外部系统的数据 <automated_actions/webhooks>` 。"
 
 #: ../../content/applications/studio/automated_actions.rst:441
 msgid "Execute Existing Actions"
@@ -1258,11 +1300,13 @@ msgid ""
 "the :guilabel:`Add: Child Actions` pop-up, select an existing action or "
 "click :guilabel:`New` to create a new one."
 msgstr ""
+"该操作用于同时触发多个操作（链接到当前模型）。要执行此操作，请点击\\ "
+":guilabel:`添加一行`\\ ，然后在\\ :guilabel:`添加：子操作`\\ 弹出窗口中，选择"
+"现有操作或点击\\ :guilabel:`新建`\\ 以创建新操作。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:3
-#, fuzzy
 msgid "Webhooks"
-msgstr "网络钩子"
+msgstr "Webhooky"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:10
 msgid ""
@@ -1270,6 +1314,8 @@ msgid ""
 "action in your Odoo database when a specific event occurs in another, "
 "external system."
 msgstr ""
+"在 **Odoo 定制** 中创建的 网络钩子（Webhooks） 允许您在外部系统发生特定事件"
+"时，自动触发 Odoo 数据库中的相应动作。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:13
 msgid ""
@@ -1278,6 +1324,9 @@ msgid ""
 "a `POST` API request, and a predefined action is performed in your Odoo "
 "database."
 msgstr ""
+"其实际运作流程如下：当外部系统发生事件时，会通过 POST API 请求将一个数据文件"
+"（即“数据负载”）发送至 Odoo 网络钩子的 URL，随后在您的 Odoo 数据库中执行预定"
+"义的操作。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:17
 msgid ""
@@ -1287,9 +1336,9 @@ msgid ""
 "webhook to have your Odoo inventory data updated automatically when a sales "
 "order is confirmed in an external point-of-sale system."
 msgstr ""
-"与在预定时间间隔内运行的预定操作或需要明确调用的手动 API "
-"请求不同，网络钩子可实现实时、事件驱动的通信和自动化。例如，当外部销售点系统"
-"确认销售订单时，您可以设置一个网络钩子来自动更新您的 Odoo 库存数据。"
+"与在预定时间间隔内运行的预定操作或需要明确调用的手动 API 请求不同，网络钩子可"
+"实现实时、事件驱动的通信和自动化。例如，当外部销售点系统确认销售订单时，您可"
+"以设置一个网络钩子来自动更新您的 Odoo 库存数据。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:22
 msgid ""
@@ -1298,10 +1347,9 @@ msgid ""
 "requires an external tool. :ref:`Custom target records or actions <studio/"
 "webhooks/webhook-example>` may require programming skills."
 msgstr ""
-"当连接两个 Odoo 数据库时，在 Odoo 中设置网络钩子无需编码，但 :ref:`"
-"测试网络钩子 <studio/webhooks/test-webhook>` 需要外部工具。 "
-":ref:`自定义目标记录或操作<studio/webhooks/webhook-example>` "
-"可能需要编程技能。"
+"当连接两个 Odoo 数据库时，在 Odoo 中设置网络钩子无需编码，但 :ref:`测试网络钩"
+"子 <studio/webhooks/test-webhook>` 需要外部工具。 :ref:`自定义目标记录或操作"
+"<studio/webhooks/webhook-example>` 可能需要编程技能。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:28
 msgid ""
@@ -1311,8 +1359,8 @@ msgid ""
 "action-webhook>` when a change occurs in your Odoo database."
 msgstr ""
 "本文涉及创建一个可从外部来源*接收*数据的网络钩子。然而，也可以创建一个自动操"
-"作，当 Odoo 数据库发生变化时，该操作 :ref:`向外部网络钩子 <studio/"
-"automated-actions/action-webhook>` 发送数据。"
+"作，当 Odoo 数据库发生变化时，该操作 :ref:`向外部网络钩子 <studio/automated-"
+"actions/action-webhook>` 发送数据。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:35
 msgid "Create a webhook in Odoo"
@@ -1321,11 +1369,11 @@ msgstr "在 Odoo 中创建网络钩子"
 #: ../../content/applications/studio/automated_actions/webhooks.rst:38
 msgid ""
 "Before implementing a webhook in a live database, configure and test it "
-"using a :ref:`duplicate database <odoo_online/database-management>` to "
-"ensure the webhook performs as intended."
+"using a :ref:`duplicate database <odoo-online/duplicate>` to ensure the "
+"webhook performs as intended."
 msgstr ""
-"在实时数据库中实施网络钩子之前，请使用 :ref:`重复数据库 <odoo_online/"
-"database-management>` 对其进行配置和测试，以确保网络钩子按预期运行。"
+"在实时数据库中实施网络钩子之前，请使用 :ref:`重复数据库 <odoo-online/"
+"duplicate>` 进行配置和测试，以确保网络钩子按预期运行。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:42
 msgid ""
@@ -1335,10 +1383,9 @@ msgid ""
 "find the technical name of the model and fields, which may be needed to "
 "configure the payload."
 msgstr ""
-":ref:` 在创建网络钩子之前激活开发者模式 <developer-mode>`，可以更灵活地选择 "
-":doc:`自动化规则的目标模型 <.../"
-"models_modules_apps>`。它还支持您找到模型和字段的技术名称，这可能是配置有效载"
-"荷所需要的。"
+":ref:` 在创建网络钩子之前激活开发者模式 <developer-mode>`，可以更灵活地选"
+"择 :doc:`自动化规则的目标模型 <.../models_modules_apps>`。它还支持您找到模型"
+"和字段的技术名称，这可能是配置有效载荷所需要的。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:47
 msgid ""
@@ -1348,10 +1395,10 @@ msgid ""
 "example, a sales order webhook uses the *Sales Order* model, but the "
 "technical name `sale.order` is used in the payload."
 msgstr ""
-"要查找模型的技术名称，请在激活开发者模式后将鼠标悬停在模型名称上，然后点击 "
-":icon:`fa-arrow-right`:guilabel:`（内部链接）`。技术名称可在 :guilabel:`模型`"
-" 字段中找到。例如，销售订单网络钩子使用 *销售订单* 模型，"
-"但在有效载荷中使用了技术名称 `sale.order`。"
+"要查找模型的技术名称，请在激活开发者模式后将鼠标悬停在模型名称上，然后点"
+"击 :icon:`fa-arrow-right`:guilabel:`（内部链接）`。技术名称可在 :guilabel:`模"
+"型` 字段中找到。例如，销售订单网络钩子使用 *销售订单* 模型，但在有效载荷中使"
+"用了技术名称 `sale.order`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:52
 msgid "To create a webhook in **Studio**, proceed as follows:"
@@ -1362,8 +1409,8 @@ msgid ""
 ":ref:`Open Studio <studio/access>` and click :guilabel:`Webhooks`, "
 "then :guilabel:`New`."
 msgstr ""
-":ref:`打开 Studio <studio/access>` 并点击 :guilabel:`网络钩子`，然后点击 "
-":guilabel:`新建`。"
+":ref:`打开 Studio <studio/access>` 并点击 :guilabel:`网络钩子`，然后点"
+"击 :guilabel:`新建`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:55
 msgid "Give the webhook a clear, meaningful name that identifies its purpose."
@@ -1374,8 +1421,9 @@ msgid ""
 "If needed, and provided developer mode is activated, select the "
 "appropriate :guilabel:`Model` from the dropdown. If developer mode is not "
 "activated, the automation rule targets the current model by default."
-msgstr "如果需要，并已激活开发者模式，请从下拉菜单中选择相应的 "
-":guilabel:`模型`。如果未激活开发者模式，自动化规则默认以当前模型为目标。"
+msgstr ""
+"如果需要，并已激活开发者模式，请从下拉菜单中选择相应的 :guilabel:`模型`。如果"
+"未激活开发者模式，自动化规则默认以当前模型为目标。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:60
 msgid ""
@@ -1384,9 +1432,8 @@ msgid ""
 "when implementing the webhook in the external system that will send updates "
 "to the database."
 msgstr ""
-"网络钩子的 URL 会自动生成，但可根据需要通过点击 :guilabel:`轮换密钥` "
-"进行更改。这是在外部系统中实施网络钩子时应使用的 "
-"URL，该系统将向数据库发送更新。"
+"网络钩子的 URL 会自动生成，但可根据需要通过点击 :guilabel:`轮换密钥` 进行更"
+"改。这是在外部系统中实施网络钩子时应使用的 URL，该系统将向数据库发送更新。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:65
 msgid ""
@@ -1395,16 +1442,16 @@ msgid ""
 "database. If the URL is updated after the initial implementation, make sure "
 "to update it in the external system."
 msgstr ""
-"此 URL 具有**机密性**，需谨慎处理。"
-"在网络上或不加防范地分享可能会导致意外访问 Odoo 数据库。如果 URL "
-"在初始部署后有更新，请务必在外部系统中同步更新。"
+"此 URL 具有**机密性**，需谨慎处理。在网络上或不加防范地分享可能会导致意外访"
+"问 Odoo 数据库。如果 URL 在初始部署后有更新，请务必在外部系统中同步更新。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:69
 msgid ""
 "If desired, enable :guilabel:`Log Calls` to track the history of API "
 "requests made to the webhook's URL, e.g., for troubleshooting purposes."
-msgstr "如需要，请启用 :guilabel:`记录调用` 以追踪向网络钩子的 URL 发送的 API "
-"请求的历史记录，例如，用于故障排除。"
+msgstr ""
+"如需要，请启用 :guilabel:`记录调用` 以追踪向网络钩子的 URL 发送的 API 请求的"
+"历史记录，例如，用于故障排除。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:72
 msgid ""
@@ -1414,8 +1461,8 @@ msgid ""
 "is an Odoo database, ensure that the `id` and `model` appear in the payload."
 msgstr ""
 "如果发送网络钩子的系统并非 Odoo，请调整 :guilabel:`目标记录`的代码，使其能在 "
-"API 请求发送至网络钩子 URL 时，从有效负载中寻找相应的 JSON 记录。"
-"如果发送网络钩子的系统是 Odoo 数据库，请确保 id 和 model 出现在有效负载中。"
+"API 请求发送至网络钩子 URL 时，从有效负载中寻找相应的 JSON 记录。如果发送网络"
+"钩子的系统是 Odoo 数据库，请确保 id 和 model 出现在有效负载中。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:77
 msgid ""
@@ -1431,22 +1478,24 @@ msgid ""
 "Click :guilabel:`Add an action` in the :guilabel:`Actions To Do` tab to "
 "define the :ref:`actions <studio/automated-actions/action>` to be executed."
 msgstr ""
-"点击 :guilabel:`待办操作` 选项卡中的 :guilabel:`添加操作` 以定义要执行的 "
-":ref:`操作 <studio/automated-actions/action>`。"
+"点击 :guilabel:`待办操作` 选项卡中的 :guilabel:`添加操作` 以定义要执行"
+"的 :ref:`操作 <studio/automated-actions/action>`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:82
 msgid ""
 "Before implementing the webhook in the external system, :ref:`test <studio/"
 "webhooks/test-webhook>` it to ensure it works as intended."
-msgstr "在外部系统中实施网络钩子之前，请 :ref:`测试<studio/webhooks/test-webhook>` "
-"以确保其按预期运行。"
+msgstr ""
+"在外部系统中实施网络钩子之前，请 :ref:`测试<studio/webhooks/test-webhook>` 以"
+"确保其按预期运行。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:86
 msgid ""
 "Webhooks can also be created via the :guilabel:`Automations` menu in "
 "**Studio** by selecting the trigger :guilabel:`On webhook`."
-msgstr "网络钩子也可通过**Studio**中的 :guilabel:`自动化`菜单选择触发器 "
-":guilabel:`收到网络钩子时`来创建。"
+msgstr ""
+"网络钩子也可通过**Studio**中的 :guilabel:`自动化`菜单选择触发器 :guilabel:`收"
+"到网络钩子时`来创建。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:88
 msgid ""
@@ -1454,6 +1503,8 @@ msgid ""
 "enabled, click the :guilabel:`Logs` smart button at the top of "
 "the :guilabel:`Automation rules` form."
 msgstr ""
+"如需查看已启用 :guilabel:`记录调用` 功能的 API 请求历史，请点击 :guilabel:`自"
+"动化规则` 表单顶部的 :guilabel:`日志` 智能按钮。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:90
 msgid ""
@@ -1461,10 +1512,12 @@ msgid ""
 "record, e.g., to create a new record, the :guilabel:`Execute Code` action "
 "must be chosen."
 msgstr ""
+"若网络钩子的用途并非更新现有记录（例如需创建新记录），则必须选择 :guilabel:`"
+"执行代码`操作。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:96
 msgid "Test a webhook"
-msgstr ""
+msgstr "测试网络钩子"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:98
 msgid ""
@@ -1472,47 +1525,56 @@ msgid ""
 "like `Postman <https://www.postman.com/>`_, to send the payload via a `POST` "
 "API request. This section presents the steps to test a webhook in Postman."
 msgstr ""
+"测试网络钩子需要准备测试数据负载，并使用外部工具或系统，如`Postman <https://"
+"www.postman.com/>_`，通过`POST` API 请求发送数据负载。本节介绍在 Postman 测试"
+"网络钩子的步骤。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:103
 msgid ""
 "See the :ref:`webhook use cases section <studio/webhooks/webhook-examples>` "
 "for step-by-step explanations of how to test webhooks using test payloads."
 msgstr ""
+"关于如何使用测试数据负载测试网络钩子的逐步说明，请参阅 :ref:`网络钩子用例部"
+"分 <studio/webhooks/webhook-examples>`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:105
 msgid ""
 "To get specific help with testing a webhook with Postman, contact their "
 "support team."
-msgstr ""
+msgstr "如需获取使用 Postman 测试网络钩子的具体帮助，请联系其支持团队。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:107
 msgid ""
 "In Postman, create a new HTTP request and set its method to :guilabel:`POST`."
-msgstr ""
+msgstr "在 Postman 中创建新的 HTTP 请求，并将其方法设置为:guilabel:`POST`"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:108
 msgid ""
 "Copy the webhook's URL from your Odoo database using the :icon:`fa-"
 "link` :guilabel:`(link)` icon and paste it into the URL field in Postman."
 msgstr ""
+"使用:icon:`fa-link`:guilabel:` （链接）` 图标从您的 Odoo 数据库复制网络钩子 "
+"URL，并将其粘贴到 Postman 的URL字段中。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:110
 #: ../../content/applications/studio/automated_actions/webhooks.rst:192
 #: ../../content/applications/studio/automated_actions/webhooks.rst:267
 msgid "Click the :guilabel:`Body` tab and select :guilabel:`raw`."
-msgstr ""
+msgstr "点击 :guilabel:`Body`标签页并选择 :guilabel:`raw`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:111
 msgid ""
 "Set the file type to :guilabel:`JSON`, then copy the code from the test "
 "payload and paste it into the code editor."
 msgstr ""
+"将文件类型设置为 :guilabel:`JSON`，然后从测试数据负载中复制代码并粘贴到代码编"
+"辑器中。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:113
 #: ../../content/applications/studio/automated_actions/webhooks.rst:206
 #: ../../content/applications/studio/automated_actions/webhooks.rst:281
 msgid "Click :guilabel:`Send`."
-msgstr ""
+msgstr "点击 :guilabel:`发送`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:117
 msgid ""
@@ -1520,6 +1582,8 @@ msgid ""
 "details, including a HTTP response code, indicate whether or not the webhook "
 "is functioning correctly."
 msgstr ""
+"在 Postman 屏幕底部的 :guilabel:`响应` 查看器中，包括 HTTP 响应代码在内的详细"
+"信息会显示网络钩子是否正常运行。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:120
 msgid ""
@@ -1527,6 +1591,8 @@ msgid ""
 "properly on Odoo's side. From here, implementation can begin with the other "
 "system to automatically send the API requests to the Odoo webhook's URL."
 msgstr ""
+"收到 `200 OK` 或 `status: ok` 响应消息，表明网络钩子在 Odoo 端运行正常。至"
+"此，可以开始与另一系统进行实施，以自动向 Odoo 网络钩子的 URL 发送 API 请求。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:124
 msgid ""
@@ -1536,16 +1602,21 @@ msgid ""
 "the fields found in the JSON file are properly mapped in the webhook's "
 "configuration and in the system sending the test call."
 msgstr ""
+"若返回任何其他响应，其关联的状态码有助于识别问题。例如，`500 内部服务器错误` "
+"消息表示 Odoo 无法正确解析该调用。遇到此情况，请确保 JSON 文件中的字段已在网"
+"络钩子配置及发送测试调用的系统中正确映射。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:130
 msgid ""
 "Turning on call logging in the webhook's configuration in Odoo provides "
 "error logs if the webhook is not functioning as intended."
 msgstr ""
+"若网络钩子未按预期运行，在 Odoo 的网络钩子配置中开启调用日志记录功能可提供错"
+"误日志。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:134
 msgid "Implement a webhook in an external system"
-msgstr ""
+msgstr "在外部系统中实施网络钩子"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:136
 msgid ""
@@ -1553,10 +1624,12 @@ msgid ""
 "it in the system that sends data to the Odoo database, making sure the "
 "`POST` API requests are sent to the webhook's URL."
 msgstr ""
+"当网络钩子在 Odoo 中成功创建并测试通过后，即可在向 Odoo 数据库发送数据的系统"
+"中实施，确保将`POST`API 请求发送至网络钩子的 URL。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:142
 msgid "Webhook use cases"
-msgstr ""
+msgstr "网络钩子使用案例"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:144
 msgid ""
@@ -1565,10 +1638,13 @@ msgid ""
 "webhook. `Postman <https://www.postman.com/>`_ is used to send the test "
 "payload."
 msgstr ""
+"以下是两个在 Odoo 中使用网络钩子的示例。每个示例均提供了测试数据负载，可在测"
+"试网络钩子的相关章节找到。示例中使用`Postman <https://www.postman.com/>`_ 发"
+"送测试数据负载。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:149
 msgid "Update a sales order's currency"
-msgstr ""
+msgstr "更新销售订单币种"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:151
 msgid ""
@@ -1577,6 +1653,8 @@ msgid ""
 "includes that sales order number (which is identified by the payload's `id` "
 "record)."
 msgstr ""
+"当外部系统向网络钩子 URL 发送包含特定**销售**订单编号（由数据负载的 id 记录标"
+"识）的`POST`API 请求时，此网络钩子会将销售应用中的对应销售订单更新为 USD。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:155
 msgid ""
@@ -1584,6 +1662,8 @@ msgid ""
 "mother company located inside the United States or during mergers when "
 "consolidating data into one Odoo database."
 msgstr ""
+"这对于位于美国境外但母公司在美国境内的子公司，或在合并过程中将数据整合至一个 "
+"Odoo 数据库时非常有用。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:159
 #: ../../content/applications/studio/automated_actions/webhooks.rst:221
@@ -1593,13 +1673,15 @@ msgstr "创建网络钩子"
 #: ../../content/applications/studio/automated_actions/webhooks.rst:161
 #: ../../content/applications/studio/automated_actions/webhooks.rst:223
 msgid "To create this webhook, proceed as follows:"
-msgstr ""
+msgstr "要创建此网络钩子，请按以下步骤操作："
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:163
 msgid ""
 "Open the **Sales** app, then :ref:`open Studio <studio/access>` and "
 "click :guilabel:`Webhooks`. The *Sales Order* model is selected by default."
 msgstr ""
+"打开 **销售** 应用程序，然后 :ref:`打开定制 <studio/access>` 并点"
+"击 :guilabel:`网络钩子`。默认选择*销售订单*模型。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:165
 #: ../../content/applications/studio/automated_actions/webhooks.rst:227
@@ -1607,12 +1689,16 @@ msgid ""
 "Click :guilabel:`New`. The :guilabel:`Trigger` is set to :guilabel:`On "
 "webhook` by default."
 msgstr ""
+"点击 :guilabel:`新建`。默认情况下，:guilabel:`触发器`设置为:guilabel:`通过网"
+"络钩子`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:166
 msgid ""
 "Set the :guilabel:`Target Record` to "
 "`model.env[payload.get('model')].browse(int(payload.get('id')))`, where:"
 msgstr ""
+"将\\ :guilabel:`目标记录`\\ 设置为`model.env[payload.get('model')].browse(int"
+"(payload.get('id')))`，其中："
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:169
 msgid ""
@@ -1620,6 +1706,8 @@ msgid ""
 "in the payload, i.e., `sale.order`, which is the technical name of the "
 "*Sales Order* model."
 msgstr ""
+"`payload.get('model')`检索与有效负载中`model`键关联的值，即`sale.order`，这"
+"是*销售订单*模型的技术名称。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:171
 msgid ""
@@ -1627,12 +1715,16 @@ msgid ""
 "payload, i.e., the number of the target sales order in your Odoo database "
 "with the `S` and leading zeros removed."
 msgstr ""
+"`payload.get('id')`检索与有效负载中`id`键关联的值，即您 Odoo 数据库中目标销售"
+"订单的编号（去除`S`和前导零）。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:174
 msgid ""
 "`int` converts the retrieved id to an integer (i.e., a whole number) because "
 "the method `browse()` can only be used with an integer."
 msgstr ""
+"int 将获取的 id 转换为整型数据（即整数），因为 browse() 方法仅能接收整型参"
+"数。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:177
 #: ../../content/applications/studio/automated_actions/webhooks.rst:231
@@ -1641,13 +1733,15 @@ msgstr "点击 :guilabel:`添加操作`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:178
 msgid "In the :guilabel:`Type` section, click :guilabel:`Update Record`."
-msgstr ""
+msgstr "在 :guilabel:`类型` 部分，点击 :guilabel:`更新记录`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:179
 msgid ""
 "In the :guilabel:`Action details` section, select :guilabel:`Update`, choose "
 "the field :guilabel:`Currency`, and select :guilabel:`USD`."
 msgstr ""
+"在 :guilabel:`操作详情` 部分，选择 :guilabel:`更新`，选取字段 :guilabel:`货币"
+"`，并选择 :guilabel:`美元`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:181
 #: ../../content/applications/studio/automated_actions/webhooks.rst:256
@@ -1662,13 +1756,15 @@ msgstr "测试网络钩子"
 #: ../../content/applications/studio/automated_actions/webhooks.rst:186
 #: ../../content/applications/studio/automated_actions/webhooks.rst:261
 msgid "To test this webhook, proceed as follows:"
-msgstr ""
+msgstr "测试网络钩子的步骤如下："
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:188
 msgid ""
 "With `Postman <https://www.postman.com/>`_ open, create a new HTTP request "
 "and set its method to :guilabel:`POST`."
 msgstr ""
+"打开 `Postman <https://www.postman.com/>`，创建一个新的 HTTP 请求并将其方法设"
+"置为 :guilabel:`POST`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:190
 #: ../../content/applications/studio/automated_actions/webhooks.rst:265
@@ -1676,6 +1772,8 @@ msgid ""
 "Copy the URL of the Odoo webhook using the :icon:`fa-"
 "link` :guilabel:`(link)` icon and paste it into the URL field in Postman."
 msgstr ""
+"使用 :icon:`fa-link`:guilabel:`(链接)`图标复制 Odoo 网络钩子的 URL，并将其粘"
+"贴到 Postman 的 URL 字段中。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:193
 #: ../../content/applications/studio/automated_actions/webhooks.rst:268
@@ -1683,6 +1781,8 @@ msgid ""
 "Set the file type to :guilabel:`JSON`, then copy this code, i.e., the "
 "payload, and paste it into the code editor:"
 msgstr ""
+"将文件类型设置为 :guilabel:`JSON`，然后复制以下代码（即数据负载）并粘贴到代码"
+"编辑器中："
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:203
 msgid ""
@@ -1691,9 +1791,9 @@ msgid ""
 "without the `S` or any zeros before the number. For example, a sales order "
 "with the number `S00007` should be entered as `7` in Postman."
 msgstr ""
-"在 Odoo 数据库中，选择一个销售订单来测试网络钩子。在粘贴的代码中，"
-"用销售订单的编号替换 `销售订单编号`，编号前不要有 "
-"`S`或任何零。例如，编号为`S00007`的销售订单在 Postman 中应输入`7`。"
+"在 Odoo 数据库中，选择一个销售订单来测试网络钩子。在粘贴的代码中，用销售订单"
+"的编号替换 `销售订单编号`，编号前不要有 `S`或任何零。例如，编号为`S00007`的销"
+"售订单在 Postman 中应输入`7`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:207
 #: ../../content/applications/studio/automated_actions/webhooks.rst:282
@@ -1704,8 +1804,8 @@ msgid ""
 "associated with the message helps to identify the problem."
 msgstr ""
 "查看 Postman 中的 :ref:`回应查看器 <studio/webhooks/test-webhook-response>` "
-"以确定网络钩子是否正常运行。如果返回的信息不是 `200 OK`或 `status: "
-"ok`，则与信息相关的编号有助于确定问题所在。"
+"以确定网络钩子是否正常运行。如果返回的信息不是 `200 OK`或 `status: ok`，则与"
+"信息相关的编号有助于确定问题所在。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:214
 msgid "Create a new contact"
@@ -1718,12 +1818,17 @@ msgid ""
 "that includes the contact's information. This could be helpful for "
 "automatically creating new vendors or customers."
 msgstr ""
+"当外部系统向网络钩子 URL 发送包含联系人信息的`POST`API 请求时，此网络钩子使用"
+"自定义代码在 Odoo 数据库中创建一个新联系人。这有助于自动创建新的供应商或客"
+"户。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:225
 msgid ""
 "Open the **Contacts** app, then :ref:`open Studio <studio/access>` and "
 "click :guilabel:`Webhooks`. The *Contact* model is selected by default."
 msgstr ""
+"打开**联系人**应用，然后 :ref:`打开定制 <studio/access>`并点"
+"击:guilabel:`Webhooks`。系统默认已选择*联系人*模型。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:228
 msgid ""
@@ -1732,28 +1837,37 @@ msgid ""
 "webhook what needs to be retrieved from the payload and in which model the "
 "record needs to be created."
 msgstr ""
+"将 :guilabel:`目标记录` 设置为 `model.browse([2])`。这基本上是一个占位符，因"
+"为自动操作中的代码会告诉网络钩子需要从有效负载中检索什么，以及需要在哪个模型"
+"中创建记录。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:232
 msgid "In the :guilabel:`Type` section, click :guilabel:`Execute Code`."
-msgstr ""
+msgstr "在 :guilabel:`类型` 部份，点击 :guilabel:`执行程式码`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:233
 msgid ""
 "Copy this code and paste it into the code editor in the :guilabel:`Code` tab "
 "of the :guilabel:`Action details` section:"
 msgstr ""
+"复制此代码并将其粘贴到 :guilabel:`操作详情` 部分 :guilabel:`代码` 选项卡的代"
+"码编辑器中："
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:263
 msgid ""
 "In `Postman <https://www.postman.com/>`_, create a new HTTP request and set "
 "its method to :guilabel:`POST`."
 msgstr ""
+"在 `Postman <https://www.postman.com/>`_中，创建一个新的 HTTP 请求，并将其方"
+"法设置为 :guilabel:`POST`。"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:279
 msgid ""
 "In the pasted code, replace the `CONTACT NAME`, `CONTACTEMAIL@EMAIL.COM`, "
 "and `CONTACT PHONE NUMBER` with a new contact's information."
 msgstr ""
+"在粘贴的代码中，用新联系人的信息替换 `联系人姓名`、`CONTACTEMAIL@EMAIL.COM` "
+"和 `联系人电话号码`。"
 
 #: ../../content/applications/studio/fields.rst:3
 msgid "Fields and widgets"
@@ -1761,63 +1875,128 @@ msgstr "字段和小组件"
 
 #: ../../content/applications/studio/fields.rst:5
 msgid ""
-"Fields structure the models of a database. If you picture a model as a table "
-"or spreadsheet, fields are the columns where data is stored in the records "
-"(i.e., the rows). Fields also define the type of data that is stored within "
-"them. How the data is presented and formatted on the :abbr:`UI (User "
-"Interface)` is defined by their widget."
+"Fields structure the :doc:`models <models_modules_apps>` of a database. If "
+"you think of a model as a table or spreadsheet, fields are the columns and "
+"records are the individual rows. Fields also define the type of data that is "
+"stored within them. The way in which a field's data is presented and "
+"formatted on the :abbr:`UI (User Interface)` is controlled by its widget."
 msgstr ""
-"字段构成数据库的模型。如果将模型描绘为表格或电子表格，则字段就是记录中存储数"
-"据的列（或行）。字段还定义其存储的数据的类型。数据在:abbr:`UI（用户界面）`上"
-"的显示方式和格式由小组件定义。"
+"字段构成了数据库的 :doc:`模型 <models_modules_apps>`。如果将模型视为一张表格"
+"或电子表格，那么字段就是列，而记录则是每一行。字段还定义了其中存储的数据类型"
+"。字段数据在 :abbr:`UI（用户界面）` 上的呈现和格式化方式由其控件决定。"
 
 #: ../../content/applications/studio/fields.rst:10
-msgid ""
-"From a technical point of view, there are 15 field types in Odoo. However, "
-"you can choose from 20 fields in Studio, as some field types are available "
-"more than once with a different default widget."
-msgstr ""
-"从技术角度看，Odoo有15种字段类型。您也可以在Studio的20种字段中进行选择，因为"
-"某些字段类型可以多次使用不同的默认小组件。"
+msgid "With Studio, it is possible to:"
+msgstr "使用 Studio 可以实现以下操作："
 
-#: ../../content/applications/studio/fields.rst:14
+#: ../../content/applications/studio/fields.rst:12
 msgid ""
-":guilabel:`New Fields` can only be added to the :ref:`studio/views/general/"
-"form` and :ref:`studio/views/multiple-records/list` views. On other views, "
-"you can only add :guilabel:`Existing Fields` :dfn:`(fields already on the "
-"model)`."
+":ref:`add new fields <studio/fields/add-new>` to your database. From a "
+"technical point of view, there are 15 :ref:`field types <studio/fields/field-"
+"types>` in Odoo. However, you can choose from 20 field types in Studio, as "
+"some field types are available more than once with a different default "
+"widget;"
 msgstr ""
-":guilable:`新字段`只能添加至:ref:`studio/views/general/form`和:ref:`studio/"
-"views/multiple-records/list`视图。其他视图只能添加:guilabel:`现有字段"
-"` :dfn:`(fields already on the model)`。"
+":ref:`向数据库添加新字段 <studio/fields/add-new>`\\ 。从技术角度来看，Odoo 中"
+"有 15 种\\ :ref:`字段类型 <studio/fields/field-types>`\\ 。但是，您可以在工作"
+"室中从 20 种字段类型中进行选择，因为某些字段类型在使用不同的默认小部件时可用"
+"多次；"
+
+#: ../../content/applications/studio/fields.rst:16
+msgid ""
+":ref:`add existing fields, <studio/fields/add-existing>` i.e., fields that "
+"already exists on a model, to any view of that model;"
+msgstr ""
+":ref:`添加现有字段，<studio/fields/add-existing>`，即模型中已存在的字段，到该"
+"模型的任何视图中；"
+
+#: ../../content/applications/studio/fields.rst:18
+msgid ":ref:`modify a field's properties <studio/fields/modify>`; or"
+msgstr ":ref:`修改字段属性 <studio/fields/modify>`；或"
+
+#: ../../content/applications/studio/fields.rst:19
+msgid ":ref:`remove a field from a view <studio/fields/remove>`."
+msgstr ":ref:`从视图中删除字段 <studio/fields/remove>`。"
 
 #: ../../content/applications/studio/fields.rst:21
+msgid "Studio fields vs. property fields"
+msgstr "工作室字段与属性字段"
+
+#: ../../content/applications/studio/fields.rst:23
+msgid ""
+"Fields created using Studio are saved as columns in your Odoo "
+"database. :doc:`Property fields <../essentials/property_fields>`, on the "
+"other hand, act as pseudo-fields; they are shared by all records that are "
+"linked to the same parent record (e.g., for tasks, the project, or for a "
+"product, the product category), but they are not saved as columns in your "
+"database."
+msgstr ""
+"使用 Studio 创建的字段会作为列保存在 Odoo 数据库中。另一方面，:doc:`属性字段 "
+"<../essentials/property_fields>` 则作为伪字段存在；它会被关联到同一上级记录的"
+"所有记录共用（例如：任务所属的项目、产品所属的产品类别），但不会以字段列的形"
+"式存入数据库。"
+
+#: ../../content/applications/studio/fields.rst:29
+msgid ""
+"Adding a :guilabel:`Deadline` field to the form view of a task using Studio "
+"makes that field visible in every task in your database. Adding "
+"a :guilabel:`Special instructions` property field to a task makes the field "
+"visible in all tasks *within the same project* (i.e., its parent) while "
+"other projects’ tasks remain unaffected."
+msgstr ""
+"使用 Studio 在任务的表单视图中添加一个名为 :guilabel:`截止日期` 的字段，该字"
+"段将在数据库中的所有任务中显示。向任务添加一个名为 :guilabel:`特殊说明` 的属"
+"性字段，则只会让该字段*在同一项目下的所有任务*中显示，其他项目的任务不受影响"
+"。"
+
+#: ../../content/applications/studio/fields.rst:37
+msgid "Field types"
+msgstr "字段类型"
+
+#: ../../content/applications/studio/fields.rst:39
+msgid "Fields can be broadly divided into two categories:"
+msgstr "字段大致可分为两类："
+
+#: ../../content/applications/studio/fields.rst:41
+msgid ""
+":ref:`Simple fields <studio/fields/simple-fields>`, which contain basic "
+"values, such as text, numbers, files, etc."
+msgstr ""
+":ref:`简单字段 <studio/fields/simple-fields>`，包含基本值，例如文本、数字、文"
+"件等。"
+
+#: ../../content/applications/studio/fields.rst:43
+msgid ""
+":ref:`Relational fields <studio/fields/relational-fields>`, which are used "
+"to link and display the data from records on another model."
+msgstr ""
+":ref:`关系字段 <studio/fields/relational-fields>`，用于链接和显示另一个模型上"
+"记录的数据。"
+
+#: ../../content/applications/studio/fields.rst:49
 msgid "Simple fields"
 msgstr "简单字段"
 
-#: ../../content/applications/studio/fields.rst:23
-msgid "Simple fields contain basic values, such as text, numbers, files, etc."
-msgstr "简单字段包含基本值，如文本、数字、文件等。"
-
-#: ../../content/applications/studio/fields.rst:26
+#: ../../content/applications/studio/fields.rst:52
+#: ../../content/applications/studio/fields.rst:390
 msgid ""
 "Non-default widgets, when available, are presented as bullet points or sub-"
-"headings below."
-msgstr ""
+"headings."
+msgstr "如果存在非默认控件，它们将以项目符号或子标题的形式呈现。"
 
-#: ../../content/applications/studio/fields.rst:31
+#: ../../content/applications/studio/fields.rst:57
 msgid "Text (`char`)"
 msgstr "文件（`char`）"
 
-#: ../../content/applications/studio/fields.rst:33
+#: ../../content/applications/studio/fields.rst:59
 msgid ""
 "The :guilabel:`Text` field is used for short text containing any character. "
 "One text line is displayed when filling out the field."
 msgstr ""
 ":guilable:`文本`字段用于包含任何字符的短文本。填写该字段时显示一行文本。"
 
-#: ../../content/applications/studio/fields.rst:36
-#: ../../content/applications/studio/fields.rst:258
+#: ../../content/applications/studio/fields.rst:62
+#: ../../content/applications/studio/fields.rst:284
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI, but a default value can be set."
@@ -1825,42 +2004,45 @@ msgstr ""
 ":guilable:`标记`：显示圈内值，类似于标记。该值不能在用户界面上编辑，但可以设"
 "置默认值。"
 
-#: ../../content/applications/studio/fields.rst:38
-#: ../../content/applications/studio/fields.rst:70
+#: ../../content/applications/studio/fields.rst:64
+#: ../../content/applications/studio/fields.rst:96
 msgid ""
 ":guilabel:`Copy to Clipboard`: users can copy the value by clicking a button."
 msgstr ":guilabel:`复制到剪贴板`：用户可以点击按钮复制值。"
 
-#: ../../content/applications/studio/fields.rst:39
+#: ../../content/applications/studio/fields.rst:65
 msgid ":guilabel:`E-mail`: the value becomes a clickable *mailto* link."
 msgstr ":guilabel:`电子邮件`：该值变为可点击的*电子邮件*链接。"
 
-#: ../../content/applications/studio/fields.rst:40
+#: ../../content/applications/studio/fields.rst:66
 msgid ""
 ":guilabel:`Image`: displays an image using a URL. The value cannot be edited "
 "manually, but a default value can be set."
 msgstr ""
 ":guilabel:`图片`：使用URL显示图片。该值不能手动编辑，但可以设置默认值。"
 
-#: ../../content/applications/studio/fields.rst:44
+#: ../../content/applications/studio/fields.rst:70
 msgid ""
-"This works differently than selecting the :ref:`Image field <studio/fields/"
+"This works differently from selecting the :ref:`Image field <studio/fields/"
 "simple-fields-image>` directly, as the image is not stored in Odoo when "
 "using a :guilabel:`Text` field with the :guilabel:`Image` widget. For "
 "example, it can be useful if you want to save disk space."
 msgstr ""
+"这与直接选择 :ref:`图片字段 <studio/fields/simple-fields-image>` 的工作原理不"
+"同，因为当使用带有 :guilabel:`图片` 控件的 :guilabel:`文本` 字段时，图片不会"
+"存储在 Odoo 中。例如，如果您想节省磁盘空间，这会很有用。"
 
-#: ../../content/applications/studio/fields.rst:49
+#: ../../content/applications/studio/fields.rst:75
 msgid ":guilabel:`Phone`: the value becomes a clickable *tel* link."
 msgstr ":guilabel:`电话`：该值变为可点击的*电话*链接。"
 
-#: ../../content/applications/studio/fields.rst:52
+#: ../../content/applications/studio/fields.rst:78
 msgid ""
 "Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from "
 "Odoo next to the field."
 msgstr "勾选:guilabel:`启用短信`，添加直接从字段旁的Odoo发送短信的选项。"
 
-#: ../../content/applications/studio/fields.rst:55
+#: ../../content/applications/studio/fields.rst:81
 msgid ":guilabel:`URL`: the value becomes a clickable URL."
 msgstr ":guilabel:`URL`：该值变为可点击的URL。"
 
@@ -1868,11 +2050,11 @@ msgstr ":guilabel:`URL`：该值变为可点击的URL。"
 msgid "Examples of Text fields with different widgets"
 msgstr "具有不同小组件的文本字段示例"
 
-#: ../../content/applications/studio/fields.rst:65
+#: ../../content/applications/studio/fields.rst:91
 msgid "Multiline Text (`text`)"
 msgstr "多行文本（`text`）"
 
-#: ../../content/applications/studio/fields.rst:67
+#: ../../content/applications/studio/fields.rst:93
 msgid ""
 "The :guilabel:`Multiline Text` field is used for longer text containing any "
 "type of character. Two text lines are displayed on the UI when filling out "
@@ -1885,11 +2067,11 @@ msgstr ""
 msgid "Examples of Multiline Text fields with different widgets"
 msgstr "具有不同小组件的多行文本字段示例"
 
-#: ../../content/applications/studio/fields.rst:80
+#: ../../content/applications/studio/fields.rst:106
 msgid "Integer (`integer`)"
 msgstr "整数（`integer`）"
 
-#: ../../content/applications/studio/fields.rst:82
+#: ../../content/applications/studio/fields.rst:108
 msgid ""
 "The :guilabel:`Integer` field is used for all integer numbers "
 "(:dfn:`positive, negative, or zero, without a decimal`)."
@@ -1897,7 +2079,7 @@ msgstr ""
 ":guilable:`整数`字段用于所有整数（:dfn:`positive, negative, or zero, without "
 "a decimal`）。"
 
-#: ../../content/applications/studio/fields.rst:85
+#: ../../content/applications/studio/fields.rst:111
 msgid ""
 ":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
 "usually for a computed value. The value cannot be edited on the UI, but a "
@@ -1906,8 +2088,8 @@ msgstr ""
 ":guilable:`百分比饼图`：显示百分比饼图值，通常为计算得出的值。该值无法在用户"
 "界面上编辑，但可以设置默认值。"
 
-#: ../../content/applications/studio/fields.rst:87
-#: ../../content/applications/studio/fields.rst:115
+#: ../../content/applications/studio/fields.rst:113
+#: ../../content/applications/studio/fields.rst:141
 msgid ""
 ":guilabel:`Progress Bar`: displays the value next to a percentage bar, "
 "usually for a computed value. The field cannot be edited manually, but a "
@@ -1916,7 +2098,7 @@ msgstr ""
 ":guilabel:`进度条`：显示百分比条旁的值，通常为计算得出的值。该字段无法手动编"
 "辑，但可以设置默认值。"
 
-#: ../../content/applications/studio/fields.rst:89
+#: ../../content/applications/studio/fields.rst:115
 msgid ""
 ":guilabel:`Handle`: displays a drag handle icon to order records manually "
 "in :ref:`List view <studio/views/multiple-records/list>`."
@@ -1928,11 +2110,11 @@ msgstr ""
 msgid "Examples of Integer fields with different widgets"
 msgstr "具有不同小组件的整数字段示例"
 
-#: ../../content/applications/studio/fields.rst:100
+#: ../../content/applications/studio/fields.rst:126
 msgid "Decimal (`float`)"
 msgstr "小数（`float`）"
 
-#: ../../content/applications/studio/fields.rst:102
+#: ../../content/applications/studio/fields.rst:128
 msgid ""
 "The :guilabel:`Decimal` field is used for all decimal numbers "
 "(:dfn:`positive, negative, or zero, with a decimal`)."
@@ -1940,25 +2122,27 @@ msgstr ""
 ":guilabel:`小数`字段用于所有小数（:dfn:`positive, negative, or zero, with a "
 "decimal`）。"
 
-#: ../../content/applications/studio/fields.rst:106
+#: ../../content/applications/studio/fields.rst:132
 msgid ""
 "Decimal numbers are displayed with two decimals after the decimal point on "
 "the UI, but they are stored in the database with more precision."
 msgstr "小数在用户界面上显示为两位小数，保存在数据库中时精度更高。"
 
-#: ../../content/applications/studio/fields.rst:109
+#: ../../content/applications/studio/fields.rst:135
 msgid ""
 ":guilabel:`Monetary`: it is similar to using the :ref:`Monetary field "
 "<studio/fields/simple-fields-monetary>`. It is recommended to use the latter "
 "as it offers more functionalities."
 msgstr ""
+":guilabel:`货币金额`：与使用 :ref:`货币金额 <studio/fields/simple-fields-"
+"monetary>` 字段类似。建议使用后者，因为它提供较多功能。"
 
-#: ../../content/applications/studio/fields.rst:112
+#: ../../content/applications/studio/fields.rst:138
 msgid ""
 ":guilabel:`Percentage`: displays a percent character `%` after the value."
 msgstr ":guilabel:`百分比`：在数值后显示百分比符号。"
 
-#: ../../content/applications/studio/fields.rst:113
+#: ../../content/applications/studio/fields.rst:139
 msgid ""
 ":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
 "usually for a computed value. The field cannot be edited manually, but a "
@@ -1967,7 +2151,7 @@ msgstr ""
 ":guilable:`百分比饼图`：显示百分比饼图值，通常为计算得出的值。该字段无法手动"
 "编辑，但可以设置默认值。"
 
-#: ../../content/applications/studio/fields.rst:117
+#: ../../content/applications/studio/fields.rst:143
 msgid ""
 ":guilabel:`Time`: the value must follow the *hh:mm* format, with a maximum "
 "of 59 minutes."
@@ -1977,15 +2161,15 @@ msgstr ":guilabel:`时间`：数值须为*小时:分钟*格式，最大分钟值
 msgid "Examples of Decimal fields with different widgets"
 msgstr "具有不同小组部件的小数字段示例"
 
-#: ../../content/applications/studio/fields.rst:127
+#: ../../content/applications/studio/fields.rst:153
 msgid "Monetary (`monetary`)"
 msgstr "货币（`monetary`）"
 
-#: ../../content/applications/studio/fields.rst:129
+#: ../../content/applications/studio/fields.rst:155
 msgid "The :guilabel:`Monetary` field is used for all monetary values."
 msgstr ":guilabel:`货币`字段用于所有货币值。"
 
-#: ../../content/applications/studio/fields.rst:132
+#: ../../content/applications/studio/fields.rst:158
 msgid ""
 "When you first add a :guilabel:`Monetary` field, you are prompted to add "
 "a :guilabel:`Currency` field if none exists already on the model. Odoo "
@@ -2000,18 +2184,18 @@ msgstr ""
 msgid "Example of a Monetary field along with its Currency field"
 msgstr "货币字段及其币种字段示例"
 
-#: ../../content/applications/studio/fields.rst:144
+#: ../../content/applications/studio/fields.rst:170
 msgid "Html (`html`)"
 msgstr "超文本标记语言（`html`）"
 
-#: ../../content/applications/studio/fields.rst:146
+#: ../../content/applications/studio/fields.rst:172
 msgid ""
 "The :guilabel:`Html` field is used to add text that can be edited using the "
 "Odoo HTML editor."
 msgstr ""
 ":guilabel:`超文本标记语言`字段用于添加可使用Odoo HTML编辑器编辑的文本。"
 
-#: ../../content/applications/studio/fields.rst:148
+#: ../../content/applications/studio/fields.rst:174
 msgid ""
 ":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing "
 "raw HTML."
@@ -2022,30 +2206,32 @@ msgstr ""
 msgid "Examples of Html fields with different widgets"
 msgstr "具有不同小组件的超文本标记语言字段示例"
 
-#: ../../content/applications/studio/fields.rst:158
+#: ../../content/applications/studio/fields.rst:184
 msgid "Date (`date`)"
 msgstr "日期（`date`）"
 
-#: ../../content/applications/studio/fields.rst:160
+#: ../../content/applications/studio/fields.rst:186
 msgid "The :guilabel:`Date` field is used to select a date on a calendar."
 msgstr ":guilabel:`日期`字段用于从日历选择日期。"
 
-#: ../../content/applications/studio/fields.rst:162
+#: ../../content/applications/studio/fields.rst:188
 msgid ""
 ":guilabel:`Remaining Days`: the remaining number of days before the selected "
 "date is displayed (e.g., *In 5 days*), based on the current date. This field "
 "should be set to :guilabel:`Read only`."
 msgstr ""
+":guilabel:`剩余天数`：从目前日期起计，距离选取的日期还剩下多少天，例如： **剩"
+"余 5 天** 。此栏位应设为 :guilabel:`仅读`。"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date fields with different widgets"
 msgstr "具有不同小组件的日期字段示例"
 
-#: ../../content/applications/studio/fields.rst:173
+#: ../../content/applications/studio/fields.rst:199
 msgid "Date & Time (`datetime`)"
 msgstr "日期和时间（`datetime`）"
 
-#: ../../content/applications/studio/fields.rst:175
+#: ../../content/applications/studio/fields.rst:201
 msgid ""
 "The :guilabel:`Date & Time` field is used to select a date on a calendar and "
 "a time on a clock. The user's current time is automatically used if no time "
@@ -2054,19 +2240,22 @@ msgstr ""
 ":guilabel:`日期和时间`字段用于从日历选择日期，从钟表选择时间。如果未设置时"
 "间，则自动采用用户的当前时间。"
 
-#: ../../content/applications/studio/fields.rst:180
+#: ../../content/applications/studio/fields.rst:206
 msgid ""
 "As well as :ref:`general properties <studio/fields/properties>`, "
 "some :ref:`specific properties <studio/fields/properties-date-datetime>` are "
 "available for :guilabel:`Date & Time` fields that have the :guilabel:`Date & "
 "Time` or :guilabel:`Date Range` widget set."
 msgstr ""
+"除 :ref:`一般属性 <studio/fields/properties>` 外，设置了 :guilabel:`日期时"
+"间` 或 :guilabel:`日期范围` 小工具的 :guilabel:`日期时间` 栏位，有一些额外的 "
+":ref:`特定属性 <studio/fields/properties-date-datetime>` 可用。"
 
-#: ../../content/applications/studio/fields.rst:186
+#: ../../content/applications/studio/fields.rst:212
 msgid "Date Range (`daterange`)"
-msgstr ""
+msgstr "日期范围（`daterange`）"
 
-#: ../../content/applications/studio/fields.rst:188
+#: ../../content/applications/studio/fields.rst:214
 msgid ""
 "The :guilabel:`Date Range` widget is used to display a period of time "
 "defined by a start date and an end date in a single line. A date range can "
@@ -2074,8 +2263,11 @@ msgid ""
 "an optional start or end date, e.g., for a field service intervention or a "
 "project task."
 msgstr ""
+":guilabel:`日期范围` 小工具适用于显示包括开始日期及结束日期的时间段，以一行显"
+"示全部资料。日期范围可将开始及结束日期设为必填（例如：表示多天活动的日期），"
+"也可将开始或结束日期设为可选填（例如：用于上门介入工作或项目任务）。"
 
-#: ../../content/applications/studio/fields.rst:193
+#: ../../content/applications/studio/fields.rst:219
 msgid ""
 "Adding a date range requires two fields: a :guilabel:`Date & Time` field "
 "with the :guilabel:`Date Range` widget set and another field that is "
@@ -2083,87 +2275,105 @@ msgid ""
 "existing :ref:`Date <studio/fields/simple-fields-date>` or :guilabel:`Date & "
 "Time` field, or one created specifically for this purpose."
 msgstr ""
+"加入日期范围时，需要有两个字段：一个是附有 :guilabel:`日期范围` 小工具的 "
+":guilabel:`日期时间` 字段，另一个是设为开始日期 **或** 结束日期的字段。底层的"
+"参考字段可以是现有的 :ref:`日期 <studio/fields/simple-fields-date>` 或 "
+":guilabel:`日期时间`字段，也可以是专门为此用途而建立的字段。"
 
-#: ../../content/applications/studio/fields.rst:198
+#: ../../content/applications/studio/fields.rst:224
 msgid "To add a date range:"
-msgstr ""
+msgstr "要加入日期范围："
 
-#: ../../content/applications/studio/fields.rst:200
+#: ../../content/applications/studio/fields.rst:226
 msgid ""
 "Identify an existing :guilabel:`Date` or :guilabel:`Date & Time` field that "
 "can be used as the underlying start/end date field, or add a new one. If the "
 "date range:"
 msgstr ""
+"确定一个现有的 :guilabel:`日期` 或 :guilabel:`日期时间` 字段，用作底层的开始"
+"或结束日期参考字段，或新增一个字段。如果日期范围是："
 
-#: ../../content/applications/studio/fields.rst:203
+#: ../../content/applications/studio/fields.rst:229
 msgid ""
 "has a mandatory start date and end date, this field can be either the start "
 "date or end date; the outcome is the same."
-msgstr ""
+msgstr "必须填写开始及结束日期，此字段可以是开始日期或结束日期，选择两者的结果相同。"
 
-#: ../../content/applications/studio/fields.rst:205
+#: ../../content/applications/studio/fields.rst:231
 msgid ""
 "allows an optional start or end date, this field is the start date or end "
 "date, respectively."
-msgstr ""
+msgstr "允许选填开始日期或结束日期，此字段便会分别是开始日期或结束日期。"
 
-#: ../../content/applications/studio/fields.rst:208
+#: ../../content/applications/studio/fields.rst:234
 msgid ""
 "To avoid displaying the same information twice, the underlying start/end "
 "date field can be made invisible by enabling :guilabel:`Invisible` or "
 "removed from the view by clicking :guilabel:`Remove from view`."
 msgstr ""
+"为避免重复显示相同资讯，你可将底层的开始/结束日期字段，设定为 :guilabel:`不显"
+"示`，或点击 :guilabel:`从视图中移除`，将该日期从视图画面中移除，使之无法看见"
+"。"
 
-#: ../../content/applications/studio/fields.rst:212
+#: ../../content/applications/studio/fields.rst:238
 msgid ""
 "Add a :guilabel:`Date & Time` field and set the :guilabel:`Widget` field "
 "to :guilabel:`Date Range`."
 msgstr ""
+"加入一个 :guilabel:`日期时间` 字段，并将 :guilabel:`小工具` 栏位设定为 "
+":guilabel:`日期范围`。"
 
-#: ../../content/applications/studio/fields.rst:214
+#: ../../content/applications/studio/fields.rst:240
 msgid "Enter an appropriate :guilabel:`Label`."
-msgstr ""
+msgstr "输入适当的 :guilabel:`标签`。"
 
-#: ../../content/applications/studio/fields.rst:215
+#: ../../content/applications/studio/fields.rst:241
 msgid ""
 "Select the underlying start/end date field from the :guilabel:`Start date "
 "field` or :guilabel:`End date field` dropdown, as relevant."
 msgstr ""
+"根据需要，在 :guilabel:`开始日期字段` 或 :guilabel:`结束日期字段` 下拉式选单"
+"中，选择相应的底层开始/结束日期字段。"
 
-#: ../../content/applications/studio/fields.rst:217
+#: ../../content/applications/studio/fields.rst:243
 msgid ""
 "If the date range should have a mandatory start and end date, "
 "enable :guilabel:`Always range`."
-msgstr ""
+msgstr "若日期范围必须包括开始日期及结束日期，请启用 :guilabel:`总是使用范围`。"
 
-#: ../../content/applications/studio/fields.rst:218
+#: ../../content/applications/studio/fields.rst:244
 msgid ""
 "Update any other :ref:`general properties <studio/fields/properties>` or "
 "specific :ref:`properties for Date & Time fields <studio/fields/properties-"
 "date-datetime>` as needed, then click :guilabel:`Close` in the upper right "
 "corner of the screen."
 msgstr ""
+"更新任何其他需要更新的 :ref:`一般属性 <studio/fields/properties>` 或 :ref:`日"
+"期时间栏位特定属性 <studio/fields/properties-date-datetime>`，然后按一下画面"
+"右上角的 :guilabel:`关闭`。"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date & Time fields with different widgets"
 msgstr "具有不同小组件的日期和时间字段示例"
 
-#: ../../content/applications/studio/fields.rst:228
+#: ../../content/applications/studio/fields.rst:254
 msgid "Remaining Days (`remaining_days`)"
-msgstr ""
+msgstr "剩余天数（`remaining_days`）"
 
-#: ../../content/applications/studio/fields.rst:230
+#: ../../content/applications/studio/fields.rst:256
 msgid ""
 "The :guilabel:`Remaining Days` widget displays the remaining number of days "
 "before the selected date (e.g., *In 5 days*), based on the current date and "
 "time. This field should be set to :guilabel:`Read only`."
 msgstr ""
+":guilabel:`剩余天数` 小工具显示从目前的日期及时间起计，距离选取的日期还剩下多"
+"少天，例如：**剩余 5 天** 。此栏位应设为 :guilabel:`仅读`。"
 
-#: ../../content/applications/studio/fields.rst:237
+#: ../../content/applications/studio/fields.rst:263
 msgid "Checkbox (`boolean`)"
 msgstr "复选框（`boolean`）"
 
-#: ../../content/applications/studio/fields.rst:239
+#: ../../content/applications/studio/fields.rst:265
 msgid ""
 "The :guilabel:`Checkbox` field is used when a value should only be true or "
 "false, indicated by checking or unchecking a checkbox."
@@ -2171,14 +2381,14 @@ msgstr ""
 ":guilabel:`复选框`字段用于值只能为是或否时，选中或取消选中复选框，以进行指"
 "示。"
 
-#: ../../content/applications/studio/fields.rst:242
+#: ../../content/applications/studio/fields.rst:268
 msgid ""
 ":guilabel:`Button`: displays a radio button. The widget works without "
 "switching to the edit mode."
 msgstr ""
 ":guilabel:`按钮`：显示为单选按钮。该小组件可在不切换至编辑模式的情况下工作。"
 
-#: ../../content/applications/studio/fields.rst:243
+#: ../../content/applications/studio/fields.rst:269
 msgid ""
 ":guilabel:`Toggle`: displays a toggle button. The widget works without "
 "switching to the edit mode."
@@ -2189,23 +2399,23 @@ msgstr ""
 msgid "Examples of Checkbox fields with different widgets"
 msgstr "具有不同小组件的复选框字段示例"
 
-#: ../../content/applications/studio/fields.rst:253
+#: ../../content/applications/studio/fields.rst:279
 msgid "Selection (`selection`)"
 msgstr "选择（`selection`）"
 
-#: ../../content/applications/studio/fields.rst:255
+#: ../../content/applications/studio/fields.rst:281
 msgid ""
 "The :guilabel:`Selection` field is used when users should select a single "
 "value from a group of predefined values."
 msgstr ":guilabel:`选择`字段用于用户从一组预定义值中选择一个值。"
 
-#: ../../content/applications/studio/fields.rst:260
+#: ../../content/applications/studio/fields.rst:286
 msgid ""
 ":guilabel:`Badges`: displays all selectable values simultaneously inside "
 "rectangular shapes, organized horizontally."
 msgstr ":guilabel:`多个标记`：在水平排列的矩形内同时显示所有可选值。"
 
-#: ../../content/applications/studio/fields.rst:262
+#: ../../content/applications/studio/fields.rst:288
 msgid ""
 ":guilabel:`Priority`: displays star symbols instead of values, which can be "
 "used to indicate an importance or satisfaction level, for example. This has "
@@ -2213,41 +2423,48 @@ msgid ""
 "fields-priority>`, although, for the latter, four priority values are "
 "already predefined."
 msgstr ""
+":guilabel:`优先级别`：显示为星星图示，而非数值，可用作表示重要程度或满意度等"
+"。与选用 :ref:`优先等级 <studio/fields/simple-fields-priority>` 字段的效果相"
+"同，但后者已预先定义了 4 种优先级别数值。"
 
-#: ../../content/applications/studio/fields.rst:266
-#: ../../content/applications/studio/fields.rst:392
+#: ../../content/applications/studio/fields.rst:292
+#: ../../content/applications/studio/fields.rst:416
 msgid ""
 ":guilabel:`Radio`: displays all selectable values at the same time as radio "
 "buttons."
 msgstr ":guilabel:`单选`： 同时显示所有可选值的单选按钮。"
 
-#: ../../content/applications/studio/fields.rst:269
+#: ../../content/applications/studio/fields.rst:295
 msgid ""
 "By default, radio buttons are organized vertically. "
 "Enable :guilabel:`Display horizontally` to switch the way they are displayed."
 msgstr ""
+"默认情况下，单选按钮是以垂直方式排列。您可启用 :guilabel:`水平显示` 选项，以"
+"切换显示方式。"
 
-#: ../../content/applications/studio/fields.rst:272
+#: ../../content/applications/studio/fields.rst:298
 msgid ""
 ":guilabel:`Status Bar`: displays all selectable values at the same time as "
 "an arrow progress bar."
-msgstr ""
+msgstr ":guilabel:`状态栏`：以箭头进度条同时显示所有可选值。"
 
-#: ../../content/applications/studio/fields.rst:275
+#: ../../content/applications/studio/fields.rst:301
 msgid ""
 "By default, values on the status bar are selectable. "
 "Disable :guilabel:`Clickable` to prevent the value being edited on the UI."
 msgstr ""
+"默认情况下，状态栏上的值是可选取。禁用 :guilabel:`可点击`，可防止在用户界面上"
+"编辑值。"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Selection fields with different widgets"
 msgstr "具有不同小组件的选择字段示例"
 
-#: ../../content/applications/studio/fields.rst:286
+#: ../../content/applications/studio/fields.rst:312
 msgid "Priority (`selection`)"
 msgstr "优先级（`selection`）"
 
-#: ../../content/applications/studio/fields.rst:288
+#: ../../content/applications/studio/fields.rst:314
 msgid ""
 "The :guilabel:`Priority` field is used to display a three-star rating "
 "system, which can be used to indicate importance or satisfaction level. This "
@@ -2258,8 +2475,13 @@ msgid ""
 "and :guilabel:`Selection` widgets have the same effects as described "
 "under :ref:`Selection <studio/fields/simple-fields-selection>`."
 msgstr ""
+":guilabel:`优先级别` 字段以三星评分格式显示，可用作表示重要程度或满意度。此字"
+"段类型是 :ref:`选择字段 <studio/fields/simple-fields-selection>`，默认会选取 "
+":guilabel:`优先级别` 小工具，并有 4 个预先定义的优先级别值。因此， "
+":guilabel:`徽章` 、 :guilabel:`单选按钮` 及 :guilabel:`选单` 小工具的效果，"
+"与 :ref:`选单 <studio/fields/simple-fields-selection>` 章节所述相同。"
 
-#: ../../content/applications/studio/fields.rst:296
+#: ../../content/applications/studio/fields.rst:322
 msgid ""
 "To change the number of available stars by adding or removing values, "
 "click :guilabel:`Edit Values`. Note that the first value is equal to 0 stars "
@@ -2273,11 +2495,11 @@ msgstr ""
 msgid "Example of a Priority field"
 msgstr "优先级字段示例"
 
-#: ../../content/applications/studio/fields.rst:308
+#: ../../content/applications/studio/fields.rst:334
 msgid "File (`binary`)"
 msgstr "文件（`binary`）"
 
-#: ../../content/applications/studio/fields.rst:310
+#: ../../content/applications/studio/fields.rst:336
 msgid ""
 "The :guilabel:`File` field is used to upload any type of file, or sign a "
 "form (:guilabel:`Sign` widget)."
@@ -2285,14 +2507,17 @@ msgstr ""
 ":guilabel:`文件`字段用于上传任何类型的文件，或 签署表单（:guilabel:`签署`小组"
 "件）。"
 
-#: ../../content/applications/studio/fields.rst:313
+#: ../../content/applications/studio/fields.rst:339
 msgid ""
 ":guilabel:`Image`: users can upload an image file, which is then displayed "
 "in :ref:`Form view <studio/views/general/form>`. This has the same effect as "
 "using the :ref:`Image field <studio/fields/simple-fields-image>`."
 msgstr ""
+":guilabel:`图片`：用户可以上传图像文件，然后将其显示在 :ref:`表单视图 "
+"<studio/views/general/form>` 中。这与使用 :ref:`图片 <studio/fields/simple-"
+"fields-image>`字段的效果相同。"
 
-#: ../../content/applications/studio/fields.rst:316
+#: ../../content/applications/studio/fields.rst:342
 msgid ""
 ":guilabel:`PDF Viewer`: users can upload a PDF file, which can be then "
 "browsed from the :ref:`Form view <studio/views/general/form>`."
@@ -2300,21 +2525,23 @@ msgstr ""
 ":guilabel:`PDF查看器`：用户可以上传PDF文件，上传后，可以在:ref:`Form view "
 "<studio/views/general/form>`中查看该文件。"
 
-#: ../../content/applications/studio/fields.rst:318
+#: ../../content/applications/studio/fields.rst:344
 msgid ""
 ":guilabel:`Sign`: users can electronically sign the form. This has the same "
 "effect as selecting the :ref:`Sign field <studio/fields/simple-fields-sign>`."
 msgstr ""
+":guilabel:`电子签名`：用户可通过电子形式签署表单。与选择 :ref:`电子签名 "
+"<studio/fields/simple-fields-sign>` 字段的效果相同。"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of File fields with different widgets"
 msgstr "具有不同小组件的文件字段示例"
 
-#: ../../content/applications/studio/fields.rst:329
+#: ../../content/applications/studio/fields.rst:355
 msgid "Image (`binary`)"
 msgstr "图片（`binary`）"
 
-#: ../../content/applications/studio/fields.rst:331
+#: ../../content/applications/studio/fields.rst:357
 msgid ""
 "The :guilabel:`Image` field is used to upload an image and display it "
 "in :ref:`Form view <studio/views/general/form>`. This field type is "
@@ -2324,8 +2551,13 @@ msgid ""
 "have the same effects as described under :ref:`File <studio/fields/simple-"
 "fields-file>`."
 msgstr ""
+":guilabel:`图片`字段用于上传图片并在 :ref:`表单视图 <studio/views/general/"
+"form>`中显示。该字段类型是 :ref:`文件 <studio/fields/simple-fields-file>`字段"
+"，默认情况下选择了 :guilabel:`图片` 小工具。因此，:guilabel:`文"
+"件`、:guilabel:`PDF 阅读工具` 和 :guilabel:`电子签名` 小工具的效果，与 "
+":ref:`文件 <studio/fields/simple-fields-file>` 中描述的效果相同。"
 
-#: ../../content/applications/studio/fields.rst:338
+#: ../../content/applications/studio/fields.rst:364
 msgid ""
 "To change the display size of uploaded images, "
 "select :guilabel:`Small`, :guilabel:`Medium`, or :guilabel:`Large` under "
@@ -2334,11 +2566,11 @@ msgstr ""
 "要更改上传图片的显示大小，在:guilable:`尺寸`选项下选择:guilabel:`小"
 "`、:guilale:`中`或:guilalb:`大`。"
 
-#: ../../content/applications/studio/fields.rst:344
+#: ../../content/applications/studio/fields.rst:370
 msgid "Sign (`binary`)"
 msgstr "签署（`binary`）"
 
-#: ../../content/applications/studio/fields.rst:346
+#: ../../content/applications/studio/fields.rst:372
 msgid ""
 "The :guilabel:`Sign` field is used to sign the form electronically. This "
 "field type is a :ref:`File field <studio/fields/simple-fields-file>` with "
@@ -2347,8 +2579,12 @@ msgid ""
 "have the same effects as described under :ref:`File <studio/fields/simple-"
 "fields-file>`."
 msgstr ""
+":guilabel:`电子签名` 字段用于对表单进行电子签名。该字段类型是 :ref:`文件字段 "
+"<studio/fields/simple-fields-file>`，默认选择 :guilabel:`电子签名`小工具。因"
+"此，:guilabel:`文件`、:guilabel:`图片` 和 :guilabel:`PDF 阅读工具` 小工具有"
+"与 :ref:`文件<studio/fields/simple-fields-file>` 中描述的相同效果。"
 
-#: ../../content/applications/studio/fields.rst:352
+#: ../../content/applications/studio/fields.rst:378
 msgid ""
 "To give users the :guilabel:`Auto` option when having to draw their "
 "signature, select one of the available :guilabel:`Auto-complete with` fields "
@@ -2357,27 +2593,21 @@ msgid ""
 "relational-fields-related-field>` on the model only). The signature is "
 "automatically generated using the data from the selected field."
 msgstr ""
+"要让用户在绘制签名时使用 :guilabel:`自动完成` 选项，请从可用的 :guilabel:`自"
+"动完成依据` 字段（仅在模型上的 :ref:`文字 <studio/fields/simple-fields-text>"
+"`、:ref:`Many2One <studio/fields/relational-fields-many2one>` 和 :ref:`相关字"
+"段 <studio/fields/relational-fields-related-field>`）中选择一个。签名将使用所"
+"选字段的数据自动生成。"
 
-#: ../../content/applications/studio/fields.rst:361
+#: ../../content/applications/studio/fields.rst:387
 msgid "Relational fields"
 msgstr "关系字段"
 
-#: ../../content/applications/studio/fields.rst:363
-msgid ""
-"Relational fields are used to link and display the data from records on "
-"another model."
-msgstr "关系字段用于链接并显示另一模型中记录的数据。"
-
-#: ../../content/applications/studio/fields.rst:366
-msgid ""
-"Non-default widgets, when available, are presented as bullet points below."
-msgstr "非默认小组件（如可用）显示为以下项目符号。"
-
-#: ../../content/applications/studio/fields.rst:371
+#: ../../content/applications/studio/fields.rst:395
 msgid "Many2One (`many2one`)"
 msgstr "Many2One（`many2one`）"
 
-#: ../../content/applications/studio/fields.rst:373
+#: ../../content/applications/studio/fields.rst:397
 msgid ""
 "The :guilabel:`Many2One` field is used to link another record (from another "
 "model) to the record being edited. The record's name from the other model is "
@@ -2386,7 +2616,7 @@ msgstr ""
 ":guilabel:`Many2One`字段用于将另一记录（来自另一模型）链接至正在编辑的记录。"
 "来自另一模型的记录名称将显示在正在编辑的记录中。"
 
-#: ../../content/applications/studio/fields.rst:377
+#: ../../content/applications/studio/fields.rst:401
 msgid ""
 "On the *Sales Order* model, the :guilabel:`Customer` field is "
 "a :guilabel:`Many2One` field pointing at the *Contact* model. This allows "
@@ -2400,35 +2630,35 @@ msgstr ""
 msgid "Diagram showing a many2one relationship"
 msgstr "显示many2one关系的图表"
 
-#: ../../content/applications/studio/fields.rst:385
+#: ../../content/applications/studio/fields.rst:409
 msgid ""
 "To prevent users from creating a new record in the linked model, "
 "tick :guilabel:`Disable creation`."
 msgstr "要防止用户在链接的模型中创建新记录，勾选:guilable:`禁用创建`。"
 
-#: ../../content/applications/studio/fields.rst:387
+#: ../../content/applications/studio/fields.rst:411
 msgid ""
 "To prevent users from opening records in a pop-up window, "
 "tick :guilabel:`Disable opening`."
 msgstr "要防止用户在弹窗中打开记录，勾选:guilable:`禁用打开`。"
 
-#: ../../content/applications/studio/fields.rst:388
+#: ../../content/applications/studio/fields.rst:412
 msgid ""
 "To help users only select the right record, click on :guilabel:`Domain` to "
 "create a filter."
 msgstr "要帮助用户只选择正确的记录，点击:guilable:`域`，创建筛选器。"
 
-#: ../../content/applications/studio/fields.rst:390
+#: ../../content/applications/studio/fields.rst:414
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI."
 msgstr ":guilabel:`标记`：显示圈内值，类似于标记。该值不能在用户界面上编辑。"
 
-#: ../../content/applications/studio/fields.rst:397
+#: ../../content/applications/studio/fields.rst:421
 msgid "One2Many (`one2many`)"
 msgstr "One2Many（`one2many`）"
 
-#: ../../content/applications/studio/fields.rst:399
+#: ../../content/applications/studio/fields.rst:423
 msgid ""
 "The :guilabel:`One2Many` field is used to display the existing relations "
 "between a record on the current model and multiple records from another "
@@ -2437,7 +2667,7 @@ msgstr ""
 ":guilabel:`One2Many`字段用于显示当前模型中的记录和另一模型中的多个记录间的现"
 "有关系。"
 
-#: ../../content/applications/studio/fields.rst:403
+#: ../../content/applications/studio/fields.rst:427
 msgid ""
 "You could add a :guilabel:`One2Many` field on the *Contact* model to look at "
 "**one** customer's **many** sales orders."
@@ -2449,19 +2679,22 @@ msgstr ""
 msgid "Diagram showing a one2many relationship"
 msgstr "显示one2many关系的图表"
 
-#: ../../content/applications/studio/fields.rst:410
+#: ../../content/applications/studio/fields.rst:434
 msgid ""
 "To use a :guilabel:`One2Many` field, the two models must have been linked "
 "already using a :ref:`Many2One field <studio/fields/relational-fields-"
 "many2one>`. One2Many relations do not exist independently: a reverse-search "
 "of existing Many2One relations is performed."
 msgstr ""
+"要使用 :guilabel:`一对多` 字段，两个模型必须已经用 :ref:`多对一字段 <studio/"
+"fields/relational-fields-many2one>` 连接。一对多关系不会独立存在，系统会进行"
+"反向搜寻，寻找目前已有的多对一关系。"
 
-#: ../../content/applications/studio/fields.rst:417
+#: ../../content/applications/studio/fields.rst:441
 msgid "Lines (`one2many`)"
 msgstr "多行（`one2many`）"
 
-#: ../../content/applications/studio/fields.rst:419
+#: ../../content/applications/studio/fields.rst:443
 msgid ""
 "The :guilabel:`Lines` field is used to create a table with rows and columns "
 "(e.g., the lines of products on a sales order)."
@@ -2469,7 +2702,7 @@ msgstr ""
 ":guilabel:`多行`字段用于创建有多行和多列的表格（例如，销售订单中的多个产品"
 "行）。"
 
-#: ../../content/applications/studio/fields.rst:423
+#: ../../content/applications/studio/fields.rst:447
 msgid ""
 "To modify the columns, click on the :guilabel:`Lines` field and "
 "then :guilabel:`Edit List View`. To edit the form that pops up when a user "
@@ -2484,11 +2717,11 @@ msgstr ""
 msgid "Example of a Lines field"
 msgstr "多行字段示例"
 
-#: ../../content/applications/studio/fields.rst:435
+#: ../../content/applications/studio/fields.rst:459
 msgid "Many2Many (`many2many`)"
 msgstr "Many2Many（`many2many`）"
 
-#: ../../content/applications/studio/fields.rst:437
+#: ../../content/applications/studio/fields.rst:461
 msgid ""
 "The :guilabel:`Many2Many` field is used to link multiple records from "
 "another model to multiple records on the current model. Many2Many fields can "
@@ -2496,8 +2729,12 @@ msgid ""
 "opening`, :guilabel:`Domain`, just like :ref:`Many2One fields <studio/fields/"
 "relational-fields-many2one>`."
 msgstr ""
+":guilabel:`多对多` （Many2Many）字段用于将另一模型中的多项记录，连结至目前模"
+"型中的多项记录。与 :ref:`多对一 <studio/fields/relational-fields-many2one>` "
+"字段一样，多对多字段也可使用 :guilabel:`禁止建立` 、 :guilabel:`禁止开启` 及 "
+":guilabel:`范围` 功能。"
 
-#: ../../content/applications/studio/fields.rst:443
+#: ../../content/applications/studio/fields.rst:467
 msgid ""
 "On the *Task* model, the :guilabel:`Assignees` field is "
 "a :guilabel:`Many2Many` field pointing at the *Contact* model. This allows a "
@@ -2512,23 +2749,25 @@ msgstr ""
 msgid "Diagram showing many2many relationships"
 msgstr "显示many2many关系的图表"
 
-#: ../../content/applications/studio/fields.rst:450
+#: ../../content/applications/studio/fields.rst:474
 msgid ""
 ":guilabel:`Checkboxes`: users can select several values using checkboxes."
 msgstr ":guilabel:`多个复选框`：用户可以通过多个复选框选择多个值。"
 
-#: ../../content/applications/studio/fields.rst:451
+#: ../../content/applications/studio/fields.rst:475
 msgid ""
 ":guilabel:`Tags`: users can select several values appearing in rounded "
 "shapes, also known as *tags*. This has the same effect as selecting "
 "the :ref:`Tags field <studio/fields/relational-fields-tags>`."
 msgstr ""
+":guilabel:`标签`：用户可选取多个以圆角形状显示的值，这些值也称为“标签”。这与"
+"选用 :ref:`标签 <studio/fields/relational-fields-tags>` 字段的效果相同。"
 
-#: ../../content/applications/studio/fields.rst:458
+#: ../../content/applications/studio/fields.rst:482
 msgid "Tags (`many2many`)"
 msgstr "标签（`many2many`）"
 
-#: ../../content/applications/studio/fields.rst:460
+#: ../../content/applications/studio/fields.rst:484
 msgid ""
 "The :guilabel:`Tags` field is used to display several values from another "
 "model appearing in rounded shapes, also known as *tags*. This field type is "
@@ -2538,8 +2777,13 @@ msgid ""
 "effects as described under :ref:`Many2Many <studio/fields/relational-fields-"
 "many2many>`."
 msgstr ""
+":guilabel:`标签`字段用于显示来自另一个模型的多个值，这些值以圆形显示，也称"
+"为**标签**。此字段类型是 :ref:`多对多字段 <studio/fields/relational-fields-"
+"many2many>`，默认选择 :guilabel:`标签` 小工具。因此，:guilabel:`复选框`和 "
+":guilabel:`多对多` 小工具有与 :ref:`多对多 <studio/fields/relational-fields-"
+"many2many>` 中描述的相同效果。"
 
-#: ../../content/applications/studio/fields.rst:467
+#: ../../content/applications/studio/fields.rst:491
 msgid ""
 "To display tags with different background colors, tick :guilabel:`Use "
 "colors`."
@@ -2549,11 +2793,11 @@ msgstr "要显示具有不同背景颜色的标记，勾选:guilable:`使用颜�
 msgid "Example of a Tags field"
 msgstr "标记字段示例"
 
-#: ../../content/applications/studio/fields.rst:477
+#: ../../content/applications/studio/fields.rst:501
 msgid "Related Field (`related`)"
 msgstr "相关字段（`related`）"
 
-#: ../../content/applications/studio/fields.rst:479
+#: ../../content/applications/studio/fields.rst:503
 msgid ""
 "A :guilabel:`Related Field` is not a relational field per se; no "
 "relationship is created between models. It uses an existing relationship to "
@@ -2562,7 +2806,7 @@ msgstr ""
 ":guilabel:`相关字段`本身不是关系字段；在模型间不创建任何关系。该字段通过现有"
 "关系从另一记录获取并显示信息。"
 
-#: ../../content/applications/studio/fields.rst:483
+#: ../../content/applications/studio/fields.rst:507
 msgid ""
 "To display the email address of a customer on the *Sales Order* model, use "
 "the :guilabel:`Related Field` `partner_id.email` by "
@@ -2571,171 +2815,443 @@ msgstr ""
 "要在*销售订单*模型上显示客户的电子邮件地址，选择:guilabel:`客户`，然后选"
 "择:gullabel:`电子邮件`，以使用使用:guilable:`相关字段``partner_id.email`。"
 
-#: ../../content/applications/studio/fields.rst:489
-msgid "Properties"
-msgstr "权益"
+#: ../../content/applications/studio/fields.rst:513
+msgid "Add a field to a view"
+msgstr "在视图中添加字段"
 
-#: ../../content/applications/studio/fields.rst:492
-msgid "General properties"
+#: ../../content/applications/studio/fields.rst:515
+msgid "With Studio, it is possible to add:"
+msgstr "使用 Studio 可以添加以下内容："
+
+#: ../../content/applications/studio/fields.rst:517
+msgid ""
+":ref:`a new field <studio/fields/add-new>` to a :ref:`form <studio/views/"
+"general/form>` or :ref:`list view <studio/views/multiple-records/list>` of a "
+"model"
 msgstr ""
+"在模型的 :ref:`表单 <studio/views/general/form>` 视图或 :ref:`列表视图 "
+"<studio/views/multiple-records/list>` 中添加 :ref:`新字段 <studio/fields/add-"
+"new>`。"
 
-#: ../../content/applications/studio/fields.rst:494
+#: ../../content/applications/studio/fields.rst:519
+msgid ""
+":ref:`an existing field <studio/fields/add-existing>`, i.e., a field that "
+"already exists on the :doc:`model <models_modules_apps>` in question, to "
+"*any* view of that model"
+msgstr ""
+"添加 :ref:`已有字段 <studio/fields/add-existing>`，即当前 :doc:`模型 "
+"<models_modules_apps>`中已存在的字段，添加至该模型的*任意*视图。"
+
+#: ../../content/applications/studio/fields.rst:523
+msgid ""
+"Add a new field to a form or list view to save it to the model and make it "
+"available as an existing field in other views of the same model."
+msgstr ""
+"在表单或列表视图中添加新字段，将其保存到模型中，并使其作为现有字段在同一模型"
+"的其他视图中可用。"
+
+#: ../../content/applications/studio/fields.rst:529
+msgid "Add a new field"
+msgstr "添加新字段"
+
+#: ../../content/applications/studio/fields.rst:532
+msgid ""
+"Activate :ref:`developer mode <developer-mode>` *before* adding a new field "
+"to see, and be able to edit, the field's technical name during configuration."
+msgstr ""
+"在添加新字段之前，请先启用 :ref:`开发者模式 <developer-mode>`，以便在配置过程"
+"中查看并编辑该字段的技术名称。"
+
+#: ../../content/applications/studio/fields.rst:535
+msgid "To add a new field, follow these steps:"
+msgstr "要添加新字段，请按照以下步骤操作："
+
+#: ../../content/applications/studio/fields.rst:537
+msgid ""
+"Navigate to the relevant form or list view, then click the :icon:`oi-studio` "
+"(:guilabel:`Toggle Studio`) icon in the upper-right corner. Alternatively, "
+"with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
+"icon, then navigate to the relevant form or list view."
+msgstr ""
+"导航至相应的表单或列表视图，然后点击右上角的 :icon:`oi-studio`（:guilabel:`切"
+"换工作室`）图标。或者，在打开任何应用时，点击 :icon:`oi-"
+"studio`（:guilabel:`切换工作室`）图标，然后导航至相应的表单或列表视图。"
+
+#: ../../content/applications/studio/fields.rst:542
+msgid ""
+"In the :icon:`fa-plus` :guilabel:`Add` tab, drag the relevant :ref:`field "
+"type <studio/fields/field-types>` from the :guilabel:`New Fields` section "
+"and drop it in the desired position. If the new field is a :ref:`relational "
+"field <studio/fields/relational-fields>`, select the relevant reciprocal "
+"field, model, or related field in the pop-up."
+msgstr ""
+"在 :icon:`fa-plus` :guilabel:`添加` 选项卡中，从 :guilabel:`新建字段` 区域拖"
+"动相应的 :ref:`字段类型 <studio/fields/field-types>`，并将其拖放到所需位置。"
+"如果新字段是 :ref:`关系字段 <studio/fields/relational-fields>`，请在弹出窗口"
+"中选择相应的互相关字段、模型或关联字段。"
+
+#: ../../content/applications/studio/fields.rst:547
+msgid ""
+"In the :icon:`fa-server` :guilabel:`Properties` tab, configure the "
+"field's :ref:`properties <studio/fields/properties>`:"
+msgstr ""
+"在 :icon:`fa-server` 的 :guilabel:`属性` 选项卡中，配置字段的 :ref:`属性 "
+"<studio/fields/properties>`："
+
+#: ../../content/applications/studio/fields.rst:550
+msgid ""
+"Enter the :guilabel:`Label` to be displayed as the field name on the UI; "
+"this is also used to generate the default technical name of the field."
+msgstr ""
+"输入 :guilabel:`标签`，该标签将作为字段名称显示在用户界面上；此标签还将用于生"
+"成该字段的默认技术名称。"
+
+#: ../../content/applications/studio/fields.rst:552
+msgid ""
+"Click anywhere outside the :guilabel:`Label` field to see "
+"the :guilabel:`Technical Name` updated with the default technical name."
+msgstr ""
+"点击 :guilabel:`标签` 字段外的任意位置，即可看到 :guilabel:`技术名称` 字段更"
+"新为默认的技术名称。"
+
+#: ../../content/applications/studio/fields.rst:556
+msgid ""
+"The :guilabel:`Technical Name` of a new field can be edited in Studio during "
+"the configuration process. At any other time, a field's technical name can "
+"only be :ref:`modified via the technical settings of the database <studio/"
+"fields/properties-technical-name-change>`."
+msgstr ""
+"新字段的 :guilabel:`技术名称` 可在 Studio 的配置过程中进行编辑。在其他任何时"
+"候，字段的技术名称只能 :ref:`通过数据库的技术设置 <studio/fields/properties-"
+"technical-name-change>` 进行修改。"
+
+#: ../../content/applications/studio/fields.rst:560
+msgid ""
+"The technical name of a new field added using Studio is by default prefixed "
+"by `x_studio_`."
+msgstr "使用 Studio 添加的新字段，其技术名称默认以 `x_studio_` 为前缀。"
+
+#: ../../content/applications/studio/fields.rst:563
+msgid ""
+"Optionally, select a different :guilabel:`Widget` via the dropdown; the "
+"default widget for the :ref:`field type <studio/fields/field-types>` is "
+"selected by default."
+msgstr ""
+"您也可以通过下拉菜单选择其他 :guilabel:`工具`；系统默认会选中 :ref:`字段类型 "
+"<studio/fields/field-types>` 对应的默认工具。"
+
+#: ../../content/applications/studio/fields.rst:565
+msgid ""
+"Optionally, configure any other :ref:`field properties <studio/fields/"
+"properties>`."
+msgstr "此外，还可以配置其他任何 :ref:`字段属性 <studio/fields/properties>`。"
+
+#: ../../content/applications/studio/fields.rst:567
+#: ../../content/applications/studio/fields.rst:593
+#: ../../content/applications/studio/fields.rst:722
+msgid "Click :guilabel:`Close` in the top-right corner to close Studio."
+msgstr "点击右上角的 :guilabel:`关闭` 按钮以关闭 Studio。"
+
+#: ../../content/applications/studio/fields.rst:572
+msgid "Add an existing field"
+msgstr "添加已有字段"
+
+#: ../../content/applications/studio/fields.rst:574
+msgid ""
+"To add a field that exists on the model but that is not present on the "
+"current view, follow these steps:"
+msgstr "若要添加一个在模型中存在但在当前视图中未显示的字段，请按照以下步骤操作："
+
+#: ../../content/applications/studio/fields.rst:577
+#: ../../content/applications/studio/fields.rst:709
+#: ../../content/applications/studio/fields.rst:759
+msgid ""
+"Navigate to the relevant view, then click the :icon:`oi-studio` "
+"(:guilabel:`Toggle Studio`) icon in the upper-right corner. Alternatively, "
+"with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
+"icon, then navigate to the relevant view."
+msgstr ""
+"导航至相应的视图，然后点击右上角的 :icon:`oi-studio`（:guilabel:`切换工作"
+"室`）图标。或者，在打开任何应用时，点击 :icon:`oi-studio`（:guilabel:`切换工"
+"作室`）图标，然后导航至相应的视图。"
+
+#: ../../content/applications/studio/fields.rst:580
+msgid ""
+"In the :icon:`fa-plus` :guilabel:`Add` tab, in the left panel, "
+"click :guilabel:`Existing Fields` :icon:`fa-caret-right` to reveal a list of "
+"all the model's fields that are not currently present in the view."
+msgstr ""
+"在 :icon:`fa-plus` :guilabel:`添加` 选项卡的左侧面板中，点击 :guilabel:`现有"
+"字段` :icon:`fa-caret-right`，即可显示当前视图中尚未包含的所有模型字段列表。"
+
+#: ../../content/applications/studio/fields.rst:583
+msgid "Drag the relevant field and drop it in the desired position."
+msgstr "将相关字段拖动并放到所需位置。"
+
+#: ../../content/applications/studio/fields.rst:584
+msgid ""
+"In the :icon:`fa-server` :guilabel:`Properties` tab, configure the "
+"relevant :ref:`properties <studio/fields/properties>` for the field in the "
+"current view."
+msgstr ""
+"在 :icon:`fa-server` 的 :guilabel:`属性` 选项卡中，为当前视图中的字段配置相应"
+"的 :ref:`属性 <studio/fields/properties>`。"
+
+#: ../../content/applications/studio/fields.rst:588
+msgid ""
+"Various properties can be configured independently for different views, if "
+"needed, such as the :guilabel:`Label`, the :guilabel:`Widget`, the "
+"visibility of the field for certain user groups, as well as whether or not "
+"the field is :guilabel:`Invisible`, :guilabel:`Required`, "
+"or :guilabel:`Readonly`."
+msgstr ""
+"如果需要，可以为不同视图独立配置各种属性，例如:guilabel:`标签`、:guilabel:`小"
+"部件`、特定用户组的字段可见性，以及字段是否为:guilabel:`不可"
+"见`、:guilabel:`必填`或:guilabel:`只读`。"
+
+#: ../../content/applications/studio/fields.rst:598
+msgid "Field properties"
+msgstr "字段属性"
+
+#: ../../content/applications/studio/fields.rst:600
+msgid ""
+"A series of :ref:`general properties <studio/fields/properties-general>` can "
+"be configured for most combinations of :ref:`field type and widget <studio/"
+"fields/field-types>`. Additional properties are available depending on the "
+"specific field type and widget selected. For example, :guilabel:`Date & "
+"Time` fields using the :guilabel:`Date & Time` or :guilabel:`Date Range` "
+"widget have various :ref:`specific properties <studio/fields/properties-date-"
+"datetime>` that can be configured."
+msgstr ""
+"对于大多数 :ref:`字段类型和控件 <studio/fields/field-types>` 的组合，均可配置"
+"一系列 :ref:`通用属性 <studio/fields/properties-general>`。根据所选的具体字段"
+"类型和控件，还可使用其他属性。例如，使用 :guilabel:`日期与时间` 或 "
+":guilabel:`日期范围` 控件的 :guilabel:`日期与时间` 字段，可配置多种 :ref:`特"
+"定属性 <studio/fields/properties-date-datetime>`。"
+
+#: ../../content/applications/studio/fields.rst:609
+msgid "General properties"
+msgstr "一般属性"
+
+#: ../../content/applications/studio/fields.rst:611
+msgid ""
+":guilabel:`Class`: Use `Bootstrap <https://getbootstrap.com/docs/5.3/"
+"examples/cheatsheet/>`_ or other custom classes defined in Odoo to customize "
+"how the field is styled and displayed on the UI."
+msgstr ""
+":guilabel:`类别`：使用 `Bootstrap <https://getbootstrap.com/docs/5.3/"
+"examples/cheatsheet/>`_ 或 Odoo 中定义的其他自定义类，来定制字段在用户界面上"
+"的样式和显示方式。"
+
+#: ../../content/applications/studio/fields.rst:614
 msgid ""
 ":guilabel:`Invisible`: Enable this property when it is not necessary for "
 "users to view a field on the UI. This helps declutter the UI by only showing "
 "the essential fields depending on a specific situation."
 msgstr ""
+":guilabel:`隐藏`：若用户无需在操作介面看到该字段，便可启用此属性。这有助简化"
+"用户操作介面，只会显示个别情况需要显示的字段。"
 
-#: ../../content/applications/studio/fields.rst:498
-msgid ""
-"The :guilabel:`Invisible` attribute also applies inside Studio. To view "
-"hidden fields in Studio, click on a view's :guilabel:`View` tab and "
-"enable :guilabel:`Show Invisible Elements`."
-msgstr ""
-
-#: ../../content/applications/studio/fields.rst:501
+#: ../../content/applications/studio/fields.rst:618
 msgid ""
 ":guilabel:`Required`: Enable this property if a field should always be "
 "completed by the user before being able to proceed."
-msgstr ""
+msgstr ":guilabel:`必填`：若用户必须先完成填写该字段才可继续操作，可启用此属性。"
 
-#: ../../content/applications/studio/fields.rst:504
+#: ../../content/applications/studio/fields.rst:621
 msgid ""
 ":guilabel:`Readonly`: Enable this property if users should not be able to "
 "modify a field."
-msgstr ""
+msgstr ":guilabel:`仅读`：如果不应让用户修改该字段，可以启用此属性。"
 
-#: ../../content/applications/studio/fields.rst:507
+#: ../../content/applications/studio/fields.rst:624
 msgid ""
-"You can choose to enable :guilabel:`Invisible`, :guilabel:`Required` "
-"and :guilabel:`Readonly` for specific records only by clicking "
+"The :guilabel:`Invisible` property also applies inside Studio. To view "
+"hidden fields in Studio, click on a view's :guilabel:`View` tab and "
+"enable :guilabel:`Show Invisible Elements`."
+msgstr ""
+":guilabel:`不可见` 属性在 Studio 中同样适用。要在 Studio 中查看隐藏字段，请点"
+"击视图的 :guilabel:`查看` 选项卡，然后启用 :guilabel:`显示不可见元素`。"
+
+#: ../../content/applications/studio/fields.rst:626
+msgid ""
+"The :guilabel:`Invisible`, :guilabel:`Required`, and :guilabel:`Readonly` "
+"properties can be enabled for specific records only by clicking "
 "on :guilabel:`Conditional` and creating a filter."
 msgstr ""
+"可以通过点击:guilabel:`条件`并创建筛选器，仅为特定记录启用:guilabel:`不可"
+"见`、:guilabel:`必填`和:guilabel:`只读`属性。"
 
-#: ../../content/applications/studio/fields.rst:511
+#: ../../content/applications/studio/fields.rst:630
 msgid ""
-"On the *Form* view of the *Contact* model, the :guilabel:`Title` field only "
+"On the form view of the *Contact* model, the :guilabel:`Title` field only "
 "appears when :guilabel:`Individual` is selected, as that field would not be "
 "helpful for a :guilabel:`Company` contact."
 msgstr ""
-"在*联系人*模型的*表单*视图中，:guilabel:`职务`字段仅在选择:guilabel:`个人`时"
-"显示，因为该字段对:guilabel:`公司`联系人无用。"
+"在*联系人*模型的表单视图中，:guilabel:`称谓`字段仅在选择:guilabel:`个人`时才"
+"会显示，因为该字段对:guilabel:`公司`联系人没有帮助。"
 
-#: ../../content/applications/studio/fields.rst:515
+#: ../../content/applications/studio/fields.rst:634
 msgid ""
-":guilabel:`Label`: the field's name on the UI. This is not the name used in "
-"the PostgreSQL database. To view and change the latter, activate "
-"the :ref:`developer mode <developer-mode>` and edit the :guilabel:`Technical "
-"Name`."
-msgstr ""
-":guilabel:`标签`：字段在用户界面上的名称。这不是 PostgreSQL "
-"数据库中使用的名称。要查看和更改后者，请激活 :ref:`开发者模式 <developer-"
-"mode>` 并编辑 :guilabel:`技术名称`。"
+":guilabel:`Label`: This is the field name on the UI; the label is used to "
+"generate the technical name of the field."
+msgstr ":guilabel:`标签`：这是用户界面上的字段名称；标签用于生成字段的技术名称。"
 
-#: ../../content/applications/studio/fields.rst:519
+#: ../../content/applications/studio/fields.rst:637
 msgid ""
 ":guilabel:`Help Tooltip`: To explain the purpose of a field, add a "
 "description. The text is displayed inside a tooltip box when hovering with "
 "your mouse over the question mark beside the field's label."
 msgstr ""
+":guilabel:`帮助工具提示`：要解释字段的用途，请添加说明。将鼠标悬停在字段标签"
+"旁的问号上时，文本将显示在工具提示框内。"
 
-#: ../../content/applications/studio/fields.rst:523
+#: ../../content/applications/studio/fields.rst:641
+msgid ""
+":guilabel:`Technical Name`: To view a field's technical name in Studio (and, "
+"during the configuration of a new field, edit it if desired), "
+"activate :ref:`developer mode <developer-mode>`."
+msgstr ""
+":guilabel:`技术名称`：要在工作室中查看字段的技术名称（并在配置新字段期间根据"
+"需要进行编辑），请激活:ref:`开发者模式 <developer-mode>`。"
+
+#: ../../content/applications/studio/fields.rst:646
+msgid ""
+"If this field needs to be updated but is no longer editable via Studio, the "
+"technical name can be :ref:`modified via the technical settings of the "
+"database <studio/fields/properties-technical-name-change>`."
+msgstr ""
+"如果此字段需要更新但无法再通过工作室编辑，则可以:ref:`通过数据库的技术设置修"
+"改 <studio/fields/properties-technical-name-change>`技术名称。"
+
+#: ../../content/applications/studio/fields.rst:650
 msgid ""
 ":guilabel:`Widget`: To change the default appearance or functionality of a "
 "field, select one of the available widgets."
 msgstr ""
 ":guilabel:`小组件`：要更改某字段的默认外观或功能，选择可用小组件中的一个。"
 
-#: ../../content/applications/studio/fields.rst:526
+#: ../../content/applications/studio/fields.rst:653
 msgid ""
 ":guilabel:`Placeholder`: To provide an example of how a field should be "
-"completed, add placeholder text. The text appears in light gray until a "
-"value is entered."
+"completed, add a fixed placeholder text. The text appears in light gray "
+"until a value is entered."
 msgstr ""
+":guilabel:`占位符`：要提供如何填写字段的示例，请添加固定的占位符文本。该文本"
+"以浅灰色显示，直到输入值为止。"
 
-#: ../../content/applications/studio/fields.rst:529
+#: ../../content/applications/studio/fields.rst:656
+msgid ""
+":guilabel:`Dynamic Placeholder`: To provide the value of the selected field "
+"as an example of how a field should be completed. The text appears in light "
+"gray until a value is entered."
+msgstr ""
+":guilabel:`动态占位符`：用于提供所选字段的值，作为填写该字段的示例。在输入值"
+"之前，该文本显示为浅灰色。"
+
+#: ../../content/applications/studio/fields.rst:659
 msgid ""
 ":guilabel:`Default value`: To display a default value in a field when a "
 "record is created, add a value."
-msgstr ""
+msgstr ":guilabel:`默认值`：若要在建立记录时，在字段中显示默认值，可加入此值。"
 
-#: ../../content/applications/studio/fields.rst:532
+#: ../../content/applications/studio/fields.rst:662
 msgid ""
 ":guilabel:`Allow visibility to groups`: To limit which users can view the "
 "field, select one or more user access :ref:`groups <access-rights/groups>`."
 msgstr ""
+":guilabel:`允许向群组显示`：要限制哪些用户可以查看字段，请选择一个或多个用户"
+"访问 :ref:`群组 <access-rights/groups>`。"
 
-#: ../../content/applications/studio/fields.rst:534
+#: ../../content/applications/studio/fields.rst:664
 msgid ""
 ":guilabel:`Forbid visibility to groups`: To prevent certain users from "
 "seeing the field, select one or more user access :ref:`groups <access-rights/"
 "groups>`."
 msgstr ""
+":guilabel:`禁止向群组显示`：若想防止部份用户看见此字段，可选取一个或多个 “用"
+"户访问存取 :ref:`群组 <access-rights/groups>`”。"
 
-#: ../../content/applications/studio/fields.rst:540
+#: ../../content/applications/studio/fields.rst:670
 msgid "Properties for Date & Time fields"
-msgstr ""
+msgstr "日期时间字段属性"
 
-#: ../../content/applications/studio/fields.rst:542
+#: ../../content/applications/studio/fields.rst:672
 msgid ""
-"For :guilabel:`Date & Time` fields that have the :guilabel:`Date & Time` "
-"or :guilabel:`Date Range` widget set, some specific properties are available:"
+"For :guilabel:`Date & Time` fields using the :guilabel:`Date & Time` "
+"or :guilabel:`Date Range` widget, some specific properties are available:"
 msgstr ""
+"对于使用:guilabel:`日期和时间`或:guilabel:`日期范围`小部件的:guilabel:`日期和"
+"时间`字段，有一些特定的属性可用："
 
-#: ../../content/applications/studio/fields.rst:545
+#: ../../content/applications/studio/fields.rst:675
 msgid ""
 ":guilabel:`Minimal precision`: Determine the smallest date unit that must be "
-"selected in the date selector. The possible values "
-"are :guilabel:`Day`, :guilabel:`Month`, :guilabel:`Year` "
-"or :guilabel:`Decade`. If no value is selected, the user must select a day "
-"in the date selector."
+"selected in the date selector. The possible values are `Day`, `Month`, "
+"`Year` or `Decade`. If no value is selected, the user must select a day in "
+"the date selector."
 msgstr ""
+":guilabel:`最小精度`：确定在日期选择器中必须选择的最小日期单位。可能的值为 "
+"`Day`、`Month`、`Year` 或 `Decade`。如果未选择值，则用户必须在日期选择器中选"
+"择日期。"
 
-#: ../../content/applications/studio/fields.rst:548
+#: ../../content/applications/studio/fields.rst:678
 msgid ""
 ":guilabel:`Maximal precision`: Determine the largest date unit that can be "
-"used to navigate the date selector. The possible values "
-"are :guilabel:`Day`, :guilabel:`Month`, :guilabel:`Year` "
-"or :guilabel:`Decade`. If no value is selected, the user can navigate the "
-"date selector by decade."
+"used to navigate the date selector. The possible values are `Day`, `Month`, "
+"`Year` or `Decade`. If no value is selected, the user can navigate the date "
+"selector by decade."
 msgstr ""
+":guilabel:`最大精度`：确定可用于导航日期选择器的最大日期单位。可能的值为 "
+"`Day`、`Month`、`Year` 或 `Decade`。如果未选择值，则用户可以按十年导航日期选"
+"择器。"
 
-#: ../../content/applications/studio/fields.rst:551
+#: ../../content/applications/studio/fields.rst:681
 msgid ""
 ":guilabel:`Warning for future dates`: Enable this property to display a "
 "warning icon if a future date is selected."
 msgstr ""
+":guilabel:`警告未来日期`：启用此属性后，若选取了未来日期，系统会显示警告图示"
+"。"
 
-#: ../../content/applications/studio/fields.rst:553
+#: ../../content/applications/studio/fields.rst:683
 msgid ""
 ":guilabel:`Condensed display`: Enable this property to show days, months and "
 "hours with no leading zeros, e.g., `4/2/2025 8:05:00` instead of `04/02/2025 "
 "08:05:00`."
 msgstr ""
+":guilabel:`简洁显示`\\ ：启用此属性以显示不带前导零的日期、月份和小时，例如"
+"，`4/2/2025 8:05:00`而不是`04/02/2025 08:05:00`。"
 
-#: ../../content/applications/studio/fields.rst:555
+#: ../../content/applications/studio/fields.rst:685
 msgid ""
 ":guilabel:`Show time`: This property is enabled by default "
 "for :guilabel:`Date & Time` fields. On a read-only field, disable the "
 "property to show only the date. This can keep a list view less cluttered, "
 "for example."
 msgstr ""
+":guilabel:`显示时间`：:guilabel:`日期时间` 字段默认会启用此属性。对于仅读字段"
+"，停用此属性会只显示日期。举例，如此设定可使列表视图画面较简洁。"
 
-#: ../../content/applications/studio/fields.rst:558
+#: ../../content/applications/studio/fields.rst:688
 msgid ""
 ":guilabel:`Show seconds`: This property is enabled by default "
 "for :guilabel:`Date & Time` fields. Disable the property to show only hours "
 "and minutes."
 msgstr ""
+":guilabel:`显示秒数`\\ ：对于\\ :guilabel:`日期和时间`\\ 字段，此属性默认启用"
+"。禁用此属性以仅显示小时和分钟。"
 
-#: ../../content/applications/studio/fields.rst:560
+#: ../../content/applications/studio/fields.rst:690
 msgid ""
 ":guilabel:`Time interval`: Enter a value to determine the minute intervals "
 "shown in the time selector. For example, enter 15 to allow quarter-hour "
 "intervals. The default value is set to 5 minutes."
 msgstr ""
+":guilabel:`时间间隔`：此值决定时间选择器所显示的分钟间隔。例如：输入“15”可设"
+"定每隔 15 分钟有可选时间。预设值为 5 分钟。"
 
-#: ../../content/applications/studio/fields.rst:563
+#: ../../content/applications/studio/fields.rst:693
 msgid ""
 ":guilabel:`Earliest accepted date`: Enter the earliest date that can be "
 "selected in the date selector in ISO-format, i.e., `YYYY-MM-DD`. If the "
@@ -2746,7 +3262,7 @@ msgstr ""
 "年-月-日`。如果当前日期始终是最早接受的日期，则输入 `今天`。在日期选择器上，"
 "最早接受日期之前的日期为灰色。"
 
-#: ../../content/applications/studio/fields.rst:567
+#: ../../content/applications/studio/fields.rst:697
 msgid ""
 ":guilabel:`Latest accepted date`: Enter the latest date that can be selected "
 "in the date selector in ISO-format, i.e., `YYYY-MM-DD`. If the current date "
@@ -2756,6 +3272,141 @@ msgstr ""
 ":guilabel:`最新接受日期`：输入日期选择器中可选择的 ISO 格式的最新日期，即 `"
 "年-月-日`。如果当前日期总是最新日期，请输入 `今天`。在日期选择器上，晚于最新"
 "接受日期的日期将显示为灰色。"
+
+#: ../../content/applications/studio/fields.rst:705
+msgid "Modify a field's properties"
+msgstr "修改字段的属性"
+
+#: ../../content/applications/studio/fields.rst:707
+msgid "To modify the properties of a field, follow these steps:"
+msgstr "要修改字段的属性，请按照以下步骤操作："
+
+#: ../../content/applications/studio/fields.rst:712
+#: ../../content/applications/studio/fields.rst:762
+msgid "Click on the relevant field."
+msgstr "点击相关字段。"
+
+#: ../../content/applications/studio/fields.rst:713
+msgid ""
+"In the :icon:`fa-server` :guilabel:`Properties` tab, make any desired "
+"changes to the :ref:`field properties <studio/fields/properties>`."
+msgstr ""
+"在 :icon:`fa-server` 的 :guilabel:`属性` 选项卡中，对 :ref:`字段属性 <studio/"
+"fields/properties>` 进行所需修改。"
+
+#: ../../content/applications/studio/fields.rst:717
+msgid ""
+"Various properties can be configured independently for different views, such "
+"as the :guilabel:`Label`, the :guilabel:`Widget`, the visibility of the "
+"field for certain user groups, as well as whether or not the field "
+"is :guilabel:`Invisible`, :guilabel:`Required`, or :guilabel:`Readonly`."
+msgstr ""
+"可以针对不同的视图独立配置各种属性，例如 :guilabel:`标签`、:guilabel:`小部"
+"件`、特定用户组对字段的可见性，以及字段是否为 :guilabel:`不可"
+"见`、:guilabel:`必填` 或 :guilabel:`只读`。"
+
+#: ../../content/applications/studio/fields.rst:725
+msgid ""
+"The :guilabel:`Technical Name` of a field (visible in Studio "
+"with :ref:`developer mode <developer-mode>` activated) cannot be modified in "
+"Studio; this can be done :ref:`via the technical settings of the database "
+"<studio/fields/properties-technical-name-change>`."
+msgstr ""
+"字段的 :guilabel:`技术名称`（在启用 :ref:`开发者模式 <developer-mode>` 时可"
+"在 Studio 中查看）无法在 Studio 中修改；此操作需 :ref:`通过数据库的技术设置 "
+"<studio/fields/properties-technical-name-change>` 进行。"
+
+#: ../../content/applications/studio/fields.rst:732
+msgid "Modify a field's technical name"
+msgstr "修改字段的技术名称"
+
+#: ../../content/applications/studio/fields.rst:734
+msgid ""
+"To modify the technical name of a field, activate :ref:`developer mode "
+"<developer-mode>`, then follow these steps:"
+msgstr ""
+"要修改字段的技术名称，请启用 :ref:`开发者模式 <developer-mode>`，然后按照以下"
+"步骤操作："
+
+#: ../../content/applications/studio/fields.rst:737
+msgid "With the field open in Studio, copy the technical name of the field."
+msgstr "在 Studio 中打开该字段后，复制该字段的技术名称。"
+
+#: ../../content/applications/studio/fields.rst:738
+msgid ""
+":ref:`Remove the field <studio/fields/remove>` from *all* views in Studio, "
+"then click :guilabel:`Close` to close Studio."
+msgstr ""
+":ref:`从 Studio 中的 *所有* 视图中删除字段 <studio/fields/remove>`，然后点击 "
+":guilabel:`关闭` 以关闭 Studio。"
+
+#: ../../content/applications/studio/fields.rst:740
+msgid "Navigate to :menuselection:`Settings app --> Technical --> Fields`."
+msgstr "导航至 :menuselection:`设置应用 --> 技术 --> 字段`。"
+
+#: ../../content/applications/studio/fields.rst:741
+msgid ""
+"Paste the copied technical name into the search bar, then open the relevant "
+"field."
+msgstr "将复制的技术名称粘贴到搜索栏中,然后打开相关字段。"
+
+#: ../../content/applications/studio/fields.rst:742
+msgid "Modify the :guilabel:`Field Name` as needed."
+msgstr "根据需要修改:guilabel:`字段名称`。"
+
+#: ../../content/applications/studio/fields.rst:744
+msgid ""
+"Once the field's technical name has been updated, the field can then "
+"be :ref:`added (back) to the relevant view(s) <studio/fields/add-existing>` "
+"from the list of existing fields."
+msgstr ""
+"一旦字段的技术名称已更新，该字段就可以从现有字段列表中:ref:`添加（回）到相关"
+"视图 <studio/fields/add-existing>`。"
+
+#: ../../content/applications/studio/fields.rst:748
+msgid ""
+"When updating the technical name of a field, make sure to keep at least the "
+"`x_` prefix, which is required for any custom field; for fields created "
+"using Studio, keep the `x_studio_` prefix to allow such fields to be more "
+"easily identified."
+msgstr ""
+"更新字段的技术名称时，请确保至少保留 `x_` 前缀，这是任何自定义字段所必需的；"
+"对于使用工作室创建的字段，保留 `x_studio_` 前缀以便更容易识别此类字段。"
+
+#: ../../content/applications/studio/fields.rst:755
+msgid "Remove a field from a view"
+msgstr "从视图中移除字段"
+
+#: ../../content/applications/studio/fields.rst:757
+msgid "To remove a field from a view, follow these steps:"
+msgstr "要从视图中删除字段，请按照以下步骤操作："
+
+#: ../../content/applications/studio/fields.rst:763
+msgid ""
+"Scroll to the bottom of the :guilabel:`Properties` tab, then "
+"click :guilabel:`Remove from view`."
+msgstr "滚动到 :guilabel:`属性` 选项卡的底部，然后点击 :guilabel:`从视图中移除`。"
+
+#: ../../content/applications/studio/fields.rst:764
+msgid "Click :guilabel:`Ok` to confirm the action."
+msgstr "点击 :guilabel:`确定` 以确认此操作。"
+
+#: ../../content/applications/studio/fields.rst:767
+msgid ""
+"A removed field can be easily :ref:`added back to the view <studio/fields/"
+"add-existing>` at a later stage, if needed."
+msgstr ""
+"如果需要，已删除的字段可以轻松:ref:`添加回视图 <studio/fields/add-existing>"
+"`。"
+
+#: ../../content/applications/studio/fields.rst:769
+msgid ""
+"If the intention is to declutter the view, it is also possible "
+"to :ref:`modify a field <studio/fields/modify>` and make "
+"it :guilabel:`Invisible` on the view in question."
+msgstr ""
+"如果意图是整理视图，也可以:ref:`修改字段 <studio/fields/modify>`并使其在相关"
+"视图上:guilabel:`不可见`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:3
 msgid "Models, modules, and apps"
@@ -2864,6 +3515,12 @@ msgid ""
 "avatar. The :guilabel:`Responsible` field is also added to the :ref:`List "
 "view <studio/views/multiple-records/list>`."
 msgstr ""
+"选择 :guilabel:`指派用户` 会在 :ref:`表单视图画面 <studio/views/general/form>"
+"` 中新增一个连结至 **联络人** 模型的 :ref:`多对一字段 <studio/fields/"
+"relational-fields-many2one>` ，而其 :guilabel:`范围` 会设定为 `共用用户未设"
+"定` ，以只允许选择 **内部用户** 。此外，系统会使用 "
+":guilabel:`many2one_avatar_user` 小工具去显示用户的头像。 :guilabel:`负责人` "
+"字段也会加入 :ref:`列表视图画面 <studio/views/multiple-records/list>` 。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "User assignment feature on the Form view"
@@ -2879,6 +3536,9 @@ msgid ""
 "views/general/form>` a :ref:`Date field <studio/fields/simple-fields-date>` "
 "and activates the :ref:`Calendar view <studio/views/timeline/calendar>`."
 msgstr ""
+"选择 :guilabel:`日期和日历` 会在 :ref:`表单视图 <studio/views/general/form>` "
+"中添加 :ref:`日期字段 <studio/fields/simple-fields-date>` 并激活 :ref:`日历视"
+"图 <studio/views/timeline/calendar>`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:84
 msgid "Date range & Gantt"
@@ -2892,6 +3552,10 @@ msgid ""
 "date, using the :guilabel:`daterange` widget, and activates the :ref:`Gantt "
 "view <studio/views/timeline/gantt>`."
 msgstr ""
+"选择 :guilabel:`日期范围和甘特图`，可在 :ref:`表单视图 <studio/views/general/"
+"form>` 中添加两个相邻的 :ref:`日期字段 <studio/fields/simple-fields-date>`："
+"一个用于设置开始日期，另一个用于设置结束日期，使用 :guilabel:`日期范围` 小工"
+"具，并激活 :ref:`甘特视图 <studio/views/timeline/gantt>`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:94
 msgid "Pipeline stages"
@@ -2909,6 +3573,13 @@ msgid ""
 "The :guilabel:`Color` field is added to the :ref:`List view <studio/views/"
 "multiple-records/list>`."
 msgstr ""
+"选择 :guilabel:`管道阶段` 会激活 :ref:`看板视图 <studio/views/multiple-"
+"record/kanban>`，添加几个字段，如 :ref:`优先级别 <studio/fields/simple-"
+"fields-priority>` 和 :guilabel:`看板状态` 字段，以及三个阶段：:guilabel:`新"
+"增`、:guilabel:`进行中` 和 :guilabel:`完成`。在 :ref:`表单视图 <studio/views/"
+"general/form>` 中添加 :guilabel:`管道状态栏` 和 :guilabel:`看板状态` 字段。"
+"在 :ref:`列表 视图 <studio/views/multiple-record/list>` 中添加 :guilabel:`颜"
+"色` 字段。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:105
 msgid "The :guilabel:`Pipeline stages` feature can be added at a later stage."
@@ -2925,6 +3596,10 @@ msgid ""
 "<studio/fields/relational-fields-tags>`, creating a *Tag* model with "
 "preconfigured access rights in the process."
 msgstr ""
+"选择 :guilabel:`标签` 会在 :ref:`studio/views/general/form` 及 :ref:`studio/"
+"views/multiple-records/list` 检视画面中，新增一个 :ref:`标签字段 <studio/"
+"fields/relational-fields-tags>` ，并会建立一个已预先配置访问权限的 **标签** "
+"模型。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:120
 msgid "Picture"
@@ -2936,6 +3611,8 @@ msgid ""
 "<studio/views/general/form>` an :ref:`Image field <studio/fields/simple-"
 "fields-image>`."
 msgstr ""
+"选择 :guilabel:`图片` 会在 :ref:`表单视图 <studio/views/general/form>` 的右上"
+"方添加一个 :ref:`图片字段 <studio/fields/simple-fields-image>`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:126
 msgid "The :guilabel:`Picture` feature can be added at a later stage."
@@ -2951,6 +3628,9 @@ msgid ""
 "general/form>` a :ref:`Lines field <studio/fields/relational-fields-lines>` "
 "inside a :guilabel:`Tab` component."
 msgstr ""
+"选择 :guilabel:`资料行` ：会在 :ref:`表单视图画面 <studio/views/general/form>"
+"` 中，在 :guilabel:`分页` 组件内新增一个 :ref:`资料行字段 <studio/fields/"
+"relational-fields-lines>` 。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:139
 msgid "Notes"
@@ -2962,6 +3642,9 @@ msgid ""
 "general/form>` an :ref:`Html field <studio/fields/simple-fields-html>` using "
 "the full width of the form."
 msgstr ""
+"选择 :guilabel:`备注` 会在 :ref:`表单视图画面 <studio/views/general/form>` 中"
+"，新增一个使用表单全部宽度的 :ref:`HTML 字段 <studio/fields/simple-fields-"
+"html>` 。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:147
 msgid "Monetary value"
@@ -2975,6 +3658,10 @@ msgid ""
 "reporting/graph` and :ref:`studio/views/reporting/pivot` views are also "
 "activated."
 msgstr ""
+"选择 :guilabel:`金钱价值` 会在 :ref:`studio/views/general/form` 及 "
+":ref:`studio/views/multiple-records/list` 视图画面中，新增一个 :ref:`金钱价值"
+"栏位 <studio/fields/simple-fields-monetary>` ，同时亦会启动 :ref:`studio/"
+"views/reporting/graph` 及 :ref:`studio/views/reporting/pivot` 视图画面。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:155
 msgid "A *Currency* field is added and hidden from the view."
@@ -2990,6 +3677,9 @@ msgid ""
 "and :ref:`studio/views/multiple-records/list` views a :ref:`Many2One field "
 "<studio/fields/relational-fields-many2one>` linked to the *Company* model."
 msgstr ""
+"选择 :guilabel:`公司` 会在 :ref:`studio/views/general/form` 及 :ref:`studio/"
+"views/multiple-records/list` 视图画面中，新增一个连结至 **公司** 模型的 "
+":ref:`多对一栏位 <studio/fields/relational-fields-many2one>` 。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:167
 msgid "This is only useful if you work in a multi-company environment."
@@ -3058,6 +3748,10 @@ msgid ""
 "then be imported into another Odoo database. This may be useful, for "
 "example, when setting up a new module or for training purposes."
 msgstr ""
+"您使用 Studio 建立任何自订功能时，系统会将一个 `studio_customization` 的新模"
+"块加入至您的数据库。您可使用 :guilabel:`Studio 导出` 功能，将此模块导出为 "
+"ZIP 档案，之后便可将该模块导入至另一个 Odoo 数据库中。举例，在设定新模块或用"
+"于培训用途时，此功能便会很有用。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:220
 msgid ""
@@ -3068,10 +3762,13 @@ msgid ""
 "are created first, since these are required for the sales orders to be "
 "created."
 msgstr ""
+"以这种方式导出及导入自定义功能，而非使用 :doc:`标准的 Odoo 导出及导入 <../"
+"essentials/export_import_data>` 功能，表示数据是以合乎逻辑的方式汇入。例如，"
+"如果模块包含客户记录及销售单，会先建立客户，因为建立销售单是需要有客户资料。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:228
 msgid "Export customizations"
-msgstr ""
+msgstr "导出自定义功能"
 
 #: ../../content/applications/studio/models_modules_apps.rst:230
 msgid ""
@@ -3079,22 +3776,26 @@ msgid ""
 "Studio)` button on the main Odoo dashboard, then :guilabel:`Export`, then "
 "either:"
 msgstr ""
+"要导出自定义功能，请点击 Odoo 主控制面板上的 :icon:`oi-studio` :guilabel:`（"
+"切换 Studio）` 按钮，再按 :guilabel:`导出`，然后执行以下其中一项操作："
 
 #: ../../content/applications/studio/models_modules_apps.rst:233
 msgid ""
 "download all Studio customizations by clicking the :guilabel:`Export` "
 "button; or"
-msgstr ""
+msgstr "点击 :guilabel:`导出` 按钮，下载所有 Studio 自定义功能；或"
 
 #: ../../content/applications/studio/models_modules_apps.rst:234
 msgid ""
 "choose what data to export by clicking :ref:`Configure data and demo data to "
 "export <studio/export-import/export/configure>`."
 msgstr ""
+"点击 :ref:`配置导出数据及模拟数据 <studio/export-import/export/configure>` ，"
+"以选择需要导出的数据。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:240
 msgid "Configure data to export"
-msgstr ""
+msgstr "配置导出数据"
 
 #: ../../content/applications/studio/models_modules_apps.rst:242
 msgid ""
@@ -3102,6 +3803,8 @@ msgid ""
 "the :guilabel:`Studio Export` screen, then start typing the name of the "
 "relevant model or select it from the list."
 msgstr ""
+"若要选择需要导出的指定模型，请在 :guilabel:`Studio 导出` 画面点击 "
+":guilabel:`新增` ，然后输入相关模型的名称，或从清单中选取。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:246
 msgid ""
@@ -3110,28 +3813,31 @@ msgid ""
 "using Studio. To configure one of these models for export, click on the "
 "model to open it and make the required changes."
 msgstr ""
+"点击 :guilabel:`默认设定` 可查看数据库所有模型的清单，列出使用 Studio 修改过"
+"的模型，以及经 Studio 建立的所有自定义模型。若要配置其中一个模型以作导出，请"
+"点击该模型，开启相关内容，然后进行所需的变更。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:250
 msgid "Tick the following options as relevant:"
-msgstr ""
+msgstr "请按照实际情况，勾选下列适用的选项："
 
 #: ../../content/applications/studio/models_modules_apps.rst:252
 msgid ""
 ":guilabel:`Demo`: if the exported records should be considered as demo data "
 "when imported."
-msgstr ""
+msgstr ":guilabel:`模拟` ：导出的记录会在导入时视为模拟数据。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:253
 msgid ""
 ":guilabel:`Attachments`: if attachments related to exported records should "
 "be included in the export."
-msgstr ""
+msgstr ":guilabel:`附件` ：与导出记录相关的附件会一并导出。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:255
 msgid ""
 ":guilabel:`Updatable`: if the exported records should be able to be updated "
 "during a module update."
-msgstr ""
+msgstr ":guilabel:`可更新` ：导出的记录可在模块更新时更新。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:257
 msgid ""
@@ -3141,6 +3847,10 @@ msgid ""
 "then :guilabel:`Edit Domain`, as appropriate. Proceed to make any required "
 "changes."
 msgstr ""
+"如有需要，请编辑 :guilabel:`范围` ，以决定要导出模型中的哪些记录。要执行此操"
+"作，请点击 :guilabel:`编辑范围` 按钮，或按 :icon:`fa-caret-right` "
+":guilabel:`（修改筛选器）` ，然后按 :guilabel:`编辑范围` （视情况而定）。之后"
+"，进行任何必要的修改。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:262
 msgid ""
@@ -3148,6 +3858,8 @@ msgid ""
 "return to the main screen. To download a ZIP file with the customizations "
 "for all the listed models, click :guilabel:`Export`."
 msgstr ""
+"配置要导出的模型后，点击 :guilabel:`Studio 导出` 返回主画面。若要下载所列出模"
+"型的全部自订功能为 ZIP 档案，请点击 :guilabel:`导出`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:266
 msgid ""
@@ -3156,22 +3868,25 @@ msgid ""
 "click the :icon:`fa-cog` :guilabel:`Actions` button then :icon:`fa-trash-"
 "o` :guilabel:`Delete`."
 msgstr ""
+"您无需选择一个或多个模型，因为列出的所有模型都会包含在导出档案中。若要从导出"
+"档案移除某个模型，请选取该模型，然后按一下 :icon:`fa-cog` :guilabel:`操作` 按"
+"钮，再按 :icon:`fa-trash-o` :guilabel:`删除` 。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:270
 msgid "In the :guilabel:`Studio Export` window:"
-msgstr ""
+msgstr "在 :guilabel:`Studio 导出` 视窗中："
 
 #: ../../content/applications/studio/models_modules_apps.rst:272
 msgid ""
 "leave the checkboxes unticked to export only the customizations done with "
 "Studio."
-msgstr ""
+msgstr "将勾选方格留空，可只导出使用 Studio 建立的自定义功能。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:273
 msgid ""
 "tick :guilabel:`Include Data` to include data from the selected models in "
 "the export."
-msgstr ""
+msgstr "勾选 :guilabel:`包括数据`，可在导出数据时包含所选模型的数据。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:274
 msgid ""
@@ -3179,18 +3894,20 @@ msgid ""
 "that is flagged as demo data. Ticking this option also "
 "ticks :guilabel:`Include Data`."
 msgstr ""
+"勾选 :guilabel:`包括模拟数据`，以包含所选模型中标记为模拟数据的资料。勾选此选"
+"项会同时勾选 :guilabel:`包括数据` 选项。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:277
 msgid "Click the :guilabel:`Export` button to download the ZIP file."
-msgstr ""
+msgstr "点击 :guilabel:`导出` 按钮，以下载 ZIP 档案。"
 
-#: ../../content/applications/studio/models_modules_apps.rst:-1
+#: ../../content/applications/studio/models_modules_apps.rst:None
 msgid "Choosing to export both data and demo data"
-msgstr ""
+msgstr "同时选择导出数据及模拟数据"
 
 #: ../../content/applications/studio/models_modules_apps.rst:285
 msgid "Import customizations"
-msgstr ""
+msgstr "导入自定义功能"
 
 #: ../../content/applications/studio/models_modules_apps.rst:288
 msgid ""
@@ -3199,30 +3916,34 @@ msgid ""
 "Studio does not add the underlying modules as dependencies of the exported "
 "module."
 msgstr ""
+"导入前，请确保目标数据库与导出来源数据库，使用相同的 Odoo 版本及安装了相同的"
+"应用程序及模块。Studio不会将底层模块作为导出模块的依赖项去导入。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:292
 msgid "To import and install Studio customizations in another Odoo database:"
-msgstr ""
+msgstr "若要将 Studio 自定义功能汇入及安装至另一个 Odoo 资料库："
 
 #: ../../content/applications/studio/models_modules_apps.rst:294
 msgid "Connect to the destination database."
-msgstr ""
+msgstr "连接到目标数据库。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:295
 msgid ""
 "Click the :icon:`oi-studio` :guilabel:`(Toggle Studio)` button on the main "
 "Odoo dashboard, then :guilabel:`Import`."
 msgstr ""
+"在 Odoo 主控制面板上，点击 :icon:`oi-studio` :guilabel:`(切换 Studio)` 按钮，"
+"然后点击 :guilabel:`导入`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:297
 msgid ""
 "Upload the exported ZIP file. If demo data should be imported, "
 "tick :guilabel:`Load demo data`."
-msgstr ""
+msgstr "上传导出的 ZIP 文件。若需要导入模拟数据，请勾选 :guilabel:`载入模拟数据`。"
 
 #: ../../content/applications/studio/models_modules_apps.rst:298
 msgid "Click :guilabel:`Install`."
-msgstr ""
+msgstr "点击 :guilabel:`安装` 。"
 
 #: ../../content/applications/studio/pdf_reports.rst:3
 msgid "PDF reports"
@@ -3232,8 +3953,10 @@ msgstr "PDF报告"
 msgid ""
 "With Studio, you can :ref:`edit existing PDF reports <studio/pdf-reports/"
 "edit>` (e.g., invoices, quotations, etc.) or :ref:`create new ones <studio/"
-"pdf-reports/edit>`."
+"pdf-reports/create>`."
 msgstr ""
+"使用\\ 工作室\\ 可以\\ :ref:`编辑现有的 PDF 报表 <studio/pdf-reports/edit>`（"
+"例如发票、报价单等），或者\\ :ref:`创建新报表 <studio/pdf-reports/create>`。"
 
 #: ../../content/applications/studio/pdf_reports.rst:11
 msgid "Default layout"
@@ -3246,6 +3969,9 @@ msgid ""
 "the main page, click :guilabel:`Configure Document Layout`. Layout settings "
 "are company-specific but apply to all reports."
 msgstr ""
+"报告的预设版面布局，是在 Studio 之外管理的。您可前往 :menuselection:`设定`，"
+"然后在主页的 :guilabel:`公司` 部份，点击 :guilabel:`配置文件版面`。版面设定按"
+"个别公司而不同，但适用于所有报告。"
 
 #: ../../content/applications/studio/pdf_reports.rst:18
 msgid ""
@@ -3300,11 +4026,11 @@ msgstr "条纹报告布局示例"
 
 #: ../../content/applications/studio/pdf_reports.rst:55
 msgid "Bubble"
-msgstr ""
+msgstr "泡泡"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Bubble report layout sample"
-msgstr ""
+msgstr "泡泡报告版面示例"
 
 #: ../../content/applications/studio/pdf_reports.rst:61
 msgid "Wave"
@@ -3312,7 +4038,7 @@ msgstr "波次"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Wave report layout sample"
-msgstr ""
+msgstr "波浪报告版面范例"
 
 #: ../../content/applications/studio/pdf_reports.rst:67
 msgid "Folder"
@@ -3324,19 +4050,19 @@ msgstr "文件夹报告布局示例"
 
 #: ../../content/applications/studio/pdf_reports.rst:75
 msgid ":guilabel:`Background`: The following backgrounds are available:"
-msgstr ""
+msgstr ":guilabel:`背景`：有以下背景可供选择："
 
 #: ../../content/applications/studio/pdf_reports.rst:77
 msgid ":guilabel:`Blank`: Nothing is displayed."
-msgstr ""
+msgstr ":guilabel:`空白`：不显示任何东西。"
 
 #: ../../content/applications/studio/pdf_reports.rst:78
 msgid ":guilabel:`Demo logo`: A demo logo is displayed in the background."
-msgstr ""
+msgstr ":guilabel:`模拟标志`：在背景显示模拟标志。"
 
 #: ../../content/applications/studio/pdf_reports.rst:79
 msgid ":guilabel:`Custom`: Upload a custom background image."
-msgstr ""
+msgstr ":guilabel:`自定义`：上传自定义背景图片。"
 
 #: ../../content/applications/studio/pdf_reports.rst:83
 msgid ""
@@ -3345,6 +4071,9 @@ msgid ""
 "scripts), and Fira Mono. Go to the `Google Fonts website <https://"
 "fonts.google.com/>`_ to preview them."
 msgstr ""
+":guilabel:`文字`：有八款字型可供选择：Lato、Roboto、Open Sans、Montserrat、"
+"Oswald、Raleway、Tajawal（支援阿拉伯文及拉丁文）、Fira Mono。你可前往 "
+"`Google 字型网站 <https://fonts.google.com/>`_ 预览这些字型。"
 
 #: ../../content/applications/studio/pdf_reports.rst:89
 msgid ""
@@ -3353,6 +4082,9 @@ msgid ""
 "model, which you can access by going to :menuselection:`Settings` and then "
 "clicking :guilabel:`Update Info` in the :guilabel:`Companies` section."
 msgstr ""
+":guilabel:`公司标志`：点击 :guilabel:`编辑` 按钮，上传或更换标志。此操作会将"
+"标志加入至 **公司** 模型的公司记录中。要访问此资料，可前往 :menuselection:`设"
+"定`，然后在 :guilabel:`公司` 部份点击 :guilabel:`更新资讯`。"
 
 #: ../../content/applications/studio/pdf_reports.rst:96
 msgid ""
@@ -3360,6 +4092,8 @@ msgid ""
 "structure reports. The default colors are automatically generated based on "
 "the colors of the logo."
 msgstr ""
+":guilabel:`颜色`：变更报告结构所用的主色及辅助色。默认颜色会根据公司标志颜色"
+"自动产生。"
 
 #: ../../content/applications/studio/pdf_reports.rst:101
 msgid ""
@@ -3367,6 +4101,8 @@ msgid ""
 "header of :ref:`external reports <studio/pdf-reports/header-footer>`. You "
 "can add multiple lines of text."
 msgstr ""
+":guilabel:`地址`：公司名称及地址会在 :ref:`对外报告 <studio/pdf-reports/"
+"header-footer>` 的页首显示。可加入多行文字。"
 
 #: ../../content/applications/studio/pdf_reports.rst:106
 msgid ""
@@ -3375,6 +4111,9 @@ msgid ""
 "Bubble, Wave and Folder layouts and in the footer of external reports using "
 "the Boxed and Bold layouts. You can add multiple lines of text."
 msgstr ""
+":guilabel:`标语`：此标语会在 :ref:`对外报告 <studio/pdf-reports/header-"
+"footer>` 的页首（适用于浅色、间条色、泡泡、波浪及文件夹版面布局）或页尾显示（"
+"适用于实线框及粗线版面布局）。可加入多行文字。"
 
 #: ../../content/applications/studio/pdf_reports.rst:113
 msgid ""
@@ -3383,6 +4122,9 @@ msgid ""
 "text. You can also edit the footer using the :ref:`report editor <studio/pdf-"
 "reports/edit>`."
 msgstr ""
+":guilabel:`页尾`：此文字用于 :ref:`对外报告 <studio/pdf-reports/header-"
+"footer>` 的页尾。可加入多行文字。您也可使用 :ref:`报告编辑器 <studio/pdf-"
+"reports/edit>` 编辑页尾。"
 
 #: ../../content/applications/studio/pdf_reports.rst:119
 msgid ""
@@ -3392,6 +4134,11 @@ msgid ""
 "the :guilabel:`Paper format` field in :ref:`Studio <studio/pdf-reports/edit-"
 "options>`."
 msgstr ""
+":guilabel:`Formát papíru`: Definuje výchozí velikost papíru pro sestavy. "
+"Můžete vybrat :guilabel:`A4` (21 cm × 29,7 cm) a :guilabel:`US Letter` "
+"(21,59 cm × 27,54 cm). To lze také definovat pro jednotlivé sestavy v poli "
+":guilabel:`Formát papíru` v aplikaci :ref:`Pracovní prostor <studio/pdf-"
+"reports/edit-options>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:125
 msgid ""
@@ -3399,10 +4146,13 @@ msgid ""
 "have installed, for example, label sheets for the Inventory app or event "
 "badges for the Events app."
 msgstr ""
+"Další formáty papíru mohou být dostupné v závislosti na tom, které aplikace "
+"nebo moduly máte nainstalované, například archy štítků pro aplikaci "
+"Skladování nebo identifikační karty akcí pro aplikaci Události."
 
 #: ../../content/applications/studio/pdf_reports.rst:131
 msgid "Creating new PDF reports"
-msgstr ""
+msgstr "Vytváření nových PDF sestav"
 
 #: ../../content/applications/studio/pdf_reports.rst:133
 msgid ""
@@ -3413,10 +4163,16 @@ msgid ""
 "that opens, select the type of report. This is solely used to determine what "
 "is displayed in the header and footer:"
 msgstr ""
+"Chcete-li vytvořit novou sestavu pro :doc:`model </applications/studio/"
+"models_modules_apps>` (např. prodejní objednávky), otevřete model, klikněte "
+"na tlačítko :icon:`oi-studio` (:guilabel:`Přepnout Studio`) a poté klikněte "
+"na :guilabel:`Sestavy`. Klikněte na :guilabel:`Nový` a v dialogovém okně, "
+"které se otevře, vyberte typ sestavy. To se používá pouze k určení toho, co "
+"se zobrazí v záhlaví a zápatí:"
 
 #: ../../content/applications/studio/pdf_reports.rst:141
 msgid ":guilabel:`External`:"
-msgstr ""
+msgstr ":guilabel:`外部` （对外报告）："
 
 #: ../../content/applications/studio/pdf_reports.rst:143
 msgid ""
@@ -3624,7 +4380,7 @@ msgstr ""
 "虚线矩形代表**条件区块**（*if/else* 语句）。它们用于根据特定条件来显示或隐藏"
 "内容。点击区块即可查看条件。"
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "View conditions applied to a block."
 msgstr "查看应用于区块的条件。"
 
@@ -3633,7 +4389,7 @@ msgid ""
 "Select a value to preview its corresponding output and edit it if necessary."
 msgstr "选择一个值以预览其对应的输出，并在必要时进行编辑。"
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "Preview the output of another condition."
 msgstr "预览另一个条件的输出。"
 
@@ -3655,7 +4411,7 @@ msgstr "报告中有两种文本内容："
 msgid ""
 "Static text, i.e., the text that is not highlighted in blue, which can be "
 "modified directly in the editor."
-msgstr ""
+msgstr "静态文本，即未以蓝色突出显示的文本，可以直接在编辑器中修改。"
 
 #: ../../content/applications/studio/pdf_reports.rst:252
 msgid ""
@@ -3663,6 +4419,8 @@ msgid ""
 "by :doc:`field </applications/studio/fields>` values when the report is "
 "generated, e.g., the sales order number or the quotation date."
 msgstr ""
+"动态文本，即以蓝色高亮显示的文本，在生成报告时会替换为:doc:`字段 </"
+"applications/studio/fields>`值，例如：销售订单编号或报价日期。"
 
 #: ../../content/applications/studio/pdf_reports.rst:256
 msgid ""
@@ -3671,6 +4429,9 @@ msgid ""
 "html_editor/commands>`, then type the command's name or select it from the "
 "list."
 msgstr ""
+"您可以使用指令，向报告中添加内容，例如：字段、列表、表格、图像、横幅等。输入 "
+"`/` 打开:ref:`powerbox <essentials/html_editor/commands>`，然后输入指令名称，"
+"或从列表中选择想要的指令。"
 
 #: ../../content/applications/studio/pdf_reports.rst:260
 msgid "To add static text to the report, type the text where you want it."
@@ -3696,18 +4457,21 @@ msgid ""
 "specify the default value that will be shown if the field is not completed "
 "in the record and press `Enter`."
 msgstr ""
+"要添加字段，请输入 `/` 并选择 :guilabel:`字段` 命令。在打开的列表中，选择或搜"
+"索字段；如果需要，点击字段名称旁边的右箭头以访问相关字段列表。然后，指定在记"
+"录中未填写字段时将显示的默认值，并按 `Enter`。"
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "Select a related field."
 msgstr "选择关联的字段。"
 
 #: ../../content/applications/studio/pdf_reports.rst:281
 msgid "Add or edit a table"
-msgstr ""
+msgstr "添加或编辑表格"
 
 #: ../../content/applications/studio/pdf_reports.rst:283
 msgid "There are two types of tables in reports:"
-msgstr ""
+msgstr "报表中有两种类型的表格:"
 
 #: ../../content/applications/studio/pdf_reports.rst:285
 msgid ""
@@ -3715,6 +4479,9 @@ msgid ""
 "display static text or fields. For this type of table, you define the number "
 "of columns and rows when adding the table."
 msgstr ""
+":ref:`Statické tabulky <studio/pdf-reports/static-table>`, které se "
+"používají k zobrazení statického textu nebo polí. U tohoto typu tabulky "
+"definujete počet sloupců a řádků při přidávání tabulky."
 
 #: ../../content/applications/studio/pdf_reports.rst:287
 msgid ""
@@ -3725,6 +4492,11 @@ msgid ""
 "determined by the number of records in the related model that are linked "
 "with the current model."
 msgstr ""
+":ref:`Dynamické tabulky <studio/pdf-reports/dynamic-table>`, které se "
+"používají k zobrazení dat z :ref:`relačních polí <studio/fields/relational-"
+"fields>`. U tohoto typu tabulky definujete pouze počet sloupců při přidávání "
+"tabulky. Počet řádků ve vygenerované sestavě bude určen počtem záznamů v "
+"souvisejícím modelu, které jsou propojeny s aktuálním modelem."
 
 #: ../../content/applications/studio/pdf_reports.rst:294
 msgid ""
@@ -3733,10 +4505,12 @@ msgid ""
 "table in the generated report has 10 rows; if it contains two order lines, "
 "the table has two rows."
 msgstr ""
+"在销售订单报表中，使用动态表格来显示与销售订单相关的订单行。如果销售订单包含"
+"10个订单行，生成的报表中的表格就有10行；如果包含两个订2行，表格就有2行。"
 
 #: ../../content/applications/studio/pdf_reports.rst:301
 msgid "Add or edit a static table"
-msgstr ""
+msgstr "添加或编辑静态表格"
 
 #: ../../content/applications/studio/pdf_reports.rst:303
 msgid ""
@@ -3744,6 +4518,9 @@ msgid ""
 "Determine the number of columns and rows for the table. Once the table has "
 "been added, you can start editing it."
 msgstr ""
+"Chcete-li přidat statickou tabulku, zadejte `/` a vyberte příkaz "
+":guilabel:`Tabulka`. Určete počet sloupců a řádků pro tabulku. Po přidání "
+"tabulky můžete začít s úpravami."
 
 #: ../../content/applications/studio/pdf_reports.rst:306
 msgid ""
@@ -3751,10 +4528,13 @@ msgid ""
 "Position the cursor on top of the column or to the left of the row then "
 "click the purple rectangle and select an option."
 msgstr ""
+"Pomocí nástrojů tabulky můžete vkládat, přesouvat a mazat sloupce a řádky. "
+"Umístěte kurzor nad sloupec nebo vlevo od řádku, poté klikněte na fialový "
+"obdélník a vyberte možnost."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "List of available options for editing table structure."
-msgstr ""
+msgstr "Seznam dostupných možností pro úpravu struktury tabulky."
 
 #: ../../content/applications/studio/pdf_reports.rst:312
 msgid ""
@@ -3762,12 +4542,17 @@ msgid ""
 "all columns to their standard size by selecting :guilabel:`Reset Size` from "
 "the table tools."
 msgstr ""
+"Chcete-li změnit velikost sloupce, přetáhněte ohraničení sloupce na "
+"požadovanou pozici; obnovte všechny sloupce na jejich standardní velikost "
+"výběrem možnosti :guilabel:`Obnovit velikost` z nástrojů tabulky."
 
 #: ../../content/applications/studio/pdf_reports.rst:315
 msgid ""
 "Add the :ref:`field of your choice <studio/pdf-reports/add-field>` in a cell "
 "or add static text by typing."
 msgstr ""
+"在单元格中添加您选择的 :ref:`字段 <studio/pdf-reports/add-field>`，或直接输入"
+"静态文本。"
 
 #: ../../content/applications/studio/pdf_reports.rst:319
 msgid ""
@@ -3776,6 +4561,9 @@ msgid ""
 "command: :guilabel:`2 columns`, :guilabel:`3 columns` or :guilabel:`4 "
 "columns`."
 msgstr ""
+"Chcete-li přidat text strukturovaným způsobem bez použití tabulky, můžete "
+"použít sloupce. Přidejte sloupce zadáním `/` a výběrem příslušného příkazu: "
+":guilabel:`2 sloupce`, :guilabel:`3 sloupce` nebo :guilabel:`4 sloupce`."
 
 #: ../../content/applications/studio/pdf_reports.rst:326
 msgid "Add or edit a dynamic table"
@@ -3793,7 +4581,8 @@ msgid ""
 "than a dynamic table you add yourself. For such tables, it is possible to "
 "insert or delete columns; it is not possible to move columns or to insert, "
 "move or delete rows."
-msgstr "标准报表中现有的动态表比自己添加的动态表结构更复杂。对于这类表格，可以插入或"
+msgstr ""
+"标准报表中现有的动态表比自己添加的动态表结构更复杂。对于这类表格，可以插入或"
 "删除列，但不能移动列或插入、移动或删除行。"
 
 #: ../../content/applications/studio/pdf_reports.rst:334
@@ -3803,9 +4592,9 @@ msgid ""
 "will be based on and press `Enter`. Once the table has been added, you can "
 "start editing it."
 msgstr ""
-"要添加动态表，请键入 `/`，然后选择 :guilabel:`动态表格` "
-"指令。在打开的列表中，选择或搜索表格将基于的关系，然后按 "
-"`回车`。表格添加完成后，就可以开始编辑了。"
+"要添加动态表，请键入 `/`，然后选择 :guilabel:`动态表格` 指令。在打开的列表"
+"中，选择或搜索表格将基于的关系，然后按 `回车`。表格添加完成后，就可以开始编辑"
+"了。"
 
 #: ../../content/applications/studio/pdf_reports.rst:338
 msgid ""
@@ -3823,10 +4612,14 @@ msgid ""
 "box that opens shows the source object for the field (e.g., the *Order "
 "Lines* model) and the list of available fields."
 msgstr ""
+"Chcete-li přidat pole do buňky, odstraňte jakýkoli zástupný text a poté "
+"přidejte :ref:`pole podle vašeho výběru <studio/pdf-reports/add-field>`. "
+"Dialogové okno, které se otevře, zobrazuje zdrojový objekt pro pole (např. "
+"model *Řádky objednávky*) a seznam dostupných polí."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "List of available fields for the sale order lines model."
-msgstr ""
+msgstr "Seznam dostupných polí pro model řádků prodejní objednávky."
 
 #: ../../content/applications/studio/pdf_reports.rst:349
 msgid "Replace the :guilabel:`Column name` label by the label of your choice."
@@ -3836,7 +4629,8 @@ msgstr "用您选择的标签替换 :guilabel:`列名` 标签。"
 msgid ""
 "The default row automatically iterates over the field's content, generating "
 "a row on the report for each field value (e.g., one row per order line)."
-msgstr "默认行会自动遍历字段内容，为每个字段值在报告中生成一行（例如，每个订单行生成"
+msgstr ""
+"默认行会自动遍历字段内容，为每个字段值在报告中生成一行（例如，每个订单行生成"
 "一行）。"
 
 #: ../../content/applications/studio/pdf_reports.rst:356
@@ -3865,9 +4659,8 @@ msgid ""
 "<../../../administration/upgrade>`. If this happens, simply copy your "
 "changes from the old database into your upgraded database."
 msgstr ""
-"直接修改 XML 可能会在 :doc:`升级 <.../../../administration/upgrade>` "
-"时导致报告问题。如果出现这种情况，只需将旧数据库中的更改复制到升级后的数据库"
-"中即可。"
+"直接修改 XML 可能会在 :doc:`升级 <.../../../administration/upgrade>` 时导致报"
+"告问题。如果出现这种情况，只需将旧数据库中的更改复制到升级后的数据库中即可。"
 
 #: ../../content/applications/studio/pdf_reports.rst:374
 msgid ""
@@ -3948,7 +4741,7 @@ msgstr "您可以使用编辑器切换条件，预览它们的输出结果："
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Output preview if there are no tags."
-msgstr ""
+msgstr "没有标签情况下的输出预览。"
 
 #: ../../content/applications/studio/pdf_reports.rst:482
 msgid ""
@@ -3966,6 +4759,10 @@ msgid ""
 "either `draft` or `sent`, then *Quotation* is used. If none of those "
 "conditions are met, the report's title is *Order*."
 msgstr ""
+"Název *Proforma faktura* se používá v závislosti na některých kontextových "
+"podmínkách. Pokud tyto podmínky nejsou splněny a stav dokumentu je buď "
+"`draft` nebo `sent`, použije se *Nabídka*. Pokud nejsou splněny žádné z "
+"těchto podmínek, název sestavy je *Objednávka*."
 
 #: ../../content/applications/studio/pdf_reports.rst:501
 msgid ""
@@ -3977,17 +4774,18 @@ msgid ""
 "positioning control."
 msgstr ""
 "在报告中处理图片可能具有挑战性，因为对图片大小和行为的精确控制并不总是显而易"
-"见的。您可以使用报告编辑器插入图片字段（通过使用 :ref:`字段指令 <studio/"
-"pdf-reports/add-field>`），但使用 `t-field` 指令和附带的 `t-options` 属性在 "
-"XML 中插入图片可以提供更好的大小和定位控制。"
+"见的。您可以使用报告编辑器插入图片字段（通过使用 :ref:`字段指令 <studio/pdf-"
+"reports/add-field>`），但使用 `t-field` 指令和附带的 `t-options` 属性在 XML "
+"中插入图片可以提供更好的大小和定位控制。"
 
 #: ../../content/applications/studio/pdf_reports.rst:507
 msgid ""
 "For example, the following code outputs the field `image_128` of the line's "
 "product as a 64px-wide image (with an automatic height based on the image's "
 "aspect ratio)."
-msgstr "例如，以下代码会将该行产品的字段 `image_128`输出为 64px "
-"宽的图片（根据图片的宽高比自动调整高度）。"
+msgstr ""
+"例如，以下代码会将该行产品的字段 `image_128`输出为 64px 宽的图片（根据图片的"
+"宽高比自动调整高度）。"
 
 #: ../../content/applications/studio/pdf_reports.rst:514
 msgid "The following options are available for image widgets:"
@@ -3997,14 +4795,16 @@ msgstr "图像部件有以下选项："
 msgid ""
 "`width`: width of the image, usually in pixels or CSS length units (e.g., "
 "`rem`) (leave empty for auto-width)."
-msgstr "`宽度`：图像的宽度，通常以像素或CSS长度单位（如`rem`）表示（留空则为自动宽度"
-"）。"
+msgstr ""
+"`宽度`：图像的宽度，通常以像素或CSS长度单位（如`rem`）表示（留空则为自动宽"
+"度）。"
 
 #: ../../content/applications/studio/pdf_reports.rst:518
 msgid ""
 "`height`: height of the image, usually in pixels or CSS length units (e.g., "
 "`rem`) (leave empty for auto-height)."
-msgstr "`height`：图像的高度，通常以像素或CSS长度单位（如`rem`）表示（留空则为自动高"
+msgstr ""
+"`height`：图像的高度，通常以像素或CSS长度单位（如`rem`）表示（留空则为自动高"
 "度）。"
 
 #: ../../content/applications/studio/pdf_reports.rst:520
@@ -4033,15 +4833,16 @@ msgid ""
 "within quotes, e.g., `t-options-width=\"'64px'\"` (or, alternatively, a "
 "valid Python expression)."
 msgstr ""
-"这些属性必须包含字符串，即引号内再嵌套引号的文本，例如`t-options-width="
-"\"'64px'\"` （或者，也可以是一个有效的Python表达式）。"
+"这些属性必须包含字符串，即引号内再嵌套引号的文本，例如`t-options-"
+"width=\"'64px'\"` （或者，也可以是一个有效的Python表达式）。"
 
 #: ../../content/applications/studio/pdf_reports.rst:530
 msgid ""
 "The image widget cannot be used on an `img` tag. Instead, set the `t-field` "
 "directive on a `span` (for inline content) or `div` (for block content) node."
-msgstr "图像控件不能用于`img`标签。而应在`span` （用于内联内容）或`div` "
-"（用于块级内容）节点上设置`t-field`指令。"
+msgstr ""
+"图像控件不能用于`img`标签。而应在`span` （用于内联内容）或`div` （用于块级内"
+"容）节点上设置`t-field`指令。"
 
 #: ../../content/applications/studio/pdf_reports.rst:533
 msgid ""
@@ -4055,8 +4856,8 @@ msgid ""
 "the Bootstrap classes used in `t-options-class` create a thumbnail-like "
 "border with rounded corners and a shadow."
 msgstr ""
-"`t-options-width`属性将图片宽度限制为64像素，而`t-options-"
-"class`中使用的Bootstrap类则创建了一个带有圆角和阴影的缩略图样式边框。"
+"`t-options-width`属性将图片宽度限制为64像素，而`t-options-class`中使用的"
+"Bootstrap类则创建了一个带有圆角和阴影的缩略图样式边框。"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a column with the product image in the quotation table."
@@ -4076,11 +4877,11 @@ msgid ""
 "records>`, :ref:`timeline <studio/views/timeline>`, and :ref:`reporting "
 "<studio/views/reporting>`."
 msgstr ""
-"视图是显示 :doc:`模型 <models_modules_apps>` "
-"中所含数据的界面。一个模型可以有多个视图，它们只是显示相同数据的不同方式。在 "
-"Studio 中，视图分为四类： :ref:`常规<studio/views/general>`、:ref:`多个记录 <"
-"studio/views/multiple-records>`、:ref:`时间线 <studio/views/timeline>` 和 "
-":ref:`报告 <studio/views/reporting>`。"
+"视图是显示 :doc:`模型 <models_modules_apps>` 中所含数据的界面。一个模型可以有"
+"多个视图，它们只是显示相同数据的不同方式。在 Studio 中，视图分为四类： :ref:`"
+"常规<studio/views/general>`、:ref:`多个记录 <studio/views/multiple-"
+"records>`、:ref:`时间线 <studio/views/timeline>` 和 :ref:`报告 <studio/views/"
+"reporting>`。"
 
 #: ../../content/applications/studio/views.rst:12
 msgid ""
@@ -4089,9 +4890,9 @@ msgid ""
 "(:guilabel:`ellipsis`) icon next to the desired view, and "
 "click :guilabel:`Set as Default`."
 msgstr ""
-"要更改模型的默认视图，请 :ref:`进入Studio <studio/access>`，前往 "
-":guilabel:`视图`选项卡，点击目标视图旁的 :icon:fa-"
-"ellipsis-v（:guilabel:`省略号`）图标，然后点击 :guilabel:`设为默认`。"
+"要更改模型的默认视图，请 :ref:`进入Studio <studio/access>`，前往 :guilabel:`"
+"视图`选项卡，点击目标视图旁的 :icon:fa-ellipsis-v（:guilabel:`省略号`）图标，"
+"然后点击 :guilabel:`设为默认`。"
 
 #: ../../content/applications/studio/views.rst:15
 msgid ""
@@ -4099,9 +4900,8 @@ msgid ""
 "the :ref:`Developer mode <developer-mode>`, go to the view you want to edit, "
 "select the :guilabel:`View` tab, and click :guilabel:`</> XML`."
 msgstr ""
-"您可以使用内置的XML编辑器修改视图：:ref:`激活开发者模式 <developer-"
-"mode>`，进入您要编辑的视图，选择 :guilabel:`视图`标签页，然后点击 "
-":guilabel:`</> XML`。"
+"您可以使用内置的XML编辑器修改视图：:ref:`激活开发者模式 <developer-mode>`，进"
+"入您要编辑的视图，选择 :guilabel:`视图`标签页，然后点击 :guilabel:`</> XML`。"
 
 #: ../../content/applications/studio/views.rst:20
 msgid ""
@@ -4114,9 +4914,9 @@ msgid ""
 "automatically generated."
 msgstr ""
 "如果您使用XML编辑器编辑视图，请避免直接修改标准视图和继承视图，因为在更新或模"
-"块升级期间，这些更改会被重置并丢失。务必确保您选择正确的Studio继承视图：例如"
-"，当您通过在Studio中拖放新字段来修改视图时，系统会自动生成一个特定的Studio继"
-"承视图及其对应的XPath（用于定义视图的修改部分）。"
+"块升级期间，这些更改会被重置并丢失。务必确保您选择正确的Studio继承视图：例"
+"如，当您通过在Studio中拖放新字段来修改视图时，系统会自动生成一个特定的Studio"
+"继承视图及其对应的XPath（用于定义视图的修改部分）。"
 
 #: ../../content/applications/studio/views.rst:30
 msgid "General views"
@@ -4140,12 +4940,17 @@ msgid ""
 "The :guilabel:`Form` :icon:`fa-address-card` view is used when creating and "
 "editing records, such as contacts, sales orders, products, etc."
 msgstr ""
+"Zobrazení :guilabel:`Formulář` :icon:`fa-address-card` se používá při "
+"vytváření a úpravách záznamů, jako jsou kontakty, prodejní objednávky, "
+"produkty atd."
 
 #: ../../content/applications/studio/views.rst:44
 msgid ""
 "To structure a form, drag and drop the :guilabel:`Tabs and Columns` element "
 "found under the :guilabel:`+ Add` tab."
 msgstr ""
+"Chcete-li strukturovat formulář, přetáhněte prvek :guilabel:`Karty a "
+"sloupce`, který najdete na kartě :guilabel:`+ Přidat`."
 
 #: ../../content/applications/studio/views.rst:46
 #: ../../content/applications/studio/views.rst:139
@@ -4161,8 +4966,9 @@ msgstr ""
 msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the form, "
 "enter a :guilabel:`Label`, and select the button's action:"
-msgstr "要添加按钮，请点击表单顶部的 :guilabel:`添加按钮`，输入 "
-":guilabel:`标签`，并选择按钮的操作："
+msgstr ""
+"要添加按钮，请点击表单顶部的 :guilabel:`添加按钮`，输入 :guilabel:`标签`，并"
+"选择按钮的操作："
 
 #: ../../content/applications/studio/views.rst:51
 #: ../../content/applications/studio/views.rst:155
@@ -4170,8 +4976,8 @@ msgid ""
 ":guilabel:`Run a Server Action`: select the :ref:`server action <reference/"
 "actions/server>` to be executed from the dropdown list;"
 msgstr ""
-":guilabel:`运行服务器操作`：从下拉列表中选择要执行的 :ref:`服务器操作 <"
-"reference/actions/server>`；"
+":guilabel:`运行服务器操作`：从下拉列表中选择要执行的 :ref:`服务器操作 "
+"<reference/actions/server>`；"
 
 #: ../../content/applications/studio/views.rst:53
 #: ../../content/applications/studio/views.rst:157
@@ -4186,8 +4992,8 @@ msgid ""
 "its :guilabel:`Label` or :guilabel:`Class` (either `btn-primary` or `btn-"
 "secondary`) in the :guilabel:`Properties` tab."
 msgstr ""
-"要更改按钮的标签或样式，请点击该按钮，并在 :guilabel:`属性`标签页中编辑其 "
-":guilabel:`标签` 或 :guilabel:`类` （例如 `btn-primary` 或 `btn-"
+"要更改按钮的标签或样式，请点击该按钮，并在 :guilabel:`属性`标签页中编辑"
+"其 :guilabel:`标签` 或 :guilabel:`类` （例如 `btn-primary` 或 `btn-"
 "secondary`）。"
 
 #: ../../content/applications/studio/views.rst:57
@@ -4197,6 +5003,9 @@ msgid ""
 "an :guilabel:`Icon`, and select a :ref:`related field <studio/fields/"
 "relational-fields-related-field>`."
 msgstr ""
+"要添加智能按钮，请点击表单右上角的 :icon:`fa-plus-square`（:guilabel:`plus`）"
+"图标。输入 :guilabel:`标签`，选择 :guilabel:`图标`，并选择 :ref:`相关字段 "
+"<studio/fields/relational-fields-related-field>`。"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales order model's Form view"
@@ -4210,8 +5019,9 @@ msgstr "活动"
 msgid ""
 "The :guilabel:`Activity` :icon:`fa-clock-o` view is used to schedule and "
 "have an overview of activities (emails, calls, etc.) linked to records."
-msgstr ":guilabel:`活动` :icon:`fa-clock-o` "
-"视图用于安排与记录相关联的活动（电子邮件、通话等），并对其进行概览。"
+msgstr ""
+":guilabel:`活动` :icon:`fa-clock-o` 视图用于安排与记录相关联的活动（电子邮"
+"件、通话等），并对其进行概览。"
 
 #: ../../content/applications/studio/views.rst:75
 msgid "This view can only be modified within Studio by editing the XML code."
@@ -4229,8 +5039,9 @@ msgstr "搜索"
 msgid ""
 "The :guilabel:`Search` :icon:`oi-search` view is added on top of other views "
 "to filter, group, and search records."
-msgstr "在其他视图之上添加 :guilabel:`搜索` :icon:`oi-search` "
-"视图，用于筛选、分组和搜索记录。"
+msgstr ""
+"在其他视图之上添加 :guilabel:`搜索` :icon:`oi-search` 视图，用于筛选、分组和"
+"搜索记录。"
 
 #: ../../content/applications/studio/views.rst:90
 msgid ""
@@ -4246,8 +5057,9 @@ msgid ""
 "To add an existing field under the search dropdown menu, go to "
 "the :guilabel:`+ Add` tab and drag and drop it "
 "under :guilabel:`Autocompletion Fields`."
-msgstr "要在搜索下拉菜单中添加现有字段，请转到 :guilabel:`+ 添加` 选项卡并将其拖放到 "
-":guilabel:`自动完成字段` 下。"
+msgstr ""
+"要在搜索下拉菜单中添加现有字段，请转到 :guilabel:`+ 添加` 选项卡并将其拖放"
+"到 :guilabel:`自动完成字段` 下。"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Project model's Search view on the Kanban view"
@@ -4267,9 +5079,8 @@ msgid ""
 "business flows by moving records across stages or as an alternative way to "
 "display records inside *cards*."
 msgstr ""
-":guilabel:`看板`:icon:`oi-view-kanban` "
-"视图通常用于支持业务流程（通过在各阶段之间移动记录），或作为一种在*卡片*内显"
-"示记录的替代方式。"
+":guilabel:`看板`:icon:`oi-view-kanban` 视图通常用于支持业务流程（通过在各阶段"
+"之间移动记录），或作为一种在*卡片*内显示记录的替代方式。"
 
 #: ../../content/applications/studio/views.rst:118
 msgid ""
@@ -4311,6 +5122,8 @@ msgid ""
 "The :guilabel:`List` :icon:`oi-view-list` view is used to overview many "
 "records at once, look for records, and edit simple records."
 msgstr ""
+":guilabel:`列表` :icon:`oi-view-list` 视图用于同时查看许多记录、查找记录和编"
+"辑简单记录。"
 
 #: ../../content/applications/studio/views.rst:141
 msgid ""
@@ -4318,8 +5131,8 @@ msgid ""
 "either :guilabel:`Add record at the bottom`, :guilabel:`Add record on top` "
 "or :guilabel:`Open form view` under :guilabel:`When Creating Record`."
 msgstr ""
-"要直接在视图中创建和编辑记录，请在 :guilabel: `创建记录时`下选择:guilabel: "
-"`在底部添加记录`、:guilabel: `在顶部添加记录` 或:guilabel: `打开表单视图`。"
+"要直接在视图中创建和编辑记录，请在 :guilabel: `创建记录时`下选择:guilabel: `"
+"在底部添加记录`、:guilabel: `在顶部添加记录` 或:guilabel: `打开表单视图`。"
 
 #: ../../content/applications/studio/views.rst:146
 msgid ""
@@ -4343,8 +5156,9 @@ msgstr "要更改记录的默认排序方式，在:guilabel:`排序方式`下选
 msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the list, "
 "enter a :guilabel:`Label`, and select the button's action:"
-msgstr "要添加按钮，请点击列表顶部的 :guilabel:`添加按钮`，输入 "
-":guilabel:`标签`，并选择按钮的操作："
+msgstr ""
+"要添加按钮，请点击列表顶部的 :guilabel:`添加按钮`，输入 :guilabel:`标签`，并"
+"选择按钮的操作："
 
 #: ../../content/applications/studio/views.rst:160
 msgid ""
@@ -4352,10 +5166,9 @@ msgid ""
 "records manually, add an :ref:`Integer field <studio/fields/simple-fields-"
 "integer>` with the :guilabel:`Handle` widget."
 msgstr ""
-"要添加一个 :icon:`oi-"
-"draggable`（:guilabel:`拖拽手柄`）图标以手动重排记录顺序，请添加一个 :ref:`"
-"整数 <studio/fields/simple-fields-integer>` 字段，并为其设置 "
-":guilabel:`手柄`控件。"
+"要添加一个 :icon:`oi-draggable`（:guilabel:`拖拽手柄`）图标以手动重排记录顺"
+"序，请添加一个 :ref:`整数 <studio/fields/simple-fields-integer>` 字段，并为其"
+"设置 :guilabel:`手柄`控件。"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Drag handle icon enabling to sort records manually in List view"
@@ -4375,9 +5188,8 @@ msgid ""
 "a map. For example, it is used in the Field Service app to plan an itinerary "
 "between different tasks."
 msgstr ""
-":guilabel:`地图` :icon:`fa-map-marker` "
-"视图用于在地图上显示记录。例如，它在现场服务应用程序中用于规划不同任务之间的"
-"行程。"
+":guilabel:`地图` :icon:`fa-map-marker` 视图用于在地图上显示记录。例如，它在现"
+"场服务应用程序中用于规划不同任务之间的行程。"
 
 #: ../../content/applications/studio/views.rst:180
 msgid ""
@@ -4435,8 +5247,8 @@ msgid ""
 msgstr ""
 "首次激活某个时间线视图时，您需要选择模型上的 :ref:`日期 <studio/fields/"
 "simple-fields-date>` 或 :ref:`日期和时间 <studio/fields/simple-fields-date-"
-"time>` 字段用于定义记录开始和停止的时间，以便在视图中显示这些记录。"
-"您可以在激活视图后修改 :guilabel:`开始日期字段` 和 :guilabel:`停止日期字段`。"
+"time>` 字段用于定义记录开始和停止的时间，以便在视图中显示这些记录。您可以在激"
+"活视图后修改 :guilabel:`开始日期字段` 和 :guilabel:`停止日期字段`。"
 
 #: ../../content/applications/studio/views.rst:213
 msgid "Calendar"
@@ -4507,10 +5319,10 @@ msgid ""
 "an :guilabel:`End Date Field`, the :guilabel:`Delay Field` will not be taken "
 "into account."
 msgstr ""
-"您也可以使用 :guilabel:`延迟字段` 来显示事件的持续时间（小时），"
-"方法是在模型上选择指定事件持续时间的 :ref:`小数 <studio/fields/simple-fields-"
-"decimal>` 或 :ref:`整数 <studio/fields/simple-fields-integer>` 字段。但是，"
-"如果您设置了 :guilabel:`结束日期字段` 字段，则不会考虑 :guilabel:`延迟字段`。"
+"您也可以使用 :guilabel:`延迟字段` 来显示事件的持续时间（小时），方法是在模型"
+"上选择指定事件持续时间的 :ref:`小数 <studio/fields/simple-fields-decimal>` "
+"或 :ref:`整数 <studio/fields/simple-fields-integer>` 字段。但是，如果您设置"
+"了 :guilabel:`结束日期字段` 字段，则不会考虑 :guilabel:`延迟字段`。"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Calendar Event model's Calendar view"
@@ -4526,9 +5338,8 @@ msgid ""
 "life cycle of records over a time period. For example, it is used in the "
 "Subscriptions app to view the subscriptions' retention rate."
 msgstr ""
-":guilabel:`同类群组` :icon:`oi-view-cohort` "
-"视图用于检查记录在一段时间内的生命周期。例如，它在订阅应用程序中用于查看订阅"
-"的保留率。"
+":guilabel:`同类群组` :icon:`oi-view-cohort` 视图用于检查记录在一段时间内的生"
+"命周期。例如，它在订阅应用程序中用于查看订阅的保留率。"
 
 #: ../../content/applications/studio/views.rst:260
 msgid ""
@@ -4582,6 +5393,9 @@ msgid ""
 "the overall progress of records. Records are represented by a bar under a "
 "time scale."
 msgstr ""
+"Zobrazení :guilabel:`Gantt` :icon:`fa-tasks` se používá k prognózování a "
+"zkoumání celkového postupu záznamů. Záznamy jsou reprezentovány pruhem pod "
+"časovou stupnicí."
 
 #: ../../content/applications/studio/views.rst:285
 msgid ""
@@ -4723,8 +5537,9 @@ msgstr "图形"
 msgid ""
 "The :guilabel:`Graph` :icon:`fa-area-chart` view is used to showcase data "
 "from records in a bar, line, or pie chart."
-msgstr ":guilabel:`图表` :icon:`fa-area-"
-"chart`视图用于以条形图、折线图或饼图显示记录数据。"
+msgstr ""
+":guilabel:`图表` :icon:`fa-area-chart`视图用于以条形图、折线图或饼图显示记录"
+"数据。"
 
 #: ../../content/applications/studio/views.rst:356
 msgid ""
@@ -4780,6 +5595,82 @@ msgstr ""
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales Analysis Report model's Bar chart on Graph view"
 msgstr "图表视图中销售分析报告模型的条形图"
+
+#~ msgid ""
+#~ "Fields structure the models of a database. If you picture a model as a "
+#~ "table or spreadsheet, fields are the columns where data is stored in the "
+#~ "records (i.e., the rows). Fields also define the type of data that is "
+#~ "stored within them. How the data is presented and formatted on "
+#~ "the :abbr:`UI (User Interface)` is defined by their widget."
+#~ msgstr ""
+#~ "字段构成数据库的模型。如果将模型描绘为表格或电子表格，则字段就是记录中存储"
+#~ "数据的列（或行）。字段还定义其存储的数据的类型。数据在:abbr:`UI（用户界"
+#~ "面）`上的显示方式和格式由小组件定义。"
+
+#~ msgid ""
+#~ "From a technical point of view, there are 15 field types in Odoo. "
+#~ "However, you can choose from 20 fields in Studio, as some field types are "
+#~ "available more than once with a different default widget."
+#~ msgstr ""
+#~ "从技术角度看，Odoo有15种字段类型。您也可以在Studio的20种字段中进行选择，因"
+#~ "为某些字段类型可以多次使用不同的默认小组件。"
+
+#~ msgid ""
+#~ ":guilabel:`New Fields` can only be added to the :ref:`studio/views/"
+#~ "general/form` and :ref:`studio/views/multiple-records/list` views. On "
+#~ "other views, you can only add :guilabel:`Existing Fields` :dfn:`(fields "
+#~ "already on the model)`."
+#~ msgstr ""
+#~ ":guilable:`新字段`只能添加至:ref:`studio/views/general/form`"
+#~ "和:ref:`studio/views/multiple-records/list`视图。其他视图只能添"
+#~ "加:guilabel:`现有字段` :dfn:`(fields already on the model)`。"
+
+#~ msgid ""
+#~ "Simple fields contain basic values, such as text, numbers, files, etc."
+#~ msgstr "简单字段包含基本值，如文本、数字、文件等。"
+
+#~ msgid ""
+#~ "Non-default widgets, when available, are presented as bullet points or "
+#~ "sub-headings below."
+#~ msgstr "若有非预设的小工具可用，会在下方以点列符号或子标题的形式交代。"
+
+#~ msgid ""
+#~ "Relational fields are used to link and display the data from records on "
+#~ "another model."
+#~ msgstr "关系字段用于链接并显示另一模型中记录的数据。"
+
+#~ msgid ""
+#~ "Non-default widgets, when available, are presented as bullet points below."
+#~ msgstr "非默认小组件（如可用）显示为以下项目符号。"
+
+#~ msgid "Properties"
+#~ msgstr "权益"
+
+#~ msgid ""
+#~ "On the *Form* view of the *Contact* model, the :guilabel:`Title` field "
+#~ "only appears when :guilabel:`Individual` is selected, as that field would "
+#~ "not be helpful for a :guilabel:`Company` contact."
+#~ msgstr ""
+#~ "在*联系人*模型的*表单*视图中，:guilabel:`职务`字段仅在选择:guilabel:`个人`"
+#~ "时显示，因为该字段对:guilabel:`公司`联系人无用。"
+
+#~ msgid ""
+#~ ":guilabel:`Label`: the field's name on the UI. This is not the name used "
+#~ "in the PostgreSQL database. To view and change the latter, activate "
+#~ "the :ref:`developer mode <developer-mode>` and edit "
+#~ "the :guilabel:`Technical Name`."
+#~ msgstr ""
+#~ ":guilabel:`标签`：字段在用户界面上的名称。这不是 PostgreSQL 数据库中使用的"
+#~ "名称。要查看和更改后者，请激活 :ref:`开发者模式 <developer-mode>` 并编"
+#~ "辑 :guilabel:`技术名称`。"
+
+#~ msgid ""
+#~ "Before implementing a webhook in a live database, configure and test it "
+#~ "using a :ref:`duplicate database <odoo_online/database-management>` to "
+#~ "ensure the webhook performs as intended."
+#~ msgstr ""
+#~ "在实时数据库中实施网络钩子之前，请使用 :ref:`重复数据库 <odoo_online/"
+#~ "database-management>` 对其进行配置和测试，以确保网络钩子按预期运行。"
 
 #~ msgid ""
 #~ "**Studio** is a toolbox used to customize Odoo without coding knowledge. "

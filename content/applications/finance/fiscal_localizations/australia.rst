@@ -36,6 +36,17 @@ Modules
      - Synchronizes all pay runs from :ref:`Employment Hero <payroll/l10n_au/employment-hero>`
        with Odoo's journal entries.
 
+.. note::
+   - It is not possible for users of the Australian fiscal localization to deactivate
+     :doc:`two-factor authentication (2FA) <../../general/users/2fa>` as it is required by the
+     Australian government.
+   - The localization automatically :ref:`installs <general/install>` core modules. A manual
+     :doc:`update <../../general/apps_modules>` may be required for missing elements or updates.
+
+.. seealso::
+   :doc:`Australian Payroll localization documentation
+   <../../hr/payroll/payroll_localizations/australia>`
+
 .. _australia/accounting:
 
 Accounting
@@ -273,7 +284,7 @@ taxes are accurately captured and reflected within the report.
 
 The module incorporates built-in rules that facilitate the automatic calculation of taxes for types
 W1 to W5. For a detailed walkthrough and more information on the calculation process for these
-taxes, refer to the :ref:`Payroll section <payroll/l10n_au/payroll>`.
+taxes, refer to the :ref:`Australian Payroll localization documentation <payroll/l10n_au/payroll>`.
 
 Closing
 *******

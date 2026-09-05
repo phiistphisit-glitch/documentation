@@ -1,7 +1,9 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
-# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025.
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2026.
+# Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
 #
 # Translators:
 # Tiffany Chang, 2024
@@ -13,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 08:33+0000\n"
-"PO-Revision-Date: 2025-09-05 22:51+0000\n"
-"Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
+"POT-Creation-Date: 2026-01-29 18:30+0000\n"
+"PO-Revision-Date: 2026-07-06 12:15+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18-doc/"
 "services/ko/>\n"
 "Language: ko\n"
@@ -23,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../../content/applications/services.rst:5
 msgid "Services"
@@ -331,6 +333,7 @@ msgstr ":doc:`../../inventory_and_mrp/inventory`"
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:13
 #: ../../content/applications/services/timesheets/billing_rates.rst:19
 #: ../../content/applications/services/timesheets/billing_rates.rst:54
+#: ../../content/applications/services/timesheets/time_off.rst:12
 msgid "Configuration"
 msgstr "환경설정"
 
@@ -393,7 +396,7 @@ msgstr ""
 "니다. 아래로 스크롤을 이동하여 :guilabel:`재고` 드롭다운 메뉴에서 기본 창고"
 "를 선택합니다."
 
-#: ../../content/applications/services/field_service/product_management.rst:-1
+#: ../../content/applications/services/field_service/product_management.rst:None
 msgid "Selection of a default warehouse on a user profile."
 msgstr "사용자 프로필에서 기본 창고 선택."
 
@@ -503,6 +506,8 @@ msgid ""
 "When your worksheet template is complete, click :guilabel:`Close` in the top "
 "right corner of the page to leave **Studio**."
 msgstr ""
+"워크시트 템플릿이 완성되면 페이지 오른쪽 상단의 :guilabel:`닫기`를 클릭하여 "
+"**스튜디오**를 종료하세요."
 
 #: ../../content/applications/services/field_service/worksheets.rst:39
 msgid ":doc:`Fields and widgets in Studio <../../studio/fields>`"
@@ -532,7 +537,7 @@ msgstr ""
 "를 가져가서 :guilabel:`➔`(:guilabel:`내부 링크`) 아이콘이 나타나면 클릭합니"
 "다."
 
-#: ../../content/applications/services/field_service/worksheets.rst:-1
+#: ../../content/applications/services/field_service/worksheets.rst:None
 msgid "Mouse on project name to setup default worksheet template"
 msgstr "프로젝트 이름에 마우스를 올려놓아서 기본 워크시트 템플릿 설정하기"
 
@@ -542,6 +547,8 @@ msgid ""
 "service` section and select the :guilabel:`Worksheet Template` you want to "
 "set up as default."
 msgstr ""
+"그런 다음 :guilabel:`설정` 탭에서 :guilabel:`현장 서비스` 섹션으로 "
+"스크롤하고 기본값으로 설정할 :guilabel:`워크시트 템플릿`을 선택하세요."
 
 #: ../../content/applications/services/field_service/worksheets.rst:58
 msgid "Use worksheets on site"
@@ -599,8 +606,11 @@ msgid ""
 "Configuration --> Helpdesk Teams`. To create a new team, click "
 "the :guilabel:`New` button on the top-left of the dashboard."
 msgstr ""
+"**헬프데스크** 팀을 보거나 수정하려면 :menuselection:`헬프데스크 앱 --> "
+"구성 --> 헬프데스크 팀`으로 이동하세요. 새 팀을 만들려면 현황판 왼쪽 상단의 "
+":guilabel:`새로 만들기` 버튼을 클릭하세요."
 
-#: ../../content/applications/services/helpdesk.rst:-1
+#: ../../content/applications/services/helpdesk.rst:None
 msgid "View of the Helpdesk teams page in Odoo Helpdesk."
 msgstr "Odoo 헬프데스크의 헬프데스크 팀 페이지 화면"
 
@@ -675,6 +685,8 @@ msgid ""
 ":guilabel:`All internal users (company)`: All internal users can access the "
 "team and all of its tickets."
 msgstr ""
+":guilabel:`모든 내부 사용자(회사)`: 모든 내부 사용자가 팀과 모든 티켓에 "
+"접근할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk.rst:56
 msgid ""
@@ -759,7 +771,7 @@ msgstr ""
 "거나 :guilabel:`자동 배정` 으로 진행할 수 있습니다. :guilabel:`자동 배정` 확"
 "인란에 표시하면 이 기능이 팀에서 활성화됩니다."
 
-#: ../../content/applications/services/helpdesk.rst:-1
+#: ../../content/applications/services/helpdesk.rst:None
 msgid ""
 "View of a Helpdesk team settings page emphasizing the automatic assignment "
 "features in Odoo\n"
@@ -792,6 +804,8 @@ msgid ""
 "assigned to team members based on how many open tickets they are currently "
 "assigned."
 msgstr ""
+":guilabel:`각 사용자가 동일한 수의 미처리 티켓 보유`: 현재 배정된 미처리 "
+"티켓 수를 기준으로 팀원에게 티켓이 배정됩니다."
 
 #: ../../content/applications/services/helpdesk.rst:107
 msgid ""
@@ -850,12 +864,16 @@ msgid ""
 "If duplicate tickets are found in **Helpdesk**, they can be combined into a "
 "single ticket using the *merge* feature."
 msgstr ""
+"**헬프데스크**에서 중복 티켓이 발견되면 *병합* 기능을 사용하여 단일 티켓으로 "
+"결합할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk.rst:134
 msgid ""
 "The *merge* feature is **only** accessible if the :doc:`Data Cleaning <../"
 "productivity/data_cleaning>` application is installed on the database."
 msgstr ""
+"*병합* 기능은 데이터베이스에 :doc:`데이터 정리 <../productivity/"
+"data_cleaning>` 애플리케이션이 설치된 경우에**만** 사용할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk.rst:137
 msgid ""
@@ -886,6 +904,8 @@ msgid ""
 "support team. In this case, tickets can be converted to *opportunities* and "
 "assigned to a sales team for follow-up."
 msgstr ""
+"일부 티켓은 지원 팀보다 판매 팀이 처리하는 것이 더 나을 수 있습니다. 이 경우 "
+"티켓을 *영업 기회*로 전환하여 후속 조치를 위해 판매 팀에 배정할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk.rst:151
 msgid ""
@@ -900,6 +920,8 @@ msgid ""
 "from a team's pipeline, or by navigating to :menuselection:`Helpdesk app --> "
 "Tickets` and clicking a ticket to open it."
 msgstr ""
+"티켓을 영업 기회로 전환하려면 먼저 팀의 파이프라인에서 티켓으로 이동하거나 "
+":menuselection:`헬프데스크 앱 --> 티켓`으로 이동하여 티켓을 클릭하여 여세요."
 
 #: ../../content/applications/services/helpdesk.rst:156
 msgid ""
@@ -913,12 +935,16 @@ msgid ""
 "**CRM** app, tickets are converted to *leads*, and the button "
 "reads :guilabel:`Convert to Lead`."
 msgstr ""
+"**CRM** 앱에서 :doc:`리드 <../sales/crm/acquire_leads/convert>`가 활성화된 "
+"경우 티켓은 *리드*로 전환되며 버튼에는 :guilabel:`리드로 전환`이 표시됩니다."
 
 #: ../../content/applications/services/helpdesk.rst:162
 msgid ""
 "This opens the :guilabel:`Convert to Opportunity` pop-up. Fill in or select "
 "the following information on the pop-up:"
 msgstr ""
+":guilabel:`영업 기회로 전환` 팝업이 열립니다. 팝업에서 다음 정보를 "
+"입력하거나 선택하세요:"
 
 #: ../../content/applications/services/helpdesk.rst:165
 msgid ""
@@ -940,7 +966,7 @@ msgstr ""
 ":guilabel:`영업팀`: 생성된 영업기회를 배정할 :guilabel:`영업팀` "
 "및 :guilabel:`영업 담당자` 를 지정합니다."
 
-#: ../../content/applications/services/helpdesk.rst:-1
+#: ../../content/applications/services/helpdesk.rst:None
 msgid "The convert to opportunity pop-up window."
 msgstr "영업기회로 전환하는 팝업창입니다."
 
@@ -950,6 +976,9 @@ msgid ""
 "so creates a new opportunity in the **CRM** app. The original ticket is "
 "linked in the chatter of the new opportunity for traceability."
 msgstr ""
+"양식을 완성한 후 :guilabel:`영업 기회로 전환`을 클릭하세요. 이렇게 하면 "
+"**CRM** 앱에 새로운 영업 기회가 생성됩니다. 추적을 위해 원래 티켓이 새 영업 "
+"기회의 대화 내역에 연결됩니다."
 
 #: ../../content/applications/services/helpdesk.rst:180
 msgid ""
@@ -1095,7 +1124,7 @@ msgstr ""
 "티켓 양식 왼쪽 상단에 있는 :guilabel:`환불` 버튼을 클릭합니다. 그러"
 "면 :guilabel:`환불` 팝업창이 열립니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a refund creation page."
 msgstr "환불건 생성 페이지 화면"
 
@@ -1200,8 +1229,10 @@ msgid ""
 "Once the credit note has been posted, a :guilabel:`Credit Notes` smart "
 "button is added to the **Helpdesk** ticket."
 msgstr ""
+"신용카드 메모가 게시되면 **헬프데스크** 티켓에 :guilabel:`신용카드 메모` "
+"스마트 버튼이 추가됩니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of smart buttons on a ticket focusing on the credit note button."
 msgstr "대변전표 버튼에 초점을 맞추어져 있는 티켓의 스마트 버튼 화면"
 
@@ -1219,12 +1250,17 @@ msgid ""
 "rules define the usage constraints of a coupon. *Coupon Programs* are "
 "configured in the **Sales**, **Point of Sale**, or **Website** applications."
 msgstr ""
+"쿠폰은 제품 또는 주문의 가격을 변경하는 데 사용할 수 있습니다. 조건부 규칙은 "
+"쿠폰의 사용 제약을 정의합니다. *쿠폰 프로그램*은 **판매**, **POS** 또는 "
+"**웹사이트** 애플리케이션에서 구성됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:103
 msgid ""
 "The **eCommerce** module **must** be installed to create coupon codes from "
 "the **Website**."
 msgstr ""
+"**웹사이트** 에서 쿠폰 코드를 생성하려면 **반드시** **이커머스** 모듈이 설치"
+"되어 있어야 합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:105
 msgid ""
@@ -1237,7 +1273,7 @@ msgstr ""
 "` 버튼을 클릭합니다. :guilabel:`쿠폰 생성` 팝업창이 나타나면 :guilabel:`쿠폰 "
 "프로그램` 드롭다운 메뉴에서 항목을 선택합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a coupon generation window."
 msgstr "쿠폰 생성 창 화면"
 
@@ -1262,6 +1298,9 @@ msgid ""
 "applications. Refer to :doc:`discount and loyalty programs <../../../sales/"
 "sales/products_prices/loyalty_discount>` for more information."
 msgstr ""
+"쿠폰 프로그램은 **POS** 또는 **웹사이트** 애플리케이션에서도 만들 수 "
+"있습니다. 자세한 내용은 :doc:`할인 및 로열티 프로그램 <../../../sales/sales/"
+"products_prices/loyalty_discount>`을 참조하세요."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:122
 msgid ""
@@ -1304,7 +1343,7 @@ msgstr ""
 "추가됩니다. 스마트 버튼을 클릭하면 쿠폰 코드, 유효 기간 및 추가 정보를 확인"
 "할 수 있습니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of the smart buttons on a ticket focusing on the coupon button."
 msgstr "쿠폰 버튼에 초점이 맞추어져 있는 티켓 스마트 버튼 화면"
 
@@ -1327,8 +1366,11 @@ msgid ""
 "the :guilabel:`Return` button at the top of a ticket to open "
 "the :guilabel:`Return` pop-up window."
 msgstr ""
+"반품은 *역전송*을 통해 완료되며, 반품 제품에 대한 새로운 창고 작업이 "
+"생성됩니다. 티켓 상단의 :guilabel:`반품` 버튼을 클릭하여 :guilabel:`반품` "
+"팝업 창을 엽니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a Helpdesk ticket with the return button highlighted."
 msgstr "반품 버튼이 강조 표시되어 있는 헬프데스크 티켓 화면"
 
@@ -1354,6 +1396,9 @@ msgid ""
 "order. Update the :guilabel:`Quantity` field, if necessary. To remove a "
 "line, click the :icon:`fa-trash-o` :guilabel:`(trash)` icon."
 msgstr ""
+"기본적으로 수량은 배송 주문의 검증된 수량과 일치합니다. 필요한 경우 "
+":guilabel:`수량` 필드를 업데이트합니다. 라인을 제거하려면 :icon:`fa-trash-o` "
+":guilabel:`(휴지통)` 아이콘을 클릭합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:166
 msgid ""
@@ -1361,7 +1406,7 @@ msgid ""
 "after the return is completed."
 msgstr "반품 절차가 완료된 후 물품을 보낼 :guilabel:`반품 위치`를 선택합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a reverse transfer creation page."
 msgstr "반품 배송 생성 페이지 화면."
 
@@ -1370,6 +1415,8 @@ msgid ""
 "To confirm the return, click :guilabel:`Return`. This generates a new "
 "warehouse operation for the incoming returned products."
 msgstr ""
+"반품을 확인하려면 :guilabel:`반품`을 클릭합니다. 이렇게 하면 반품된 제품에 "
+"대한 새로운 입고 창고 작업이 생성됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:175
 msgid ""
@@ -1377,6 +1424,8 @@ msgid ""
 "Exchange`. Doing so generates a warehouse operation in Odoo to deliver the "
 "replacement product."
 msgstr ""
+"받은 제품을 새 제품으로 교환하려면 :guilabel:`교환 반품`을 클릭합니다. "
+"이렇게 하면 Odoo에서 교체 제품을 배송하는 창고 작업이 생성됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:178
 msgid ""
@@ -1387,7 +1436,7 @@ msgstr ""
 "네비게이션을 활용하여 헬프데스크 티켓으로 돌아갑니다. 이제 새로운 :guilabel:`"
 "반품` 스마트 버튼이 티켓 상단에 표시되어 액세스할 수 있습니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of the return smart button on a helpdesk ticket."
 msgstr "헬프데스크 티켓에 반품 스마트 버튼이 나타나 있는 모습"
 
@@ -1405,6 +1454,8 @@ msgid ""
 "*repair order* can be created from the **Helpdesk** ticket, and managed "
 "through the **Repairs** application."
 msgstr ""
+"티켓이 결함이 있거나 파손된 제품 문제와 관련된 경우 **헬프데스크** 티켓에서 "
+"*수리 주문*을 생성하고 **수리** 애플리케이션을 통해 관리할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:195
 msgid ""
@@ -1416,7 +1467,7 @@ msgstr ""
 "에 있는 :guilabel:`수리` 버튼을 클릭합니다. 그러면 :guilabel:`수리 참조` 양식"
 "이 열립니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a repair reference page."
 msgstr "수리 참조 사항 페이지 화면."
 
@@ -1510,7 +1561,7 @@ msgstr ""
 "그러면 :guilabel:`수리` 스마트 버튼이 티켓에 추가되어 수리요청서로 연결됩니"
 "다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of smart buttons focusing on repair button."
 msgstr "수리 버튼에 초점이 맞추어져 있는 스마트 버튼 화면."
 
@@ -1560,8 +1611,11 @@ msgid ""
 "a :menuselection:`Helpdesk` ticket. Click :guilabel:`Plan Intervention` to "
 "open the :guilabel:`Create a Field Service task` pop-up window."
 msgstr ""
+"새 **현장 서비스** 작업을 생성하려면 :menuselection:`헬프데스크` 티켓으로 "
+"이동합니다. :guilabel:`현장 작업 계획`을 클릭하여 :guilabel:`현장 서비스 "
+"작업 생성` 팝업 창을 엽니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a Field Service task creation page."
 msgstr "현장 서비스 작업 생성 페이지 보기."
 
@@ -1616,6 +1670,9 @@ msgid ""
 "the :guilabel:`Worksheet Template` field does not appear on "
 "the :guilabel:`Create a Field Service task` pop-up window."
 msgstr ""
+"**현장 서비스** 프로젝트에 작업 시트가 활성화되어 있지 **않으면** "
+":guilabel:`현장 서비스 작업 생성` 팝업 창에 :guilabel:`작업 시트 템플릿` "
+"필드가 표시되지 않습니다."
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:276
 msgid "Click :guilabel:`Create Task` or :guilabel:`Create & View Task`."
@@ -1629,7 +1686,7 @@ msgstr ""
 "작업이 생성되면 :guilabel:`작업` 스마트 버튼이 티켓에 추가되어 티켓"
 "이 :guilabel:`현장 서비스` 작업으로 연결됩니다."
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of ticket smart buttons focused on task."
 msgstr "작업에 초점이 맞추어져 있는 티켓 스마트 버튼 화면"
 
@@ -1688,7 +1745,7 @@ msgstr ""
 "열 오른쪽 상단에 나타나는 :icon:`fa-gear` :guilabel:`(톱니바퀴)` 아이콘을 클"
 "릭합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
 msgid ""
 "View of stage on Helpdesk pipeline with emphasis on gear icon and edit stage "
 "option."
@@ -1718,6 +1775,10 @@ msgid ""
 "then :guilabel:`Save & Close` to confirm the changes. Now, tickets are "
 "*closed* once they reach this folded stage."
 msgstr ""
+"나타나는 메뉴에서 :guilabel:`편집`을 선택합니다. 그러면 단계 설정이 "
+"열립니다. :guilabel:`칸반에서 접기` 체크박스를 선택한 다음 :guilabel:`저장 "
+"및 닫기`를 클릭하여 변경 사항을 확인합니다. 이제 티켓이 이 접힌 단계에 "
+"도달하면 *마감*됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:0
 msgid "Stage settings page."
@@ -1741,6 +1802,9 @@ msgid ""
 "Configuration --> Helpdesk Teams`. Under the :guilabel:`Self-Service` "
 "section, enable :guilabel:`Automatic Closing`."
 msgstr ""
+":menuselection:`헬프데스크 --> 구성 --> 헬프데스크 팀`으로 이동하여 팀의 "
+"설정 페이지로 이동합니다. :guilabel:`셀프 서비스` 섹션에서 :guilabel:`자동 "
+"마감`을 활성화합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:46
 msgid ""
@@ -1863,8 +1927,11 @@ msgid ""
 "the :guilabel:`Self-Service` section and tick the checkbox "
 "for :guilabel:`Closure by Customers`."
 msgstr ""
+"먼저 :menuselection:`헬프데스크 --> 구성 --> 헬프데스크 팀`으로 이동하여 "
+"팀을 선택합니다. 팀의 설정 페이지에서 :guilabel:`셀프 서비스` 섹션으로 "
+"스크롤하고 :guilabel:`고객에 의한 마감` 체크박스를 선택합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
 msgid "Customer closing setting in Odoo Helpdesk."
 msgstr "Odoo 헬프데스크에서의 고객 종료 설정."
 
@@ -1874,8 +1941,10 @@ msgid ""
 "button is available for customers when they view their ticket through the "
 "customer portal."
 msgstr ""
+"티켓 마감 설정이 활성화되면 고객이 고객 포털을 통해 티켓을 볼 때 "
+":guilabel:`티켓 마감` 버튼을 사용할 수 있습니다."
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
 msgid "Customer view of ticket closing in Odoo Helpdesk."
 msgstr "Odoo 헬프데스크에서 티켓이 종료되어 있는 고객 화면"
 
@@ -1897,6 +1966,8 @@ msgid ""
 "Customers with access to the :doc:`portal <../../../general/users/portal>` "
 "are able to view their tickets under :menuselection:`My Account --> Tickets`."
 msgstr ""
+":doc:`포털 <../../../general/users/portal>`\\ 에 접근할 수 있는 고객은\\ "
+":menuselection:`내 계정 --> 티켓`\\ 아래에서 자신의 티켓을 볼 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:3
 msgid "Track and bill time"
@@ -1943,6 +2014,8 @@ msgid ""
 "Before a customer can be invoiced for support services, the *Track & Bill "
 "Time* features **must** be enabled on each **Helpdesk** team individually."
 msgstr ""
+"지원 서비스에 대해 고객에게 청구하려면 각 **헬프데스크** 팀에서 개별적으로 "
+"*시간 추적 및 청구* 기능을 활성화**해야** 합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:27
 msgid "Enable track and bill time on a helpdesk team"
@@ -1975,6 +2048,8 @@ msgid ""
 "After the :guilabel:`Timesheets` box is checked, a new field appears, "
 "labeled :guilabel:`Project`."
 msgstr ""
+":guilabel:`작업 기록` 박스를 선택하면 새로 :guilabel:`프로젝트` 라는 필드가 "
+"나타납니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:39
 msgid ""
@@ -2006,7 +2081,7 @@ msgstr ""
 "뉴를 클릭하여 프로젝트 이름을 입력한 후 아래에 있는 드롭다운 메뉴에"
 "서 :guilabel:`만들기`를 클릭합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of a helpdesk team settings page emphasizing the track and bill time "
 "settings."
@@ -2046,7 +2121,7 @@ msgstr ""
 "준`으로 설정된 상태로 품목을 설정합니다. :guilabel:`원가` 또는 :guilabel:`판"
 "매가`와 같이 필요에 따라 품목 기록 내용을 변경합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of a service product with the invoicing policy set to 'Based on "
 "timesheets'."
@@ -2086,7 +2161,7 @@ msgstr ""
 "여 작업시간표 항목을 기록하기 전에 품목 관련된 청구서를 생성하고 결제를 받을 "
 "수 있습니다."
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of a service product with the invoicing policy set to 'prepaid/fixed'."
 msgstr "청구서 발행 정책이 '선불/고정'으로 설정된 서비스 품목 보기"
@@ -2096,6 +2171,8 @@ msgid ""
 "Finally, set the :guilabel:`Sales Price`, and confirm that the unit of "
 "measure is set to :guilabel:`Hours`."
 msgstr ""
+"마지막으로 :guilabel:`판매 가격`을 설정하고 측정 단위가 :guilabel:`시간`으로 "
+"설정되어 있는지 확인합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:89
 msgid "Invoice prepaid support services"
@@ -2140,12 +2217,18 @@ msgid ""
 "when :ref:`configuring the service product <helpdesk/configure-service-"
 "products>`. Update the :guilabel:`Quantity` field with the number of hours."
 msgstr ""
+"견적서의 :guilabel:`주문 라인` 탭으로 이동하여 :guilabel:`제품 추가`를 "
+"클릭합니다. 그런 다음 :ref:`서비스 제품 구성 <helpdesk/configure-service-"
+"products>` 시 *선불 서비스 제품*을 선택합니다. :guilabel:`수량` 필드를 시간 "
+"수로 업데이트합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:109
 msgid ""
 "After updating any other necessary information, :guilabel:`Confirm` the "
 "quotation. This converts the quotation into an |SO|."
 msgstr ""
+"필요한 다른 정보를 업데이트한 후 견적서를 :guilabel:`확인`합니다. 이렇게 "
+"하면 견적서가 |SO|로 전환됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:113
 msgid "Create and send an invoice for prepaid services"
@@ -2156,6 +2239,8 @@ msgid ""
 "After the |SO| has been confirmed, click the :guilabel:`Create Invoice` "
 "button. This opens a :guilabel:`Create invoice(s)` pop-up window."
 msgstr ""
+"|SO|이 확인되면 :guilabel:`송장 생성` 버튼을 클릭합니다. 그러면 "
+":guilabel:`송장 생성` 팝업 창이 열립니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:118
 msgid ""
@@ -2174,7 +2259,7 @@ msgstr ""
 msgid ""
 "When the necessary information has been entered, click :guilabel:`Create "
 "Draft`."
-msgstr ""
+msgstr "필요한 정보를 입력한 후 :guilabel:`초안 만들기` 를 클릭합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:125
 msgid "The invoice can then be sent to the customer for payment."
@@ -2191,6 +2276,10 @@ msgid ""
 "reveal a specific team's pipeline. Click :guilabel:`New` to create a new "
 "ticket."
 msgstr ""
+"선불 서비스에 대한 **헬프데스크** 티켓을 생성하려면 "
+":menuselection:`헬프데스크`로 이동하여 :guilabel:`티켓` 버튼을 클릭하여 특정 "
+"팀의 파이프라인을 표시합니다. :guilabel:`새로 만들기`를 클릭하여 새 티켓을 "
+"생성합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:134
 msgid ""
@@ -2218,6 +2307,8 @@ msgid ""
 "Time spent working on a **Helpdesk** ticket is tracked on the **Timesheets** "
 "tab on the specific ticket."
 msgstr ""
+"**헬프데스크** 티켓 작업에 소요된 시간은 해당 티켓의 **작업 기록** 탭에서 "
+"추적됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:146
 msgid ""
@@ -2239,7 +2330,7 @@ msgstr ""
 ":guilabel:`근무시간표` 탭에 새로운 줄이 추가되면 탭 우측 하단에 있"
 "는 :guilabel:`판매주문서 잔여 시간` 필드가 자동으로 업데이트됩니다."
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of the timesheets tab on a ticket with an emphasis on the remaining "
 "hours on an SO."
@@ -2257,13 +2348,15 @@ msgstr ""
 msgid ""
 "An example of a ticket with the number of hours exceeding the hours "
 "remaining."
-msgstr ""
+msgstr "시간 수가 남은 시간을 초과하는 티켓의 예입니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:163
 msgid ""
 "As hours are added to the :guilabel:`Timesheets` tab, they are automatically "
 "updated in the :guilabel:`Delivered` field on the |SO|, as well."
 msgstr ""
+":guilabel:`작업 기록` 탭에 시간이 추가되면 |SO|의 :guilabel:`배송됨` "
+"필드에도 자동으로 업데이트됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:167
 msgid "Invoice post-paid support services"
@@ -2311,6 +2404,9 @@ msgid ""
 "the :guilabel:`Service on Timesheets` product. After updating any other "
 "necessary information, :guilabel:`Confirm` the quotation."
 msgstr ""
+":guilabel:`주문 라인` 탭에서 :guilabel:`제품 추가`를 클릭합니다. "
+":guilabel:`작업 기록 기반 서비스` 제품을 선택합니다. 기타 필요한 정보를 "
+"업데이트한 후 견적을 :guilabel:`확인`합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:189
 msgid ""
@@ -2318,6 +2414,9 @@ msgid ""
 "invoice to be created at this time. Since services were **not** performed, "
 "nothing was delivered, so there is nothing to invoice."
 msgstr ""
+"선불 서비스 견적과 달리 Odoo는 이 시점에서 송장 생성을 허용하지 "
+"**않습니다**. 서비스가 수행되지 **않았고** 배송된 것이 없으므로 송장을 "
+"발행할 내용이 없습니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:194
 msgid "Create a helpdesk ticket for time-tracked services"
@@ -2329,6 +2428,9 @@ msgid ""
 "the :menuselection:`Helpdesk` app, and select the appropriate team for which "
 "these services apply."
 msgstr ""
+"시간 추적 서비스에 대한 작업시간표 항목을 기록하려면 "
+":menuselection:`헬프데스크` 앱으로 이동하여 해당 서비스가 적용되는 적절한 "
+"팀을 선택합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:199
 msgid ""
@@ -2348,6 +2450,8 @@ msgid ""
 "After selecting or creating a ticket, go to the :guilabel:`Sales Order Item` "
 "drop-down menu. Select the |SO| created in the previous step."
 msgstr ""
+"티켓을 선택하거나 생성한 후 :guilabel:`판매 주문 항목` 드롭다운 메뉴로 "
+"이동합니다. 이전 단계에서 생성한 |SO|를 선택합니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:208
 msgid "Track support hours on a ticket"
@@ -2377,9 +2481,9 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:217
 msgid "Repeat these steps until all timesheet entries have been recorded."
-msgstr ""
+msgstr "모든 근무시간표 항목이 기록될 때까지 이와 같은 작업을 반복합니다."
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid "View of the timesheets tab on a helpdesk ticket."
 msgstr "헬프데스크 티켓의 작업시간표 탭 보기"
 
@@ -2391,13 +2495,15 @@ msgstr "티켓 소요 시간에 대한 청구서 생성하기"
 msgid ""
 "If no new timesheets are needed, then create an invoice and send it to the "
 "customer."
-msgstr ""
+msgstr "새로운 작업시간표가 필요하지 않으면 송장을 생성하여 고객에게 보냅니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:227
 msgid ""
 "To do this, return to the |SO| by clicking on the :guilabel:`Sales Order` "
 "smart button at the top of the ticket."
 msgstr ""
+"이를 위해 티켓 상단의 :guilabel:`판매 주문` 스마트 버튼을 클릭하여 |SO|로 "
+"돌아갑니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:230
 msgid ""
@@ -2410,7 +2516,7 @@ msgstr ""
 "켓 :guilabel:`작업시간표` 탭에 표시된 총 :guilabel:`소요 시간` 수와 일치하는"
 "지 확인하세요."
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid "View of a sales order with emphasis on the delivered column."
 msgstr "배송 완료 열이 강조 표시되어 있는 판매주문서 화면."
 
@@ -2439,6 +2545,9 @@ msgid ""
 "include timesheets from a certain time period. If this field is left blank, "
 "**all** applicable timesheets that have not yet been invoiced are included."
 msgstr ""
+"이 송장에 특정 기간의 작업시간표**만** 포함되어야 하는 경우 "
+":guilabel:`작업시간표 기간` 필드를 사용합니다. 이 필드를 비워두면 아직 "
+"송장이 발행되지 않은 **모든** 해당 작업시간표가 포함됩니다."
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:247
 msgid ""
@@ -2479,7 +2588,7 @@ msgstr ""
 "및 서비스에 대해 자세하게 정보를 검색하고 공유할 수 있도록 중앙에서 정보를 관"
 "리하는 곳입니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid ""
 "Overview of the settings page of a team emphasizing the Help Center features."
 msgstr "도움말 센터 기능이 강조되어 있는 회사 팀에서의 설정 페이지 전체보기"
@@ -2580,6 +2689,9 @@ msgid ""
 "to :menuselection:`Helpdesk app --> Configuration --> Helpdesk Teams` and "
 "select a team, or create a :doc:`new one <../../helpdesk>`."
 msgstr ""
+"*헬프데스크* 팀에서 **지식센터** 기능을 활성화하려면 "
+":menuselection:`헬프데스크 앱 --> 설정 --> 헬프데스크 팀`으로 이동하여 팀을 "
+"선택하거나 :doc:`새로 만듭니다 <../../helpdesk>`."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:59
 msgid ""
@@ -2619,6 +2731,9 @@ msgid ""
 "hover the cursor next to the :guilabel:`Workspace` section heading, located "
 "in the left sidebar. Moving the cursor there reveals a hidden |plus|."
 msgstr ""
+"새 문서를 만들려면 :menuselection:`지식센터 앱`으로 이동한 다음 왼쪽 "
+"사이드바에 있는 :guilabel:`작업공간` 섹션 제목 옆에 커서를 올립니다. 커서를 "
+"이동하면 숨겨진 |plus|가 표시됩니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:74
 msgid ""
@@ -2637,11 +2752,14 @@ msgid ""
 "Once an article has been created and assigned to a **Helpdesk** team, "
 "content can be added and organized through the **Knowledge** app."
 msgstr ""
+"문서가 생성되고 **헬프데스크** 팀에 할당되면 **지식센터** 앱을 통해 콘텐츠를 "
+"추가하고 정리할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:82
 msgid ""
 ":ref:`Editing Knowledge articles <knowledge/articles_editing/edit-article>`"
 msgstr ""
+":ref:`지식 센터 기사 편집하기 <knowledge/articles_editing/edit-article>`"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:85
 msgid "Search articles from a Helpdesk ticket"
@@ -2653,6 +2771,8 @@ msgid ""
 "search through the content in the **Knowledge** app for more information on "
 "the issue."
 msgstr ""
+"**헬프데스크** 팀 구성원이 티켓을 해결하려고 할 때 **지식센터** 앱의 "
+"콘텐츠를 검색하여 문제에 대한 추가 정보를 찾을 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:90
 msgid ""
@@ -2676,7 +2796,7 @@ msgstr ""
 "페이지 오른쪽 상단에 위치한 :guilabel:`지식센터 (책갈피)` 아이콘을 클릭하면 "
 "팝업 검색창이 열립니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of knowledge search window from a helpdesk ticket."
 msgstr "헬프데스크 티켓의 지식 센터 검색 창 화면"
 
@@ -2686,6 +2806,8 @@ msgid ""
 "to open the command palette, then typing :kbd:`?`, followed by the name of "
 "the desired article."
 msgstr ""
+"**지식센터** 문서는 :command:`Ctrl + K`를 눌러 명령 팔레트를 연 다음 "
+":kbd:`?`를 입력하고 원하는 문서 이름을 입력하여 검색할 수도 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:106
 msgid ""
@@ -2743,7 +2865,7 @@ msgstr ""
 "다. :guilabel:`웹에 공유` 라고 표시된 토글 버튼을 슬라이드하면 :guilabel:`기"
 "사 게시됨` 이 표시됩니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a knowledge article focused on sharing and publishing options."
 msgstr "공유 및 게시 옵션에 초점이 맞추어져 있는 지식 센터 문서 화면."
 
@@ -2774,6 +2896,9 @@ msgid ""
 "Click on an existing nested article or create a new one by clicking the |"
 "plus| next to *Help*."
 msgstr ""
+"클립보드 상자를 만들려면 :menuselection:`지식센터 앱 --> 도움말`로 "
+"이동합니다. 기존의 하위 문서를 클릭하거나 *도움말* 옆의 |plus|를 클릭하여 새 "
+"문서를 만듭니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:146
 msgid ""
@@ -2782,8 +2907,12 @@ msgid ""
 "type :kbd:`clipboard`. A gray block is then added to the page. Add any "
 "necessary content to this block."
 msgstr ""
+":kbd:`/`를 입력하여 *파워박스*를 열고 :ref:`명령 <knowledge/articles_editing/"
+"commands>` 드롭다운 목록을 확인합니다. :kbd:`clipboard`를 선택하거나 "
+"입력합니다. 그러면 회색 블록이 페이지에 추가됩니다. 이 블록에 필요한 "
+"콘텐츠를 추가합니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a clipboard in knowledge with focus on send and copy options."
 msgstr "보내기 및 복사 옵션에 초점이 맞춰져 있는 지식센터의 클립보드 화면"
 
@@ -2793,6 +2922,8 @@ msgid ""
 "or :guilabel:`Send as Message` options if they are accessed directly from "
 "the **Helpdesk**."
 msgstr ""
+"클립보드 상자는 **헬프데스크**에서 직접 액세스할 때만 :guilabel:`설명으로 "
+"사용` 또는 :guilabel:`메시지로 보내기` 옵션을 표시합니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:158
 msgid "Use clipboard boxes in tickets"
@@ -2803,6 +2934,8 @@ msgid ""
 "Clipboard boxes can be used to respond directly to a **Helpdesk** ticket as "
 "a message, or to add information to the ticket's description."
 msgstr ""
+"클립보드 상자를 사용하여 **헬프데스크** 티켓에 메시지로 직접 응답하거나 티켓 "
+"설명에 정보를 추가할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:163
 msgid ""
@@ -2882,6 +3015,9 @@ msgid ""
 "navigating to :menuselection:`Helpdesk app --> Configuration --> Helpdesk "
 "Teams` and select a team, or create a :doc:`new one <../../helpdesk>`."
 msgstr ""
+"**헬프데스크** 팀에서 :guilabel:`커뮤니티 포럼`을 활성화하려면 먼저 "
+":menuselection:`헬프데스크 앱 --> 설정 --> 헬프데스크 팀`으로 이동하여 팀을 "
+"선택하거나 :doc:`새로 만듭니다 <../../helpdesk>`."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:199
 msgid ""
@@ -2934,6 +3070,8 @@ msgid ""
 "When a **Helpdesk** team has a *Forum* enabled, tickets submitted to that "
 "team can be converted to forum posts."
 msgstr ""
+"**헬프데스크** 팀에 *포럼*이 활성화되어 있으면 해당 팀에 제출된 티켓을 포럼 "
+"게시물로 변환할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:221
 msgid ""
@@ -2951,7 +3089,7 @@ msgid ""
 msgstr ""
 "티켓 세부 양식의 맨 위에 있는 :guilabel:`포럼에서 공유` 버튼을 클릭합니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid ""
 "Overview of the Forums page of a website to show the available ones in Odoo "
 "Helpdesk."
@@ -2997,8 +3135,11 @@ msgid ""
 "ellipsis-h` :guilabel:`(ellipsis)` icon. Then, click :guilabel:`Create "
 "Ticket`."
 msgstr ""
+"티켓을 생성하려면 포럼 게시물로 이동하여 :icon:`fa-ellipsis-h` :guilabel:`"
+"(생략 기호)` 아이콘을 클릭합니다. 그런 다음 :guilabel:`티켓 생성`을 "
+"클릭합니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "A forum post with the create ticket option visible."
 msgstr "포럼 게시물에 티켓 만들기 옵션이 표시되어 있는 모습입니다."
 
@@ -3008,6 +3149,9 @@ msgid ""
 "the :guilabel:`Create Ticket` field. Then, confirm the :guilabel:`Helpdesk "
 "Team` the ticket should be assigned to."
 msgstr ""
+":guilabel:`티켓 생성` 팝업이 열립니다. :guilabel:`티켓 생성` 필드를 필요에 "
+"따라 편집합니다. 그런 다음 티켓이 할당될 :guilabel:`헬프데스크 팀`을 "
+"확인합니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:250
 msgid "Click :guilabel:`Create & View Ticket` or :guilabel:`Create Ticket`."
@@ -3045,6 +3189,9 @@ msgid ""
 "to :menuselection:`Helpdesk app --> Configuration --> Helpdesk Teams` and "
 "select a team, or create a :doc:`new one <../../helpdesk>`."
 msgstr ""
+"**온라인 학습 관리**\\ 를 **헬프데스크**\\ 팀에서 사용하려면\\ "
+":menuselection:`헬프데스크 앱 --> 환경 설정 --> 헬프데스크 팀`\\ 으로 "
+"이동하여 팀을 선택하거나\\ :doc:`새 팀을 생성 <../../helpdesk>`\\ 합니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:269
 msgid ""
@@ -3078,6 +3225,9 @@ msgid ""
 "A new **eLearning** course can be created from the :guilabel:`Helpdesk` "
 "team's settings page, as in the step above, or from the **eLearning** app."
 msgstr ""
+"새로운 **온라인 학습 관리**\\ 코스는 위 단계에서와 같이\\ "
+":guilabel:`헬프데스크`\\ 팀의 설정 페이지에서 생성하거나, **온라인 학습 "
+"관리**\\ 앱에서 생성할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:283
 msgid ""
@@ -3085,6 +3235,9 @@ msgid ""
 "to :menuselection:`eLearning --> New`. This reveals a blank course template "
 "that can be customized and modified as needed."
 msgstr ""
+"**온라인 학습 관리**\\ 애플리케이션을 통해 코스를 직접 생성하려면\\ "
+":menuselection:`온라인 학습 관리 --> 새로 만들기`\\ 로 이동합니다. 필요에 "
+"따라 사용자 지정하고 수정할 수 있는 빈 코스 템플릿이 표시됩니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:287
 msgid ""
@@ -3137,7 +3290,7 @@ msgstr ""
 "장`을 클릭합니다. 강좌를 섹션으로 정리하려면 :guilabel:`섹션 추가`를 클릭하세"
 "요."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a course being published for Odoo Helpdesk."
 msgstr "Odoo 헬프데스크에 게시되는 강좌 화면."
 
@@ -3193,6 +3346,8 @@ msgid ""
 "To publish a course, choose a course from the **eLearning** dashboard. On "
 "the course template page, click the :guilabel:`Go to Website` smart button."
 msgstr ""
+"코스를 게시하려면 **온라인 학습 관리**\\ 현황판에서 코스를 선택합니다. 코스 "
+"템플릿 페이지에서\\ :guilabel:`웹사이트로 이동`\\ 스마트 버튼을 클릭합니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:334
 msgid ""
@@ -3213,6 +3368,9 @@ msgid ""
 "from the **eLearning** dashboard. On the course template page, click "
 "the :guilabel:`Published Contents` smart button."
 msgstr ""
+"백엔드에서 **온라인 학습 관리**\\ 코스 콘텐츠를 게시하려면 **온라인 학습 "
+"관리**\\ 현황판에서 코스를 선택합니다. 코스 템플릿 페이지에서\\ "
+":guilabel:`게시된 콘텐츠`\\ 스마트 버튼을 클릭합니다."
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:343
 msgid ""
@@ -3254,7 +3412,7 @@ msgstr ""
 "다. 그러면 선택한 전체 레코드를 게시할 것인지 확인하는 팝업 창이 나타납니다. "
 "전체 강좌 콘텐츠를 자동으로 게시하려면 :guilabel:`확인`을 클릭합니다."
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a course contents being published in Odoo Helpdesk back-end."
 msgstr "Odoo 헬프데스크 백엔드에서 게시 중인 강좌 콘텐츠 화면."
 
@@ -3268,6 +3426,8 @@ msgid ""
 "provides an opportunity to gauge team performance and track customer "
 "satisfaction."
 msgstr ""
+"**헬프데스크**\\ 팀으로부터 받은 지원에 대해 고객에게 평가를 요청하면 팀 "
+"성과를 측정하고 고객 만족도를 추적할 수 있는 기회를 제공합니다."
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:15
 msgid "Enable customer ratings on Helpdesk teams"
@@ -3286,7 +3446,7 @@ msgstr ""
 "정 페이지를 엽니다. :guilabel:`성과` 섹션으로 스크롤을 이동하여 :guilabel:`고"
 "객 평점` 확인란에 표시합니다."
 
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:-1
+#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
 msgid ""
 "Overview of the settings page of a helpdesk team emphasizing the rating on "
 "ticket feature\n"
@@ -3305,6 +3465,8 @@ msgid ""
 "To automatically request ratings from customers once their tickets have "
 "closed, an email template needs to be added to the appropriate stage."
 msgstr ""
+"고객의 티켓이 종료되면 자동으로 평가를 요청하려면 적절한 단계에 이메일 "
+"템플릿을 추가해야 합니다."
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:31
 msgid ""
@@ -3353,7 +3515,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:47
 msgid "**Satisfied** - |smile|"
-msgstr ""
+msgstr "**만족** - |smile|"
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:48
 msgid "**Okay** - |meh|"
@@ -3363,9 +3525,9 @@ msgstr "**보통** - |meh|"
 msgid "**Dissatisfied** - |frown|"
 msgstr "**불만족** - |frown|"
 
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:-1
+#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
 msgid "A preview of the ticket rating request template in Helpdesk."
-msgstr ""
+msgstr "헬프데스크에서 티켓에 대한 평가 요청서 템플릿 미리보기."
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:54
 msgid ""
@@ -3479,6 +3641,8 @@ msgid ""
 "When a new **Helpdesk** team is created, an email alias is created for it. "
 "This alias can be changed on the team's settings page."
 msgstr ""
+"새로운 **헬프데스크**\\ 팀이 생성되면 해당 팀에 대한 이메일 별칭이 "
+"생성됩니다. 이 별칭은 팀의 설정 페이지에서 변경할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:37
 msgid ""
@@ -3486,6 +3650,9 @@ msgid ""
 "to :menuselection:`Helpdesk app --> Configuration --> Helpdesk Teams`, and "
 "click on a team name to open its settings page."
 msgstr ""
+"**헬프데스크**\\ 팀의 이메일 별칭을 변경하려면\\ :menuselection:`헬프데스크 "
+"앱 --> 환경 설정 --> 헬프데스크 팀`\\ 으로 이동하여 팀 이름을 클릭하여 설정 "
+"페이지를 엽니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:40
 msgid ""
@@ -3496,7 +3663,7 @@ msgstr ""
 "그런 다음 :menuselection:`채널 --> 이메일 별칭`으로 스크롤을 이동합니"
 "다. :guilabel:`별칭` 항목에 팀의 이메일 별칭으로 사용할 이름을 입력합니다."
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of the settings page of a Helpdesk team emphasizing the email alias "
 "feature in Odoo\n"
@@ -3511,6 +3678,8 @@ msgid ""
 "Custom email domains are **not** required in order to use an email alias, "
 "however, they can be configured through the **Settings** app."
 msgstr ""
+"이메일 별칭을 사용하기 위해 맞춤 이메일 도메인이 **반드시** 필요한 것은 "
+"아니지만, **설정**\\ 앱을 통해 구성할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:51
 msgid ""
@@ -3576,6 +3745,9 @@ msgid ""
 "new **Live Chat** channel is created. Click on :guilabel:`Configure Live "
 "Chat Channel` to update the channel's settings."
 msgstr ""
+"**헬프데스크**\\ 팀에서\\ :guilabel:`실시간 채팅`\\ 설정을 활성화하면 새로운 "
+"**실시간 채팅**\\ 채널이 생성됩니다. :guilabel:`실시간 채팅 채널 구성`\\ 을 "
+"클릭하여 채널의 설정을 업데이트합니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:82
 msgid "Live Chat channel configuration"
@@ -3587,15 +3759,20 @@ msgid ""
 "though, Odoo names the channel to match the **Helpdesk** team name, by "
 "default."
 msgstr ""
+"채널의 설정 페이지에서\\ :guilabel:`채널 이름`\\ 을 편집할 수 있지만, "
+"기본적으로 Odoo는 **헬프데스크**\\ 팀 이름과 일치하도록 채널 이름을 "
+"지정합니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:88
 msgid ""
 "If a **Helpdesk** team is named `Customer Care`, a **Live Chat** channel is "
 "created called `Customer Care`."
 msgstr ""
+"**헬프데스크** 팀의 이름이 `고객 서비스`인 경우 `고객 서비스`라는 **실시간 채"
+"팅** 채널이 생성됩니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:0
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid "View of the Kanban cards for the available Live Chat channels."
 msgstr "사용할 수 있는 실시간 채팅 채널을 보여주는 칸반 카드 화면"
 
@@ -3673,6 +3850,8 @@ msgid ""
 "Users can add themselves as an operator by clicking the :guilabel:`Join "
 "Channel` button on a **Live Chat** channel."
 msgstr ""
+"사용자는 **실시간 채팅**\\ 채널에서\\ :guilabel:`채널 참여`\\ 버튼을 "
+"클릭하여 자신을 운영자로 추가할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:0
 msgid ""
@@ -3691,7 +3870,7 @@ msgstr ""
 ":guilabel:`옵션` 탭에서 실시간 채팅 창에서 사용할 수 있는 효과 및 텍스트 설정"
 "을 할 수 있습니다."
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid "View of the options tab of a Live Chat channel's settings."
 msgstr "실시간 채팅의 채널 설정에 있는 옵션 탭 화면"
 
@@ -3700,6 +3879,8 @@ msgid ""
 ":guilabel:`Notification Text`: This field updates the greeting displayed in "
 "the text bubble when the live chat button appears on the website."
 msgstr ""
+":guilabel:`알림 텍스트`: 이 필드는 실시간 채팅 버튼이 웹사이트에 표시될 때 "
+"텍스트 풍선에 표시되는 인사말을 업데이트합니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:140
 msgid ""
@@ -3728,6 +3909,8 @@ msgid ""
 "addition of the :guilabel:`Notification text` from the :guilabel:`Options` "
 "tab."
 msgstr ""
+":guilabel:`알림과 함께 표시`: 채팅 버튼이 표시되며\\ :guilabel:`옵션`\\ "
+"탭의\\ :guilabel:`알림 텍스트`\\ 가 추가됩니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:149
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:182
@@ -3932,6 +4115,8 @@ msgid ""
 "**Helpdesk** tickets can also be created through the :doc:`WhatsApp </"
 "applications/productivity/whatsapp>` app using the same `/ticket` command."
 msgstr ""
+"**헬프데스크**\\ 티켓은\\ :doc:`WhatsApp </applications/productivity/"
+"whatsapp>`\\ 앱에서 동일한 `/ticket` 명령을 사용하여 생성할 수도 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:250
 msgid "Website Form"
@@ -4004,7 +4189,7 @@ msgstr ""
 "할 수 있습니다. 포럼의 하단에 있는 :guilabel:`문의하기` 버튼을 클릭하면 티켓 "
 "제출 양식으로 이동합니다."
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of the settings page of a helpdesk team emphasizing the Go to Website "
 "button in\n"
@@ -4117,7 +4302,7 @@ msgid ""
 "animation."
 msgstr ":guilabel:`애니메이션`: 애니메이션을 포함시킬 지 여부를 선택합니다."
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of the unpublished website form to submit a ticket for Odoo Helpdesk."
 msgstr ""
@@ -4147,7 +4332,7 @@ msgstr ""
 "모든 티켓에는 :guilabel:`우선순위` 가 지정되어 있습니다. 우선순위가 가장 높"
 "은 티켓이 칸반 보기 및 목록 보기에서 상위에 표시됩니다."
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of a team's Kanban view and the prioritized tasks in Odoo Helpdesk."
 msgstr "Odoo 헬프데스크의 팀 칸반 화면 및 우선순위 작업 화면"
@@ -4213,6 +4398,9 @@ msgid ""
 "workloads, identify areas for improvement, and confirm if customer "
 "expectations are being met."
 msgstr ""
+"Odoo **헬프데스크**\\ 의 보고서는 임직원 업무량을 관리하고, 개선이 필요한 "
+"영역을 식별하며, 고객의 기대가 충족되고 있는지 확인할 수 있는 기회를 "
+"제공합니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:12
 msgid "Available reports"
@@ -4225,6 +4413,10 @@ msgid ""
 "Reporting`, and select one of the following: :guilabel:`Tickets "
 "Analysis`, :guilabel:`SLA Status Analysis`, or :guilabel:`Customer Ratings`."
 msgstr ""
+"Odoo **헬프데스크**\\ 에서 사용 가능한 보고서에 대한 자세한 내용은 아래에서 "
+"확인할 수 있습니다. 다양한 보고서를 보려면\\ :menuselection:`헬프데스크 "
+"앱 --> 보고`\\ 로 이동하여 다음 중 하나를 선택합니다: :guilabel:`티켓 분석`, "
+":guilabel:`SLA 상태 분석`\\ 또는\\ :guilabel:`고객 평가`."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:19
 msgid "Tickets Analysis"
@@ -4251,7 +4443,7 @@ msgstr ""
 "를 검토할 때 도움이 됩니다. 기본 보고서는 팀별 티켓 수를 계산하여 단계별 그룹"
 "으로 분류합니다."
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of Ticket Analysis report default view."
 msgstr "티켓 분석 보고서의 기본 보기"
 
@@ -4298,6 +4490,9 @@ msgid ""
 "a ticket. *This measure is only available if Timesheets are enabled on a "
 "team, and the current user has the access rights to view them.*"
 msgstr ""
+":guilabel:`소요 시간 (작업 기록)`: 티켓에 기록된 *작업시간표*\\ 시간의 "
+"수입니다. *이 측정값은 팀에서 작업시간표가 활성화되어 있고 현재 사용자가 "
+"이를 볼 수 있는 액세스 권한이 있는 경우에만 사용할 수 있습니다.*"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:44
 #: ../../content/applications/services/helpdesk/overview/reports.rst:88
@@ -4316,6 +4511,8 @@ msgid ""
 ":guilabel:`Rating (1-5)`: number out of five to represent customer feedback "
 "(Dissatisfied = 1, Okay/Neutral = 3, Satisfied = 5)."
 msgstr ""
+":guilabel:`평점 (1-5)`\\ : 고객 피드백을 나타내는 1에서 5까지의 숫자 (불만족 "
+"= 1, 보통/중립 = 3, 만족 = 5)."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:49
 #: ../../content/applications/services/helpdesk/overview/reports.rst:94
@@ -4347,6 +4544,8 @@ msgid ""
 ":guilabel:`Working Hours until SLA Deadline`: number of working hours "
 "remaining to reach the last |SLA| deadline on a ticket."
 msgstr ""
+":guilabel:`SLA 마감까지 남은 근무 시간`\\ : 티켓의 마지막\\ |SLA|\\ 마감 "
+"시한에 도달하기까지 남은 근무 시간 수."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:56
 #: ../../content/applications/services/helpdesk/overview/reports.rst:101
@@ -4386,7 +4585,7 @@ msgstr ""
 "기본적으로 이 보고서는 |SLA| 실패, 진행 중, 성공 횟수가 표시되도록 필터가 적"
 "용되어 있습니다. 결과는 팀별 그룹으로 표시됩니다."
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of Group by options of Ticket Analysis report."
 msgstr "티켓 분석 보고서에 그룹 필터가 적용되어 있는 화면"
 
@@ -4411,6 +4610,8 @@ msgid ""
 ":guilabel:`Rating (1-5)`: number value representing customer feedback "
 "(Dissatisfied = 1, Okay/Neutral = 3, Satisfied = 5)."
 msgstr ""
+":guilabel:`평점 (1-5)`\\ : 고객 피드백을 나타내는 숫자 값 (불만족 = 1, 보통/"
+"중립 = 3, 만족 = 5)."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:99
 msgid ""
@@ -4438,7 +4639,7 @@ msgstr ""
 "*고객 평점* 보고서 (:메뉴 선택:`헬프데스크 앱--> 보고 --> 고객 평점`)에는 각"
 "각의 지원 티켓의 평점에 대한 내용과 함께 추가 코멘트를 확인할 수 있습니다."
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of the Kanban display in the Customer Ratings report."
 msgstr "고객 평가 보고서의 칸반 표시 보기"
 
@@ -4450,7 +4651,7 @@ msgstr ""
 "각각의 평점을 클릭하면 고객에게서 받은 평점과 관련된 추가적인 세부 정보를 볼 "
 "수 있으며, 원본 티켓 링크도 함께 있습니다."
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of the details of an individual customer rating."
 msgstr "개별 고객 평가의 세부 정보 화면."
 
@@ -4459,6 +4660,8 @@ msgid ""
 "On the rating's details page, tick the :guilabel:`Visible Internally Only` "
 "checkbox to hide the rating from public and portal users."
 msgstr ""
+"평가 상세 페이지에서\\ :guilabel:`내부에서만 표시`\\ 체크박스를 선택하면 "
+"공개 및 포털 사용자에게 평가를 숨길 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:126
 msgid ""
@@ -4487,6 +4690,10 @@ msgid ""
 "ensure that high-priority tickets are resolved promptly, and identifies any "
 "discrepancies in response times based on priority."
 msgstr ""
+":guilabel:`티켓 분석`\\ 보고서를 사용하면 일반 티켓과 비교하여 높은 우선순위 "
+"티켓을 처리하는 데 걸리는 시간을 평가할 수 있습니다. 이를 통해 높은 우선순위 "
+"티켓이 신속하게 해결되도록 보장하고, 우선순위에 따른 응답 시간의 불일치를 "
+"식별할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:142
 msgid ""
@@ -4496,10 +4703,15 @@ msgid ""
 "select :guilabel:`Priority`. Finally, under :guilabel:`Filters`, "
 "select :guilabel:`Closed`."
 msgstr ""
+"먼저\\ :menuselection:`헬프데스크 앱 --> 보고 --> 티켓 분석`\\ 으로 "
+"이동합니다.\\ :guilabel:`측정`\\ 을 클릭한 다음\\ :guilabel:`종료까지 근무 "
+"시간`\\ 을 선택합니다. 검색창을 클릭한 후\\ :guilabel:`그룹화 기준`\\ 에서\\ "
+":guilabel:`우선순위`\\ 를 선택합니다. 마지막으로\\ :guilabel:`필터`\\ 에서\\ "
+":guilabel:`종료됨`\\ 을 선택합니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:148
 msgid "The pivot view is also useful for this version of the report."
-msgstr ""
+msgstr "또한 피벗 보기는 이 버전의 보고서에서 유용하게 사용할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:151
 msgid "Monitoring SLA compliance over time"
@@ -4528,6 +4740,10 @@ msgid ""
 "Analysis`. Click the :icon:`fa-area-chart` :guilabel:`(Graph)` icon, then "
 "the :icon:`fa-line-chart` :guilabel:`(Line Chart)` icon."
 msgstr ""
+"먼저\\ :menuselection:`헬프데스크 앱 --> 보고 --> SLA 상태 분석`\\ 으로 "
+"이동합니다.\\ :icon:`fa-area-chart`\\ :guilabel:`(그래프)`\\ 아이콘을 클릭한 "
+"다음\\ :icon:`fa-line-chart`\\ :guilabel:`(꺾은선 차트)`\\ 아이콘을 "
+"클릭합니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:165
 msgid ""
@@ -4535,6 +4751,8 @@ msgid ""
 "the line chart view provides a better visual representation for this "
 "specific use case."
 msgstr ""
+":guilabel:`SLA 상태 분석`\\ 보고서는 기본적으로 피벗 보기로 표시되지만, 이 "
+"특정 사용 사례에서는 꺾은선 차트 보기가 더 나은 시각적 표현을 제공합니다."
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:168
 msgid ""
@@ -4608,6 +4826,8 @@ msgid ""
 "From here, scroll to the :guilabel:`Performance` section. To turn off the |"
 "SLAs| feature for the team, clear the :guilabel:`SLA Policies` checkbox."
 msgstr ""
+"여기에서\\ :guilabel:`성능`\\ 섹션으로 스크롤합니다. 팀의\\ |SLAs|\\ 기능을 "
+"끄려면\\ :guilabel:`SLA 정책`\\ 체크박스를 해제합니다."
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid "View of a team page in Helpdesk focusing on the SLA Policies setting."
@@ -4642,6 +4862,8 @@ msgid ""
 "a :guilabel:`Description` for the new policy, and proceed to fill out the "
 "form using the steps below."
 msgstr ""
+"빈\\ |SLA|\\ 정책 양식에서 새 정책의\\ :guilabel:`제목`\\ 과\\ "
+":guilabel:`설명`\\ 을 입력하고 아래 단계를 사용하여 양식을 작성합니다."
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:38
 msgid "Define the criteria for an SLA policy"
@@ -4694,6 +4916,8 @@ msgid ""
 ":guilabel:`Tags`: Tags are used to indicate what the ticket is about. "
 "Multiple tags can be applied to a single ticket."
 msgstr ""
+":guilabel:`태그`\\ : 태그는 티켓의 내용을 나타내는 데 사용됩니다. 하나의 "
+"티켓에 여러 태그를 적용할 수 있습니다."
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:56
 msgid ""
@@ -4727,6 +4951,9 @@ msgid ""
 "team. It **only** applies to tickets that are assigned three :icon:`fa-star-"
 "o` :guilabel:`(star)` icons, which equates to an `Urgent` priority level."
 msgstr ""
+"`8시간 내 종료`라는 제목의 새 정책은 `VIP 지원` 팀에 할당됩니다. 이 정책은 "
+"세 개의\\ :icon:`fa-star-o`\\ :guilabel:`(별)`\\ 아이콘이 할당된 "
+"티켓에**만** 적용되며, 이는 `긴급` 우선순위 수준에 해당합니다."
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:68
 msgid ""
@@ -4760,6 +4987,8 @@ msgid ""
 "Time spent in stages selected in the :guilabel:`Excluding Stages` field are "
 "**not** included in the calculation of the |SLA| deadline."
 msgstr ""
+":guilabel:`제외 단계`\\ 필드에서 선택한 단계에 소요된 시간은\\ |SLA|\\ 마감 "
+"시한 계산에 포함되지 **않습니다**."
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:85
 msgid ""
@@ -4803,8 +5032,10 @@ msgid ""
 "The deadline is then added to the ticket, as well as a tag indicating the "
 "name of the |SLAs| applied."
 msgstr ""
+"그런 다음 티켓에 마감 시한이 추가되고, 적용된\\ |SLAs|\\ 의 이름을 나타내는 "
+"태그도 추가됩니다."
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid ""
 "View of a ticket's form emphasizing an open SLA deadline on a ticket in Odoo "
 "Helpdesk."
@@ -4817,8 +5048,10 @@ msgid ""
 "When a ticket satisfies an |SLA| policy, the |SLA| tag turns green, and the "
 "deadline disappears from view on the ticket."
 msgstr ""
+"티켓이\\ |SLA|\\ 정책을 충족하면\\ |SLA|\\ 태그가 녹색으로 바뀌고, 티켓에서 "
+"마감 시한이 사라집니다."
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid "View of a ticket's form emphasizing a satisfied SLA in Odoo Helpdesk."
 msgstr "Odoo 헬프데스크에서 SLA 내용을 충족하는 티켓 양식 화면"
 
@@ -4828,6 +5061,9 @@ msgid ""
 "occurring deadline is displayed on the ticket. After that deadline has "
 "passed, the next deadline is displayed."
 msgstr ""
+"티켓이 둘 이상의\\ |SLA|\\ 에 대한 기준을 충족하는 경우, 가장 빠른 마감 "
+"시한이 티켓에 표시됩니다. 해당 마감 시한이 지나면 다음 마감 시한이 "
+"표시됩니다."
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:118
 msgid ""
@@ -4841,7 +5077,7 @@ msgstr ""
 "이 :guilabel:`단계 도달` 로 이동한 후에도 빨간색 태그가 티켓에 그대로 남아있"
 "게 됩니다."
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid ""
 "View of a ticket's form with a failing and passing SLA in Odoo Helpdesk."
 msgstr "Odoo 헬프데스크에서 SLA가 충족 혹은 미충족되어 있는 티켓 양식"
@@ -4909,7 +5145,7 @@ msgstr ""
 "서 측정값이 포함되었다는 것을 나타내며, 피벗 테이블에 해당하는 새 열이 표시되"
 "어 관련된 계산을 표시합니다."
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid "View of the available measures in the SLA status analysis report."
 msgstr "SLA 상태 분석 보고서에서 사용 가능한 측정값 화면"
 
@@ -4925,7 +5161,7 @@ msgstr ""
 "다. 그룹을 제거하려면 정책 이름 옆에 있는 :icon:`fa-minus-square-"
 "o` :guilabel:`(빼기)` 아이콘을 클릭합니다."
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid ""
 "View of the available group by options in the SLA status analysis report."
 msgstr "SLA 상태 분석 보고서에서 옵션별로 사용 가능한 그룹 화면"
@@ -5037,255 +5273,6 @@ msgid ""
 msgstr ""
 ":doc:`고객이 티켓을 종료할 수 있도록 허용 </applications/services/helpdesk/"
 "advanced/close_tickets>`"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:3
-msgid "Stages"
-msgstr "단계"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:5
-msgid ""
-"*Stages* are used to organize the **Helpdesk** pipeline and track the "
-"progress of tickets. Stages are customizable, and can be renamed to fit the "
-"needs of each team."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:9
-msgid "Create or modify stages"
-msgstr "단계 생성 또는 수정하기"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:12
-msgid ""
-":ref:`Developer mode <developer-mode>` **must** be activated to access the "
-"stages menu. To activate developer mode, go to :menuselection:`Settings app "
-"--> General Settings --> Developer Tools`, and click :guilabel:`Activate the "
-"developer mode`."
-msgstr ""
-"단계 메뉴를 사용하려면 **반드시** :ref:`개발자 모드 <developer-mode>` 사용 설"
-"정이 되어 있어야 합니다. 개발자 모드를 활성화하려면 :menuselection:`설정 앱 "
-"--> 일반 설정 --> 개발자 도구`로 이동하여 :guilabel:`개발자 모드 활성화`를 클"
-"릭합니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:16
-msgid ""
-"To view or modify **Helpdesk** stages, go to :menuselection:`Helpdesk app --"
-"> Configuration --> Stages`."
-msgstr ""
-"**헬프데스크** 단계를 보거나 수정하려면 :menuselection:`헬프데스크 앱 --> 환"
-"경설정 --> 단계` 로 이동합니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:19
-msgid ""
-"The default list view on the :guilabel:`Stages` page displays the stages "
-"currently available in the **Helpdesk** app. They are listed in the order "
-"they appear in the pipeline."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:22
-msgid ""
-"To change the order of the stages, click the :icon:`oi-"
-"draggable` :guilabel:`(draggable)` icon, to the left of the stage name, and "
-"drag it to the desired place on the list."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid ""
-"View of the stage list page emphasizing the buttons used to change the order "
-"the stages\n"
-"appear in the list."
-msgstr ""
-"목록에 나타나는 단계의 순서 변경에 사용되는 버튼이 강조되어 있는 단계 목록 페"
-"이지\n"
-"화면"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:30
-msgid ""
-"Change the stage order on the Kanban view of a **Helpdesk** team's pipeline "
-"by dragging and dropping individual columns."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:33
-msgid ""
-"To create a new stage, click the :guilabel:`New` button at the top-left of "
-"the stage list. Doing so reveals a blank stage form."
-msgstr ""
-"새로운 단계를 생성하려면 단계 목록 왼쪽 상단에 있는 :guilabel:`새로 만들기` "
-"버튼을 클릭합니다. 그렇게 하면 빈 단계 양식이 나타납니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:36
-msgid "Choose a :guilabel:`Name` for the new stage."
-msgstr "새로운 스테이지의 :guilabel:`이름` 을 선택하세요."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid "View of a stage's settings page in Odoo Helpdesk."
-msgstr "Odoo 헬프데스크의 단계 설정 페이지 화면"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:42
-msgid "Add email and SMS templates to stages"
-msgstr "단계에 이메일 및 SMS 서식 추가하기"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:44
-msgid ""
-"When an :guilabel:`Email Template` is added to a stage, a preconfigured "
-"email is automatically sent to the customer when a ticket reaches that "
-"specific stage in the pipeline. Likewise, adding an :guilabel:`SMS Template` "
-"triggers a preconfigured SMS text message to send to the customer."
-msgstr ""
-":guilabel:`이메일 템플릿` 을 단계에 추가할 경우, 티켓이 파이프라인의 특정 단"
-"계에 도달하면 미리 설정된 이메일이 자동으로 고객에게 전송됩니다. 마찬가지"
-"로 :guilabel:`SMS 템플릿` 을 추가하면 미리 설정된 SMS 문자 메시지가 고객에게 "
-"전송됩니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:49
-msgid ""
-"SMS text messaging is an :doc:`In-App Purchase (IAP) </applications/"
-"essentials/in_app_purchase/>` service that requires prepaid credits to work. "
-"Refer to `SMS Pricing FAQ <https://iap-services.odoo.com/iap/sms/pricing>`_ "
-"for additional information."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:53
-msgid ""
-"To select an existing email template, select it from the :guilabel:`Email "
-"Template` field. After choosing a template, click on the :icon:`oi-arrow-"
-"right` :guilabel:`(right arrow)` icon to the right of the field to edit the "
-"chosen template."
-msgstr ""
-"기존 이메일 템플릿을 선택하려면 :guilabel:`이메일 템플릿` 필드에서 선택합니"
-"다. 템플릿을 선택한 후 필드 오른쪽에 있는 :icon:`oi-arrow-"
-"right` :guilabel:`(오른쪽 화살표)` 아이콘을 클릭하면 선택한 템플릿을 편집할 "
-"수 있습니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:57
-msgid ""
-"To create a new template from this form, click the field, and enter a title "
-"for the new template. Then, select :guilabel:`Create and edit` from the drop-"
-"down menu that appears, and complete the form details."
-msgstr ""
-"이 양식에서 새로운 템플릿을 생성하려면 필드를 클릭한 후 새 템플릿 제목을 입력"
-"합니다. 그런 다음 드롭다운 메뉴가 나타나면 :guilabel:`만들기 및 편집` 을 선택"
-"하고 양식 세부 정보를 입력합니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:61
-msgid ""
-"Follow the same steps to select, edit, or create an :guilabel:`SMS Template`."
-msgstr "같은 방법으로 :guilabel:`SMS 서식`을 선택한 후 편집하거나 생성합니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid "View of an SMS template setup page in Odoo Helpdesk."
-msgstr "Odoo 헬프데스크의 SMS 템플릿 설정 페이지 보기입니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:67
-msgid ":doc:`/applications/general/companies/email_template`"
-msgstr ":doc:`/applications/general/companies/email_template`"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:70
-msgid "Fold a stage"
-msgstr "단계 접기 처리하기"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:72
-msgid ""
-"By default, stages are unfolded in the Kanban view of either tickets "
-"dashboard: :guilabel:`My Tickets` (:menuselection:`Helpdesk app --> Tickets "
-"--> My Tickets`) or :guilabel:`All Tickets` (:menuselection:`Helpdesk app --"
-"> Tickets --> All Tickets`)."
-msgstr ""
-"기본적으로, 단계는 칸반 화면에서 쳘쳐져 있으며, 티켓 현황판 (:guilabel:`내 티"
-"켓` (:guilabel:`헬프데스크 앱 --> 티켓 --> 내 티켓`) 또는 :guilabel:`모든 티"
-"켓` (:guilabel:`헬프데스크 앱 --> 티켓 --> 모든 티켓`)에서 확인할 수 있습니"
-"다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:76
-msgid ""
-"Tickets in an unfolded stage are visible in the pipeline under the stage "
-"name, and are considered *open*."
-msgstr ""
-"티켓이 있는 단계가 펼쳐진 상태인 경우에는, 파이프라인에서 단계명 아래에 나타"
-"나게 되며 *미결* 로 간주됩니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:79
-msgid ""
-"Stages can be configured to be folded in the Kanban view of a tickets page."
-msgstr ""
-"환경설정을 통해 티켓 페이지의 칸반 보기에서 단계가 접히도록 설정할 수 있습니"
-"다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:81
-msgid ""
-"The name of the folded stages are still visible, but the tickets in the "
-"stage are hidden from view."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:83
-msgid ""
-"To fold a stage, tick the :guilabel:`Folded in Kanban` checkbox on "
-"the :guilabel:`Stages` form."
-msgstr ""
-"스테이지를 접으려면 :guilabel:`스테이지` 양식에서 :guilabel:`칸반에서 접힘` "
-"확인란에 표시합니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:86
-msgid ""
-"Tickets that reach a *folded* stage are considered *closed*. Closing a "
-"ticket before the work is completed can result in reporting and "
-"communication issues. This setting should **only** be enabled for stages "
-"that are considered *closing* stages."
-msgstr ""
-"티켓 단계가 *접힘* 이 되면 *종료* 된 것으로 간주합니다. 작업이 완료되기 전에 "
-"티켓이 종료되어 버리면 보고 및 커뮤니케이션과 관련된 문제가 발생할 수 있습니"
-"다. 이 설정은 *종료* 된 것으로 간주해도 되는 단계에 *한해서만* 활성화해야 합"
-"니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:91
-msgid "Temporarily fold a stage"
-msgstr "일시적으로 스테이지 접기"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:93
-msgid ""
-"Stages can be temporarily folded in the Kanban view of the tickets pipeline, "
-"as well."
-msgstr "티켓 파이프라인의 칸반 보기에서도 단계를 일시적으로 접을 수 있습니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:95
-msgid ""
-"View a specific team's pipeline by navigating to :menuselection:`Helpdesk "
-"app`, and clicking the team's Kanban card."
-msgstr ""
-":menuselection:`헬프데스크 앱`으로 이동하여 팀의 칸반 카드를 클릭하면 특정 팀"
-"의 파이프라인을 확인할 수 있습니다."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:98
-msgid ""
-"Hover the cursor at the top of the desired stage to fold temporarily, then "
-"click the :icon:`fa-gear` :guilabel:`(gear)` icon that appears, and "
-"select :guilabel:`Fold` from the drop-down menu."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid ""
-"Kanban view of a Helpdesk stage, with the temporary fold option emphasized."
-msgstr "일시적으로 접기 항목이 강조되어 있는 헬프데스크 단계의 칸반 화면"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:105
-msgid ""
-"Manually folding a stage from the Kanban view is temporary and does **not** "
-"close the tickets in the stage."
-msgstr ""
-"칸반 보기에서 수동으로 단계를 접는 것은 일시적이며, 단계에서 티켓이 종료되지 "
-"**않습니다**."
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:109
-msgid "Assign stages to a team"
-msgstr "단계를 팀에 배정하기"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:111
-msgid ""
-"Make a selection in the :guilabel:`Helpdesk Teams` field on "
-"the :guilabel:`Stages` form. More than one team may be selected, since the "
-"same stage can be assigned to multiple teams."
-msgstr ""
-":guilabel:`단계` 양식에 있는 :guilabel:`헬프데스크 팀` 항목에서 선택합니다. "
-"동일한 단계를 여러 팀에 배정할 수 있으므로, 여러 개의 팀을 선택하는 것도 가능"
-"합니다."
 
 #: ../../content/applications/services/planning.rst:5
 msgid "Planning"
@@ -5412,7 +5399,7 @@ msgstr ""
 "이콘을 클릭하고 :guilabel:`속성 추가` 를 선택합니다. 필요에 따라 새 필드"
 "를 :doc:`환경설정` 합니다."
 
-#: ../../content/applications/services/planning.rst:-1
+#: ../../content/applications/services/planning.rst:None
 msgid "Creating a new property field in Planning."
 msgstr "일정 관리에서 새 속성 필드 생성하기"
 
@@ -5462,7 +5449,7 @@ msgstr ""
 "> 직원`으로 이동하여 설정을 수정할 직원을 선택합니다. 그런 다음 :guilabel:`근"
 "무 정보` 탭으로 이동합니다."
 
-#: ../../content/applications/services/planning.rst:-1
+#: ../../content/applications/services/planning.rst:None
 msgid "Employee profile and the work information tab."
 msgstr "직원 프로필 및 근무 정보 탭"
 
@@ -5518,9 +5505,8 @@ msgstr ""
 "있습니다.."
 
 #: ../../content/applications/services/planning.rst:110
-msgid ""
-":ref:`Payroll documentation on working schedules <payroll/working-times>`"
-msgstr ":ref:`근무 스케줄에 대한 급여 참고 문서 <payroll/working-times>`"
+msgid ":doc:`../hr/payroll/working_schedules`"
+msgstr ":doc:`../hr/payroll/working_schedules`"
 
 #: ../../content/applications/services/planning.rst:113
 msgid "Planning roles"
@@ -5609,29 +5595,28 @@ msgstr "교대근무 서식"
 msgid ""
 "To create a shift template, click :guilabel:`New` on any schedule, then fill "
 "in the :ref:`details of the shift <planning/create-shift>`. In order for the "
-"shift to be saved as a template, tick :guilabel:`Save as Template`."
+"shift to be saved as a template, click :guilabel:`Save Template`."
 msgstr ""
-"교대근무 서식을 생성하려면 스케줄에 따라 :guilabel:`새로 만들기`를 클릭한 다"
-"음 :ref:`교대근무 세부 정보 <planning/create-shift>`를 입력합니다. 교대근무"
-"를 서식으로 저장하려면 :guilabel:`서식으로 저장`을 선택합니다."
+"교대 템플릿을 생성하려면 일정에서\\ :guilabel:`새로 만들기`\\ 를 클릭한 "
+"다음\\ :ref:`교대 세부 정보 <planning/create-shift>`\\ 를 입력하세요. 교대를 "
+"템플릿으로 저장하려면\\ :guilabel:`Save Template`\\ 을 클릭하세요."
 
-#: ../../content/applications/services/planning.rst:-1
-msgid "Shift form with the option `save template` ticked."
-msgstr "서식 저장'에 선택 표시되어 있는 교대근무 양식"
+#: ../../content/applications/services/planning.rst:None
+msgid "Shift form."
+msgstr "교대근무 양식."
 
 #: ../../content/applications/services/planning.rst:158
 msgid ""
 "Alternatively, you can go to :menuselection:`Planning --> Configuration --> "
 "Shift Templates`, then click :guilabel:`New`. Fill in the :guilabel:`Start "
-"Hour` and :guilabel:`Shift Duration`. The shift’s :guilabel:`End Time` is "
-"then calculated based on the :guilabel:`Working Hours`, taking into account "
+"Hour` and :guilabel:`Span`. The shift’s :guilabel:`End Time` is then "
+"calculated based on the :guilabel:`Working Hours`, taking into account "
 "working time as well as breaks."
 msgstr ""
-"또는 :menuselection:`일정 관리 --> 환경 설정 --> 교대 서식`으로 이동한 다"
-"음 :guilabel:`새로 만들기`를 클릭할 수 있습니다. :guilabel:`시작 시간` "
-"및 :guilabel:`교대근무 소요 시간`을 입력합니다. 그러면 근무 :guilabel:`종료 "
-"시간`이 작업 시간과 휴식 시간을 고려하여 :guilabel:`근무 시간`을 기준으로 계"
-"산됩니다."
+"또는 :menuselection:`일정 관리 --> 구성 --> 교대 템플릿`으로 이동한 다음 "
+":guilabel:`새로 만들기`를 클릭합니다. :guilabel:`시작 시간` 및 "
+":guilabel:`기간`을 입력합니다. 교대의 :guilabel:`종료 시간`은 근무 시간과 "
+"휴게 시간을 고려하여 :guilabel:`근무 시간`을 기준으로 계산됩니다."
 
 #: ../../content/applications/services/planning.rst:164
 msgid ""
@@ -5699,7 +5684,7 @@ msgstr ""
 "일정은 간트 화면에 표시되므로 따로 열어보지 않고도 교대 근무를 편집 (끌어서 "
 "놓기)하거나, 크기 조정, 분할 및 복제할 수 있습니다."
 
-#: ../../content/applications/services/planning.rst:-1
+#: ../../content/applications/services/planning.rst:None
 msgid "A schedule displaying various visual elements."
 msgstr "다양한 시각적 요소로 표시된 일정입니다."
 
@@ -5800,14 +5785,15 @@ msgstr ""
 
 #: ../../content/applications/services/planning.rst:225
 msgid ""
-":guilabel:`Repeat`: Tick the checkbox and configure the :guilabel:`Repeat "
-"Every` field according to your needs. The following rules apply to recurring "
-"shifts:"
+":guilabel:`Repeat`: Click the :icon:`fa-repeat` :guilabel:`(repeat)` button "
+"and configure the :guilabel:`Repeat every` fields according to your needs. "
+"The following rules apply to recurring shifts:"
 msgstr ""
-":guilabel:`반복`: 확인란에 표시하고 필요에 따라 :guilabel:`매번 반복`하도록 "
-"설정합니다. 반복 근무에는 다음의 규칙이 적용됩니다."
+":guilabel:`반복`: :icon:`fa-repeat` :guilabel:`반복` 버튼을 클릭하고 필요에 "
+"따라 :guilabel:`반복 간격` 필드를 구성합니다. 반복 교대에는 다음 규칙이 "
+"적용됩니다:"
 
-#: ../../content/applications/services/planning.rst:228
+#: ../../content/applications/services/planning.rst:229
 msgid ""
 "All fields "
 "(e.g., :guilabel:`Resource`, :guilabel:`Role`, :guilabel:`Project`) are "
@@ -5818,11 +5804,11 @@ msgstr ""
 "원래의 교대근무에서 복사되며, 날짜의 경우에는 :guilabel:`매번 반복` 항목에 따"
 "라 조정됩니다."
 
-#: ../../content/applications/services/planning.rst:231
+#: ../../content/applications/services/planning.rst:232
 msgid "Recurrences are planned but not published."
 msgstr "반복 계획이 되어 있으나 게시되지 않았습니다."
 
-#: ../../content/applications/services/planning.rst:232
+#: ../../content/applications/services/planning.rst:233
 msgid ""
 "By default, planned shifts are created six months in advance, after which "
 "they are created gradually. To change the time frame, :ref:`activate the "
@@ -5834,24 +5820,13 @@ msgstr ""
 "<developer-mode>` 를 클릭한 다음 :menuselection:`일정 관리 --> 환경설정 --> "
 "설정` 으로 이동하여 :guilabel:`교대근무 반복` 항목을 수정합니다."
 
-#: ../../content/applications/services/planning.rst:237
-msgid ""
-":guilabel:`Save as Template`: When this option is ticked, a shift template "
-"is created with the same :guilabel:`Start and End "
-"hours`, :guilabel:`Allocated time`, :guilabel:`Role`, "
-"and :guilabel:`Project`."
-msgstr ""
-":guilabel:`서식으로 저장`: 이 항목을 선택하면 동일한 :guilabel:`시작 및 종료 "
-"시간`, :guilabel:`배정 시간`, :guilabel:`역할` 및 :guilabel:`프로젝트`로 교"
-"대 근무 서식이 생성됩니다."
-
-#: ../../content/applications/services/planning.rst:240
+#: ../../content/applications/services/planning.rst:238
 msgid ""
 ":guilabel:`Additional note sent to the employee`: Click on the field to add "
 "a note."
 msgstr ":guilabel:`직원에게 추가 메모 전송`: 메모를 추가하려면 클릭합니다."
 
-#: ../../content/applications/services/planning.rst:241
+#: ../../content/applications/services/planning.rst:239
 msgid ""
 ":guilabel:`Date`: Choose the date and time of your shift. This is the only "
 "mandatory field when creating a shift."
@@ -5859,7 +5834,7 @@ msgstr ""
 ":guilabel:`날짜`: 교대근무 날짜와 시간을 선택합니다. 교대근무를 생성할 때 유"
 "일하게 필수인 항목입니다."
 
-#: ../../content/applications/services/planning.rst:243
+#: ../../content/applications/services/planning.rst:241
 msgid ""
 ":guilabel:`Allocated time`: Is calculated based on the date and the "
 "employee’s :guilabel:`Working Schedule`. See more in :ref:`Shift Templates "
@@ -5868,7 +5843,7 @@ msgstr ""
 ":guilabel:`배정 시간`: 날짜와 직원의 :guilabel:`근무 스케줄`을 기준으로 계산"
 "합니다. 자세한 내용은 :ref:`교대근무 서식 <planning/templates>`을 확인하세요."
 
-#: ../../content/applications/services/planning.rst:246
+#: ../../content/applications/services/planning.rst:244
 msgid ""
 "Click :guilabel:`Publish & Save` to confirm the shift and send the assigned "
 "employee their schedule by email."
@@ -5876,7 +5851,7 @@ msgstr ""
 ":guilabel:`게시 및 저장`을 클릭하면 교대근무를 확정하고 배정된 직원에게 이메"
 "일로 스케줄을 보냅니다."
 
-#: ../../content/applications/services/planning.rst:250
+#: ../../content/applications/services/planning.rst:248
 msgid ""
 "The draft is visible on the admin planning view and can be identified by "
 "diagonal lines. The employee is only notified of the shift once it's "
@@ -5885,19 +5860,19 @@ msgstr ""
 "초안은 관리자용 일정 관리 화면에 표시되며 대각선으로 표시됩니다. 직원에게는 "
 "초안 항목이 게시가 된 경우에만 교대근무 알림이 전송됩니다."
 
-#: ../../content/applications/services/planning.rst:253
+#: ../../content/applications/services/planning.rst:251
 msgid ""
 "Two kinds of notifications are sent to the employees depending on their "
 "account configuration:"
 msgstr "계정 설정에 따라 직원에게 두 가지 종류로 알림이 전송됩니다."
 
-#: ../../content/applications/services/planning.rst:255
+#: ../../content/applications/services/planning.rst:253
 msgid ""
 "Employees without user accounts are redirected to a dedicated **Planning "
 "portal**."
 msgstr "사용자 계정이 없는 직원은 전용 **일정 관리 포털**로 리디렉션됩니다."
 
-#: ../../content/applications/services/planning.rst:256
+#: ../../content/applications/services/planning.rst:254
 msgid ""
 "Employees with a user account are redirected to the :guilabel:`My Planning` "
 "view in the backend view of Odoo."
@@ -5905,22 +5880,25 @@ msgstr ""
 "사용자 계정이 있는 직원은 Odoo 백엔드 화면에서 :guilabel:`내 일정 관리` 화면"
 "으로 리디렉션됩니다."
 
-#: ../../content/applications/services/planning.rst:260
+#: ../../content/applications/services/planning.rst:258
 msgid ""
 "The **split shifts** tool allows to easily split a long shift into segments. "
 "To do so, hover the mouse over the desired shift and click the :icon:`fa-"
 "scissors` (:guilabel:`scissors`) icon."
 msgstr ""
+"**분할 근무** 도구를 사용하면 긴 근무를 여러 구간으로 쉽게 분할할 수 "
+"있습니다. 이렇게 하려면 원하는 근무 위에 마우스를 올리고\\ :icon:`fa-"
+"scissors`\\ (:guilabel:`가위`) 아이콘을 클릭합니다."
 
 #: ../../content/applications/services/planning.rst:0
 msgid "Split shifts tool."
-msgstr ""
+msgstr "교대 근무 분할 도구."
 
-#: ../../content/applications/services/planning.rst:269
+#: ../../content/applications/services/planning.rst:267
 msgid "Open shifts and auto planning"
 msgstr "진행 중인 교대근무 및 자동 계획"
 
-#: ../../content/applications/services/planning.rst:271
+#: ../../content/applications/services/planning.rst:269
 msgid ""
 "The :guilabel:`Auto Plan` button allows you to assign **Open shifts** "
 "(shifts with no resource assigned) and create and assign shifts linked to "
@@ -5930,11 +5908,11 @@ msgstr ""
 "은 고대근무)를 배정하고 판매주문서 또는 프로젝트에 연결된 교대근무를 생성 및 "
 "배정할 수 있습니다."
 
-#: ../../content/applications/services/planning.rst:274
+#: ../../content/applications/services/planning.rst:272
 msgid "The following features have an impact on auto planning:"
 msgstr "다음의 기능은 자동 계획에 영향을 미치게 됩니다."
 
-#: ../../content/applications/services/planning.rst:276
+#: ../../content/applications/services/planning.rst:274
 msgid ""
 "**Roles**: Open shifts are only assigned to resources (employees or "
 "materials) that have the corresponding role assigned. It is not possible to "
@@ -5944,7 +5922,7 @@ msgstr ""
 "에만 배정됩니다. 역할이 없는 직원에게는 :guilabel:`자동 계획` 기능을 사용할 "
 "수 없습니다."
 
-#: ../../content/applications/services/planning.rst:279
+#: ../../content/applications/services/planning.rst:277
 msgid ""
 "**Default roles**: The default role assigned to a resource is given priority "
 "over the other roles they have assigned to them."
@@ -5952,45 +5930,50 @@ msgstr ""
 "**기본 역할**: 리소스에 배정된 기본 역할은 리소스에 배정된 다른 역할보다 우선"
 "합니다."
 
-#: ../../content/applications/services/planning.rst:281
+#: ../../content/applications/services/planning.rst:279
 msgid ""
 "**Conflicts**: Employees or materials cannot be assigned multiple shifts at "
 "the same time."
 msgstr ""
 "**충돌**: 직원이나 자재에는 여러 교대 근무를 동시에 배정할 수 없습니다."
 
-#: ../../content/applications/services/planning.rst:282
+#: ../../content/applications/services/planning.rst:280
 msgid ""
 "**Time off**: The employees’ time off is taken into account, as well as "
 "public holidays."
 msgstr "**휴가**: 직원의 휴가는 물론 공휴일을 고려하게 됩니다."
 
-#: ../../content/applications/services/planning.rst:283
+#: ../../content/applications/services/planning.rst:281
 msgid ""
 "**Working hours**: Are taken into account when assigning shifts to employees "
 "or materials. It is not possible to use the :guilabel:`Auto Plan` feature "
 "for an employee who is working :ref:`flexible hours <planning/working-"
 "hours>`."
 msgstr ""
+"**근무 시간**: 임직원이나 자재에 근무를 할당할 때 고려됩니다.\\ :ref:`유연 "
+"근무 <planning/working-hours>`\\ 를 하는 임직원에 대해서는\\ :guilabel:`자동 "
+"계획`\\ 기능을 사용할 수 없습니다."
 
-#: ../../content/applications/services/planning.rst:286
+#: ../../content/applications/services/planning.rst:284
 msgid ""
 "**Contracts**: If the employee has an active contract, they won't be "
 "assigned shifts that fall outside of their contract period."
 msgstr ""
+"**계약**: 임직원에게 활성 계약이 있는 경우, 계약 기간을 벗어나는 근무가 "
+"할당되지 않습니다."
 
-#: ../../content/applications/services/planning.rst:289
+#: ../../content/applications/services/planning.rst:287
 msgid ""
 "Click :guilabel:`Publish` to confirm the schedule and notify the employees "
 "of their planning."
 msgstr ""
 ":guilabel:`게시`를 클릭하면 스케줄을 확정하고 직원에게 계획을 공지합니다."
 
-#: ../../content/applications/services/planning.rst:294
+#: ../../content/applications/services/planning.rst:292
 msgid "Switching shifts and unassignment"
 msgstr "교대근무 변경 및 배정 취소"
 
-#: ../../content/applications/services/planning.rst:296
+#: ../../content/applications/services/planning.rst:294
 msgid ""
 "Two features are available to allow employees to make changes to their "
 "schedule: **switching shifts** and **unassignment**."
@@ -5998,7 +5981,7 @@ msgstr ""
 "직원이 스케줄을 변경할 수 있도록 **교대근무 변경** 및 **배정 취소**라는 두 가"
 "지 기능을 사용할 수 있습니다."
 
-#: ../../content/applications/services/planning.rst:300
+#: ../../content/applications/services/planning.rst:298
 msgid ""
 "These features are mutually exclusive. Switching shifts is possible by "
 "default and cannot be disabled. However, once the **Allow unassignment** "
@@ -6008,11 +5991,11 @@ msgstr ""
 "되어 있으며 사용하지 않도록 설정할 수 없습니다. 그러나 **배정 취소 허용** 기"
 "능을 사용 설정할 경우, 교대근무 변경 항목을 대체하여 사용할 수 있습니다. "
 
-#: ../../content/applications/services/planning.rst:305
+#: ../../content/applications/services/planning.rst:303
 msgid "Switching shifts"
 msgstr "교대근무 변경"
 
-#: ../../content/applications/services/planning.rst:307
+#: ../../content/applications/services/planning.rst:305
 msgid ""
 "Once shifts are planned and published, employees receive an email "
 "notification. If an employee wishes to switch a shift, they can click the "
@@ -6022,7 +6005,7 @@ msgstr ""
 "경하려는 직원은 변경하려는 교대근무를 클릭하고 :guilabel:`변경 요청`을 클릭하"
 "면 됩니다."
 
-#: ../../content/applications/services/planning.rst:310
+#: ../../content/applications/services/planning.rst:308
 msgid ""
 "The shift remains assigned to the original employee, but in the schedule, a "
 "notification informing that the assigned employee would like to switch "
@@ -6031,7 +6014,7 @@ msgstr ""
 "교대근무는 원래 직원에게 배정된 상태로 유지되지만, 배정받은 직원이 근무조를 "
 "변경하고 싶다는 알림이 교대근무에 알림으로 표시됩니다."
 
-#: ../../content/applications/services/planning.rst:313
+#: ../../content/applications/services/planning.rst:311
 msgid ""
 "The shift is then displayed to other employees who share the same role, and "
 "if they wish to assign it to themselves, they can click the :guilabel:`I "
@@ -6040,27 +6023,27 @@ msgstr ""
 "그런 다음 역할이 동일한 다른 직원에게 교대근무가 표시되며, 해당 직원이 본인에"
 "게 교대근무를 배정하려면 :guilabel:`제가 맡겠습니다` 버튼을 클릭하면 됩니다."
 
-#: ../../content/applications/services/planning.rst:317
-#: ../../content/applications/services/planning.rst:335
+#: ../../content/applications/services/planning.rst:315
+#: ../../content/applications/services/planning.rst:333
 msgid "The following rules apply:"
 msgstr "다음과 같은 규칙이 적용됩니다."
 
-#: ../../content/applications/services/planning.rst:319
+#: ../../content/applications/services/planning.rst:317
 msgid ""
 "Only the shifts matching the employee's roles are displayed as available to "
 "them."
 msgstr ""
 "직원의 업무 역할과 일치하는 경우에만 직원에게 가능한 교대근무로 표시됩니다."
 
-#: ../../content/applications/services/planning.rst:320
+#: ../../content/applications/services/planning.rst:318
 msgid "Switching shifts is not available for shifts in the past."
-msgstr ""
+msgstr "교대근무 변경은 이전의 교대근무에 대해서는 적용할 수 없습니다."
 
-#: ../../content/applications/services/planning.rst:323
+#: ../../content/applications/services/planning.rst:321
 msgid "Unassignment"
 msgstr "배정 취소"
 
-#: ../../content/applications/services/planning.rst:325
+#: ../../content/applications/services/planning.rst:323
 msgid ""
 "To allow employees to unassign themselves from shifts, go "
 "to :menuselection:`Planning --> Configuration --> Settings`, then tick the "
@@ -6072,7 +6055,7 @@ msgstr ""
 "시합니다. 그런 다음 교대 근무 전에 직원이 본인 배정을 취소할 수 있는 최대 일"
 "수를 지정합니다."
 
-#: ../../content/applications/services/planning.rst:330
+#: ../../content/applications/services/planning.rst:328
 msgid ""
 "Once shifts are planned and published, employees receive an email "
 "notification. If shift unassignment is allowed, the employees can click "
@@ -6083,15 +6066,15 @@ msgstr ""
 "근무를 취소할 수 있도록 허용한 경우 직원은 :guilabel:`근무 불가` 버튼을 클릭"
 "할 수 있으며 교대근무는 교대 미결 상태로 되돌아갑니다."
 
-#: ../../content/applications/services/planning.rst:337
+#: ../../content/applications/services/planning.rst:335
 msgid ""
 "Only the shifts matching the employee's roles are displayed in their "
 "schedule."
 msgstr "직원의 업무 역할과 일치하는 경우에만 교대조가 일정에 표시됩니다."
 
-#: ../../content/applications/services/planning.rst:338
+#: ../../content/applications/services/planning.rst:336
 msgid "Unassigning shifts is not available for shifts in the past."
-msgstr ""
+msgstr "교대근무 지정 해제는 이전의 교대근무에 대해서는 적용할 수 없습니다."
 
 #: ../../content/applications/services/project.rst:8
 msgid "Project"
@@ -6159,7 +6142,7 @@ msgstr ""
 "현황판에서 기존 **프로젝트**를 커스터마이징하려면 프로젝트의 **카드**에 있는 "
 "드롭다운 전환 버튼 (:guilabel:`⋮`)을 클릭하면 됩니다."
 
-#: ../../content/applications/services/project/project_management.rst:-1
+#: ../../content/applications/services/project/project_management.rst:None
 msgid "Project card"
 msgstr "프로젝트 카드"
 
@@ -6241,7 +6224,7 @@ msgstr ""
 "또한 프로젝트에 :guilabel:`즐겨찾기` 표시를 하면 칸반 화면에서 :guilabel:`내 "
 "즐겨찾기` 필터를 사용하여 프로젝트를 검색할 수 있습니다."
 
-#: ../../content/applications/services/project/project_management.rst:-1
+#: ../../content/applications/services/project/project_management.rst:None
 msgid "Project settings"
 msgstr "프로젝트 설정"
 
@@ -6263,7 +6246,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/project_management.rst:66
 msgid "Visibility and collaboration"
-msgstr ""
+msgstr "가시성과 협업"
 
 #: ../../content/applications/services/project/project_management.rst:68
 msgid ""
@@ -6271,12 +6254,17 @@ msgid ""
 "make your project available to everyone in your organization or restrict "
 "access to certain internal or external users."
 msgstr ""
+"Odoo를 사용하면 각 프로젝트에 대한 가시성 설정을 지정하여 조직의 모든 "
+"사용자가 프로젝트를 사용할 수 있도록 하거나 특정 내부 또는 외부 사용자로 "
+"액세스를 제한할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management.rst:71
 msgid ""
 "To do so, go to the project's :guilabel:`Settings` tab and choose the "
 "desired :guilabel:`Visibility` option:"
 msgstr ""
+"프로젝트의 :guilabel:`설정` 탭으로 이동하여 원하는 :guilabel:`공개 범위` "
+"옵션을 선택하세요:"
 
 #: ../../content/applications/services/project/project_management.rst:74
 msgid ""
@@ -6285,12 +6273,17 @@ msgid ""
 "applications/general/users/access_rights>` can access the project and its "
 "tasks."
 msgstr ""
+":guilabel:`초대된 내부 사용자만(비공개)`: 프로젝트를 팔로우하는 사용자와 "
+"프로젝트 관리자 :doc:`접근 권한 </applications/general/users/access_rights>"
+"`을 가진 사용자만 프로젝트와 작업에 접근할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management.rst:77
 msgid ""
 ":guilabel:`All internal users`: All internal users can access the project "
 "and all of its tasks."
 msgstr ""
+":guilabel:`모든 내부 사용자`: 모든 내부 사용자가 프로젝트와 모든 작업에 "
+"접근할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management.rst:78
 msgid ""
@@ -6301,14 +6294,13 @@ msgid ""
 "default."
 msgstr ""
 ":guilabel:`초대된 포털 사용자 및 모든 내부 사용자(공개)`: 모든 내부 사용자가 "
-"프로젝트와 해당 프로젝트의 모든 작업에 액세스할 수 있습니다. 프로젝트를 "
-"팔로우하면 :doc:`포털 사용자 </applications/general/users/portal>` 는 "
-"팔로우하는 작업에만 액세스할 수 있습니다. 기본적으로 선택되어 있는 "
-"옵션입니다."
+"프로젝트와 해당 프로젝트의 모든 작업에 액세스할 수 있습니다. 프로젝트를 팔로"
+"우하면 :doc:`포털 사용자 </applications/general/users/portal>` 는 팔로우하는 "
+"작업에만 액세스할 수 있습니다. 기본적으로 선택되어 있는 옵션입니다."
 
 #: ../../content/applications/services/project/project_management.rst:84
 msgid "Inviting external users"
-msgstr ""
+msgstr "외부 사용자 초대하기"
 
 #: ../../content/applications/services/project/project_management.rst:86
 msgid ""
@@ -6317,12 +6309,17 @@ msgid ""
 "Project` at the top of the project’s settings. The following options are "
 "available:"
 msgstr ""
+"외부 사용자를 초대하려면 :guilabel:`초대된 포털 사용자 및 모든 내부 사용자"
+"(공개)`가 선택되어 있는지 확인한 다음 프로젝트 설정 상단의 "
+":guilabel:`프로젝트 공유`를 클릭하세요. 다음 옵션을 사용할 수 있습니다:"
 
 #: ../../content/applications/services/project/project_management.rst:90
 msgid ""
 "Copy and share the :guilabel:`Public Link` displayed at the top of the pop-"
 "up window. Anyone with this link can access the project in read mode."
 msgstr ""
+"팝업 창 상단에 표시된 :guilabel:`공개 링크`를 복사하여 공유하세요. 이 링크를 "
+"가진 사람은 누구나 읽기 모드로 프로젝트에 접근할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management.rst:92
 msgid ""
@@ -6330,24 +6327,30 @@ msgid ""
 "the :guilabel:`Access Mode`, and check the box to send an invitation to "
 "their email address."
 msgstr ""
+"또는 :guilabel:`줄 추가`를 클릭하고 :guilabel:`협업자`를 선택한 다음 "
+":guilabel:`접근 모드`를 선택하고 이메일 주소로 초대장을 보내려면 확인란을 "
+"선택하세요."
 
 #: ../../content/applications/services/project/project_management.rst:95
 msgid "There are three types of :guilabel:`Access Mode` for collaborators:"
-msgstr ""
+msgstr "공동 작업용 :guilabel:`액세스 모드` 에는 세 가지가 있습니다:"
 
 #: ../../content/applications/services/project/project_management.rst:97
 msgid ":guilabel:`Read`: Collaborators can view tasks but cannot edit them."
 msgstr ""
+":guilabel:`읽기`: 공동 작업자는 작업을 볼 수 있으나 편집할 수는 없습니다."
 
 #: ../../content/applications/services/project/project_management.rst:98
 msgid ""
 ":guilabel:`Edit with limited access`: Collaborators can view and edit the "
 "tasks they follow."
 msgstr ""
+":guilabel:`제한된 접근 권한으로 편집`: 협업자는 자신이 팔로우하는 작업을 "
+"보고 편집할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management.rst:99
 msgid ":guilabel:`Edit`: Collaborators can view and edit all tasks."
-msgstr ""
+msgstr ":guilabel:`편집`: 공동 작업자가 모든 작업을 보고 편집할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management.rst:101
 msgid ""
@@ -6355,6 +6358,9 @@ msgid ""
 "at the top of the project’s settings, then click the :icon:`fa-trash-"
 "o` :guilabel:`(trash)` icon."
 msgstr ""
+"초대된 협업자의 접근 권한을 취소하려면 프로젝트 설정 상단의 "
+":guilabel:`프로젝트 공유`를 클릭한 다음 :icon:`fa-trash-o` :guilabel:`"
+"(휴지통)` 아이콘을 클릭하세요."
 
 #: ../../content/applications/services/project/project_management.rst:105
 msgid ""
@@ -6362,6 +6368,9 @@ msgid ""
 "URL has been shared with them. For projects set as :guilabel:`Invited "
 "internal users (private)`, they must also be a follower of the task."
 msgstr ""
+"프로젝트에 접근 권한이 없는 내부 사용자도 URL이 공유된 경우 작업에 접근할 수 "
+"있습니다. :guilabel:`초대된 내부 사용자만(비공개)`로 설정된 프로젝트의 경우 "
+"해당 작업의 팔로워여야 합니다."
 
 #: ../../content/applications/services/project/project_management.rst:110
 msgid "Scheduling activities"
@@ -6431,8 +6440,11 @@ msgid ""
 "the Project app. To return to your project tasks' Kanban view, click "
 "the :guilabel:`Tasks` button in the top bar."
 msgstr ""
+"그런 다음 버튼을 클릭하여 프로젝트 앱을 벗어나지 않고 관련 레코드에 접근할 "
+"수 있습니다. 프로젝트 작업의 칸반 보기로 돌아가려면 상단 표시줄의 "
+":guilabel:`작업` 버튼을 클릭하세요."
 
-#: ../../content/applications/services/project/project_management.rst:-1
+#: ../../content/applications/services/project/project_management.rst:None
 msgid "Top bar selection menu"
 msgstr "상단 표시줄 선택 메뉴"
 
@@ -6468,6 +6480,8 @@ msgid ""
 "Edit the default button name if necessary, then enable :guilabel:`Shared` if "
 "you want to share the button with other users."
 msgstr ""
+"필요한 경우 기본 버튼 이름을 편집한 다음 다른 사용자와 버튼을 공유하려면 "
+":guilabel:`공유됨`을 활성화하세요."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:3
 msgid "Project dashboard"
@@ -6513,6 +6527,9 @@ msgid ""
 "project’s card, clicking the :icon:`fa-ellipsis-v` (:guilabel:`vertical "
 "ellipsis`), and selecting :guilabel:`Dashboard`."
 msgstr ""
+"원하는 프로젝트 카드 위에 마우스를 올린 다음 :icon:`fa-ellipsis-v` "
+"(:guilabel:`세로 줄임표`)를 클릭하고 :guilabel:`현황판`을 선택하여 프로젝트 "
+"현황판에 접근할 수도 있습니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:23
 msgid ""
@@ -6538,6 +6555,9 @@ msgid ""
 "information about **Timesheets**, **Planning**, or **Purchase Orders** if "
 "the corresponding applications are not installed."
 msgstr ""
+"프로젝트 현황판에 표시되는 정보는 데이터베이스에 설치된 애플리케이션에 따라 "
+"다릅니다. 예를 들어 해당 애플리케이션이 설치되지 않은 경우 **작업 기록**, "
+"**일정 관리** 또는 **매입 주문**에 대한 정보가 표시되지 않습니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:37
 msgid "Totals smart buttons"
@@ -6556,6 +6576,10 @@ msgid ""
 "statuses>`) and all tasks, in format completed/all, as well as the entire "
 "project's completion percentage estimation."
 msgstr ""
+":guilabel:`작업`: 완료된(즉, :guilabel:`완료됨` 또는 :guilabel:`취소됨` "
+":ref:`작업 <project/tasks/task_stages_statuses/statuses>`) 작업 수와 전체 "
+"작업 수를 완료됨/전체 형식으로 표시하며 전체 프로젝트의 완료 비율 추정치도 "
+"표시합니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:44
 msgid ""
@@ -6564,6 +6588,9 @@ msgid ""
 "This includes all :doc:`timesheets </applications/services/timesheets>`, "
 "whether or not they have been validated."
 msgstr ""
+":guilabel:`작업 기록`: 프로젝트 **설정**에서 할당된 시간 또는 일수(**작업 "
+"기록** 앱 구성에 따라 다름)입니다. 검증 여부와 관계없이 모든 :doc:`작업 기록 "
+"</applications/services/timesheets>`이 포함됩니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:47
 msgid ""
@@ -6572,6 +6599,9 @@ msgid ""
 "applications/services/planning>`, including past shifts and shifts that have "
 "not yet been published."
 msgstr ""
+":guilabel:`계획됨`: **일정 관리** 앱에서 교대 근무로 계획된 시간 수입니다. "
+"과거 교대 근무와 아직 게시되지 않은 교대 근무를 포함한 모든 :doc:`계획된 "
+"교대 근무 </applications/services/planning>`가 포함됩니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:50
 msgid ""
@@ -6587,6 +6617,9 @@ msgid ""
 "</applications/essentials/reporting>` on the status of the project’s tasks "
 "over time."
 msgstr ""
+":guilabel:`번다운 차트`: 스마트 버튼을 클릭하면 시간 경과에 따른 프로젝트 "
+"작업 상태에 대한 :doc:`보고서 </applications/essentials/reporting>`에 접근할 "
+"수 있습니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:54
 msgid ""
@@ -6595,6 +6628,10 @@ msgid ""
 "timesheets and shifts. This allows you to easily compare planned and "
 "effective hours of work on the project."
 msgstr ""
+":guilabel:`작업 기록 및 일정 관리`: 스마트 버튼을 클릭하면 프로젝트의 작업 "
+"기록 및 교대 근무에 대한 :doc:`보고서 </applications/essentials/reporting>"
+"`에 접근할 수 있습니다. 이를 통해 프로젝트의 계획된 작업 시간과 실제 작업 "
+"시간을 쉽게 비교할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:57
 msgid ""
@@ -6602,6 +6639,8 @@ msgid ""
 "Order Items`, :guilabel:`Purchase Orders`, and more, represent the number of "
 "records linked to the project."
 msgstr ""
+":guilabel:`판매 주문`, :guilabel:`판매 주문 항목`, :guilabel:`매입 주문` "
+"등과 같은 **추가 필드**는 프로젝트에 연결된 레코드 수를 나타냅니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:61
 msgid ""
@@ -6610,6 +6649,10 @@ msgid ""
 "timesheets, :guilabel:`Planned` to create project "
 "planning, :guilabel:`Documents` to view and validate documents, etc."
 msgstr ""
+"프로젝트 현황판 스마트 버튼을 사용하여 프로젝트 레코드를 쉽게 "
+"업데이트하세요. :guilabel:`작업 기록`을 클릭하여 작업 기록을 검증하고, "
+":guilabel:`계획됨`을 클릭하여 프로젝트 일정을 생성하고, :guilabel:`문서`를 "
+"클릭하여 문서를 보고 검증하는 등의 작업을 수행할 수 있습니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:68
 msgid "Milestones"
@@ -6654,6 +6697,10 @@ msgid ""
 "and its :doc:`Analytic account </applications/finance/accounting/reporting/"
 "analytic_accounting>`."
 msgstr ""
+":doc:`수익성 현황판 </applications/services/project/project_management/"
+"project_profitability>`은(는) 프로젝트 비용과 수익의 세부 내역을 제공하며, "
+"프로젝트와 해당 :doc:`분석 계정 </applications/finance/accounting/reporting/"
+"analytic_accounting>`에 연결된 모든 기록의 영향을 받습니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:89
 msgid "The profitability report is only displayed for billable projects."
@@ -6669,6 +6716,8 @@ msgid ""
 "displayed in this section. Click :guilabel:`Add Budget` to create a new "
 "budget for the project."
 msgstr ""
+"프로젝트에 예산이 설정된 경우 이 섹션에 상태와 관련 세부 정보가 표시됩니다. "
+":guilabel:`예산 추가`를 클릭하여 프로젝트의 새 예산을 생성하십시오."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:100
 msgid ""
@@ -6676,6 +6725,8 @@ msgid ""
 "enabled in your database’s **Accounting** application in order for this "
 "section to be displayed."
 msgstr ""
+"이 섹션을 표시하려면 데이터베이스의 **회계** 애플리케이션에서 :doc:`예산 </"
+"applications/finance/accounting/reporting/budget>`을(를) 활성화해야 합니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:106
 msgid "Project updates"
@@ -6700,6 +6751,8 @@ msgid ""
 "To create a new project update, go to the project dashboard, "
 "click :guilabel:`New`, and fill in the following fields:"
 msgstr ""
+"새 프로젝트 업데이트를 생성하려면 프로젝트 현황판으로 이동하여 "
+":guilabel:`새로 만들기`를 클릭하고 다음 필드를 입력하십시오:"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:116
 msgid ""
@@ -6727,6 +6780,8 @@ msgid ""
 "filled in with appropriate information based on the user who created the "
 "update and the current date."
 msgstr ""
+":guilabel:`날짜`와(과) :guilabel:`작성자`: 이 필드는 업데이트를 생성한 "
+"사용자와 현재 날짜를 기준으로 적절한 정보가 자동으로 입력됩니다."
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:123
 msgid ""
@@ -6735,6 +6790,9 @@ msgid ""
 "may be pre-filled with current information on aspects such as profitability, "
 "budget, milestones, etc."
 msgstr ""
+":guilabel:`설명`: 이 서식 있는 텍스트 필드를 사용하여 메모를 수집하십시오. "
+"프로젝트 구성(예: 프로젝트가 청구 가능한 경우)에 따라 이 필드는 수익성, "
+"예산, 마일스톤 등과 같은 측면에 대한 현재 정보로 미리 채워질 수 있습니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:3
 msgid "Project profitability"
@@ -6758,6 +6816,8 @@ msgid ""
 "Project profitability is tracked in the :doc:`project dashboard "
 "<project_dashboard>` on all billable projects."
 msgstr ""
+"프로젝트의 수익성은 모든 청구 가능 프로젝트에 있는 :doc:`프로젝트 현황판 "
+"<project_dashboard>` 에서 추적됩니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:13
 msgid ""
@@ -6766,6 +6826,10 @@ msgid ""
 "sliders` (:guilabel:`sliders`) icon to add :guilabel:`Dashboard` to the "
 "project's :ref:`top bar <project/project-management/top-bar>`."
 msgstr ""
+":doc:`프로젝트 현황판 <project_dashboard>`에 액세스하려면 **프로젝트** 앱을 "
+"열고 해당 프로젝트로 이동하십시오. :icon:`fa-sliders` (:guilabel:`슬라이더`) "
+"아이콘을 클릭하여 프로젝트의 :ref:`상단 표시줄 <project/project-management/"
+"top-bar>`에 :guilabel:`현황판`을(를) 추가하십시오."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:18
 msgid ""
@@ -6773,6 +6837,9 @@ msgid ""
 "hovering over the desired project’s card, clicking the :icon:`fa-ellipsis-v` "
 "(:guilabel:`vertical ellipsis`), and selecting :guilabel:`Dashboard`."
 msgstr ""
+"원하는 프로젝트의 카드 위에 마우스를 올리고 :icon:`fa-ellipsis-v` "
+"(:guilabel:`세로 줄임표`)를 클릭한 다음 :guilabel:`현황판`을(를) 선택하여 "
+":doc:`프로젝트 현황판 <project_dashboard>`에 액세스할 수도 있습니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:22
 msgid ""
@@ -6798,7 +6865,7 @@ msgstr ""
 "께 표시되고 :guilabel:`비용` 아래에서는 직원에게 지급한 임금 금액과 함께 표시"
 "됩니다."
 
-#: ../../content/applications/services/project/project_management/project_profitability.rst:-1
+#: ../../content/applications/services/project/project_management/project_profitability.rst:None
 msgid "Project dashboard."
 msgstr "프로젝트 현황판입니다."
 
@@ -6806,14 +6873,15 @@ msgstr "프로젝트 현황판입니다."
 msgid ""
 "The amounts displayed in the profitability report are divided into three "
 "columns:"
-msgstr ""
+msgstr "수익성 보고서에 표시되는 금액은 세 개의 열로 나뉘어 집니다:"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:37
 msgid ""
 ":guilabel:`Expected`: the amounts expected based on existing sales or "
 "purchase orders."
-msgstr ":guilabel:`예상`: 기존 판매주문서나 구매발주서를 기준으로 예상되는 "
-"금액입니다."
+msgstr ""
+":guilabel:`예상`: 기존 판매주문서나 구매발주서를 기준으로 예상되는 금액입니"
+"다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:38
 msgid ""
@@ -6834,6 +6902,8 @@ msgid ""
 ":guilabel:`Invoiced` or :guilabel:`Billed`: the amounts are moved to this "
 "column once an invoice or bill has been confirmed."
 msgstr ""
+":guilabel:`청구서 발행됨` 또는 :guilabel:`청구됨`: 송장 또는 청구서가 "
+"확인되면 금액이 이 열로 이동됩니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:46
 msgid ""
@@ -6842,6 +6912,9 @@ msgid ""
 "columns. Use the :icon:`fa-caret-right` (:guilabel:`arrow`) icon to see a "
 "detailed breakdown for each line."
 msgstr ""
+"동일한 원칙에 따라 수익 섹션은 :guilabel:`판매됨`, :guilabel:`배송됨`, "
+":guilabel:`청구서 발행됨` 열로 세분화됩니다. :icon:`fa-caret-right` "
+"(:guilabel:`화살표`) 아이콘을 사용하여 각 라인의 세부 내역을 확인하십시오."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:51
 msgid ""
@@ -6849,6 +6922,9 @@ msgid ""
 "easily access and edit records linked to the project’s profitability from "
 "the project’s Kanban view."
 msgstr ""
+"프로젝트의 :ref:`상단 표시줄 <project/project-management/top-bar>`을(를) "
+"사용하여 프로젝트의 칸반 보기에서 프로젝트의 수익성과 연결된 기록에 쉽게 "
+"액세스하고 편집하십시오."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:55
 msgid ""
@@ -6856,6 +6932,9 @@ msgid ""
 "must be linked to the project and its :doc:`analytic account </applications/"
 "finance/accounting/reporting/analytic_accounting>`."
 msgstr ""
+"기록을 수익성 현황판에 표시하려면 프로젝트와 해당 :doc:`분석 계정 </"
+"applications/finance/accounting/reporting/analytic_accounting>`에 연결되어야 "
+"합니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:58
 msgid "The following records can be displayed in the profitability dashboard."
@@ -6875,12 +6954,20 @@ msgid ""
 "time_materials>`, :doc:`Based on Milestones </applications/sales/sales/"
 "invoicing/milestone>`)."
 msgstr ""
+":guilabel:`작업 기록`: :doc:`작업 기록 </applications/services/timesheets>"
+"`의 수익이며 제품 양식에서 선택한 :guilabel:`청구 정책`에 따라 세분화됩니다"
+"(예: :doc:`선불/고정 가격 </applications/sales/sales/invoicing/"
+"invoicing_policy>`, :doc:`작업 기록 기준 </applications/sales/sales/"
+"invoicing/time_materials>`, :doc:`마일스톤 기준 </applications/sales/sales/"
+"invoicing/milestone>`)."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:70
 msgid ""
 ":guilabel:`Materials`: total of sales prices of products sold via sales "
 "orders linked to the project."
 msgstr ""
+":guilabel:`자재`: 프로젝트에 연결된 판매 주문을 통해 판매된 제품의 판매 가격 "
+"합계입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:72
 msgid ""
@@ -6892,19 +6979,24 @@ msgid ""
 ":guilabel:`Subscriptions`: a total of sales prices of :doc:`subscriptions </"
 "applications/sales/subscriptions>` linked to the project."
 msgstr ""
+":guilabel:`구독`: 프로젝트에 연결된 :doc:`구독 </applications/sales/"
+"subscriptions>`의 총 판매 가격입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:75
 msgid ""
 ":guilabel:`Down payments`: a total of :doc:`down payments </applications/"
 "sales/sales/invoicing/down_payment>` linked to the project."
 msgstr ""
+":guilabel:`선급금`: 프로젝트에 연결되어 있는 :doc:`선급금 </applications/"
+"sales/sales/invoicing/down_payment>` 총액입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:77
 msgid ""
 ":guilabel:`Expenses`: any :doc:`expenses </applications/finance/expenses>` "
-"that have been :doc:`reinvoiced to the customer </applications/sales/sales/"
-"invoicing/expense>`."
+"that have been reinvoiced to the customer."
 msgstr ""
+":guilabel:`경비`: 고객에게 재청구된\\ :doc:`경비 </applications/finance/"
+"expenses>`."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:83
 msgid "Costs"
@@ -6916,6 +7008,9 @@ msgid ""
 "via :doc:`timesheets </applications/services/timesheets>`, based on the "
 "employee's :ref:`HR settings <employees/hr-settings>`."
 msgstr ""
+":guilabel:`작업 기록`: 임직원의 :ref:`인사 설정 <employees/hr-settings>`을"
+"(를) 기준으로 임직원이 :doc:`작업 기록 </applications/services/timesheets>`을"
+"(를) 통해 추적한 시간의 총 비용입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:88
 msgid ""
@@ -6924,6 +7019,10 @@ msgid ""
 "project. Those could cover goods, materials, or even subcontracted services. "
 "This entry only appears once the vendor bill is posted."
 msgstr ""
+":guilabel:`구매 주문`: 프로젝트에 연결된 :doc:`구매 주문 </applications/"
+"inventory_and_mrp/purchase/manage_deals>`의 총 비용입니다. 여기에는 상품, "
+"자재 또는 하청 서비스까지 포함될 수 있습니다. 이 항목은 공급업체 청구서가 "
+"게시된 후에만 나타납니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:92
 msgid ""
@@ -6946,6 +7045,8 @@ msgid ""
 ":guilabel:`Expenses`: total costs of :doc:`expenses </applications/finance/"
 "expenses>` linked to the project that have been submitted and approved."
 msgstr ""
+":guilabel:`경비`: 프로젝트에 연결되어 제출 및 승인된 :doc:`경비 </"
+"applications/finance/expenses>`의 총 비용입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:100
 msgid ""
@@ -6953,18 +7054,24 @@ msgid ""
 "inventory_and_mrp/purchase/manage_deals/manage>` linked to the project's "
 "analytic account."
 msgstr ""
+":guilabel:`공급업체 청구서`: 프로젝트의 분석 계정에 연결된 :doc:`공급업체 "
+"청구서 </applications/inventory_and_mrp/purchase/manage_deals/manage>`의 총 "
+"비용입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:103
 msgid ""
 ":guilabel:`Manufacturing orders`: total costs of manufacturing orders linked "
 "to the project's analytic account."
 msgstr ""
+":guilabel:`제조지시서`: 프로젝트의 분석 계정에 연결되어 있는 제조지시서상의 "
+"총비용입니다."
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:105
 msgid ""
 ":guilabel:`Other costs`: any other costs linked to the project's analytic "
 "account."
-msgstr ":guilabel:`기타 비용`: 프로젝트의 분석 계정에 연결되어 있는 기타 비용입니다."
+msgstr ""
+":guilabel:`기타 비용`: 프로젝트의 분석 계정에 연결되어 있는 기타 비용입니다."
 
 #: ../../content/applications/services/project/tasks.rst:5
 msgid "Task management"
@@ -6989,6 +7096,8 @@ msgid ""
 "`Odoo Tutorials: Recurring tasks <https://www.odoo.com/slides/slide/"
 "recurring-tasks-6958>`_"
 msgstr ""
+"`Odoo 튜토리얼: 반복 작업 <https://www.odoo.com/slides/slide/recurring-"
+"tasks-6958>`_"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:15
 msgid ""
@@ -7009,12 +7118,17 @@ msgid ""
 "button next to the :guilabel:`Deadline` field. Then, configure "
 "the :guilabel:`Repeat Every` field according to your needs."
 msgstr ""
+"기존 작업에서 :guilabel:`마감일` 필드 옆의 :icon:`fa-repeat` "
+"(:guilabel:`반복`) 버튼을 클릭하십시오. 그런 다음 필요에 따라 "
+":guilabel:`반복 주기` 필드를 구성하십시오."
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:25
 msgid ""
 "A new task in recurrence will be created once the status of the previous "
 "task is set to :guilabel:`Done` or :guilabel:`Canceled`."
 msgstr ""
+"이전 작업의 상태가 :guilabel:`완료됨` 또는 :guilabel:`취소됨`(으)로 설정되면 "
+"반복되는 새 작업이 생성됩니다."
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:28
 msgid ""
@@ -7045,6 +7159,8 @@ msgid ""
 "(e.g., if the task is set to repeat once a week, 7 days will be added to the "
 "deadline);"
 msgstr ""
+":guilabel:`마감일`: :guilabel:`반복 주기` 필드를 기반으로 업데이트됩니다(예: "
+"작업이 일주일에 한 번 반복되도록 설정된 경우 마감일에 7일이 추가됨)."
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:36
 msgid ""
@@ -7058,7 +7174,7 @@ msgstr ""
 msgid ""
 "Once a recurrence is configured, a **smart button** on the task displays the "
 "total number of existing recurrences."
-msgstr ""
+msgstr "반복이 구성되면 작업의 **스마트 버튼**에 기존 반복의 총 개수가 표시됩니다."
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:43
 msgid "Edit or stop task recurrence"
@@ -7249,18 +7365,24 @@ msgid ""
 "Open the Project app and choose the desired project. Create a new task by "
 "doing one of the following:"
 msgstr ""
+"프로젝트 앱을 열고 원하는 프로젝트를 선택합니다. 다음 중 하나를 수행하여 새 "
+"작업을 만듭니다:"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:14
 msgid ""
 "Clicking the :icon:`fa-plus` (:guilabel:`plus`) button in the upper left "
 "corner. This creates a new task in the first stage of your Kanban view."
 msgstr ""
+"왼쪽 상단의 :icon:`fa-plus` (:guilabel:`더하기`) 버튼을 클릭합니다. 이렇게 "
+"하면 칸반 보기의 첫 번째 단계에 새 작업이 생성됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:16
 msgid ""
 "Pressing the :icon:`fa-plus` (:guilabel:`plus`) button next to the Kanban "
 "stage name. This creates a new task in this Kanban stage."
 msgstr ""
+"칸반 단계 이름 옆의 :icon:`fa-plus` (:guilabel:`더하기`) 버튼을 누릅니다. "
+"이렇게 하면 해당 칸반 단계에 새 작업이 생성됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:19
 msgid ""
@@ -7279,6 +7401,8 @@ msgid ""
 "Click the task to open it. The task form includes the following fields that "
 "you can fill in:"
 msgstr ""
+"작업을 클릭하여 엽니다. 작업 양식에는 입력할 수 있는 다음 필드가 포함되어 "
+"있습니다:"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:29
 msgid ":guilabel:`Task Title`: title of the task."
@@ -7315,6 +7439,8 @@ msgid ""
 ":guilabel:`Customer`: the person or company that will be billed for this "
 "task. This field only appears in tasks that belong to billable projects."
 msgstr ""
+":guilabel:`고객`: 이 작업에 대해 청구될 사람 또는 회사입니다. 이 필드는 청구 "
+"가능한 프로젝트에 속한 작업에만 표시됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:37
 msgid ""
@@ -7331,6 +7457,8 @@ msgid ""
 ":guilabel:`Allocated Time`: the amount of time that the work on this task is "
 "expected to last, tracked by timesheets."
 msgstr ""
+":guilabel:`할당 시간`: 이 작업에 대한 작업이 소요될 것으로 예상되는 "
+"시간으로, 작업 기록으로 추적됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:42
 msgid ""
@@ -7346,6 +7474,8 @@ msgid ""
 "You can also create new tasks by switching to the list or Gantt view and "
 "clicking :guilabel:`New`."
 msgstr ""
+"목록 또는 간트 보기로 전환하고 :guilabel:`새로 만들기`를 클릭하여 새 작업을 "
+"만들 수도 있습니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:49
 msgid ""
@@ -7367,6 +7497,8 @@ msgid ""
 "You can use the following keyboard shortcuts in the task title to configure "
 "new tasks (modify the values in the examples below according to your needs):"
 msgstr ""
+"작업 제목에서 다음 키보드 단축키를 사용하여 새 작업을 구성할 수 있습니다"
+"(아래 예시의 값을 필요에 따라 수정하세요):"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:56
 msgid "**30h**: to allocate 30 hours to the task."
@@ -7390,6 +7522,8 @@ msgid ""
 "followed by the allocated time, the tags, the assignee, and then the "
 "priority."
 msgstr ""
+"올바른 형식을 사용하는 것과 함께 다음 순서를 따르세요: 작업 이름, 할당 시간, "
+"태그, 담당자, 우선순위 순입니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:64
 msgid ""
@@ -7415,6 +7549,8 @@ msgid ""
 "This feature allows for project tasks to be automatically created once an "
 "email is delivered to a designated email address."
 msgstr ""
+"이 기능을 사용하면 지정된 이메일 주소로 이메일이 전달되면 프로젝트 작업이 "
+"자동으로 생성됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:79
 msgid ""
@@ -7436,6 +7572,8 @@ msgid ""
 "**Section of the alias before the @ symbol**: type the name of the email "
 "alias, e.g. `contact`, `help`, `jobs`."
 msgstr ""
+"**@ 기호 앞의 별칭 부분**: 이메일 별칭의 이름을 입력합니다(예: `contact`, "
+"`help`, `jobs`)."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:87
 msgid ""
@@ -7453,7 +7591,7 @@ msgstr ""
 "**다음의 보낸 사람 이메일 수락**: 이메일에서 프로젝트 작업을 생성하게 하는 이"
 "메일 발신자를 구체적으로 기재합니다."
 
-#: ../../content/applications/services/project/tasks/task_creation.rst:-1
+#: ../../content/applications/services/project/tasks/task_creation.rst:None
 msgid "View of the email alias chosen on the dashboard view in Odoo Project"
 msgstr "Odoo 프로젝트 현황판 화면에서 선택한 이메일 별칭 보기"
 
@@ -7462,12 +7600,16 @@ msgid ""
 "Once configured, the email alias can be seen under the name of your project "
 "on the Kanban dashboard."
 msgstr ""
+"구성이 완료되면 칸반 현황판에서 프로젝트 이름 아래에 이메일 별칭이 "
+"표시됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:96
 msgid ""
 "When an email is sent to the alias, the email is automatically converted "
 "into a project task. The following rules apply:"
 msgstr ""
+"별칭으로 이메일이 전송되면 이메일이 자동으로 프로젝트 작업으로 변환됩니다. "
+"다음 규칙이 적용됩니다:"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:99
 msgid "The email sender is displayed in the :guilabel:`Customer` field."
@@ -7491,6 +7633,8 @@ msgid ""
 "All the recipients of the email (To/Cc/Bcc) that are Odoo users are "
 "automatically added as **followers** of the task."
 msgstr ""
+"Odoo 사용자인 이메일의 모든 수신자(받는 사람/참조/숨은 참조)가 자동으로 "
+"작업의 **팔로워**로 추가됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:107
 msgid "Creating tasks from a website form"
@@ -7509,6 +7653,8 @@ msgid ""
 "Go to the website page where you wish to add the form and :doc:`add the Form "
 "building block </applications/websites/website/web_design/building_blocks>`."
 msgstr ""
+"양식을 추가하려는 웹사이트 페이지로 이동하여 :doc:`양식 구성 요소를 추가 </"
+"applications/websites/website/web_design/building_blocks>`합니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:114
 msgid "In the website editor, edit the following fields:"
@@ -7526,17 +7672,19 @@ msgstr ":guilabel:`프로젝트`: 새 작업을 생성하려는 프로젝트를 
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:119
 msgid ":ref:`Customize the form <website/building_blocks/form>`."
-msgstr ""
+msgstr ":ref:`양식 사용자 지정하기 <website/building_blocks/form>`."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:121
 msgid ""
 "When the form is submitted, it automatically creates a project task. The "
 "task's content is defined by the form's corresponding fields."
 msgstr ""
+"양식이 제출되면 자동으로 프로젝트 작업이 생성됩니다. 작업의 내용은 양식의 "
+"해당 필드에 의해 정의됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:125
 msgid ":ref:`Website forms <website/building_blocks/form>`"
-msgstr ""
+msgstr ":ref:`웹사이트 양식 <website/building_blocks/form>`"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:3
 msgid "Task dependencies"
@@ -7559,6 +7707,9 @@ msgid ""
 "Configuration --> Settings`, enable :guilabel:`Task Dependencies`, and "
 "click :guilabel:`Save`."
 msgstr ""
+"프로젝트에서 작업 종속성을 활성화하려면\\ :menuselection:`프로젝트 --> "
+"구성 --> 설정`\\ 으로 이동하여\\ :guilabel:`작업 종속성`\\ 을 활성화하고\\ "
+":guilabel:`저장`\\ 을 클릭합니다."
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:13
 msgid "Set task dependencies"
@@ -7598,7 +7749,7 @@ msgstr ""
 "음 그 주변에 나타나는 점 중 하나를 클릭합니다. 점을 후속 작업으로 끌어다 놓습"
 "니다. 선행 작업에서 후속 작업으로의 종속성을 나타내는 화살표가 나타납니다."
 
-#: ../../content/applications/services/project/tasks/task_dependencies.rst:-1
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:None
 msgid "Task dependency"
 msgstr "작업 종속성"
 
@@ -7609,6 +7760,10 @@ msgid ""
 "moved to :guilabel:`In Progress` until their predecessor task(s) are marked "
 "as :guilabel:`Approved`, :guilabel:`Cancelled`, or :guilabel:`Done`."
 msgstr ""
+"Odoo는 종속성을 기반으로 작업 진행 상황을 자동으로 관리합니다. 후속 작업은 "
+":guilabel:`대기 중` 상태가 지정되며 선행 작업이 :guilabel:`승인됨`, "
+":guilabel:`취소됨` 또는 :guilabel:`완료`로 표시될 때까지 :guilabel:`진행 "
+"중`으로 이동할 수 없습니다."
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:37
 msgid "Remove dependencies"
@@ -7623,6 +7778,8 @@ msgid ""
 "From the task form, go to the **Blocked by** tab and click the :icon:`fa-"
 "times` (:guilabel:`times`) button."
 msgstr ""
+"작업 양식에서 **차단 기준** 탭으로 이동하여 :icon:`fa-times` "
+"(:guilabel:`곱하기`) 버튼을 클릭합니다."
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:43
 msgid ""
@@ -7630,6 +7787,8 @@ msgid ""
 "button that appears at the center of the arrow when you hover your mouse "
 "over it."
 msgstr ""
+"Gantt 뷰에서 화살표 위로 마우스를 가져가면 중앙에 나타나는 빨간색\\ "
+":icon:`fa-times`\\ (:guilabel:`times`) 버튼을 클릭하세요."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:3
 msgid "Task stages and statuses"
@@ -7655,6 +7814,8 @@ msgid ""
 "By default, task stages are project-specific but can be shared across "
 "multiple projects that follow the same workflow."
 msgstr ""
+"기본적으로 작업 단계는 프로젝트별로 지정되지만 동일한 워크플로를 따르는 여러 "
+"프로젝트에서 공유할 수 있습니다."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:16
 msgid "Creating task stages"
@@ -7696,12 +7857,14 @@ msgid ""
 "To edit the task stage, click the :icon:`fa-cog` (:guilabel:`cog`) icon next "
 "to its name. From there, click one of the following:"
 msgstr ""
+"작업 단계를 편집하려면 이름 옆의\\ :icon:`fa-cog`\\ (:guilabel:`cog`) "
+"아이콘을 클릭하세요. 그런 다음 다음 중 하나를 클릭하세요:"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:33
 msgid ""
 ":guilabel:`Fold`: to hide the task stage and all of the tasks in this stage "
 "from the Kanban view."
-msgstr ""
+msgstr ":guilabel:`Fold`: Kanban 뷰에서 작업 단계와 이 단계의 모든 작업을 숨깁니다."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:34
 msgid ":guilabel:`Edit`:"
@@ -7716,12 +7879,16 @@ msgid ""
 ":guilabel:`SMS/Email Template`: to automatically send an email or SMS "
 "notification to the customer when a task reaches this stage."
 msgstr ""
+":guilabel:`SMS/Email Template`: 작업이 이 단계에 도달하면 고객에게 이메일 "
+"또는 SMS 알림을 자동으로 전송합니다."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:39
 msgid ""
 ":guilabel:`Folded in Kanban`: to hide the task stage and all of the tasks in "
 "this stage from the Kanban view."
 msgstr ""
+":guilabel:`Folded in Kanban`: Kanban 뷰에서 작업 단계와 이 단계의 모든 "
+"작업을 숨깁니다."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:41
 msgid ""
@@ -7773,6 +7940,8 @@ msgid ""
 ":guilabel:`In Progress`: this is the default state of all tasks, meaning "
 "that work required for the task to move to the next Kanban stage is ongoing."
 msgstr ""
+":guilabel:`In Progress`: 모든 작업의 기본 상태로, 작업이 다음 Kanban 단계로 "
+"이동하는 데 필요한 작업이 진행 중임을 의미합니다."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:61
 msgid ""
@@ -7780,6 +7949,8 @@ msgid ""
 "by the customer or internally, are needed before the task is moved to the "
 "next Kanban stage."
 msgstr ""
+":guilabel:`Changes Requested`: 고객 또는 내부에서 요청한 변경 사항이 "
+"필요하며 작업이 다음 Kanban 단계로 이동하기 전에 완료되어야 함을 강조합니다."
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:63
 msgid ""
@@ -7828,7 +7999,7 @@ msgstr "작업 기록"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:5
 msgid "Timesheet billing rates and leaderboard"
-msgstr ""
+msgstr "작업시간표 청구 요율 및 순위표"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:7
 msgid ""
@@ -7840,17 +8011,17 @@ msgid ""
 "employees, and can be enhanced with :ref:`motivational tips <timesheets/"
 "billing_rates/tips>`."
 msgstr ""
-"Odoo **작업 기록** 앱을 활용하여 직원에게 맞춤식으로 :ref:`청구율 목표 <"
-"timesheets/billing_rates/targets>` 를 설정할 수 있습니다. 청구 요율 목표 "
-"외에도 :ref:`순위표 <timesheets/billing_rates/leaderboard>` 를 활성화하여 "
-"직원들에게 동기를 부여하고 업무를 게임화하여 진행할 수 있습니다. 순위표에는 "
-"직원들의 청구 가능 시간과 총 시간 기록이 표시되며, :ref:`동기 부여 팁 <"
-"timesheets/billing_rates/tips>` 을 참조하여 직원 격려 방안도 찾아 볼 수 "
-"있습니다."
+"Odoo **작업 기록** 앱을 활용하여 직원에게 맞춤식으로 :ref:`청구율 목표 "
+"<timesheets/billing_rates/targets>` 를 설정할 수 있습니다. 청구 요율 목표 외"
+"에도 :ref:`순위표 <timesheets/billing_rates/leaderboard>` 를 활성화하여 직원"
+"들에게 동기를 부여하고 업무를 게임화하여 진행할 수 있습니다. 순위표에는 직원"
+"들의 청구 가능 시간과 총 시간 기록이 표시되며, :ref:`동기 부여 팁 "
+"<timesheets/billing_rates/tips>` 을 참조하여 직원 격려 방안도 찾아 볼 수 있습"
+"니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:16
 msgid "Billing rate indicators"
-msgstr ""
+msgstr "청구 금액 지표"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:21
 msgid ""
@@ -7858,6 +8029,9 @@ msgid ""
 "> Configuration --> Settings`, then enable :guilabel:`Billing Rate "
 "Indicators`, and click :guilabel:`Save`."
 msgstr ""
+"청구율 지표를 활성화하려면\\ :menuselection:`작업 기록 --> 환경설정 --> "
+"설정`\\ 으로 이동한 다음\\ :guilabel:`Billing Rate Indicators`\\ 를 "
+"활성화하고\\ :guilabel:`저장`\\ 을 클릭하세요."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:24
 msgid ""
@@ -7867,10 +8041,10 @@ msgid ""
 "Time Target` in hours or days, depending on the :guilabel:`Encoding Method` "
 "selected in the **Timesheets** :guilabel:`Settings`."
 msgstr ""
-"목표를 설정하려면 :guilabel:`직원별 시간 판매 목표 설정` 을 클릭한 후 "
-"편집하려는 직원 양식을 열고 :guilabel:`설정` 탭으로 이동하여 월별 :guilabel:`"
-"목표 시간` 를 시간 또는 일 단위로 입력하며, 이 때 입력 방법은 **작업시간표** "
-":guilabel:`설정`` 에서 선택한 :guilabel:`인코딩 방법` 에 따라 달라집니다."
+"목표를 설정하려면 :guilabel:`직원별 시간 판매 목표 설정` 을 클릭한 후 편집하"
+"려는 직원 양식을 열고 :guilabel:`설정` 탭으로 이동하여 월별 :guilabel:`목표 "
+"시간` 를 시간 또는 일 단위로 입력하며, 이 때 입력 방법은 **작업시간표"
+"** :guilabel:`설정`` 에서 선택한 :guilabel:`인코딩 방법` 에 따라 달라집니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:30
 msgid ""
@@ -7878,10 +8052,13 @@ msgid ""
 "set the employees' :guilabel:`Monthly Billing Time Target` directly from the "
 "**Employees** app."
 msgstr ""
+":guilabel:`Billing Rate Indicators`\\ 가 활성화되면\\ **임직원 관리**\\ "
+"앱에서 직접 직원의\\ :guilabel:`Monthly Billing Time Target`\\ 을 설정할 "
+"수도 있습니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:34
 msgid "Using the billing rate indicators"
-msgstr ""
+msgstr "청구 요율 지표 사용하기"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:36
 msgid ""
@@ -7894,25 +8071,24 @@ msgid ""
 "target is reached."
 msgstr ""
 "청구서 요금 표시기가 활성화되면, 모든 사용자의 :guilabel:`내 작업 기록` 메뉴 "
-"오른쪽 상단에 표시되며 칸반 보기, 그리드 보기 및 목록 보기에서 확인할 수 "
-"있습니다. 사용자가 기록한 월별 시간은 **청구 가능 기록 시간/청구 가능 목표 "
-"시간** 형식으로 표시됩니다. 청구 목표 달성율도 같이 표시되며, 사용자가 "
-"목표에 미달한 경우에는 빨간색으로, 목표를 달성한 경우에는 초록색으로 강조 "
-"표시됩니다."
+"오른쪽 상단에 표시되며 칸반 보기, 그리드 보기 및 목록 보기에서 확인할 수 있습"
+"니다. 사용자가 기록한 월별 시간은 **청구 가능 기록 시간/청구 가능 목표 시간"
+"** 형식으로 표시됩니다. 청구 목표 달성율도 같이 표시되며, 사용자가 목표에 미"
+"달한 경우에는 빨간색으로, 목표를 달성한 경우에는 초록색으로 강조 표시됩니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:42
 msgid ""
 "Below the billing rate indicators, the total monthly amount of time logged "
 "by the user is also displayed."
-msgstr ""
+msgstr "청구율 지표 아래에는 사용자가 기록한 월별 총 시간도 표시됩니다."
 
-#: ../../content/applications/services/timesheets/billing_rates.rst:-1
+#: ../../content/applications/services/timesheets/billing_rates.rst:None
 msgid "Billing rate indicators."
-msgstr ""
+msgstr "청구 금액 지표."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:51
 msgid "Billing rate leaderboard"
-msgstr ""
+msgstr "청구 금액 순위표"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:56
 msgid ""
@@ -7921,6 +8097,9 @@ msgid ""
 "**billing rate leaderboard** in order to motivate employees and enhance "
 "workplace transparency."
 msgstr ""
+":ref:`monthly billing time targets <timesheets/billing_rates/targets>`\\ 가 "
+"활성화된 후 Odoo는 직원의 동기를 부여하고 직장 투명성을 높이기 위해\\ "
+"**청구율 리더보드**\\ 를 활성화할 수 있는 기능을 제공합니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:60
 msgid ""
@@ -7928,10 +8107,13 @@ msgid ""
 "to :menuselection:`Timesheets --> Configuration --> Settings`, "
 "activate :guilabel:`Billing Rate Leaderboard`, then click :guilabel:`Save`."
 msgstr ""
+"청구율 리더보드를 활성화하려면\\ :menuselection:`작업 기록 --> 환경설정 --> "
+"설정`\\ 으로 이동하여\\ :guilabel:`Billing Rate Leaderboard`\\ 를 활성화한 "
+"다음\\ :guilabel:`저장`\\ 을 클릭하세요."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:64
 msgid "Using the billing rate leaderboard"
-msgstr ""
+msgstr "청구 요율 순위표 사용하기"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:66
 msgid ""
@@ -7940,6 +8122,9 @@ msgid ""
 "displays the current top three performers who have logged the highest "
 "percentage of their allocated billing hours."
 msgstr ""
+"그러면 청구 금액 순위표가 :guilabel:`내 작업시간표` 보기의 오른쪽 상단의 청"
+"구 금액 표시창 옆에 표시됩니다. 지정된 청구 시간 중 가장 높은 비율을 차지한 "
+"상위 성과자 3명이 표시됩니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:70
 msgid ""
@@ -7947,6 +8132,8 @@ msgid ""
 "logged billable time / billable time target, as well as the total time "
 "logged."
 msgstr ""
+"또한 로그인한 사용자가 기록한 시간을 청구 가능 기록 시간 / 청구 가능 시간 "
+"목표 형식으로 표시하며 총 기록 시간도 표시합니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:73
 msgid ""
@@ -7957,13 +8144,13 @@ msgid ""
 "across billable and internal projects."
 msgstr ""
 "상위 3명의 성과가 표시된 영역을 클릭하면 전체 팀원의 순위표가 열립니다. 왼쪽 "
-"상단의 드롭다운 메뉴를 클릭하면 :guilabel:`청구율 순위표` 와 :guilabel:`총 "
-"시간 순위표` 간에 화면을 전환할 수 있습니다. 총 시간 순위표에는 청구 가능 "
-"프로젝트와 내부 프로젝트 전반에 걸쳐 팀원들이 기록한 전체 시간이 표시됩니다."
+"상단의 드롭다운 메뉴를 클릭하면 :guilabel:`청구율 순위표` 와 :guilabel:`총 시"
+"간 순위표` 간에 화면을 전환할 수 있습니다. 총 시간 순위표에는 청구 가능 프로"
+"젝트와 내부 프로젝트 전반에 걸쳐 팀원들이 기록한 전체 시간이 표시됩니다."
 
-#: ../../content/applications/services/timesheets/billing_rates.rst:-1
+#: ../../content/applications/services/timesheets/billing_rates.rst:None
 msgid "Billing rate leaderboard."
-msgstr ""
+msgstr "청구 금액 순위표."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:84
 msgid "Leaderboard tips"
@@ -7975,6 +8162,8 @@ msgid ""
 "enhance the billing rate and total time leaderboard. The tips are randomly "
 "selected and change daily."
 msgstr ""
+"리더보드 오른쪽에 표시되는\\ **일일 동기 부여 팁**\\ 은 청구율 및 총 시간 "
+"리더보드를 향상시킵니다. 팁은 무작위로 선택되며 매일 바뀝니다."
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:89
 msgid ""
@@ -7982,104 +8171,457 @@ msgid ""
 "Configuration --> Tips`, then click :guilabel:`New` or double-click a tip's "
 "text."
 msgstr ""
+"기존 팁을 생성하거나 편집하려면\\ :menuselection:`작업 기록 --> 환경설정 --> "
+"Tips`\\ 로 이동한 다음\\ :guilabel:`새로 만들기`\\ 를 클릭하거나 팁 텍스트를 "
+"더블 클릭하세요."
 
 #: ../../content/applications/services/timesheets/time_off.rst:3
-msgid "Create Timesheets upon Time Off Validation"
-msgstr "휴가 승인 시 작업시간표 생성하기"
+msgid "Time off entries"
+msgstr "휴가 항목"
 
 #: ../../content/applications/services/timesheets/time_off.rst:5
 msgid ""
-"Odoo automatically timesheets on project/tasks upon time off requests. This "
-"allows for better overall control over the validation of timesheets, as it "
-"does not leave place for forgetfulness and questions after hours that have "
-"not been timesheeted by the employee."
+"Odoo automatically generates timesheet entries on projects and tasks once a "
+"time off request is approved. This streamlines timesheet validation by "
+"ensuring approved time off is accurately reflected in timesheets."
 msgstr ""
-"Odoo에서는 휴가를 신청할 경우 프로젝트/작업에 대한 작업시간표를 자동으로 생성"
-"합니다. 이렇게 하면 전반적인 작업시간표 승인 관리 업무를 더욱 개선시킬 수 있"
-"습니다. 직원이 시간 외 근무 시간에 대해서 출퇴근 기록을 작성하지 않은 경우 잊"
-"어버리거나 문제가 될 여지를 남겨두지 않습니다."
+"Odoo는 휴가 요청이 승인되면 프로젝트 및 작업에 대한 작업시간표 항목을 "
+"자동으로 생성합니다. 이를 통해 승인된 휴가가 작업시간표에 정확하게 반영되어 "
+"작업시간표 검증이 간소화됩니다."
 
-#: ../../content/applications/services/timesheets/time_off.rst:9
+#: ../../content/applications/services/timesheets/time_off.rst:14
 msgid ""
-"Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, and "
-"change the *Project* and *Task* set by default, if you like."
+"First, activate the :ref:`developer mode <developer-mode>`, then open the "
+"**Timesheets** app, and navigate to :menuselection:`Configuration --> "
+"Settings`. Scroll to the :guilabel:`Time Off` section and enable "
+"the :guilabel:`Time Off` checkbox. Enabling this option creates timesheet "
+"entries for validated time off requests and public holidays."
 msgstr ""
-":ref:`개발자 모드 <developer-mode>`를 활성화하고 *작업시간표*로 이동한 다음, "
-"기본 설정되어 있는 *프로젝트*와 *작업*을 원하는 대로 변경합니다."
+"먼저\\ :ref:`개발자 모드 <developer-mode>`\\ 를 활성화한 다음\\ **작업 "
+"기록**\\ 앱을 열고\\ :menuselection:`구성 --> 설정`\\ 으로 이동하세요. "
+":guilabel:`휴가`\\ 섹션으로 스크롤하여\\ :guilabel:`휴가`\\ 체크박스를 "
+"활성화하세요. 이 옵션을 활성화하면 검증된 휴가 요청 및 공휴일에 대한 "
+"작업시간표 항목이 생성됩니다."
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
+#: ../../content/applications/services/timesheets/time_off.rst:19
 msgid ""
-"View of Timesheets setting enabling the feature record time off in Odoo "
-"Timesheets"
-msgstr "Odoo 작업 기록에서 휴가 기록 기능을 활성화시키는 작업시간표 설정 화면"
-
-#: ../../content/applications/services/timesheets/time_off.rst:16
-msgid ""
-"Go to :menuselection:`Time Off --> Configuration --> Time Off Types`. Select "
-"or create the needed type, and decide if you would like the requests to be "
-"validated or not."
+"Once enabled, two fields appear: :guilabel:`Project` and :guilabel:`Task`. "
+"The default selection for :guilabel:`Project` is :guilabel:`Internal`, and "
+"the default selection for :guilabel:`Task` is :guilabel:`Time Off`. These "
+"inform Odoo where to log the time off requests, which project, and task. "
+"These can be modified, if desired, using the drop-down menu."
 msgstr ""
-":menuselection:`휴가 --> 환경 설정 --> 휴가 유형`으로 이동합니다. 필요한 유형"
-"을 선택하거나 생성하고 , 신청 내용 승인 여부를 결정합니다."
+"활성화하면 두 개의 필드가 나타납니다: :guilabel:`프로젝트`\\ 와\\ "
+":guilabel:`작업`. :guilabel:`프로젝트`\\ 의 기본 선택은\\ :guilabel:`내부`\\ "
+"이고, :guilabel:`작업`\\ 의 기본 선택은\\ :guilabel:`휴가`\\ 입니다. 이는 "
+"Odoo에 휴가 요청을 기록할 위치, 프로젝트 및 작업을 알려줍니다. 원하는 경우 "
+"드롭다운 메뉴를 사용하여 수정할 수 있습니다."
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
+#: ../../content/applications/services/timesheets/time_off.rst:25
 msgid ""
-"View of a time off types form emphasizing the time off requests and "
-"timesheets section in\n"
-"Odoo Time Off"
-msgstr ""
-"Odoo 휴가 앱의 휴가 신청 및 출퇴근 시간표 영역이 강조 표시된 휴가 유형\n"
-"양식 화면"
+"The available options presented vary based on the installed applications."
+msgstr "표시되는 사용 가능한 옵션은 설치된 애플리케이션에 따라 다릅니다."
 
-#: ../../content/applications/services/timesheets/time_off.rst:26
+#: ../../content/applications/services/timesheets/time_off.rst:28
 msgid ""
-"Now, once the employee has requested his time off and the request has been "
-"validated (or not, depending on the setting chosen), the time is "
-"automatically allocated on *Timesheets*, under the respective project and "
-"task."
+"Time off categories without validation requirements create timesheet records "
+"instantly. Requests requiring validation creates timesheet entries *after* "
+"the time off request is approved."
 msgstr ""
-"이제 직원이 휴가를 신청하고 해당 내용이 승인되면 (선택한 설정에 따라 승인 여"
-"부가 달라질 수 있음), 해당 프로젝트 및 업무의 *작업시간표*에 자동으로 시간이 "
-"배정됩니다."
+"검증 요구 사항이 없는 휴가 유형은 작업시간표 기록을 즉시 생성합니다. 검증이 "
+"필요한 요청은 휴가 요청이 승인된\\ *후*\\ 작업시간표 항목을 생성합니다."
 
-#: ../../content/applications/services/timesheets/time_off.rst:27
+#: ../../content/applications/services/timesheets/time_off.rst:31
 msgid ""
-"On the example below, the user requested *Paid Time off* from July 13th to "
-"15th."
+"To check if a time off type requires approval, check "
+"the :guilabel:`Approvals` section of the :ref:`time off type form <time_off/"
+"time-off-requests>`."
 msgstr ""
-"아래 예시에서, 사용자는 7월 13일부터 15일까지 *유급 휴가*를 신청했습니다."
+"휴가 유형에 승인이 필요한지 확인하려면\\ :ref:`휴가 유형 양식 <time_off/time-"
+"off-requests>`\\ 의\\ :guilabel:`전자결재 관리`\\ 섹션을 확인하세요."
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
-msgid "View of the time off request form in Odoo Time Off"
-msgstr "Odoo 휴가 앱에서의 휴가 신청 양식 화면"
+#: ../../content/applications/services/timesheets/time_off.rst:35
+msgid "Workflow"
+msgstr "업무 순서"
 
-#: ../../content/applications/services/timesheets/time_off.rst:33
+#: ../../content/applications/services/timesheets/time_off.rst:37
 msgid ""
-"Considering that validation is not required, the requested time off is "
-"automatically displayed in *Timesheets*. If validation is necessary, the "
-"time is automatically allocated after the responsible person for validating "
-"does it so."
+"Once the employee has :doc:`requested time off <../../hr/time_off/"
+"request_time_off>`, and the request has been validated, if necessary, the "
+"time is automatically logged on the **Timesheets** app, under the respective "
+"project and task."
 msgstr ""
-"승인이 필수가 아닌 경우에는, 신청한 휴가가 *작업시간표*에 자동으로 표시됩니"
-"다. 승인이 필수인 경우에는, 결재 담당자가 승인한 후 자동으로 시간이 배정됩니"
-"다."
-
-#: ../../content/applications/services/timesheets/time_off.rst:-1
-msgid ""
-"Video of timesheets emphasizing the requested time off from the employee in "
-"Odoo Timesheets"
-msgstr ""
-"Odoo 작업 기록에서 직원이 신청한 휴가가 강조 표시되어 있는 작업시간표 동영상"
+"임직원이\\ :doc:`휴가를 요청 <../../hr/time_off/request_time_off>`\\ 하고 "
+"필요한 경우 요청이 검증되면 해당 프로젝트 및 작업 아래\\ **작업 기록**\\ "
+"앱에 시간이 자동으로 기록됩니다."
 
 #: ../../content/applications/services/timesheets/time_off.rst:41
 msgid ""
-"Click on the magnifying glass, hovering over the concerned cell, to access "
-"all the aggregated data on that cell (day), and see details regarding the "
-"project/task."
+"To view the logged entry, open the **Timesheets** app and navigate to the "
+"relevant time period. The time off appears in the corresponding field, "
+"according to the :ref:`configuration <timesheets/config>`."
 msgstr ""
-"돋보기 아이콘을 클릭한 후 해당 셀에 마우스를 대면 해당 셀 (일)에 집계된 전체 "
-"데이터에 액세스하야 프로젝트/작업 세부 정보를 확인할 수 있습니다."
+"기록된 항목을 보려면\\ **작업 기록**\\ 앱을 열고 관련 기간으로 이동하세요. "
+"휴가는\\ :ref:`구성 <timesheets/config>`\\ 에 따라 해당 필드에 나타납니다."
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
-msgid "View of the details of a project/task in Odoo Timeheets"
-msgstr "Odoo 작업시간표의 프로젝트/작업 세부 정보 화면"
+#: ../../content/applications/services/timesheets/time_off.rst:45
+msgid ""
+"To view the timesheet entry details, click the :icon:`fa-"
+"search` :guilabel:`(magnifying glass)` icon that appears when hovering over "
+"the entry, and the detailed timesheet information appears."
+msgstr ""
+"작업시간표 항목 세부 정보를 보려면 항목 위에 마우스를 올렸을 때 나타나는\\ "
+":icon:`fa-search` :guilabel:`(돋보기)`\\ 아이콘을 클릭하면 상세한 작업시간표 "
+"정보가 나타납니다."
+
+#: ../../content/applications/services/timesheets/time_off.rst:49
+msgid ""
+"An employee is attending internal training the week of December 15-19, 2025, "
+"and logs their time in the **Timesheets** app under the `Internal` project, "
+"with a task of `Training`. On December 19, 2025, the employee is home sick, "
+"and requests the day off in the **Time Off** app."
+msgstr ""
+"임직원이 2025년 12월 15일부터 19일까지 내부 교육에 참석하여\\ **작업 기록**\\"
+" 앱에서 `내부` 프로젝트 아래 `교육` 작업으로 시간을 기록합니다. 2025년 12월 "
+"19일에 임직원이 아파서 집에 있고\\ **휴가**\\ 앱에서 하루 휴가를 요청합니다."
+
+#: ../../content/applications/services/timesheets/time_off.rst:53
+msgid ""
+"The *time off type* they request is *Sick Time off*, which is configured to "
+"**not** require validation. The employee's time off request is automatically "
+"approved, and is logged in the **Timesheets** app, under the `Internal` "
+"project, and the `Time Off` task."
+msgstr ""
+"직원이 요청하는\\ *휴가 유형*\\ 은\\ *병가*\\ 이며, 승인이\\ **필요하지 "
+"않도록**\\ 구성되어 있습니다. 직원의 휴가 요청은 자동으로 승인되며\\ **작업 "
+"기록**\\ 앱의\\ `내부`\\ 프로젝트와\\ `휴가`\\ 작업 아래에 기록됩니다."
+
+#: ../../content/applications/services/timesheets/time_off.rst:0
+msgid "A timecard reflecting training hours and sick time off."
+msgstr "교육 시간 및 병가가 반영되어 있는 근무 기록표입니다."
+
+#~ msgid ""
+#~ ":guilabel:`Expenses`: any :doc:`expenses </applications/finance/"
+#~ "expenses>` that have been :doc:`reinvoiced to the customer </applications/"
+#~ "sales/sales/invoicing/expense>`."
+#~ msgstr ""
+#~ ":guilabel:`비용`: :doc:`재청구가 완료된 모든 비용</applications/sales/"
+#~ "sales/invoicing/expense>` 입니다."
+
+#~ msgid "Create Timesheets upon Time Off Validation"
+#~ msgstr "휴가 승인 시 작업시간표 생성하기"
+
+#~ msgid ""
+#~ "Odoo automatically timesheets on project/tasks upon time off requests. "
+#~ "This allows for better overall control over the validation of timesheets, "
+#~ "as it does not leave place for forgetfulness and questions after hours "
+#~ "that have not been timesheeted by the employee."
+#~ msgstr ""
+#~ "Odoo에서는 휴가를 신청할 경우 프로젝트/작업에 대한 작업시간표를 자동으로 "
+#~ "생성합니다. 이렇게 하면 전반적인 작업시간표 승인 관리 업무를 더욱 개선시"
+#~ "킬 수 있습니다. 직원이 시간 외 근무 시간에 대해서 출퇴근 기록을 작성하지 "
+#~ "않은 경우 잊어버리거나 문제가 될 여지를 남겨두지 않습니다."
+
+#~ msgid ""
+#~ "Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, "
+#~ "and change the *Project* and *Task* set by default, if you like."
+#~ msgstr ""
+#~ ":ref:`개발자 모드 <developer-mode>`를 활성화하고 *작업시간표*로 이동한 다"
+#~ "음, 기본 설정되어 있는 *프로젝트*와 *작업*을 원하는 대로 변경합니다."
+
+#~ msgid ""
+#~ "View of Timesheets setting enabling the feature record time off in Odoo "
+#~ "Timesheets"
+#~ msgstr ""
+#~ "Odoo 작업 기록에서 휴가 기록 기능을 활성화시키는 작업시간표 설정 화면"
+
+#~ msgid ""
+#~ "Go to :menuselection:`Time Off --> Configuration --> Time Off Types`. "
+#~ "Select or create the needed type, and decide if you would like the "
+#~ "requests to be validated or not."
+#~ msgstr ""
+#~ ":menuselection:`휴가 --> 환경 설정 --> 휴가 유형`으로 이동합니다. 필요한 "
+#~ "유형을 선택하거나 생성하고 , 신청 내용 승인 여부를 결정합니다."
+
+#~ msgid ""
+#~ "View of a time off types form emphasizing the time off requests and "
+#~ "timesheets section in\n"
+#~ "Odoo Time Off"
+#~ msgstr ""
+#~ "Odoo 휴가 앱의 휴가 신청 및 출퇴근 시간표 영역이 강조 표시된 휴가 유형\n"
+#~ "양식 화면"
+
+#~ msgid ""
+#~ "Now, once the employee has requested his time off and the request has "
+#~ "been validated (or not, depending on the setting chosen), the time is "
+#~ "automatically allocated on *Timesheets*, under the respective project and "
+#~ "task."
+#~ msgstr ""
+#~ "이제 직원이 휴가를 신청하고 해당 내용이 승인되면 (선택한 설정에 따라 승인 "
+#~ "여부가 달라질 수 있음), 해당 프로젝트 및 업무의 *작업시간표*에 자동으로 시"
+#~ "간이 배정됩니다."
+
+#~ msgid ""
+#~ "On the example below, the user requested *Paid Time off* from July 13th "
+#~ "to 15th."
+#~ msgstr ""
+#~ "아래 예시에서, 사용자는 7월 13일부터 15일까지 *유급 휴가*를 신청했습니다."
+
+#~ msgid "View of the time off request form in Odoo Time Off"
+#~ msgstr "Odoo 휴가 앱에서의 휴가 신청 양식 화면"
+
+#~ msgid ""
+#~ "Considering that validation is not required, the requested time off is "
+#~ "automatically displayed in *Timesheets*. If validation is necessary, the "
+#~ "time is automatically allocated after the responsible person for "
+#~ "validating does it so."
+#~ msgstr ""
+#~ "승인이 필수가 아닌 경우에는, 신청한 휴가가 *작업시간표*에 자동으로 표시됩"
+#~ "니다. 승인이 필수인 경우에는, 결재 담당자가 승인한 후 자동으로 시간이 배정"
+#~ "됩니다."
+
+#~ msgid ""
+#~ "Video of timesheets emphasizing the requested time off from the employee "
+#~ "in Odoo Timesheets"
+#~ msgstr ""
+#~ "Odoo 작업 기록에서 직원이 신청한 휴가가 강조 표시되어 있는 작업시간표 동영"
+#~ "상"
+
+#~ msgid ""
+#~ "Click on the magnifying glass, hovering over the concerned cell, to "
+#~ "access all the aggregated data on that cell (day), and see details "
+#~ "regarding the project/task."
+#~ msgstr ""
+#~ "돋보기 아이콘을 클릭한 후 해당 셀에 마우스를 대면 해당 셀 (일)에 집계된 전"
+#~ "체 데이터에 액세스하야 프로젝트/작업 세부 정보를 확인할 수 있습니다."
+
+#~ msgid "View of the details of a project/task in Odoo Timeheets"
+#~ msgstr "Odoo 작업시간표의 프로젝트/작업 세부 정보 화면"
+
+#~ msgid "Stages"
+#~ msgstr "단계"
+
+#~ msgid "Create or modify stages"
+#~ msgstr "단계 생성 또는 수정하기"
+
+#~ msgid ""
+#~ ":ref:`Developer mode <developer-mode>` **must** be activated to access "
+#~ "the stages menu. To activate developer mode, go "
+#~ "to :menuselection:`Settings app --> General Settings --> Developer "
+#~ "Tools`, and click :guilabel:`Activate the developer mode`."
+#~ msgstr ""
+#~ "단계 메뉴를 사용하려면 **반드시** :ref:`개발자 모드 <developer-mode>` 사"
+#~ "용 설정이 되어 있어야 합니다. 개발자 모드를 활성화하려면 :menuselection:`"
+#~ "설정 앱 --> 일반 설정 --> 개발자 도구`로 이동하여 :guilabel:`개발자 모드 "
+#~ "활성화`를 클릭합니다."
+
+#~ msgid ""
+#~ "To view or modify **Helpdesk** stages, go to :menuselection:`Helpdesk app "
+#~ "--> Configuration --> Stages`."
+#~ msgstr ""
+#~ "**헬프데스크** 단계를 보거나 수정하려면 :menuselection:`헬프데스크 앱 --> "
+#~ "환경설정 --> 단계` 로 이동합니다."
+
+#~ msgid ""
+#~ "View of the stage list page emphasizing the buttons used to change the "
+#~ "order the stages\n"
+#~ "appear in the list."
+#~ msgstr ""
+#~ "목록에 나타나는 단계의 순서 변경에 사용되는 버튼이 강조되어 있는 단계 목"
+#~ "록 페이지\n"
+#~ "화면"
+
+#~ msgid ""
+#~ "To create a new stage, click the :guilabel:`New` button at the top-left "
+#~ "of the stage list. Doing so reveals a blank stage form."
+#~ msgstr ""
+#~ "새로운 단계를 생성하려면 단계 목록 왼쪽 상단에 있는 :guilabel:`새로 만들기"
+#~ "` 버튼을 클릭합니다. 그렇게 하면 빈 단계 양식이 나타납니다."
+
+#~ msgid "Choose a :guilabel:`Name` for the new stage."
+#~ msgstr "새로운 스테이지의 :guilabel:`이름` 을 선택하세요."
+
+#~ msgid "View of a stage's settings page in Odoo Helpdesk."
+#~ msgstr "Odoo 헬프데스크의 단계 설정 페이지 화면"
+
+#~ msgid "Add email and SMS templates to stages"
+#~ msgstr "단계에 이메일 및 SMS 서식 추가하기"
+
+#~ msgid ""
+#~ "When an :guilabel:`Email Template` is added to a stage, a preconfigured "
+#~ "email is automatically sent to the customer when a ticket reaches that "
+#~ "specific stage in the pipeline. Likewise, adding an :guilabel:`SMS "
+#~ "Template` triggers a preconfigured SMS text message to send to the "
+#~ "customer."
+#~ msgstr ""
+#~ ":guilabel:`이메일 템플릿` 을 단계에 추가할 경우, 티켓이 파이프라인의 특정 "
+#~ "단계에 도달하면 미리 설정된 이메일이 자동으로 고객에게 전송됩니다. 마찬가"
+#~ "지로 :guilabel:`SMS 템플릿` 을 추가하면 미리 설정된 SMS 문자 메시지가 고객"
+#~ "에게 전송됩니다."
+
+#~ msgid ""
+#~ "To select an existing email template, select it from the :guilabel:`Email "
+#~ "Template` field. After choosing a template, click on the :icon:`oi-arrow-"
+#~ "right` :guilabel:`(right arrow)` icon to the right of the field to edit "
+#~ "the chosen template."
+#~ msgstr ""
+#~ "기존 이메일 템플릿을 선택하려면 :guilabel:`이메일 템플릿` 필드에서 선택합"
+#~ "니다. 템플릿을 선택한 후 필드 오른쪽에 있는 :icon:`oi-arrow-"
+#~ "right` :guilabel:`(오른쪽 화살표)` 아이콘을 클릭하면 선택한 템플릿을 편집"
+#~ "할 수 있습니다."
+
+#~ msgid ""
+#~ "To create a new template from this form, click the field, and enter a "
+#~ "title for the new template. Then, select :guilabel:`Create and edit` from "
+#~ "the drop-down menu that appears, and complete the form details."
+#~ msgstr ""
+#~ "이 양식에서 새로운 템플릿을 생성하려면 필드를 클릭한 후 새 템플릿 제목을 "
+#~ "입력합니다. 그런 다음 드롭다운 메뉴가 나타나면 :guilabel:`만들기 및 편집` "
+#~ "을 선택하고 양식 세부 정보를 입력합니다."
+
+#~ msgid ""
+#~ "Follow the same steps to select, edit, or create an :guilabel:`SMS "
+#~ "Template`."
+#~ msgstr ""
+#~ "같은 방법으로 :guilabel:`SMS 서식`을 선택한 후 편집하거나 생성합니다."
+
+#~ msgid "View of an SMS template setup page in Odoo Helpdesk."
+#~ msgstr "Odoo 헬프데스크의 SMS 템플릿 설정 페이지 보기입니다."
+
+#~ msgid ":doc:`/applications/general/companies/email_template`"
+#~ msgstr ":doc:`/applications/general/companies/email_template`"
+
+#~ msgid "Fold a stage"
+#~ msgstr "단계 접기 처리하기"
+
+#~ msgid ""
+#~ "By default, stages are unfolded in the Kanban view of either tickets "
+#~ "dashboard: :guilabel:`My Tickets` (:menuselection:`Helpdesk app --> "
+#~ "Tickets --> My Tickets`) or :guilabel:`All Tickets` "
+#~ "(:menuselection:`Helpdesk app --> Tickets --> All Tickets`)."
+#~ msgstr ""
+#~ "기본적으로, 단계는 칸반 화면에서 쳘쳐져 있으며, 티켓 현황판 (:guilabel:`"
+#~ "내 티켓` (:guilabel:`헬프데스크 앱 --> 티켓 --> 내 티켓`) 또는 :guilabel:`"
+#~ "모든 티켓` (:guilabel:`헬프데스크 앱 --> 티켓 --> 모든 티켓`)에서 확인할 "
+#~ "수 있습니다."
+
+#~ msgid ""
+#~ "Tickets in an unfolded stage are visible in the pipeline under the stage "
+#~ "name, and are considered *open*."
+#~ msgstr ""
+#~ "티켓이 있는 단계가 펼쳐진 상태인 경우에는, 파이프라인에서 단계명 아래에 나"
+#~ "타나게 되며 *미결* 로 간주됩니다."
+
+#~ msgid ""
+#~ "Stages can be configured to be folded in the Kanban view of a tickets "
+#~ "page."
+#~ msgstr ""
+#~ "환경설정을 통해 티켓 페이지의 칸반 보기에서 단계가 접히도록 설정할 수 있습"
+#~ "니다."
+
+#~ msgid ""
+#~ "To fold a stage, tick the :guilabel:`Folded in Kanban` checkbox on "
+#~ "the :guilabel:`Stages` form."
+#~ msgstr ""
+#~ "스테이지를 접으려면 :guilabel:`스테이지` 양식에서 :guilabel:`칸반에서 접힘"
+#~ "` 확인란에 표시합니다."
+
+#~ msgid ""
+#~ "Tickets that reach a *folded* stage are considered *closed*. Closing a "
+#~ "ticket before the work is completed can result in reporting and "
+#~ "communication issues. This setting should **only** be enabled for stages "
+#~ "that are considered *closing* stages."
+#~ msgstr ""
+#~ "티켓 단계가 *접힘* 이 되면 *종료* 된 것으로 간주합니다. 작업이 완료되기 전"
+#~ "에 티켓이 종료되어 버리면 보고 및 커뮤니케이션과 관련된 문제가 발생할 수 "
+#~ "있습니다. 이 설정은 *종료* 된 것으로 간주해도 되는 단계에 *한해서만* 활성"
+#~ "화해야 합니다."
+
+#~ msgid "Temporarily fold a stage"
+#~ msgstr "일시적으로 스테이지 접기"
+
+#~ msgid ""
+#~ "Stages can be temporarily folded in the Kanban view of the tickets "
+#~ "pipeline, as well."
+#~ msgstr ""
+#~ "티켓 파이프라인의 칸반 보기에서도 단계를 일시적으로 접을 수 있습니다."
+
+#~ msgid ""
+#~ "View a specific team's pipeline by navigating to :menuselection:`Helpdesk "
+#~ "app`, and clicking the team's Kanban card."
+#~ msgstr ""
+#~ ":menuselection:`헬프데스크 앱`으로 이동하여 팀의 칸반 카드를 클릭하면 특"
+#~ "정 팀의 파이프라인을 확인할 수 있습니다."
+
+#~ msgid ""
+#~ "Kanban view of a Helpdesk stage, with the temporary fold option "
+#~ "emphasized."
+#~ msgstr "일시적으로 접기 항목이 강조되어 있는 헬프데스크 단계의 칸반 화면"
+
+#~ msgid ""
+#~ "Manually folding a stage from the Kanban view is temporary and does "
+#~ "**not** close the tickets in the stage."
+#~ msgstr ""
+#~ "칸반 보기에서 수동으로 단계를 접는 것은 일시적이며, 단계에서 티켓이 종료되"
+#~ "지 **않습니다**."
+
+#~ msgid "Assign stages to a team"
+#~ msgstr "단계를 팀에 배정하기"
+
+#~ msgid ""
+#~ "Make a selection in the :guilabel:`Helpdesk Teams` field on "
+#~ "the :guilabel:`Stages` form. More than one team may be selected, since "
+#~ "the same stage can be assigned to multiple teams."
+#~ msgstr ""
+#~ ":guilabel:`단계` 양식에 있는 :guilabel:`헬프데스크 팀` 항목에서 선택합니"
+#~ "다. 동일한 단계를 여러 팀에 배정할 수 있으므로, 여러 개의 팀을 선택하는 것"
+#~ "도 가능합니다."
+
+#~ msgid ""
+#~ ":ref:`Payroll documentation on working schedules <payroll/working-times>`"
+#~ msgstr ":ref:`근무 스케줄에 대한 급여 참고 문서 <payroll/working-times>`"
+
+#~ msgid ""
+#~ "To create a shift template, click :guilabel:`New` on any schedule, then "
+#~ "fill in the :ref:`details of the shift <planning/create-shift>`. In order "
+#~ "for the shift to be saved as a template, tick :guilabel:`Save as "
+#~ "Template`."
+#~ msgstr ""
+#~ "교대근무 서식을 생성하려면 스케줄에 따라 :guilabel:`새로 만들기`를 클릭한 "
+#~ "다음 :ref:`교대근무 세부 정보 <planning/create-shift>`를 입력합니다. 교대"
+#~ "근무를 서식으로 저장하려면 :guilabel:`서식으로 저장`을 선택합니다."
+
+#~ msgid "Shift form with the option `save template` ticked."
+#~ msgstr "서식 저장'에 선택 표시되어 있는 교대근무 양식"
+
+#~ msgid ""
+#~ "Alternatively, you can go to :menuselection:`Planning --> Configuration --"
+#~ "> Shift Templates`, then click :guilabel:`New`. Fill in "
+#~ "the :guilabel:`Start Hour` and :guilabel:`Shift Duration`. The "
+#~ "shift’s :guilabel:`End Time` is then calculated based on "
+#~ "the :guilabel:`Working Hours`, taking into account working time as well "
+#~ "as breaks."
+#~ msgstr ""
+#~ "또는 :menuselection:`일정 관리 --> 환경 설정 --> 교대 서식`으로 이동한 다"
+#~ "음 :guilabel:`새로 만들기`를 클릭할 수 있습니다. :guilabel:`시작 시간` "
+#~ "및 :guilabel:`교대근무 소요 시간`을 입력합니다. 그러면 근무 :guilabel:`종"
+#~ "료 시간`이 작업 시간과 휴식 시간을 고려하여 :guilabel:`근무 시간`을 기준으"
+#~ "로 계산됩니다."
+
+#~ msgid ""
+#~ ":guilabel:`Repeat`: Tick the checkbox and configure the :guilabel:`Repeat "
+#~ "Every` field according to your needs. The following rules apply to "
+#~ "recurring shifts:"
+#~ msgstr ""
+#~ ":guilabel:`반복`: 확인란에 표시하고 필요에 따라 :guilabel:`매번 반복`하도"
+#~ "록 설정합니다. 반복 근무에는 다음의 규칙이 적용됩니다."
+
+#~ msgid ""
+#~ ":guilabel:`Save as Template`: When this option is ticked, a shift "
+#~ "template is created with the same :guilabel:`Start and End "
+#~ "hours`, :guilabel:`Allocated time`, :guilabel:`Role`, "
+#~ "and :guilabel:`Project`."
+#~ msgstr ""
+#~ ":guilabel:`서식으로 저장`: 이 항목을 선택하면 동일한 :guilabel:`시작 및 종"
+#~ "료 시간`, :guilabel:`배정 시간`, :guilabel:`역할` 및 :guilabel:`프로젝트`"
+#~ "로 교대 근무 서식이 생성됩니다."

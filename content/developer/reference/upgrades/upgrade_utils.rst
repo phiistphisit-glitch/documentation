@@ -111,3 +111,15 @@ Misc
 
 .. automodule:: odoo.upgrade.util.misc
    :members:
+
+Report
+------
+
+.. automodule:: odoo.upgrade.util.report
+   :members:
+
+Testing upgrade scripts
+=======================
+
+.. automodule:: odoo.upgrade.testing
+   :members:

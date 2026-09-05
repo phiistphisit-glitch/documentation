@@ -15,12 +15,17 @@ reporting.
    .. card:: New employees
       :target: employees/new_employee
 
-      Set up new employee records
+      Set up new employee records.
 
    .. card:: Departments
       :target: employees/departments
 
       Create and manage the departments employees are a part of.
+
+   .. card:: Contracts
+      :target: payroll/contracts
+
+      Manage and create employee contracts.
 
    .. card:: Certifications
       :target: employees/certifications
@@ -100,11 +105,11 @@ Work organization
 
 Using the drop-down menu, select the default :guilabel:`Company Working Hours`. The default options
 are :guilabel:`Standard 40 hours/week`, :guilabel:`Appointment Resource Default Calendar`, and
-:guilabel:`Standard 32 hours/week (4 work days, friday free)`.
+:guilabel:`Standard 32 hours/week (4 work days, Friday free)`.
 
-The available working hours listed are the same as the configured :ref:`working schedules
-<payroll/working-times>` in the **Payroll** app. Working hours can be created and modified from both
-the **Payroll** and **Employees** apps.
+The available working hours listed are the same as the configured :doc:`working schedules
+<payroll/working_schedules>` in the **Payroll** app. Working hours can be created and modified from
+both the **Payroll** and **Employees** apps.
 
 Employee update rights
 ----------------------

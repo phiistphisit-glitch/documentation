@@ -517,10 +517,9 @@ not.
 Nevertheless, once the file has been located and the access rights verified by Odoo, it is a good
 idea to serve the file using the static web server instead of Odoo. For Odoo to delegate serving
 files to the static web server, the `X-Sendfile <https://tn123.org/mod_xsendfile/>`_ (apache) or
-`X-Accel <https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/>`_ (nginx) extensions
-must be enabled and configured on the static web server. Once it is set up, start Odoo with the
-:option:`--x-sendfile <odoo-bin --x-sendfile>` CLI flag (this unique flag is used for both
-X-Sendfile and X-Accel).
+X-Accel (nginx) extensions must be enabled and configured on the static web server. Once it is set
+up, start Odoo with the :option:`--x-sendfile <odoo-bin --x-sendfile>` CLI flag (this unique flag is
+used for both X-Sendfile and X-Accel).
 
 
 .. note::
@@ -533,6 +532,8 @@ X-Sendfile and X-Accel).
          location /web/filestore {
              internal;
              alias /path/to/odoo/data-dir/filestore;
+             add_header Content-Security-Policy $upstream_http_content_security_policy;
+             add_header X-Content-Type-Options nosniff;
          }
 
      In case you don't know what is the path to your filestore, start Odoo with the
@@ -750,8 +751,7 @@ reset. The following process is for system administrators of an Odoo on-premise 
 how to manually reset and re-encrypt the master password.
 
 .. seealso::
-   For more information about changing an Odoo.com account password, see this documentation:
-   :ref:`odoocom/change_password`.
+   :doc:`../odoo_accounts`
 
 When creating a new on-premise database, a random master password is generated. Odoo recommends
 using this password to secure the database. This password is implemented by default, so there is a
@@ -907,9 +907,9 @@ Odoo supports the latest version of the following browsers.
 .. _CSRF: https://en.wikipedia.org/wiki/Cross-site_request_forgery
 .. _ARP spoofing: https://en.wikipedia.org/wiki/ARP_spoofing
 .. _Nginx termination example:
-    https://nginx.com/resources/admin-guide/nginx-ssl-termination/
+    https://docs.nginx.com/nginx/admin-guide/security-controls/terminating-ssl-http/
 .. _Nginx proxying example:
-    https://nginx.com/resources/admin-guide/reverse-proxy/
+    https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
 .. _socat: http://www.dest-unreach.org/socat/
 .. _PostgreSQL connection settings:
 .. _listen to network interfaces:

@@ -9,6 +9,9 @@
 # Wil Odoo, 2025
 # Chloe Wang, 2025
 # "Chloe Wang (chwa)" <chwa@odoo.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2026.
+# Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
 #
 # Translators:
 # Tiffany Chang, 2024
@@ -17,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 08:33+0000\n"
-"PO-Revision-Date: 2025-08-25 22:51+0000\n"
-"Last-Translator: \"Chloe Wang (chwa)\" <chwa@odoo.com>\n"
+"POT-Creation-Date: 2026-01-29 18:30+0000\n"
+"PO-Revision-Date: 2026-07-06 12:15+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.odoo.com/"
 "projects/odoo-18-doc/services/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -27,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../../content/applications/services.rst:5
 msgid "Services"
@@ -318,6 +321,7 @@ msgstr ":doc:`../../inventory_and_mrp/inventory`"
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:13
 #: ../../content/applications/services/timesheets/billing_rates.rst:19
 #: ../../content/applications/services/timesheets/billing_rates.rst:54
+#: ../../content/applications/services/timesheets/time_off.rst:12
 msgid "Configuration"
 msgstr "配置"
 
@@ -350,7 +354,7 @@ msgstr ""
 
 #: ../../content/applications/services/field_service/product_management.rst:62
 msgid "For your profile"
-msgstr ""
+msgstr "对于您的个人资料"
 
 #: ../../content/applications/services/field_service/product_management.rst:64
 msgid ""
@@ -378,7 +382,7 @@ msgstr ""
 "`，选择一个用户，然后进入 :guilabel:`偏好` 选项卡。向下滚动到 :guilabel:`库存"
 "`，从下拉菜单中选择默认仓库。"
 
-#: ../../content/applications/services/field_service/product_management.rst:-1
+#: ../../content/applications/services/field_service/product_management.rst:None
 msgid "Selection of a default warehouse on a user profile."
 msgstr "在用户配置文件中选择默认仓库。"
 
@@ -507,7 +511,7 @@ msgstr ""
 "点击将鼠标悬停在任务窗体的 :guilabel:`➔` （:guilabel:`内部链接`）字段上时出现"
 "的 :guilabel:` 项目` 图标。"
 
-#: ../../content/applications/services/field_service/worksheets.rst:-1
+#: ../../content/applications/services/field_service/worksheets.rst:None
 msgid "Mouse on project name to setup default worksheet template"
 msgstr "鼠标点击项目名称可设置默认工作表模板"
 
@@ -574,7 +578,7 @@ msgstr ""
 "要查看或修改 **服务台** 团队，请访问 :menuselection:`服务台应用程序 --> 配置 "
 "--> 服务台团队`。要创建新团队，请点击仪表板左上角的 :guilabel:`新建` 按钮。"
 
-#: ../../content/applications/services/helpdesk.rst:-1
+#: ../../content/applications/services/helpdesk.rst:None
 msgid "View of the Helpdesk teams page in Odoo Helpdesk."
 msgstr "Odoo 服务台团队页面视图。"
 
@@ -729,7 +733,7 @@ msgstr ""
 "过 :guilabel:`自动分配` 来完成。选中 :guilabel:`自动分配` 复选框可为团队启用"
 "此功能。"
 
-#: ../../content/applications/services/helpdesk.rst:-1
+#: ../../content/applications/services/helpdesk.rst:None
 msgid ""
 "View of a Helpdesk team settings page emphasizing the automatic assignment "
 "features in Odoo\n"
@@ -913,7 +917,7 @@ msgstr ""
 ":guilabel:`销售团队`：指定分配给哪个 :guilabel:`销售团队` 和 :guilabel:`销售"
 "人员`。"
 
-#: ../../content/applications/services/helpdesk.rst:-1
+#: ../../content/applications/services/helpdesk.rst:None
 msgid "The convert to opportunity pop-up window."
 msgstr "转换为商机弹出窗口。"
 
@@ -1038,6 +1042,9 @@ msgid ""
 "are usually created through the **Accounting** or **Invoicing** "
 "applications, they can be created through a **Helpdesk** ticket, as well."
 msgstr ""
+"*贷记单据* 是向客户出具的一份文件，通知客户已将一定金额贷记给他们。它们可用于"
+"向客户提供全额退款，或调整任何剩余应付金额。它们通常通过**会计**或**发票**应"
+"用程序创建，也可以通过**服务台**工单创建。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:46
 msgid "Invoices **must** be posted before a credit note can be generated."
@@ -1054,7 +1061,7 @@ msgstr ""
 "单表单左上角的 :guilabel:`退款` 按钮。这将打开一个 :guilabel:`退款` 弹出窗"
 "口。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a refund creation page."
 msgstr "创建退款页面视图。"
 
@@ -1152,9 +1159,9 @@ msgstr ""
 msgid ""
 "Once the credit note has been posted, a :guilabel:`Credit Notes` smart "
 "button is added to the **Helpdesk** ticket."
-msgstr ""
+msgstr "贷记单发布后，**服务台**工单上会添加一个 :guilabel:`贷记单` 智能按钮。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of smart buttons on a ticket focusing on the credit note button."
 msgstr "工单中的贷项凭单智能按钮视图。"
 
@@ -1171,7 +1178,8 @@ msgid ""
 "Coupons can be used to alter the price of products or orders. Conditional "
 "rules define the usage constraints of a coupon. *Coupon Programs* are "
 "configured in the **Sales**, **Point of Sale**, or **Website** applications."
-msgstr "优惠券可用于改变产品或订单的价格。条件规则定义了优惠券的使用限制。*优惠券程序"
+msgstr ""
+"优惠券可用于改变产品或订单的价格。条件规则定义了优惠券的使用限制。*优惠券程序"
 "*在**销售**、**销售点**或**网站**应用程序中配置。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:103
@@ -1191,7 +1199,7 @@ msgstr ""
 "出的 :guilabel:`生成优惠券` 窗口中，从 :guilabel:`优惠券项目` 下拉菜单中选择"
 "一个选项。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a coupon generation window."
 msgstr "优惠券生成窗口视图。"
 
@@ -1257,7 +1265,7 @@ msgstr ""
 "生成 :guilabel:`优惠券代码` 后，工单顶部会添加一个 :guilabel:`优惠券` 智能按"
 "钮；点击该智能按钮可查看优惠券代码、有效期和其他信息。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of the smart buttons on a ticket focusing on the coupon button."
 msgstr "工单中的优惠券按钮视图"
 
@@ -1283,7 +1291,7 @@ msgstr ""
 "退货通过*反向转移*完成，为退货产品生成新的仓库操作。点击工单顶部"
 "的 :guilabel:`退回` 按钮打开 :guilabel:`退回` 弹出窗口。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a Helpdesk ticket with the return button highlighted."
 msgstr "服务台工单视图，返回按钮已高亮"
 
@@ -1317,7 +1325,7 @@ msgid ""
 "after the return is completed."
 msgstr "选择 :guilabel:`退货位置`，退货完成后，物品应被送往该地点。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a reverse transfer creation page."
 msgstr "反向转账创建页面视图。"
 
@@ -1333,6 +1341,8 @@ msgid ""
 "Exchange`. Doing so generates a warehouse operation in Odoo to deliver the "
 "replacement product."
 msgstr ""
+"要将收到的商品换成新商品，请点击 :guilabel:`退货换货`。这样会在 Odoo 中生成一"
+"个仓库操作，以交付替换产品。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:178
 msgid ""
@@ -1343,7 +1353,7 @@ msgstr ""
 "使用面包屑导航返回服务台工单。现在可在工单顶部访问新的 :guilabel:`退货` 智能"
 "按钮。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of the return smart button on a helpdesk ticket."
 msgstr "服务台工单中的退货智能按钮视图。"
 
@@ -1361,6 +1371,8 @@ msgid ""
 "*repair order* can be created from the **Helpdesk** ticket, and managed "
 "through the **Repairs** application."
 msgstr ""
+"如果工单与故障或破损产品的问题有关，则可通过**服务台**票单创建*维修单*，并通"
+"过**维修**应用程序进行管理。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:195
 msgid ""
@@ -1371,7 +1383,7 @@ msgstr ""
 "要创建新维修单，请打开:menuselection:`服务台`工单并单击左上角的:guilabel:`维"
 "修`按钮。将打开 :guilabel:`维修参考` 表单。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a repair reference page."
 msgstr "维修参考页面视图。"
 
@@ -1458,7 +1470,7 @@ msgid ""
 "the repair order."
 msgstr "然后会在工单上添加一个 :guilabel:`维修` 智能按钮，关联到维修单。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of smart buttons focusing on repair button."
 msgstr "维修智能按钮视图。"
 
@@ -1469,8 +1481,8 @@ msgid ""
 "link in the chatter, even if they do not have access rights to the "
 "**Repair** application."
 msgstr ""
-"用户从**服务台**工单创建维修单后，即使没有**维修**应用程序的访问权限，"
-"也可以通过票单的 :guilabel:`维修` 智能按钮或聊天记录中的链接访问该维修单。"
+"用户从**服务台**工单创建维修单后，即使没有**维修**应用程序的访问权限，也可以"
+"通过票单的 :guilabel:`维修` 智能按钮或聊天记录中的链接访问该维修单。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:238
 msgid "Create field service task from a ticket"
@@ -1483,9 +1495,9 @@ msgid ""
 "general/users/portal>` are able to track the progress of a **Field Service** "
 "task the same as they would a **Helpdesk** ticket."
 msgstr ""
-"现场干预可以通过票单进行计划，并通过 **现场服务** 应用程序进行管理。拥有 "
-":doc:`门户访问权 <.../.../.../general/users/portal>` 的客户能够追踪 "
-"**现场服务** 任务的进度，就像追踪 **服务台**工单一样。"
+"现场干预可以通过票单进行计划，并通过 **现场服务** 应用程序进行管理。拥"
+"有 :doc:`门户访问权 <.../.../.../general/users/portal>` 的客户能够追踪 **现场"
+"服务** 任务的进度，就像追踪 **服务台**工单一样。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:245
 msgid ""
@@ -1494,8 +1506,8 @@ msgid ""
 "select a :guilabel:`Team`. Scroll to the :guilabel:`After-Sales` section, "
 "and choose a project under :guilabel:`Field Service`."
 msgstr ""
-"要更改团队的默认**现场服务**项目，请进入:menuselection:`服务台应用程序 --> "
-"配置 --> 服务台团队`选择一个:guilabel:`团队`。滚动到 :guilabel:`售后` 部分，"
+"要更改团队的默认**现场服务**项目，请进入:menuselection:`服务台应用程序 --> 配"
+"置 --> 服务台团队`选择一个:guilabel:`团队`。滚动到 :guilabel:`售后` 部分，"
 "在 :guilabel:`现场服务` 下选择一个项目。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:249
@@ -1504,10 +1516,10 @@ msgid ""
 "a :menuselection:`Helpdesk` ticket. Click :guilabel:`Plan Intervention` to "
 "open the :guilabel:`Create a Field Service task` pop-up window."
 msgstr ""
-"要创建新的**现场服务**任务，请前往 :menuselection:`服务台`工单。点击 "
-":guilabel:`计划干预` 打开 :guilabel:`创建现场服务任务` 弹出窗口。"
+"要创建新的**现场服务**任务，请前往 :menuselection:`服务台`工单。点"
+"击 :guilabel:`计划干预` 打开 :guilabel:`创建现场服务任务` 弹出窗口。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of a Field Service task creation page."
 msgstr "创建现场服务任务页面视图。"
 
@@ -1522,6 +1534,9 @@ msgid ""
 "identified on the team's settings page. To change the project for this "
 "specific task, select one from the :guilabel:`Project` field."
 msgstr ""
+":guilabel:`创建现场服务任务` 弹窗中的 :guilabel:`项目`字段，默认与团队设置页"
+"面中指定的现场服务项目保持一致。若需为该特定任务修改项目，从 :guilabel:`项目`"
+"字段的下拉选项中选择即可。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:261
 msgid ""
@@ -1545,6 +1560,9 @@ msgid ""
 "automatically appears in the :guilabel:`Worksheet Template` drop-down field. "
 "Even so, the field can be edited, and another template can be selected."
 msgstr ""
+"如果分配给**服务台**团队的**现场服务**项目已启用工作表，并已分配默认模板，则"
+"该模板会自动出现在 :guilabel:`工作表模板` 下拉字段中。即便如此，仍可对该字段"
+"进行编辑，并选择其他模板。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:273
 msgid ""
@@ -1552,6 +1570,8 @@ msgid ""
 "the :guilabel:`Worksheet Template` field does not appear on "
 "the :guilabel:`Create a Field Service task` pop-up window."
 msgstr ""
+"如果**现场服务**项目未启用工作表，则 :guilabel:`工作表模板`字段不会出现"
+"在 :guilabel:`创建现场服务任务`弹出窗口中。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:276
 msgid "Click :guilabel:`Create Task` or :guilabel:`Create & View Task`."
@@ -1565,7 +1585,7 @@ msgstr ""
 "创建任务后，会在工单中添加 :guilabel:`任务` 智能按钮，将 :guilabel:`现场服务"
 "` 任务链接到工单。"
 
-#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/after_sales.rst:None
 msgid "View of ticket smart buttons focused on task."
 msgstr "工单智能按钮任务视图"
 
@@ -1591,6 +1611,10 @@ msgid ""
 "This results in increased operational capacity for support teams, and higher "
 "customer satisfaction."
 msgstr ""
+"在**帮助台**应用中完成工单处理后，可通过多种方式结束工单。手动关闭已解决的工"
+"单可确保流程状态实时更新；自动关闭闲置工单则能避免产生非必要的阻塞问题；而允"
+"许客户自行关闭工单，可有效消除双方对问题是否解决的认知差异。这些实践最终将提"
+"升支持团队的整体运营效率，并获得更高的客户满意度。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:12
 msgid "Manually close solved tickets"
@@ -1602,6 +1626,8 @@ msgid ""
 "pipeline. When the issue is solved, the ticket is moved to a *folded* stage. "
 "This marks the ticket as *closed*."
 msgstr ""
+"随着工单工作的进展，工单会进入管道的下一个阶段。问题解决后，工单就会进入*折叠"
+"*阶段，标志着已*关闭*。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:17
 msgid ""
@@ -1610,8 +1636,11 @@ msgid ""
 "click the :icon:`fa-gear` :guilabel:`(gear)` icon that appears in the top-"
 "right corner of that stage's Kanban column."
 msgstr ""
+"要折叠一个阶段，请前往 :menuselection:`服务台` 面板并点击一个团队以打开管道。"
+"将鼠标悬停在某个阶段的标题上，然后点击该阶段看板列右上角出现的 :icon:`fa-"
+"gear` :guilabel:`(齿轮)` 图标。"
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
 msgid ""
 "View of stage on Helpdesk pipeline with emphasis on gear icon and edit stage "
 "option."
@@ -1625,6 +1654,9 @@ msgid ""
 "permanently fold the stage. If a stage needs to be folded so the tickets can "
 "be marked as closed, continue following the steps below."
 msgstr ""
+"点击齿轮图标还会显示 :guilabel:`折叠` 阶段的选项。此设置会暂时折叠该阶段以简"
+"化看板视图，但**不会**关闭此阶段的工单，也不会永久折叠该阶段。若需通过折叠阶"
+"段来将工单标记为已关闭，请继续执行以下步骤。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:30
 msgid ""
@@ -1633,6 +1665,9 @@ msgid ""
 "then :guilabel:`Save & Close` to confirm the changes. Now, tickets are "
 "*closed* once they reach this folded stage."
 msgstr ""
+"从出现的菜单中选择 :guilabel:`编辑`，将打开阶段设置界面。勾选标为 :guilabel:`"
+"在看板中折叠的复选框`，然后选择 :guilabel:`保存并关闭`以确认更改。此后，当工"
+"单进入此折叠阶段时将被关闭。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:0
 msgid "Stage settings page."
@@ -1654,6 +1689,8 @@ msgid ""
 "Configuration --> Helpdesk Teams`. Under the :guilabel:`Self-Service` "
 "section, enable :guilabel:`Automatic Closing`."
 msgstr ""
+"前往 :menuselection:`服务台 --> 配置 --> 服务台团队` 进入团队设置页面。"
+"在 :guilition:`自助服务` 部分下，启用 :guilabel:`自动关闭`。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:46
 msgid ""
@@ -1663,6 +1700,9 @@ msgid ""
 "the default for this field. If no stage is folded, the default selection is "
 "the last stage in the pipeline."
 msgstr ""
+"如果团队在看板视图中只有一个阶段被折叠，则该阶段是 :guilabel:`移动到阶段` 字"
+"段中的默认选项。如果团队有多个折叠阶段，则流程中排在最前面的阶段为该字段的默"
+"认选项。如果没有阶段被折叠，则默认选择流程中的最后一个阶段。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:51
 msgid ""
@@ -1736,7 +1776,7 @@ msgstr ":guilabel:`移至阶段`：`已解决`"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:78
 msgid ":guilabel:`After` `7` :guilabel:`days of inactivity`"
-msgstr ""
+msgstr ":guilabel:`闲置` 7 :guilabel:`天后`"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:79
 msgid ":guilabel:`In Stages`: `Customer Feedback`"
@@ -1769,7 +1809,7 @@ msgstr ""
 "在团队设置页面，滚动到 :guilabel:`自助服务` 部分，勾选 :guilabel:`客户关闭` "
 "复选框。"
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
 msgid "Customer closing setting in Odoo Helpdesk."
 msgstr "Odoo 服务台中的客户关闭设置。"
 
@@ -1782,7 +1822,7 @@ msgstr ""
 "启用工单关闭设置后，客户通过客户门户网站查看工单时，可使用 :guilabel:`关闭工"
 "单` 按钮。"
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
 msgid "Customer view of ticket closing in Odoo Helpdesk."
 msgstr "Odoo 服务台中关闭工单的客户视图"
 
@@ -1803,6 +1843,8 @@ msgid ""
 "Customers with access to the :doc:`portal <../../../general/users/portal>` "
 "are able to view their tickets under :menuselection:`My Account --> Tickets`."
 msgstr ""
+"可以访问 :doc:`门户 <../../../general/users/portal>` 的客户可以"
+"在 :menuselection:`我的账户 --> 工单` 下查看他们的工单。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:3
 msgid "Track and bill time"
@@ -1847,6 +1889,8 @@ msgid ""
 "Before a customer can be invoiced for support services, the *Track & Bill "
 "Time* features **must** be enabled on each **Helpdesk** team individually."
 msgstr ""
+"在向客户开具支持服务发票之前，**必须**在每个**服务台**团队单独启用*时间跟踪和"
+"计费*功能。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:27
 msgid "Enable track and bill time on a helpdesk team"
@@ -1859,6 +1903,10 @@ msgid ""
 "Helpdesk Teams`. Then, select a team from the list, or create a :doc:`new "
 "one <../../helpdesk>`. This reveals a team's settings page."
 msgstr ""
+"要查看和启用 **服务台** 团队的 *时间跟踪与计费* 功能，首先导航"
+"到 :menuselection:`服务台应用程序 --> 配置 --> 服务台团队`。然后，从列表中选"
+"择一个团队，或创建 :doc:`新团队 <.../../helpdesk>`。这将打开该团队的设置页"
+"面。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:33
 msgid ""
@@ -1873,7 +1921,7 @@ msgstr ""
 msgid ""
 "After the :guilabel:`Timesheets` box is checked, a new field appears, "
 "labeled :guilabel:`Project`."
-msgstr ""
+msgstr "选中 :guilabel:`工时单` 框后，会出现一个标有 :guilabel:`项目` 的新字段。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:39
 msgid ""
@@ -1902,7 +1950,7 @@ msgstr ""
 "要创建记录考勤表的新项目，请点击 :guilabel:`项目` 下拉菜单，键入项目名称，然"
 "后从下面的下拉菜单中点击 :guilabel:`创建`。"
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of a helpdesk team settings page emphasizing the track and bill time "
 "settings."
@@ -1921,6 +1969,10 @@ msgid ""
 "product that is used when invoicing for *post-paid support services* "
 "**after** they have been completed."
 msgstr ""
+"当启用 :guilabel:`时间计费` 功能时，系统会在**销售**应用中创建一个名为 *工时"
+"服务* 的新产品。该产品可在 :menuselection:`销售应用 --> 产品 --> 产品` 下找"
+"到。您可在搜索栏中搜索 工时服务。该产品用于在*事后结算的付费支持服务*完成**后"
+"**为其开具发票。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:63
 msgid ""
@@ -1936,7 +1988,7 @@ msgstr ""
 "置为 :guilabel:`基于时间表`。对产品记录进行必要更改，如 :guilabel:`成本` "
 "或 :guilabel:`销售价格`。"
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of a service product with the invoicing policy set to 'Based on "
 "timesheets'."
@@ -1973,7 +2025,7 @@ msgstr ""
 "定价格`。这意味着可以在记录这些服务的任何工时记录之前生成发票并收到该产品的付"
 "款。"
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of a service product with the invoicing policy set to 'prepaid/fixed'."
 msgstr "服务产品，开票政策设置为 '预付/固定价格' 视图。 "
@@ -1983,6 +2035,7 @@ msgid ""
 "Finally, set the :guilabel:`Sales Price`, and confirm that the unit of "
 "measure is set to :guilabel:`Hours`."
 msgstr ""
+"最后，设置 :guilabel:`销售价格` 并确认计量单位已设置为 :guilabel:`小时`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:89
 msgid "Invoice prepaid support services"
@@ -1995,6 +2048,9 @@ msgid ""
 "with the :guilabel:`Invoicing Policy` set to *Prepaid/Fixed Price* is used, "
 "like :ref:`the section above <helpdesk/configure-service-products>`."
 msgstr ""
+"当支持服务按固定价格计费时，可在问题的任何工作完成之前创建发票。在这种情况"
+"下，应使用 :guilabel:`发票政策` 设置为 *预付/固定价格* 的服务产品，如 :ref:`"
+"上节 <helpdesk/configure-service-products>`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:96
 msgid "Create a sales order with prepaid product"
@@ -2022,12 +2078,15 @@ msgid ""
 "when :ref:`configuring the service product <helpdesk/configure-service-"
 "products>`. Update the :guilabel:`Quantity` field with the number of hours."
 msgstr ""
+"转到报价单的 :guilabel:`订单行` 选项卡，然后点击 :guilabel:`添加产品`。然后，"
+"在 :ref:`配置服务产品 <helpdesk/configure-service-products>` 时选择 *预付费服"
+"务产品*。用小时数更新 :guilabel:`数量` 字段。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:109
 msgid ""
 "After updating any other necessary information, :guilabel:`Confirm` the "
 "quotation. This converts the quotation into an |SO|."
-msgstr ""
+msgstr "更新其他必要信息后， :guilabel:`确认` 报价。这会将报价转换为 |SO|。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:113
 msgid "Create and send an invoice for prepaid services"
@@ -2038,6 +2097,8 @@ msgid ""
 "After the |SO| has been confirmed, click the :guilabel:`Create Invoice` "
 "button. This opens a :guilabel:`Create invoice(s)` pop-up window."
 msgstr ""
+"确认 |SO| 后，点击 :guilabel:`创建发票` 按钮。这将打开一个 :guilabel:`创建发"
+"票` 弹出窗口。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:118
 msgid ""
@@ -2056,7 +2117,7 @@ msgstr ""
 msgid ""
 "When the necessary information has been entered, click :guilabel:`Create "
 "Draft`."
-msgstr ""
+msgstr "输入必要信息后，点击 :guilabel:`创建草稿`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:125
 msgid "The invoice can then be sent to the customer for payment."
@@ -2073,6 +2134,9 @@ msgid ""
 "reveal a specific team's pipeline. Click :guilabel:`New` to create a new "
 "ticket."
 msgstr ""
+"要为预付费服务创建**服务台**工单，请前往 :menuselection:`服务台`并点"
+"击 :guilabel:`工单`按钮以显示特定团队的管道。点击 :guilabel:`新建` 以创建新工"
+"单。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:134
 msgid ""
@@ -2099,6 +2163,7 @@ msgid ""
 "Time spent working on a **Helpdesk** ticket is tracked on the **Timesheets** "
 "tab on the specific ticket."
 msgstr ""
+"在具体工单的**工时表**标签页中，会记录处理该**服务台**工单所耗费的时间。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:146
 msgid ""
@@ -2120,7 +2185,7 @@ msgstr ""
 "在 :guilabel:`工时单` 标签中添加新行时，标签右下方的 :guilabel:`销售订单的剩"
 "余小时数` 字段会自动更新。"
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid ""
 "View of the timesheets tab on a ticket with an emphasis on the remaining "
 "hours on an SO."
@@ -2138,13 +2203,15 @@ msgstr ""
 msgid ""
 "An example of a ticket with the number of hours exceeding the hours "
 "remaining."
-msgstr ""
+msgstr "时数超过剩余时数的工单示例。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:163
 msgid ""
 "As hours are added to the :guilabel:`Timesheets` tab, they are automatically "
 "updated in the :guilabel:`Delivered` field on the |SO|, as well."
 msgstr ""
+"当工时添加到 :guilabel:`工时单` 标签时，它们也会自动更新 |SO| 上的 "
+":guilabel:`已交付` 字段。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:167
 msgid "Invoice post-paid support services"
@@ -2160,6 +2227,10 @@ msgid ""
 "automatically created after :ref:`the Time Billing <helpdesk/configure-"
 "service-products>` feature is enabled."
 msgstr ""
+"当支持服务根据处理问题所花费的时间计费时，在解决问题所需的总小时数输入时间表"
+"之前无法创建发票。在这种情况下，应使用将 :guilabel:`发票政策` 设置"
+"为 :guilabel:`根据工时单` 的服务产品，如启用 :ref:`工时计费 <helpdesk/"
+"configure-service-products>` 功能后自动创建的产品。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:176
 msgid "Create a sales order with a time-tracked product"
@@ -2172,6 +2243,9 @@ msgid ""
 "to :menuselection:`Sales app --> Orders --> Quotations`. Then, "
 "click :guilabel:`New` to reveal a blank quotation form."
 msgstr ""
+"要为客户开具后付费支持服务发票，首先要使用 *工时单服务* 产品创建一个 |SO|。要"
+"执行此操作，请转到 :menuselection:`销售应用程序 --> 订单 --> 报价单`。然后，"
+"点击 :guilabel:`新建`，显示空白报价表。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:182
 msgid "Fill out the quotation with the customer information."
@@ -2183,6 +2257,8 @@ msgid ""
 "the :guilabel:`Service on Timesheets` product. After updating any other "
 "necessary information, :guilabel:`Confirm` the quotation."
 msgstr ""
+"在 :guilabel:`订单行` 选项卡上，点击 :guilabel:`添加产品`。选择 :guilabel:`工"
+"时单上的服务` 产品。更新任何其他必要信息后， :guilabel:`确认` 报价。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:189
 msgid ""
@@ -2190,6 +2266,8 @@ msgid ""
 "invoice to be created at this time. Since services were **not** performed, "
 "nothing was delivered, so there is nothing to invoice."
 msgstr ""
+"与预付费服务报价单不同，此时 Odoo **不支持**创建发票。由于服务尚未执行、也未"
+"交付任何相关成果，因此没有可开票的内容。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:194
 msgid "Create a helpdesk ticket for time-tracked services"
@@ -2201,6 +2279,8 @@ msgid ""
 "the :menuselection:`Helpdesk` app, and select the appropriate team for which "
 "these services apply."
 msgstr ""
+"要记录计时服务的工时单条目，请转到 :menuselection:`服务台` 应用程序，然后选择"
+"适用这些服务的相应团队。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:199
 msgid ""
@@ -2219,6 +2299,8 @@ msgid ""
 "After selecting or creating a ticket, go to the :guilabel:`Sales Order Item` "
 "drop-down menu. Select the |SO| created in the previous step."
 msgstr ""
+"选择或创建工单后，转到 :guilabel:`销售订单项目` 下拉菜单。选择上一步创建的 |"
+"SO|。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:208
 msgid "Track support hours on a ticket"
@@ -2245,9 +2327,9 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:217
 msgid "Repeat these steps until all timesheet entries have been recorded."
-msgstr ""
+msgstr "重复上述步骤，直到记录完所有工时单条目。"
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid "View of the timesheets tab on a helpdesk ticket."
 msgstr "查看服务台工单上的工时单选项卡。"
 
@@ -2259,13 +2341,14 @@ msgstr "为工单上追踪的工时创建发票"
 msgid ""
 "If no new timesheets are needed, then create an invoice and send it to the "
 "customer."
-msgstr ""
+msgstr "如果不需要新的工时单，则创建发票并发送给客户。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:227
 msgid ""
 "To do this, return to the |SO| by clicking on the :guilabel:`Sales Order` "
 "smart button at the top of the ticket."
 msgstr ""
+"要执行此操作，请点击工单顶部的 :guilabel:`销售订单` 智能按钮，返回到 |SO|。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:230
 msgid ""
@@ -2277,7 +2360,7 @@ msgstr ""
 "创建发票前，请确认 :guilabel:`已交付` 列中的数字与票据上 :guilabel:`工时单` "
 "选项卡中列出的 :guilabel:`所花费小时数`一致。"
 
-#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:-1
+#: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:None
 msgid "View of a sales order with emphasis on the delivered column."
 msgstr "销售订单视图，已交付栏。"
 
@@ -2305,6 +2388,8 @@ msgid ""
 "include timesheets from a certain time period. If this field is left blank, "
 "**all** applicable timesheets that have not yet been invoiced are included."
 msgstr ""
+"如果发票**只应**包括某一特定时间段的工时单，请使用 :guilabel:`工时单时期` 字"
+"段。如果此字段留空，则包括**所有**尚未开具发票的适用工时单。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:247
 msgid ""
@@ -2344,7 +2429,7 @@ msgstr ""
 "心*。*帮助中心*是一个整合的位置，团队和客户可在此搜索和共享有关产品和服务的详"
 "细信息。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid ""
 "Overview of the settings page of a team emphasizing the Help Center features."
 msgstr "团队设置页面概述，强调帮助中心功能。"
@@ -2505,6 +2590,7 @@ msgstr ""
 msgid ""
 ":ref:`Editing Knowledge articles <knowledge/articles_editing/edit-article>`"
 msgstr ""
+":ref:`Editing Knowledge articles <knowledge/articles_editing/edit-article>`"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:85
 msgid "Search articles from a Helpdesk ticket"
@@ -2538,7 +2624,7 @@ msgid ""
 "the page, to open a pop-up search window."
 msgstr "点击页面右上方的 :guilabel:`知识库（书签）` 图标，弹出搜索窗口。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of knowledge search window from a helpdesk ticket."
 msgstr "服务台工单中的知识库搜寻窗口视图"
 
@@ -2602,7 +2688,7 @@ msgstr ""
 "` 图标。这将显示一个菜单。滑动标有 :guilabel:`分享到网络` 切换按钮，阅"
 "读 :guilabel:`已发布文章`。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a knowledge article focused on sharing and publishing options."
 msgstr "视图：知识库文章，分享和发布选项。"
 
@@ -2646,7 +2732,7 @@ msgstr ""
 "articles_editing/commands>` 的下拉列表。选择或键入 :kbd:`剪贴板`。一个灰色的"
 "区块便会被添加到页面中。您可以向此区块中添加任何需要的内容。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a clipboard in knowledge with focus on send and copy options."
 msgstr "知识库中的剪贴板视图，重点在发送和复制选项。"
 
@@ -2795,7 +2881,7 @@ msgstr "从服务台工单创建论坛帖文"
 msgid ""
 "When a **Helpdesk** team has a *Forum* enabled, tickets submitted to that "
 "team can be converted to forum posts."
-msgstr ""
+msgstr "当**服务台**团队启用*论坛*时，提交给该团队的票单可转换为论坛帖子。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:221
 msgid ""
@@ -2812,7 +2898,7 @@ msgid ""
 "button."
 msgstr "在工单详情表单顶部，单击 :guilabel:`在论坛上分享` 按钮。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid ""
 "Overview of the Forums page of a website to show the available ones in Odoo "
 "Helpdesk."
@@ -2855,7 +2941,7 @@ msgstr ""
 "要创建工单，请浏览论坛帖子，然后点击 :icon:`fa-ellipsis-h`:guilabel:`（省略"
 "号）` 图标。然后点击 :guilabel:`创建工单`。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "A forum post with the create ticket option visible."
 msgstr "可见创建工单选项的论坛帖子。"
 
@@ -2936,6 +3022,8 @@ msgid ""
 "A new **eLearning** course can be created from the :guilabel:`Helpdesk` "
 "team's settings page, as in the step above, or from the **eLearning** app."
 msgstr ""
+"可以像上一步骤那样，通过 :guilabel:`服务台` 团队的设置页面创建新的 **在线学"
+"习** 课程，也可以通过 **在线学习** 应用进行创建。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:283
 msgid ""
@@ -2943,6 +3031,8 @@ msgid ""
 "to :menuselection:`eLearning --> New`. This reveals a blank course template "
 "that can be customized and modified as needed."
 msgstr ""
+"若要直接通过**在线学习**应用程序创建课程，请导航至 :menuselection:`在线学"
+"习 --> 新建`。这将显示一个空白课程模板，您可以根据需要对其进行自定义和修改。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:287
 msgid ""
@@ -2953,13 +3043,13 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:289
 msgid "Click on the :guilabel:`Options` tab."
-msgstr ""
+msgstr "点击 :guilabel:`选项` 选项卡。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:291
 msgid ""
 "Under :guilabel:`Access Rights`, select which users are able to view and "
 "enroll in the course."
-msgstr ""
+msgstr "在 :guilabel:`访问权限` 下，选择哪些用户可以查看并报名参加该课程。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:293
 msgid ""
@@ -2967,11 +3057,13 @@ msgid ""
 "The :guilabel:`Enroll Policy` field specifies how they can register for the "
 "course."
 msgstr ""
+":guilabel:`可见范围`字段用于定义哪些人可以访问课程。 :guilabel:`报名规则`字段"
+"则规定了他们如何注册该课程。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:296
 msgid ""
 "Under :guilabel:`Display`, choose the preferred course :guilabel:`Type`."
-msgstr ""
+msgstr "在 :guilabel:`显示`下，选择首选的 :guilabel:`类型`。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:299
 msgid "Add content to an eLearning course"
@@ -2989,7 +3081,7 @@ msgstr ""
 "从下拉菜单中选择 :guilabel:`内容类型`，然后上传文件或粘贴链接。完成后单"
 "击 :guilabel:`保存`。 单击 :guilabel:`添加章节` 按章节组织课程。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a course being published for Odoo Helpdesk."
 msgstr "查看正在发布的 Odoo 服务台课程。"
 
@@ -3101,7 +3193,7 @@ msgstr ""
 "全选课程内容后，点击 :guilabel:`已发布`列中的任意复选框，系统将弹出确认窗口，"
 "提示是否确定发布所有选中内容。点击 :guilabel:`确认`即可自动发布全部课程资料。"
 
-#: ../../content/applications/services/helpdesk/overview/help_center.rst:-1
+#: ../../content/applications/services/helpdesk/overview/help_center.rst:None
 msgid "View of a course contents being published in Odoo Helpdesk back-end."
 msgstr "视图：Odoo 服务台后端正在发布的课程"
 
@@ -3134,7 +3226,7 @@ msgstr ""
 "配置 --> 服务台团队`。点击列表中的团队，打开设置页面。滚动到 :guilabel:`绩效"
 "` 部分，勾选 :guilabel:`客户评分` 复选框。"
 
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:-1
+#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
 msgid ""
 "Overview of the settings page of a helpdesk team emphasizing the rating on "
 "ticket feature\n"
@@ -3205,7 +3297,7 @@ msgstr "**还可以** - |一般|"
 msgid "**Dissatisfied** - |frown|"
 msgstr "**不满意** - |皱眉|"
 
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:-1
+#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
 msgid "A preview of the ticket rating request template in Helpdesk."
 msgstr "帮助台中的工单评级申请模板预览。"
 
@@ -3315,6 +3407,8 @@ msgid ""
 "When a new **Helpdesk** team is created, an email alias is created for it. "
 "This alias can be changed on the team's settings page."
 msgstr ""
+"创建新的**服务台**团队时，系统会为其生成一个电子邮件别名。该别名可在团队的设"
+"置页面中进行修改。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:37
 msgid ""
@@ -3334,7 +3428,7 @@ msgstr ""
 "然后，滚动到 :menuselection:`频道 --> 电子邮件别名`。在 :guilabel:`别名` 字段"
 "中，为团队的电子邮件别名键入所需的名称。"
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of the settings page of a Helpdesk team emphasizing the email alias "
 "feature in Odoo\n"
@@ -3346,6 +3440,8 @@ msgid ""
 "Custom email domains are **not** required in order to use an email alias, "
 "however, they can be configured through the **Settings** app."
 msgstr ""
+"使用电子邮件别名**无需**自定义电子邮件域名，但您可以通过**设置**应用进行配置"
+"。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:51
 msgid ""
@@ -3363,6 +3459,8 @@ msgid ""
 "**Helpdesk** ticket. The body of the email is also added to the ticket, "
 "under the :guilabel:`Description` tab, and in the ticket's chatter."
 msgstr ""
+"收到电子邮件时，邮件主题将作为新**服务台**工单的标题。邮件正文也会添加到工单"
+"中，位于 :guilabel:`描述` 标签页下，并显示在工单的沟通栏中。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:62
 msgid "Live Chat"
@@ -3375,6 +3473,9 @@ msgid ""
 "during these conversations using the :doc:`response command </applications/"
 "websites/livechat/responses>` `/ticket`."
 msgstr ""
+"**在线客服**功能可让网站访客直接联系客服代表或聊天机器人。在对话过程中，可通"
+"过 :doc:`响应命令 </applications/websites/livechat/responses>` `/ticket` 立即"
+"创建 **服务台**工单。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:68
 msgid ""
@@ -3383,6 +3484,9 @@ msgid ""
 "team's settings page, click the checkbox next to :guilabel:`Live Chat`, "
 "under the :guilabel:`Channels` section."
 msgstr ""
+"要启用 **在线客服**，请导航至 :menuselection:`服务台应用 --> 配置 --> 服务台"
+"团队` 列表视图，选择一个团队，然后在该团队的设置页面上，点击 :guilabel:`实时"
+"聊天` 旁边的复选框（位于 :guilabel:`渠道` 部分下）。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:73
 msgid ""
@@ -3390,6 +3494,8 @@ msgid ""
 "has been enabled on the database, the page may need to be saved manually and "
 "refreshed before any further steps can be taken."
 msgstr ""
+"如果这是数据库中首次启用 :doc:`在线客服 </applications/websites/livechat>`，"
+"在执行后续操作之前，可能需要手动保存页面并刷新。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:77
 msgid ""
@@ -3397,10 +3503,12 @@ msgid ""
 "new **Live Chat** channel is created. Click on :guilabel:`Configure Live "
 "Chat Channel` to update the channel's settings."
 msgstr ""
+"在 **服务台** 团队中启用 :guilabel:`在线客服` 设置后，系统将创建一个新的 **在"
+"线客服** 频道。点击 :guilabel:`配置在线客服频道` 以更新该频道的设置。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:82
 msgid "Live Chat channel configuration"
-msgstr ""
+msgstr "在线客服频道配置"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:84
 msgid ""
@@ -3408,17 +3516,21 @@ msgid ""
 "though, Odoo names the channel to match the **Helpdesk** team name, by "
 "default."
 msgstr ""
+"在频道的设置页面上，可以编辑 :guilabel:`频道名称`，不过 Odoo 默认会将频道名称"
+"设置为与 **服务台** 团队名称一致。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:88
 msgid ""
 "If a **Helpdesk** team is named `Customer Care`, a **Live Chat** channel is "
 "created called `Customer Care`."
 msgstr ""
+"如果一个 **服务台** 团队命名为 `客户服务`，则会创建一个名为 `客户服务` 的 "
+"**在线客服** 频道。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:0
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid "View of the Kanban cards for the available Live Chat channels."
-msgstr ""
+msgstr "可用在线客服频道的看板卡片视图。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:94
 msgid "On the channel form, navigate through the tabs to complete the setup."
@@ -3426,7 +3538,7 @@ msgstr "在频道表单上，浏览选项卡以完成设置。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:97
 msgid "Operators tab"
-msgstr ""
+msgstr "操作员选项卡"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:99
 msgid ""
@@ -3434,28 +3546,34 @@ msgid ""
 "requests from customers. The user who created the live chat channel is added "
 "by default."
 msgstr ""
+"*操作员* 是指作为代理处理客户在线客服请求的用户。创建在线客服频道的用户将默认"
+"被添加为客服。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:102
 msgid ""
 "To add additional users, click on the :guilabel:`Operators` tab, then "
 "click :guilabel:`Add`."
-msgstr ""
+msgstr "要添加其他用户，请点击 :guilabel:`操作员` 选项卡，然后点击 :guilabel:`添加`。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:104
 msgid ""
 "Click the checkbox next to the users to be added on the :guilabel:`Add: "
 "Operators` pop-up window that appears, then click :guilabel:`Select`."
 msgstr ""
+"在弹出的 :guilabel:`添加：操作员` 弹出窗口中，勾选要添加的用户旁边的复选框，"
+"然后点击 :guilabel:`选择`。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:107
 msgid "Click :guilabel:`New` to create new operators, if needed."
-msgstr ""
+msgstr "如有需要，请点击 :guilabel:`新建` 来创建新的运算符。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:109
 msgid ""
 "When the desired addition is complete, click :guilabel:`Save & Close`, "
 "or :guilabel:`Save & New` to add multiple new operators."
 msgstr ""
+"完成所需的操作后，点击 :guilabel:`保存并关闭`，或 :guilabel:`保存并新建` 以添"
+"加多个新运算符。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:113
 msgid ""
@@ -3465,6 +3583,9 @@ msgid ""
 "them as an operator will **not** alter the subscription or billing rate for "
 "a database."
 msgstr ""
+"创建新用户可能会影响 Odoo 订阅状态，因为数据库中的用户总数会计入计费费率。在"
+"创建新用户之前请谨慎操作。如果用户已存在，将其添加为操作员**不会**改变数据库"
+"的订阅或计费费率。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:118
 msgid ""
@@ -3473,17 +3594,20 @@ msgid ""
 "their form values on the pop-up form that appears, or by using one of the "
 "buttons located at the bottom of the form, such as :guilabel:`Remove`."
 msgstr ""
+"此外，可以通过点击 :guilabel:`运算符` 选项卡中的相应框，然后在弹出的表单中调"
+"整其表单值，或者使用表单底部的按钮（例如 :guilabel:`移除`）来编辑或移除当前的"
+"运算符。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:123
 msgid ""
 "Users can add themselves as an operator by clicking the :guilabel:`Join "
 "Channel` button on a **Live Chat** channel."
-msgstr ""
+msgstr "用户可以在**在线客服**频道中点击 :guilabel:`加入频道`按钮，将自己设为操作员。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:0
 msgid ""
 "View of a live chat channel Kanban card with the join button emphasized."
-msgstr ""
+msgstr "在线聊天频道看板卡片视图，强调了加入按钮。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:130
 msgid "Options tab"
@@ -3495,15 +3619,17 @@ msgid ""
 "live chat window."
 msgstr ":guilabel:`选项` 选项卡包含在线客服窗口的视觉和文本设置。"
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid "View of the options tab of a Live Chat channel's settings."
-msgstr ""
+msgstr "在线聊天频道设置的选项标签视图。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:137
 msgid ""
 ":guilabel:`Notification Text`: This field updates the greeting displayed in "
 "the text bubble when the live chat button appears on the website."
 msgstr ""
+":guilabel:`通知文本`：此字段用于设置在线聊天按钮在网站显示时，聊天气泡内展示"
+"的欢迎导语。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:140
 msgid ""
@@ -3514,6 +3640,10 @@ msgid ""
 "complete. Click the refresh icon to the right of the color bubbles to reset "
 "the colors to the default selection."
 msgstr ""
+":guilabel:`在线客服按钮颜色`：此字段更改在线客服按钮在网站上显示的颜色。要更"
+"改颜色，请点击颜色色块打开选色窗口，在渐变色条上拖动圆点即可选取颜色；设置完"
+"成后点击选色窗口外部即可确认。点击颜色色块右侧的刷新图标，可将颜色恢复为系统"
+"默认值。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:146
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:177
@@ -3791,7 +3921,7 @@ msgstr ""
 "此外，如果发布了*帮助中心*，智能按钮会首先导航到那里。只需点击论坛底部"
 "的 :guilabel:`联系我们` 按钮，即可导航至工单提交表单。"
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of the settings page of a helpdesk team emphasizing the Go to Website "
 "button in\n"
@@ -3898,7 +4028,7 @@ msgid ""
 "animation."
 msgstr ":guilabel:`动画`：选择字段是否应包含动画。"
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of the unpublished website form to submit a ticket for Odoo Helpdesk."
 msgstr "视图：未发布的网站表单，为 Odoo 服务台提交工单。"
@@ -3926,7 +4056,7 @@ msgstr ""
 "所有工单都包含一个 :guilabel:`优先级` 字段。优先级最高的工单会出现在看板和列"
 "表视图的顶部。"
 
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:-1
+#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
 msgid ""
 "View of a team's Kanban view and the prioritized tasks in Odoo Helpdesk."
 msgstr "Odoo 服务台的团队看板视图和优先任务视图。"
@@ -4033,7 +4163,7 @@ msgstr ""
 "该报告有助于确定团队在哪些方面花费的时间最多，并帮助确定支持人员之间的工作量"
 "分配是否不均衡。默认报告计算每个团队的工单数量，并按阶段分组。"
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of Ticket Analysis report default view."
 msgstr "工单分析报告默认视图。"
 
@@ -4077,6 +4207,8 @@ msgid ""
 "a ticket. *This measure is only available if Timesheets are enabled on a "
 "team, and the current user has the access rights to view them.*"
 msgstr ""
+":guilabel:`花费的小时数（工时单）`：在工单上记录的*工时单*小时数。*此指标仅在"
+"团队启用工时单且当前用户具有查看权限时可用。*"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:44
 #: ../../content/applications/services/helpdesk/overview/reports.rst:88
@@ -4094,6 +4226,8 @@ msgid ""
 ":guilabel:`Rating (1-5)`: number out of five to represent customer feedback "
 "(Dissatisfied = 1, Okay/Neutral = 3, Satisfied = 5)."
 msgstr ""
+":guilabel:`评分（1-5）`：以5分为满分的数字评分，用于反映客户反馈（不满意 = 1"
+"，一般/中立 = 3，满意 = 5）。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:49
 #: ../../content/applications/services/helpdesk/overview/reports.rst:94
@@ -4106,20 +4240,20 @@ msgstr ":guilabel:`销售订单剩余小时数`：链接销售订单的剩余时
 msgid ""
 ":guilabel:`Working Hours to Assign`: number of working hours between the "
 "date the ticket was created and when it was assigned to a team member."
-msgstr ""
+msgstr ":guilabel:`待分配工时`：指工单创建时至分配给团队成员期间的工作时长。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:52
 #: ../../content/applications/services/helpdesk/overview/reports.rst:97
 msgid ""
 ":guilabel:`Working Hours to Close`: number of working hours between the date "
 "the ticket was created and the date it was closed."
-msgstr ""
+msgstr ":guilabel:`办结工时`：工单创建日期至关闭日期之间的工作时长。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:54
 msgid ""
 ":guilabel:`Working Hours until SLA Deadline`: number of working hours "
 "remaining to reach the last |SLA| deadline on a ticket."
-msgstr ""
+msgstr ":guilabel:`SLA剩余工时`：工单距离最近一项SLA截止时限的剩余工作时长。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:56
 #: ../../content/applications/services/helpdesk/overview/reports.rst:101
@@ -4146,6 +4280,9 @@ msgid ""
 "--> SLA Status Analysis`) :ref:`analyzes the performance <helpdesk/analyze-"
 "sla-performance>` of individual SLA (Service Level Agreement) policies."
 msgstr ""
+"*SLA状态分析*报表（:menuselection:`服务台应用程序 --> 报表 --> SLA 状态分析）"
+"，用于分析各项服务等级协议（SLA）策略的:ref:`执行表现 <helpdesk/analyze-sla-"
+"performance>`。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:70
 msgid ""
@@ -4153,8 +4290,10 @@ msgid ""
 "progress, and the number that have been successful. The results are grouped "
 "by teams."
 msgstr ""
+"默认情况下，此报告会筛选显示已失败、正在进行以及已成功的 |SLA| 数量。结果按团"
+"队分组显示。"
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of Group by options of Ticket Analysis report."
 msgstr "视图：工单分析报告，按选项分组。"
 
@@ -4171,23 +4310,27 @@ msgstr ""
 msgid ""
 ":guilabel:`Number of SLA Failed`: number of tickets that have failed at "
 "least one |SLA|."
-msgstr ""
+msgstr ":guilabel:`SLA 失败次数`：至少有一个 |SLA| 失败的工单数量。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:92
 msgid ""
 ":guilabel:`Rating (1-5)`: number value representing customer feedback "
 "(Dissatisfied = 1, Okay/Neutral = 3, Satisfied = 5)."
 msgstr ""
+":guilabel:`评分（1-5）`：表示客户反馈的数值（不满意 = 1，一般/中立 = 3，满意 "
+"= 5）。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:99
 msgid ""
 ":guilabel:`Working Hours to Reach SLA`: number of working hours between the "
 "date the ticket was created and the date the |SLA| was satisfied."
 msgstr ""
+":guilabel:`达到 SLA 的工作小时数`：创建工单日期与满足 |SLA| 日期之间的工作小"
+"时数。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:104
 msgid ":doc:`Service Level Agreements (SLA) <sla>`"
-msgstr ""
+msgstr ":doc:`服务水平协议（SLA） <sla>`"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:107
 msgid "Customer Ratings"
@@ -4200,10 +4343,12 @@ msgid ""
 "individual support tickets, as well as any additional comments submitted "
 "with the rating."
 msgstr ""
+"*客户评分*报告（:menuselection:`服务台应用 --> 报告 --> 客户评分`）显示各个支"
+"持工单收到的评分概览，以及随评分提交的任何附加评论。"
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of the Kanban display in the Customer Ratings report."
-msgstr ""
+msgstr "客户评分报告中看板显示的视图。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:116
 msgid ""
@@ -4211,25 +4356,29 @@ msgid ""
 "submitted by the customer, including a link to the original ticket."
 msgstr "单击单个评分可查看客户提交的评分详情，包括原始工单的链接。"
 
-#: ../../content/applications/services/helpdesk/overview/reports.rst:-1
+#: ../../content/applications/services/helpdesk/overview/reports.rst:None
 msgid "View of the details of an individual customer rating."
-msgstr ""
+msgstr "单个客户评分详细信息的视图。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:123
 msgid ""
 "On the rating's details page, tick the :guilabel:`Visible Internally Only` "
 "checkbox to hide the rating from public and portal users."
 msgstr ""
+"在评分详情页面，勾选 :guilabel:`仅限内部可见` 复选框，即可将该评分对公众和门"
+"户用户隐藏。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:126
 msgid ""
 "The *Customer Ratings* report is displayed in a Kanban view by default, but "
 "can also be displayed in graph, list, or pivot view."
 msgstr ""
+"默认情况下，*客户评分*报告以看板视图显示，但也可以以图表、列表或透视表视图显"
+"示。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:130
 msgid ":doc:`Ratings <ratings>`"
-msgstr ""
+msgstr ":doc:`评分 <ratings>`"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:133
 msgid "Use cases"
@@ -4368,10 +4517,12 @@ msgid ""
 "From here, scroll to the :guilabel:`Performance` section. To turn off the |"
 "SLAs| feature for the team, clear the :guilabel:`SLA Policies` checkbox."
 msgstr ""
+"从此处向下滚动到:guilabel:`绩效`部分。要关闭团队的 |SLAs| 功能，请清"
+"除:guilabel:`SLA 策略`复选框。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid "View of a team page in Helpdesk focusing on the SLA Policies setting."
-msgstr ""
+msgstr "服务台中的团队页面视图，重点显示 SLA 策略设置。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:25
 msgid "Create a new SLA policy"
@@ -4413,16 +4564,16 @@ msgstr "定义服务水平协议政策的标准"
 msgid ""
 "The :guilabel:`Criteria` section is used to identify which tickets this "
 "policy is applied to."
-msgstr ""
+msgstr ":guilabel:`条件`部分用于识别此策略应用于哪些工单。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:42
 msgid "Fill out the following fields to adjust the selection criteria:"
-msgstr ""
+msgstr "填写以下字段以调整选择条件："
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:45
 msgid ""
 "Unless otherwise indicated, multiple selections can be made for each field."
-msgstr ""
+msgstr "若无特殊说明，每个字段均支持多选操作。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:47
 msgid ""
@@ -4467,8 +4618,8 @@ msgid ""
 "the :guilabel:`Sales Order Items` field."
 msgstr ""
 ":guilabel:`服务`：此字段仅在团队启用**工时单**应用程序时可用。这允许工单直接"
-"链接到销售订单上的特定行，该行必须在工单上的 :guilabel:`销售订单项目` "
-"字段中标明。"
+"链接到销售订单上的特定行，该行必须在工单上的 :guilabel:`销售订单项目` 字段中"
+"标明。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:62
 msgid ""
@@ -4482,17 +4633,19 @@ msgid ""
 "team. It **only** applies to tickets that are assigned three :icon:`fa-star-"
 "o` :guilabel:`(star)` icons, which equates to an `Urgent` priority level."
 msgstr ""
+"这项名为`8小时内关闭`的新政策被分配给 VIP支持 团队。它仅适用于被标记为三"
+"个 :icon:`fa-star-o`:guilabel:`(star)`图标的服务单，这等同于`紧急`优先级。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:68
 msgid ""
 "At the same time, the tickets can be related to multiple issues, so the "
 "policy applies to tickets with `Repair`, `Service`, or `Emergency` tags."
-msgstr ""
+msgstr "同时，该政策适用于带有`维修`、`服务`或`紧急情况`标签的服务单。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid ""
 "View of a new SLA policy record with all the relevant information entered."
-msgstr ""
+msgstr "查看已输入所有相关信息的新 SLA 政策记录。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:75
 msgid "Establish a target for an SLA policy"
@@ -4511,8 +4664,9 @@ msgstr ""
 msgid ""
 "Time spent in stages selected in the :guilabel:`Excluding Stages` field are "
 "**not** included in the calculation of the |SLA| deadline."
-msgstr "在 :guilabel:`排除阶段`字段中所选阶段内花费的时间，不会计入 |SLA| "
-"截止日期的计算。"
+msgstr ""
+"在 :guilabel:`排除阶段`字段中所选阶段内花费的时间，不会计入 |SLA| 截止日期的"
+"计算。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:85
 msgid ""
@@ -4522,10 +4676,10 @@ msgid ""
 "before work on a ticket has begun, and would have `In Progress` as "
 "the :guilabel:`Reach Stage`."
 msgstr ""
-"例如，一个名为 `8小时内关闭`的 |SLA| 策略，用于追踪工单完成前的工作时间，其 "
-":guilabel:`达成阶段`应设为`已解决`。同时，另一个名为`2天内开始`的 |SLA| "
-"策略，用于追踪工单开始处理前的工作时间，其 "
-":guilabel:`达成阶段`则应设为`处理中`。"
+"例如，一个名为 `8小时内关闭`的 |SLA| 策略，用于追踪工单完成前的工作时间，"
+"其 :guilabel:`达成阶段`应设为`已解决`。同时，另一个名为`2天内开始`的 |SLA| 策"
+"略，用于追踪工单开始处理前的工作时间，其 :guilabel:`达成阶段`则应设为`处理中"
+"`。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:91
 msgid "Meet SLA deadlines"
@@ -4536,9 +4690,9 @@ msgid ""
 "As soon as it is determined that a ticket fits the criteria of an |SLA| "
 "policy, a deadline is calculated. The deadline is based on the creation date "
 "of the ticket, as well as the targeted working hours."
-msgstr "一旦确定某个工单符合 |SLA| "
-"策略的条件，系统就会计算出截止日期。该截止日期基于工单的创建日期以及目标工作"
-"时间进行计算。"
+msgstr ""
+"一旦确定某个工单符合 |SLA| 策略的条件，系统就会计算出截止日期。该截止日期基于"
+"工单的创建日期以及目标工作时间进行计算。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:98
 msgid ""
@@ -4547,18 +4701,18 @@ msgid ""
 "the value set in the :guilabel:`Company Working Hours` field "
 "under :menuselection:`Settings app --> Employees --> Work Organization`."
 msgstr ""
-"|SLA| 策略中 "
-":guilabel:`工作时间`字段旁标明的值将用于确定截止日期。默认情况下，该值由 "
-":menuselection:`设置应用 --> 员工 --> 工作安排` 下的 "
-":guilabel:`公司工作时间`字段决定。"
+"|SLA| 策略中 :guilabel:`工作时间`字段旁标明的值将用于确定截止日期。默认情况"
+"下，该值由 :menuselection:`设置应用 --> 员工 --> 工作安排` 下的 :guilabel:`公"
+"司工作时间`字段决定。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:102
 msgid ""
 "The deadline is then added to the ticket, as well as a tag indicating the "
 "name of the |SLAs| applied."
-msgstr "截止日期随后会被添加到工单上，同时还会添加一个显示所应用 |SLA| 名称的标签。"
+msgstr ""
+"截止日期随后会被添加到工单上，同时还会添加一个显示所应用 |SLA| 名称的标签。"
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid ""
 "View of a ticket's form emphasizing an open SLA deadline on a ticket in Odoo "
 "Helpdesk."
@@ -4568,10 +4722,11 @@ msgstr "Odoo 服务台工单表单视图，突出显示了工单上一个未完�
 msgid ""
 "When a ticket satisfies an |SLA| policy, the |SLA| tag turns green, and the "
 "deadline disappears from view on the ticket."
-msgstr "当工单满足 |SLA| 策略时，|SLA| "
-"标签会变为绿色，并且截止日期会从工单视图中消失。"
+msgstr ""
+"当工单满足 |SLA| 策略时，|SLA| 标签会变为绿色，并且截止日期会从工单视图中消"
+"失。"
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid "View of a ticket's form emphasizing a satisfied SLA in Odoo Helpdesk."
 msgstr "Odoo服务台工单表单视图，突出显示了一个已满足的SLA。"
 
@@ -4580,9 +4735,9 @@ msgid ""
 "If a ticket fits the criteria for more than one |SLA|, the earliest "
 "occurring deadline is displayed on the ticket. After that deadline has "
 "passed, the next deadline is displayed."
-msgstr "如果一个工单同时符合多个 |SLA| "
-"策略的条件，工单上会显示最早到期的那个截止日期。在该截止日期过后，才会显示下"
-"一个截止日期。"
+msgstr ""
+"如果一个工单同时符合多个 |SLA| 策略的条件，工单上会显示最早到期的那个截止日"
+"期。在该截止日期过后，才会显示下一个截止日期。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:118
 msgid ""
@@ -4591,11 +4746,11 @@ msgid ""
 "failed, the red tag stays on the ticket, even after the ticket is moved to "
 "the :guilabel:`Reach Stage`."
 msgstr ""
-"如果超过了 |SLA| 截止日期，而工单仍未进入:guilabel:`达成阶段`，则 |SLA| "
-"标签会变为红色。在 |SLA| "
-"失败后，即使工单后续进入了:guilabel:`达成阶段`，该红色标签仍会保留在工单上。"
+"如果超过了 |SLA| 截止日期，而工单仍未进入:guilabel:`达成阶段`，则 |SLA| 标签"
+"会变为红色。在 |SLA| 失败后，即使工单后续进入了:guilabel:`达成阶段`，该红色标"
+"签仍会保留在工单上。"
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid ""
 "View of a ticket's form with a failing and passing SLA in Odoo Helpdesk."
 msgstr "Odoo服务台工单表单视图，同时显示失败和已达成的SLA。"
@@ -4611,9 +4766,9 @@ msgid ""
 "to the report, and corresponding pivot table, by going "
 "to :menuselection:`Helpdesk app --> Reporting --> SLA Status Analysis`."
 msgstr ""
-":guilabel:`SLA状态分析` 报告用于追踪 |SLA| "
-"的达成速度以及团队成员个人的绩效表现。要访问该报告及其对应的数据透视表，"
-"请前往 :menuselection:`服务台应用 --> 报告 --> SLA状态分析`。"
+":guilabel:`SLA状态分析` 报告用于追踪 |SLA| 的达成速度以及团队成员个人的绩效表"
+"现。要访问该报告及其对应的数据透视表，请前往 :menuselection:`服务台应用 --> "
+"报告 --> SLA状态分析`。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:135
 msgid "Pivot view"
@@ -4626,10 +4781,9 @@ msgid ""
 "in progress, or have satisfied a policy are listed. By default, they are "
 "grouped by team and ticket count."
 msgstr ""
-"默认情况下，报告以 :guilabel:`数据透视表`视图显示。报告中会列出所有相关的 "
-"|SLA| "
-"策略，这些策略下的工单状态包括：失败、进行中或已满足。默认情况下，这些策略按"
-"团队和工单数量进行分组。"
+"默认情况下，报告以 :guilabel:`数据透视表`视图显示。报告中会列出所有相关的 |"
+"SLA| 策略，这些策略下的工单状态包括：失败、进行中或已满足。默认情况下，这些策"
+"略按团队和工单数量进行分组。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:144
 msgid "View of the SLA status analysis report in Odoo Helpdesk."
@@ -4639,7 +4793,7 @@ msgstr "Odoo 服务台 SLA 状态分析报告视图"
 msgid ""
 "The pivot view aggregates data, which can be manipulated by adding measures "
 "and filters."
-msgstr ""
+msgstr "透视图汇总数据，可通过添加度量和筛选器进行操作。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:146
 msgid ""
@@ -4647,6 +4801,8 @@ msgid ""
 "the :guilabel:`Measures` button to reveal a drop-down menu of reporting "
 "criteria, and choose from the options available."
 msgstr ""
+"要更改显示或添加其他测量值，请点击 :guilabel:`度量` 按钮，显示报告标准的下拉"
+"菜单，并从可用选项中进行选择。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:149
 msgid ""
@@ -4655,10 +4811,13 @@ msgid ""
 "included, and a corresponding new column emerges in the pivot table to show "
 "the relevant calculations."
 msgstr ""
+"每当选中一个测量值时，下拉菜单中就会出现一个 :icon:`fa-"
+"check` :guilabel:`(check)` 图标，表示该测量值已包含在内，数据透视表中也会出现"
+"相应的新列，显示相关的计算结果。"
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid "View of the available measures in the SLA status analysis report."
-msgstr ""
+msgstr "查看服务水平协议状态分析报告中的可用措施。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:156
 msgid ""
@@ -4667,11 +4826,14 @@ msgid ""
 "of the groups. To remove one, click the :icon:`fa-minus-square-"
 "o` :guilabel:`(minus)` icon next to the policy name."
 msgstr ""
+"要在行或列中添加组，请点击策略名称旁边的 :icon:`fa-plus-"
+"square`:guilabel:`(plus)`图标，然后选择其中一个组。要删除组，请点击策略名称旁"
+"边的 :icon:`fa-minus-square-o`:guilabel:`(minus)`图标。"
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:-1
+#: ../../content/applications/services/helpdesk/overview/sla.rst:None
 msgid ""
 "View of the available group by options in the SLA status analysis report."
-msgstr ""
+msgstr "SLA 状态分析报告中可用分组选项的视图。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:164
 msgid "Graph view"
@@ -4684,6 +4846,8 @@ msgid ""
 "between the different charts, select the *related icon* at the top of the "
 "chart, while in graph view."
 msgstr ""
+"通过选择屏幕顶部的 :icon:`fa-area-chart` :guilabel:`（图表视图）` 图标切换到"
+"图表视图。要在不同图表之间切换，请在图表视图中选择图表顶部的*相关图标*。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:172
 msgid "Bar Chart"
@@ -4691,13 +4855,13 @@ msgstr "柱状图"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid "View of the SLA status analysis report in bar view."
-msgstr ""
+msgstr "条形图视图中的 SLA 状态分析报告视图。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:177
 msgid ""
 "A bar chart can deal with larger data sets and compare data across several "
 "categories."
-msgstr ""
+msgstr "条形图可以处理较大的数据集并比较多个类别的数据。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:179
 msgid "Line Chart"
@@ -4705,11 +4869,11 @@ msgstr "线状图"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid "View of the SLA status analysis report in line view."
-msgstr ""
+msgstr "折线图视图中的 SLA 状态分析报告视图。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:184
 msgid "A line chart can visualize data trends or changes over time."
-msgstr ""
+msgstr "折线图可以可视化数据趋势或随时间变化的情况。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:186
 msgid "Pie Chart"
@@ -4717,11 +4881,11 @@ msgstr "饼图"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid "View of the SLA status analysis report in pie chart view."
-msgstr ""
+msgstr "以饼图方式查看服务水平协议状态分析报告。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:191
 msgid "A pie chart compares data among a small number of categories."
-msgstr ""
+msgstr "饼状图对少数类别的数据进行比较。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:194
 msgid ""
@@ -4731,14 +4895,17 @@ msgid ""
 "bar chart or line chart, click the :icon:`fa-database` :guilabel:`(stacked)` "
 "icon to toggle the stacked view option on or off."
 msgstr ""
+"*条形图*和*折线图*都可以使用*堆叠*视图选项。这将两组或多组数据放在一起显示，"
+"而不是紧挨着显示，从而更容易比较数据。在查看条形图或折线图时，点击 :icon:`fa-"
+"database` :guilabel:`(stacked)`图标，即可打开或关闭堆叠视图选项。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:0
 msgid "View of the SLA status analysis report in bar view, stacked."
-msgstr ""
+msgstr "SLA 状态分析报告的条形视图，堆叠显示。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:203
 msgid "Cohort view"
-msgstr ""
+msgstr "同期群视图"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:205
 msgid ""
@@ -4747,14 +4914,17 @@ msgid ""
 "view, click the :icon:`oi-view-cohort` :guilabel:`(cohort)` icon, next to "
 "the other view options."
 msgstr ""
+"*同期群*视图用于跟踪一段时间内数据的变化。要以同期群视图显示:guilabel:`SLA 状"
+"态分析`报告，请点击其他视图选项旁边的:icon:`oi-view-cohort` :guilabel:`（同期"
+"群）`图标。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:212
 msgid "View of the SLA status analysis report in cohort view."
-msgstr ""
+msgstr "SLA 状态分析报告的同期群视图。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:212
 msgid "The cohort view examines the life cycle of data over time."
-msgstr ""
+msgstr "同期群视图检查数据随时间的生命周期。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:215
 msgid ":ref:`Reporting views <reporting/views>`"
@@ -4768,224 +4938,6 @@ msgstr ""
 ":doc:`允许客户关闭其工单 </applications/services/helpdesk/advanced/"
 "close_tickets>`"
 
-#: ../../content/applications/services/helpdesk/overview/stages.rst:3
-msgid "Stages"
-msgstr "阶段"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:5
-msgid ""
-"*Stages* are used to organize the **Helpdesk** pipeline and track the "
-"progress of tickets. Stages are customizable, and can be renamed to fit the "
-"needs of each team."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:9
-msgid "Create or modify stages"
-msgstr "创建或修改阶段"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:12
-msgid ""
-":ref:`Developer mode <developer-mode>` **must** be activated to access the "
-"stages menu. To activate developer mode, go to :menuselection:`Settings app "
-"--> General Settings --> Developer Tools`, and click :guilabel:`Activate the "
-"developer mode`."
-msgstr ""
-":ref:`开发者模式<developer-mode>` **必须** 激活才能访问阶段菜单。要激活开发者"
-"模式，请进入 :menuselection:`设置应用程序 --> 常规设置 --> 开发工具`，然后点"
-"击 :guilabel:`激活开发者模式`。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:16
-msgid ""
-"To view or modify **Helpdesk** stages, go to :menuselection:`Helpdesk app --"
-"> Configuration --> Stages`."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:19
-msgid ""
-"The default list view on the :guilabel:`Stages` page displays the stages "
-"currently available in the **Helpdesk** app. They are listed in the order "
-"they appear in the pipeline."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:22
-msgid ""
-"To change the order of the stages, click the :icon:`oi-"
-"draggable` :guilabel:`(draggable)` icon, to the left of the stage name, and "
-"drag it to the desired place on the list."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid ""
-"View of the stage list page emphasizing the buttons used to change the order "
-"the stages\n"
-"appear in the list."
-msgstr "阶段列表页面的视图，强调用于更改阶段顺序的按钮。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:30
-msgid ""
-"Change the stage order on the Kanban view of a **Helpdesk** team's pipeline "
-"by dragging and dropping individual columns."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:33
-msgid ""
-"To create a new stage, click the :guilabel:`New` button at the top-left of "
-"the stage list. Doing so reveals a blank stage form."
-msgstr ""
-"要创建新舞台，请点击阶段列表左上角的 :guilabel:`新建` 按钮。这样就会显示一个"
-"空白的阶段表格。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:36
-msgid "Choose a :guilabel:`Name` for the new stage."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid "View of a stage's settings page in Odoo Helpdesk."
-msgstr "在 Odoo 服务台中查看阶段设置页面。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:42
-msgid "Add email and SMS templates to stages"
-msgstr "在阶段中添加电子邮件和短信模板"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:44
-msgid ""
-"When an :guilabel:`Email Template` is added to a stage, a preconfigured "
-"email is automatically sent to the customer when a ticket reaches that "
-"specific stage in the pipeline. Likewise, adding an :guilabel:`SMS Template` "
-"triggers a preconfigured SMS text message to send to the customer."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:49
-msgid ""
-"SMS text messaging is an :doc:`In-App Purchase (IAP) </applications/"
-"essentials/in_app_purchase/>` service that requires prepaid credits to work. "
-"Refer to `SMS Pricing FAQ <https://iap-services.odoo.com/iap/sms/pricing>`_ "
-"for additional information."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:53
-msgid ""
-"To select an existing email template, select it from the :guilabel:`Email "
-"Template` field. After choosing a template, click on the :icon:`oi-arrow-"
-"right` :guilabel:`(right arrow)` icon to the right of the field to edit the "
-"chosen template."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:57
-msgid ""
-"To create a new template from this form, click the field, and enter a title "
-"for the new template. Then, select :guilabel:`Create and edit` from the drop-"
-"down menu that appears, and complete the form details."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:61
-msgid ""
-"Follow the same steps to select, edit, or create an :guilabel:`SMS Template`."
-msgstr "按照相同步骤选择、编辑或创建 :guilabel:`SMS 模板`。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid "View of an SMS template setup page in Odoo Helpdesk."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:67
-msgid ":doc:`/applications/general/companies/email_template`"
-msgstr ":doc:`/applications/general/companies/email_template`"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:70
-msgid "Fold a stage"
-msgstr "折叠阶段"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:72
-msgid ""
-"By default, stages are unfolded in the Kanban view of either tickets "
-"dashboard: :guilabel:`My Tickets` (:menuselection:`Helpdesk app --> Tickets "
-"--> My Tickets`) or :guilabel:`All Tickets` (:menuselection:`Helpdesk app --"
-"> Tickets --> All Tickets`)."
-msgstr ""
-"默认情况下，阶段在以下任一工单仪表板的看板视图中展开：:guilabel:`我的工单`"
-"（:menuselection:`服务台应用程序 --> 工单 --> 我的工单`）或 :guilabel:`所有工"
-"单`（:menuselection:`服务台应用程序 --> 工单 --> 所有工单`）。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:76
-msgid ""
-"Tickets in an unfolded stage are visible in the pipeline under the stage "
-"name, and are considered *open*."
-msgstr "已展开阶段中的工单在管道中的阶段名称下可见，并被视为 *开放*。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:79
-msgid ""
-"Stages can be configured to be folded in the Kanban view of a tickets page."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:81
-msgid ""
-"The name of the folded stages are still visible, but the tickets in the "
-"stage are hidden from view."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:83
-msgid ""
-"To fold a stage, tick the :guilabel:`Folded in Kanban` checkbox on "
-"the :guilabel:`Stages` form."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:86
-msgid ""
-"Tickets that reach a *folded* stage are considered *closed*. Closing a "
-"ticket before the work is completed can result in reporting and "
-"communication issues. This setting should **only** be enabled for stages "
-"that are considered *closing* stages."
-msgstr ""
-"达到 *折叠* 阶段的工单被视为 *已关闭*。在工作完成之前关闭工单，可能会导致报告"
-"和沟通问题。此设置只应在被视为 *关闭* 阶段时启用。"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:91
-msgid "Temporarily fold a stage"
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:93
-msgid ""
-"Stages can be temporarily folded in the Kanban view of the tickets pipeline, "
-"as well."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:95
-msgid ""
-"View a specific team's pipeline by navigating to :menuselection:`Helpdesk "
-"app`, and clicking the team's Kanban card."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:98
-msgid ""
-"Hover the cursor at the top of the desired stage to fold temporarily, then "
-"click the :icon:`fa-gear` :guilabel:`(gear)` icon that appears, and "
-"select :guilabel:`Fold` from the drop-down menu."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:-1
-msgid ""
-"Kanban view of a Helpdesk stage, with the temporary fold option emphasized."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:105
-msgid ""
-"Manually folding a stage from the Kanban view is temporary and does **not** "
-"close the tickets in the stage."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:109
-msgid "Assign stages to a team"
-msgstr "为团队分配阶段"
-
-#: ../../content/applications/services/helpdesk/overview/stages.rst:111
-msgid ""
-"Make a selection in the :guilabel:`Helpdesk Teams` field on "
-"the :guilabel:`Stages` form. More than one team may be selected, since the "
-"same stage can be assigned to multiple teams."
-msgstr ""
-"在 :guilabel:`阶段` 表单的 :guilabel:`服务台团队` 字段中进行选择。可选择多个"
-"团队，因为同一阶段可分配给多个团队。"
-
 #: ../../content/applications/services/planning.rst:5
 msgid "Planning"
 msgstr "计划"
@@ -4994,7 +4946,7 @@ msgstr "计划"
 msgid ""
 "**Odoo Planning** allows you to plan your team's schedule and manage shifts "
 "and resources."
-msgstr ""
+msgstr "**Odoo 计划**允许您规划团队的日程安排并管理班次和资源。"
 
 #: ../../content/applications/services/planning.rst:9
 msgid ""
@@ -5002,6 +4954,8 @@ msgid ""
 "widely depending on your business needs. The following concepts were "
 "introduced in Odoo Planning to meet those needs:"
 msgstr ""
+"处理团队的计划有特定的要求，这些要求可能因您的业务需求而有很大差异。Odoo 计划"
+"中引入了以下概念来满足这些需求："
 
 #: ../../content/applications/services/planning.rst:12
 msgid ""
@@ -5010,6 +4964,9 @@ msgid ""
 "(e.g., equipment). The resources are assigned :ref:`roles <planning/roles>`, "
 "which allows for organization of work within the team."
 msgstr ""
+"**班次**分派给**资源**，资源可以是:ref:`人力 <planning/employees>`（员工）"
+"或:ref:`物资 <planning/materials>`（例如设备）。资源被分配:ref:`角色 "
+"<planning/roles>`，这允许在团队内组织工作。"
 
 #: ../../content/applications/services/planning.rst:16
 msgid ""
@@ -5017,6 +4974,8 @@ msgid ""
 "shifts>` can be done manually or automated by using the :ref:`Auto Plan "
 "<planning/open-shifts>` feature."
 msgstr ""
+"完成初始配置后，可以手动:ref:`规划班次 <planning/shifts>`或使用:ref:`自动计"
+"划 <planning/open-shifts>`功能自动完成。"
 
 #: ../../content/applications/services/planning.rst:19
 msgid ""
@@ -5025,10 +4984,12 @@ msgid ""
 "with :doc:`Project <project>` allows dedicating shifts, and thus time and "
 "resources, to specific projects."
 msgstr ""
+"计划和销售应用之间的集成允许将已售服务链接到计划中的角色和班次。此外，"
+"与:doc:`项目 <project>`的集成允许将班次（以及时间和资源）专用于特定项目。"
 
 #: ../../content/applications/services/planning.rst:24
 msgid "`Odoo tutorials: Planning <https://www.odoo.com/slides/planning-60>`_"
-msgstr ""
+msgstr "`Odoo 教程：排期 <https://www.odoo.com/slides/planning-60>`_"
 
 #: ../../content/applications/services/planning.rst:34
 msgid "Roles"
@@ -5043,6 +5004,10 @@ msgid ""
 "perform this role. Resources can be either :ref:`Employees <planning/"
 "employees>` or :ref:`Materials <planning/materials>`."
 msgstr ""
+"要定义资源执行的角色（如厨师、调酒师、服务员），请转到 :menuselection:`排期 "
+"--> 配置 --> 角色`，然后点击 :guilabel:`新建`，并填写 :guilabel:`名称`（如助"
+"理、接待员、经理）。然后，选择执行此角色的 :guilabel:`资源`。资源可以"
+"是 :ref:`员工 <planning/employees>` 或 :ref:`材料 <planning/materials>` 。"
 
 #: ../../content/applications/services/planning.rst:43
 msgid ""
@@ -5050,16 +5015,18 @@ msgid ""
 "field appears, allowing you to specify which roles are needed to perform "
 "services so that the shifts are dispatched to the right person."
 msgstr ""
+"如果您的数据库中安装了销售应用，则会显示 :guilabel:`服务` 字段，您可以在其中"
+"指定执行服务所需的角色，以便将班次分配给合适的人员。"
 
 #: ../../content/applications/services/planning.rst:46
 msgid ""
 "Roles are taken into account when using the :ref:`Auto Plan feature "
 "<planning/open-shifts>`."
-msgstr ""
+msgstr "使用:ref:`自动计划功能 <planning/open-shifts>`时会考虑角色。"
 
 #: ../../content/applications/services/planning.rst:49
 msgid "Property fields and roles"
-msgstr ""
+msgstr "属性字段和角色"
 
 #: ../../content/applications/services/planning.rst:51
 msgid ""
@@ -5067,6 +5034,8 @@ msgid ""
 "Odoo applications. Planning includes the possibility of adding property "
 "fields linked to roles to shifts."
 msgstr ""
+"**属性字段**允许您在多个 Odoo 应用程序的表单中添加自定义字段。计划应用包括向"
+"班次添加与角色关联的属性字段的功能。"
 
 #: ../../content/applications/services/planning.rst:54
 msgid ""
@@ -5077,36 +5046,40 @@ msgid ""
 "applications/essentials/property_fields>` the new field according to your "
 "needs."
 msgstr ""
+"要创建属性字段，请从任何日程切换到列表视图。从那里，点击您希望编辑的班次上"
+"的:guilabel:`查看`。如果:guilabel:`角色`字段为空，请填入所需的角色，然后点击"
+"齿轮图标并选择:guilabel:`添加属性`。根据您的需求:doc:`配置 </applications/"
+"essentials/property_fields>`新字段。"
 
-#: ../../content/applications/services/planning.rst:-1
+#: ../../content/applications/services/planning.rst:None
 msgid "Creating a new property field in Planning."
-msgstr ""
+msgstr "在排期中创建新的属性字段"
 
 #: ../../content/applications/services/planning.rst:62
 msgid ""
 "The property field is linked to the role and is included in the shift form "
 "of all shifts performed by this role."
-msgstr ""
+msgstr "属性字段与角色相关联，并包含在该角色执行的所有轮班表中。"
 
 #: ../../content/applications/services/planning.rst:66
 msgid "Some of the use cases of role property fields include:"
-msgstr ""
+msgstr "角色属性字段的一些使用场景包括："
 
 #: ../../content/applications/services/planning.rst:68
 msgid ""
 "**Accreditation**: for roles that require a specific permit (e.g., driving "
 "license)"
-msgstr ""
+msgstr "**资质认证**：用于需要特定许可的角色（例如驾驶执照）"
 
 #: ../../content/applications/services/planning.rst:69
 msgid ""
 "**Location**: in companies that operate in multiple locations (e.g., shops "
 "or restaurants)"
-msgstr ""
+msgstr "**位置**：适用于在多个地点运营的公司（例如商店或餐厅）"
 
 #: ../../content/applications/services/planning.rst:70
 msgid "**Language**: in a multi-lingual environment (e.g., consulting company)"
-msgstr ""
+msgstr "**语言**：在多语言环境中（例如咨询公司）"
 
 #: ../../content/applications/services/planning.rst:75
 msgid "Employees"
@@ -5114,7 +5087,7 @@ msgstr "员工"
 
 #: ../../content/applications/services/planning.rst:77
 msgid "All employees can be included in the planning and assigned shifts."
-msgstr ""
+msgstr "所有员工都可参与排期和分配班次。"
 
 #: ../../content/applications/services/planning.rst:79
 msgid ""
@@ -5122,16 +5095,18 @@ msgid ""
 "> Configuration --> Employees`, and choose the employee for whom you want to "
 "edit the settings. Then, go to the :guilabel:`Work Information` tab."
 msgstr ""
+"要调整员工的计划设置，请转到 :menuselection:`排期 --> 配置 --> 员工`，然后选"
+"择要编辑设置的员工。然后，转到 :guilabel:`工作信息` 选项卡。"
 
-#: ../../content/applications/services/planning.rst:-1
+#: ../../content/applications/services/planning.rst:None
 msgid "Employee profile and the work information tab."
-msgstr ""
+msgstr "员工简介和工作信息选项卡。"
 
 #: ../../content/applications/services/planning.rst:87
 msgid ""
 "You can do the same from the **Employees** app, which is installed by "
 "default along with Planning."
-msgstr ""
+msgstr "您可以从默认与计划一起安装的**员工**应用执行相同的操作。"
 
 #: ../../content/applications/services/planning.rst:90
 msgid ""
@@ -5139,6 +5114,8 @@ msgid ""
 "impact on Planning: :guilabel:`Schedule` (namely, the :guilabel:`Working "
 "Hours` field) and :guilabel:`Planning`."
 msgstr ""
+"员工的:guilabel:`工作信息`标签中的两个部分会影响计划：:guilabel:`日程`（"
+"即:guilabel:`工作时间`字段）和:guilabel:`计划`。"
 
 #: ../../content/applications/services/planning.rst:96
 msgid "Working hours"
@@ -5151,12 +5128,17 @@ msgid ""
 "for :ref:`shifts <planning/templates>`. If the :guilabel:`Working Hours` "
 "field is left blank, the employee is considered to be working flexible hours."
 msgstr ""
+"在计算:ref:`班次 <planning/templates>`的:guilabel:`分配时间`及其百分比时，会"
+"考虑:guilabel:`工作时间`。如果:guilabel:`工作时间`字段留空，则员工被视为工作"
+"时间灵活。"
 
 #: ../../content/applications/services/planning.rst:102
 msgid ""
 "To create individual :guilabel:`Working Hours`, for example, for employees "
 "working part-time, click :guilabel:`Search more...`, then :guilabel:`New`."
 msgstr ""
+"要为单个员工创建 :guilabel:`工作时间`，例如兼职员工，请点击:guilabel:`搜索更"
+"多...`，然后点击:guilabel:`新建`。"
 
 #: ../../content/applications/services/planning.rst:106
 msgid ""
@@ -5164,15 +5146,16 @@ msgid ""
 "can impact **Payroll**, if the employee's contract is configured to generate "
 "work entries based on shifts."
 msgstr ""
+"如果员工的合同配置为根据班次生成工作条目，则:guilabel:`工作时间`和计划中"
+"的:guilabel:`分配时间`可能会影响**工资单**。"
 
 #: ../../content/applications/services/planning.rst:110
-msgid ""
-":ref:`Payroll documentation on working schedules <payroll/working-times>`"
-msgstr ""
+msgid ":doc:`../hr/payroll/working_schedules`"
+msgstr ":doc:`../hr/payroll/working_schedules`"
 
 #: ../../content/applications/services/planning.rst:113
 msgid "Planning roles"
-msgstr ""
+msgstr "计划角色"
 
 #: ../../content/applications/services/planning.rst:115
 msgid "Once an employee has one or more :guilabel:`Roles`:"
@@ -5247,28 +5230,27 @@ msgstr "班次模板"
 msgid ""
 "To create a shift template, click :guilabel:`New` on any schedule, then fill "
 "in the :ref:`details of the shift <planning/create-shift>`. In order for the "
-"shift to be saved as a template, tick :guilabel:`Save as Template`."
+"shift to be saved as a template, click :guilabel:`Save Template`."
 msgstr ""
-"要创建班次模板，请在任意计划表上点击 :guilabel:`新建`，然后填写 :ref:`班次详"
-"情 <planning/create-shift>`。要将班次保存为模板，请勾选 :guilabel:`保存为模板"
-"`。"
+"要创建班次模板，请在任何排班表上点击:guilabel:`新建`，然后填写:ref:`班次详情 "
+"<planning/create-shift>`。要将班次保存为模板，请点击:guilabel:`保存模板`。"
 
-#: ../../content/applications/services/planning.rst:-1
-msgid "Shift form with the option `save template` ticked."
-msgstr "勾选 `保存模板` 选项的移位表单。"
+#: ../../content/applications/services/planning.rst:None
+msgid "Shift form."
+msgstr "班次表单。"
 
 #: ../../content/applications/services/planning.rst:158
 msgid ""
 "Alternatively, you can go to :menuselection:`Planning --> Configuration --> "
 "Shift Templates`, then click :guilabel:`New`. Fill in the :guilabel:`Start "
-"Hour` and :guilabel:`Shift Duration`. The shift’s :guilabel:`End Time` is "
-"then calculated based on the :guilabel:`Working Hours`, taking into account "
+"Hour` and :guilabel:`Span`. The shift’s :guilabel:`End Time` is then "
+"calculated based on the :guilabel:`Working Hours`, taking into account "
 "working time as well as breaks."
 msgstr ""
-"或者，您可以进入 :menuselection:`排期 --> 配置 --> 班次模板`，然后点"
-"击 :guilabel:`新建`。填写 :guilabel:`开始时间` 和 :guilabel:`班次时间`。班次"
-"的 :guilabel:`结束时间` 将根据 :guilabel:`工作时间` 计算，并将工作时间和休息"
-"时间考虑在内。"
+"或者，您可以转到:menuselection:`计划 --> 配置 --> 班次模板`，然后点"
+"击:guilabel:`新建`。填写:guilabel:`开始时间`和:guilabel:`时长`。然后根"
+"据:guilabel:`工作时间`计算班次的:guilabel:`结束时间`，同时考虑工作时间和休息"
+"时间。"
 
 #: ../../content/applications/services/planning.rst:164
 msgid ""
@@ -5333,7 +5315,7 @@ msgstr ""
 "日程表显示在甘特视图中，您可以通过拖放进行编辑、调整大小、拆分和复制，而无需"
 "打开它们。"
 
-#: ../../content/applications/services/planning.rst:-1
+#: ../../content/applications/services/planning.rst:None
 msgid "A schedule displaying various visual elements."
 msgstr "显示各种视觉元素的日程表。"
 
@@ -5343,21 +5325,21 @@ msgstr "日程表中的班次使用了以下视觉元素："
 
 #: ../../content/applications/services/planning.rst:196
 msgid "**Full color**: shifts that are planned and published."
-msgstr ""
+msgstr "**全彩**：计划和公布的班次。"
 
 #: ../../content/applications/services/planning.rst:197
 msgid ""
 "**Diagonal stripes**: shifts that are planned but have yet to be published."
-msgstr ""
+msgstr "**斜条纹**：计划中但尚未公布的班次。"
 
 #: ../../content/applications/services/planning.rst:198
 msgid "**Grayed-out background**: employees that are on time off."
-msgstr ""
+msgstr "**灰色背景**：正在休假的员工。"
 
 #: ../../content/applications/services/planning.rst:199
 msgid ""
 "**Progress bar**: currently ongoing shifts with timesheets linked to them."
-msgstr ""
+msgstr "**进度条**：当前正在进行的班次，并附有相关的考勤表。"
 
 #: ../../content/applications/services/planning.rst:200
 msgid ""
@@ -5366,16 +5348,20 @@ msgid ""
 "The color changes back to full color or diagonal stripes on the next refresh "
 "of the page or by removing the filter."
 msgstr ""
+"**置灰的班次**：当复制班次时，被复制的班次会以全彩显示，而先前已存在的班次则"
+"会暂时置灰。在下一次页面刷新或移除筛选器后，颜色会恢复为全彩或斜条纹。"
 
 #: ../../content/applications/services/planning.rst:207
 msgid "Create a shift"
-msgstr ""
+msgstr "创建班次"
 
 #: ../../content/applications/services/planning.rst:209
 msgid ""
 "To create a shift, go to any schedule, then click :guilabel:`New`. In the "
 "pop-up window that opens, fill in the following details:"
 msgstr ""
+"要创建班次，请转到任何日程，然后点击:guilabel:`新建`。在打开的弹出窗口中，填"
+"写以下详细信息："
 
 #: ../../content/applications/services/planning.rst:212
 msgid ""
@@ -5383,6 +5369,8 @@ msgid ""
 "they are displayed in the upper section of the pop-up window. Once selected, "
 "a template prefills the shift form accordingly."
 msgstr ""
+"**模板**：如果数据库中存在一个或多个模板，它们将显示在弹出窗口的上方。选择模"
+"板后，班次表单将相应地预填充。"
 
 #: ../../content/applications/services/planning.rst:215
 msgid ""
@@ -5390,6 +5378,8 @@ msgid ""
 "field is left empty, the shift is considered an :ref:`open shift <planning/"
 "open-shifts>`."
 msgstr ""
+":guilabel:`资源`：资源可以是员工或材料。如果此字段留空，则该班次被视"
+"为:ref:`开放班次 <planning/open-shifts>`。"
 
 #: ../../content/applications/services/planning.rst:217
 msgid ""
@@ -5398,6 +5388,9 @@ msgid ""
 "shifts>` shifts. Once you select a role, the shift templates associated with "
 "it are displayed in the upper section of the pop-up window."
 msgstr ""
+":guilabel:`角色`：选择分配的资源将执行的角色。此字段在:ref:`自动规划 "
+"<planning/open-shifts>`班次时使用。选择角色后，与其关联的班次模板将显示在弹出"
+"窗口的上部。"
 
 #: ../../content/applications/services/planning.rst:220
 msgid ""
@@ -5405,61 +5398,64 @@ msgid ""
 "field allows you to link the project to the shift is available, allowing you "
 "to plan and track shifts dedicated to work on the selected project."
 msgstr ""
+":guilabel:`项目`：如果数据库中安装了项目应用，此字段允许您将项目关联到班次，"
+"从而可以规划和跟踪专门用于所选项目工作的班次。"
 
 #: ../../content/applications/services/planning.rst:223
 msgid ""
 ":guilabel:`Sales Order Item`: If the Sales app is installed in your "
 "database, this field allows you to link a sales order to the shift."
 msgstr ""
+":guilabel:`销售订单项`：如果数据库中安装了销售应用，此字段允许您将销售订单关"
+"联到班次。"
 
 #: ../../content/applications/services/planning.rst:225
 msgid ""
-":guilabel:`Repeat`: Tick the checkbox and configure the :guilabel:`Repeat "
-"Every` field according to your needs. The following rules apply to recurring "
-"shifts:"
+":guilabel:`Repeat`: Click the :icon:`fa-repeat` :guilabel:`(repeat)` button "
+"and configure the :guilabel:`Repeat every` fields according to your needs. "
+"The following rules apply to recurring shifts:"
 msgstr ""
+":guilabel:`重复`：点击:icon:`fa-repeat` :guilabel:`(重复)`按钮，并根据需要配"
+"置:guilabel:`重复周期`字段。以下规则适用于重复班次："
 
-#: ../../content/applications/services/planning.rst:228
+#: ../../content/applications/services/planning.rst:229
 msgid ""
 "All fields "
 "(e.g., :guilabel:`Resource`, :guilabel:`Role`, :guilabel:`Project`) are "
 "copied from the original shift except for the date, which is adjusted "
 "according to the :guilabel:`Repeat Every` field."
 msgstr ""
-
-#: ../../content/applications/services/planning.rst:231
-msgid "Recurrences are planned but not published."
-msgstr ""
+"所有字段（例如:guilabel:`资源`、:guilabel:`角色`、:guilabel:`项目`）都从原始"
+"班次复制，但日期除外，日期将根据:guilabel:`重复间隔`字段进行调整。"
 
 #: ../../content/applications/services/planning.rst:232
+msgid "Recurrences are planned but not published."
+msgstr "重复班次已规划但未发布。"
+
+#: ../../content/applications/services/planning.rst:233
 msgid ""
 "By default, planned shifts are created six months in advance, after which "
 "they are created gradually. To change the time frame, :ref:`activate the "
 "Developer mode <developer-mode>`, then go to :menuselection:`Planning --> "
 "Configuration --> Settings` and edit the :guilabel:`Recurring Shifts`."
 msgstr ""
+"默认情况下，规划的班次会提前六个月创建，之后逐步创建。要更改时间范围"
+"，:ref:`激活开发者模式 <developer-mode>`，然后转到:menuselection:`计划 --> 配"
+"置 --> 设置`并编辑:guilabel:`重复班次`。"
 
-#: ../../content/applications/services/planning.rst:237
-msgid ""
-":guilabel:`Save as Template`: When this option is ticked, a shift template "
-"is created with the same :guilabel:`Start and End "
-"hours`, :guilabel:`Allocated time`, :guilabel:`Role`, "
-"and :guilabel:`Project`."
-msgstr ""
-
-#: ../../content/applications/services/planning.rst:240
+#: ../../content/applications/services/planning.rst:238
 msgid ""
 ":guilabel:`Additional note sent to the employee`: Click on the field to add "
 "a note."
-msgstr ""
+msgstr ":guilabel:`发送给员工的附加说明`：单击该字段以添加说明。"
 
-#: ../../content/applications/services/planning.rst:241
+#: ../../content/applications/services/planning.rst:239
 msgid ""
 ":guilabel:`Date`: Choose the date and time of your shift. This is the only "
 "mandatory field when creating a shift."
-msgstr ""
+msgstr ":guilabel:`日期`：选择班次的日期和时间。这是创建班次时唯一的必填字段。"
 
-#: ../../content/applications/services/planning.rst:243
+#: ../../content/applications/services/planning.rst:241
 msgid ""
 ":guilabel:`Allocated time`: Is calculated based on the date and the "
 "employee’s :guilabel:`Working Schedule`. See more in :ref:`Shift Templates "
@@ -5468,7 +5464,7 @@ msgstr ""
 ":guilabel:`分配时间`： 根据日期和员工的 :guilabel:`工作时间表` 计算。请参"
 "阅 :ref:`班次模板 <planning/templates>` 中的更多内容。"
 
-#: ../../content/applications/services/planning.rst:246
+#: ../../content/applications/services/planning.rst:244
 msgid ""
 "Click :guilabel:`Publish & Save` to confirm the shift and send the assigned "
 "employee their schedule by email."
@@ -5476,7 +5472,7 @@ msgstr ""
 "点击 :guilabel:`发布并保存`以确认班次，并通过电子邮件将排班表发送给被指派的员"
 "工。"
 
-#: ../../content/applications/services/planning.rst:250
+#: ../../content/applications/services/planning.rst:248
 msgid ""
 "The draft is visible on the admin planning view and can be identified by "
 "diagonal lines. The employee is only notified of the shift once it's "
@@ -5485,25 +5481,25 @@ msgstr ""
 "草稿在管理员的规划视图中可见，并可通过斜线识别。只有在班次发布后，员工才会收"
 "到通知。"
 
-#: ../../content/applications/services/planning.rst:253
+#: ../../content/applications/services/planning.rst:251
 msgid ""
 "Two kinds of notifications are sent to the employees depending on their "
 "account configuration:"
 msgstr "根据员工账户配置的不同，系统会发送两种通知："
 
-#: ../../content/applications/services/planning.rst:255
+#: ../../content/applications/services/planning.rst:253
 msgid ""
 "Employees without user accounts are redirected to a dedicated **Planning "
 "portal**."
 msgstr "没有用户账户的员工将被重定向到一个专属的**规划门户**。"
 
-#: ../../content/applications/services/planning.rst:256
+#: ../../content/applications/services/planning.rst:254
 msgid ""
 "Employees with a user account are redirected to the :guilabel:`My Planning` "
 "view in the backend view of Odoo."
 msgstr "拥有用户账户的员工将被重定向到 Odoo 后台的 :guilabel:`我的排期`视图。"
 
-#: ../../content/applications/services/planning.rst:260
+#: ../../content/applications/services/planning.rst:258
 msgid ""
 "The **split shifts** tool allows to easily split a long shift into segments. "
 "To do so, hover the mouse over the desired shift and click the :icon:`fa-"
@@ -5516,11 +5512,11 @@ msgstr ""
 msgid "Split shifts tool."
 msgstr "拆分班次工具。"
 
-#: ../../content/applications/services/planning.rst:269
+#: ../../content/applications/services/planning.rst:267
 msgid "Open shifts and auto planning"
 msgstr "空缺班次和自动排期"
 
-#: ../../content/applications/services/planning.rst:271
+#: ../../content/applications/services/planning.rst:269
 msgid ""
 "The :guilabel:`Auto Plan` button allows you to assign **Open shifts** "
 "(shifts with no resource assigned) and create and assign shifts linked to "
@@ -5529,11 +5525,11 @@ msgstr ""
 ":guilabel:`自动排期`按钮允许您指派**空缺班次**（即没有指派资源的班次），以及"
 "创建并指派与销售订单或项目相关联的班次。"
 
-#: ../../content/applications/services/planning.rst:274
+#: ../../content/applications/services/planning.rst:272
 msgid "The following features have an impact on auto planning:"
 msgstr "以下功能会对自动规划产生影响："
 
-#: ../../content/applications/services/planning.rst:276
+#: ../../content/applications/services/planning.rst:274
 msgid ""
 "**Roles**: Open shifts are only assigned to resources (employees or "
 "materials) that have the corresponding role assigned. It is not possible to "
@@ -5542,25 +5538,25 @@ msgstr ""
 "**角色**：空缺班次只会被分配给拥有相应角色的资源（员工或物料）。对于没有角色"
 "的员工，无法使用 :guilabel:`自动规划`功能。"
 
-#: ../../content/applications/services/planning.rst:279
+#: ../../content/applications/services/planning.rst:277
 msgid ""
 "**Default roles**: The default role assigned to a resource is given priority "
 "over the other roles they have assigned to them."
 msgstr "**默认角色**：分配给资源的默认角色会优先于他们拥有的其他角色。"
 
-#: ../../content/applications/services/planning.rst:281
+#: ../../content/applications/services/planning.rst:279
 msgid ""
 "**Conflicts**: Employees or materials cannot be assigned multiple shifts at "
 "the same time."
 msgstr "**冲突**：不能在同一时间为员工或物料分配多个班次。"
 
-#: ../../content/applications/services/planning.rst:282
+#: ../../content/applications/services/planning.rst:280
 msgid ""
 "**Time off**: The employees’ time off is taken into account, as well as "
 "public holidays."
 msgstr "**休假**：员工的休假和公共假期都会被考虑在内。"
 
-#: ../../content/applications/services/planning.rst:283
+#: ../../content/applications/services/planning.rst:281
 msgid ""
 "**Working hours**: Are taken into account when assigning shifts to employees "
 "or materials. It is not possible to use the :guilabel:`Auto Plan` feature "
@@ -5570,29 +5566,29 @@ msgstr ""
 "**工作时间**：在为员工或物料分配班次时会考虑工作时间。对于采用 :ref:`弹性工作"
 "时间 <planning/working-hours>` 的员工，无法使用 :guilabel:`自动规划`功能。"
 
-#: ../../content/applications/services/planning.rst:286
+#: ../../content/applications/services/planning.rst:284
 msgid ""
 "**Contracts**: If the employee has an active contract, they won't be "
 "assigned shifts that fall outside of their contract period."
 msgstr "**合同**：如果员工有生效中的合同，他们不会被分配超出其合同期限的班次。"
 
-#: ../../content/applications/services/planning.rst:289
+#: ../../content/applications/services/planning.rst:287
 msgid ""
 "Click :guilabel:`Publish` to confirm the schedule and notify the employees "
 "of their planning."
 msgstr "点击 :guilabel:`发布`以确认排班表，并通知员工他们的排班安排。"
 
-#: ../../content/applications/services/planning.rst:294
+#: ../../content/applications/services/planning.rst:292
 msgid "Switching shifts and unassignment"
 msgstr "调换班次和取消指派"
 
-#: ../../content/applications/services/planning.rst:296
+#: ../../content/applications/services/planning.rst:294
 msgid ""
 "Two features are available to allow employees to make changes to their "
 "schedule: **switching shifts** and **unassignment**."
 msgstr "有两个功能可供员工对他们的排班表进行更改：**调换班次**和**取消指派**。"
 
-#: ../../content/applications/services/planning.rst:300
+#: ../../content/applications/services/planning.rst:298
 msgid ""
 "These features are mutually exclusive. Switching shifts is possible by "
 "default and cannot be disabled. However, once the **Allow unassignment** "
@@ -5601,11 +5597,11 @@ msgstr ""
 "这两个功能是互斥的。默认情况下可以调换班次，且此功能无法禁用。但是，一旦启用"
 "了**允许取消指派**功能，它将取代调换班次的功能。"
 
-#: ../../content/applications/services/planning.rst:305
+#: ../../content/applications/services/planning.rst:303
 msgid "Switching shifts"
 msgstr "调换班次"
 
-#: ../../content/applications/services/planning.rst:307
+#: ../../content/applications/services/planning.rst:305
 msgid ""
 "Once shifts are planned and published, employees receive an email "
 "notification. If an employee wishes to switch a shift, they can click the "
@@ -5614,7 +5610,7 @@ msgstr ""
 "一旦班次被规划并发布，员工会收到一封电子邮件通知。如果员工希望调换某个班次，"
 "他们可以点击不想要的班次，然后点击 :guilabel:`请求调换`。"
 
-#: ../../content/applications/services/planning.rst:310
+#: ../../content/applications/services/planning.rst:308
 msgid ""
 "The shift remains assigned to the original employee, but in the schedule, a "
 "notification informing that the assigned employee would like to switch "
@@ -5623,7 +5619,7 @@ msgstr ""
 "该班次仍然被指派给原员工，但在排班表上，该班次会显示一条通知，告知被指派的员"
 "工希望调换班次。"
 
-#: ../../content/applications/services/planning.rst:313
+#: ../../content/applications/services/planning.rst:311
 msgid ""
 "The shift is then displayed to other employees who share the same role, and "
 "if they wish to assign it to themselves, they can click the :guilabel:`I "
@@ -5632,26 +5628,26 @@ msgstr ""
 "然后，该班次会显示给拥有相同角色的其他员工，如果他们希望将该班次指派给自己，"
 "可以点击 :guilabel:`我来接手`按钮。"
 
-#: ../../content/applications/services/planning.rst:317
-#: ../../content/applications/services/planning.rst:335
+#: ../../content/applications/services/planning.rst:315
+#: ../../content/applications/services/planning.rst:333
 msgid "The following rules apply:"
 msgstr "以下规则适用："
 
-#: ../../content/applications/services/planning.rst:319
+#: ../../content/applications/services/planning.rst:317
 msgid ""
 "Only the shifts matching the employee's roles are displayed as available to "
 "them."
 msgstr "只有与员工角色匹配的班次，才会作为可用班次显示给他们。"
 
-#: ../../content/applications/services/planning.rst:320
+#: ../../content/applications/services/planning.rst:318
 msgid "Switching shifts is not available for shifts in the past."
 msgstr "对于已过去的班次，无法进行调换。"
 
-#: ../../content/applications/services/planning.rst:323
+#: ../../content/applications/services/planning.rst:321
 msgid "Unassignment"
 msgstr "取消指派"
 
-#: ../../content/applications/services/planning.rst:325
+#: ../../content/applications/services/planning.rst:323
 msgid ""
 "To allow employees to unassign themselves from shifts, go "
 "to :menuselection:`Planning --> Configuration --> Settings`, then tick the "
@@ -5662,7 +5658,7 @@ msgstr ""
 "`，然后勾选 :guilabel:`允许取消指派`复选框。接着，指定一个天数，规定员工最晚"
 "可以在班次开始前几天取消指派。"
 
-#: ../../content/applications/services/planning.rst:330
+#: ../../content/applications/services/planning.rst:328
 msgid ""
 "Once shifts are planned and published, employees receive an email "
 "notification. If shift unassignment is allowed, the employees can click "
@@ -5672,13 +5668,13 @@ msgstr ""
 "一旦班次被规划并发布，员工会收到一封电子邮件通知。如果允许取消班次指派，员工"
 "可以点击 :guilabel:`我没空`按钮，然后该班次会变回一个空缺班次。"
 
-#: ../../content/applications/services/planning.rst:337
+#: ../../content/applications/services/planning.rst:335
 msgid ""
 "Only the shifts matching the employee's roles are displayed in their "
 "schedule."
 msgstr "只有与员工角色匹配的班次才会显示在他们的排班表中。"
 
-#: ../../content/applications/services/planning.rst:338
+#: ../../content/applications/services/planning.rst:336
 msgid "Unassigning shifts is not available for shifts in the past."
 msgstr "过去的轮班无法取消分配。"
 
@@ -5744,7 +5740,7 @@ msgstr ""
 "您可以通过点击项目**卡**上的下拉切换按钮（:guilabel:`⋮`），在仪表板上自定义现"
 "有的**项目**。"
 
-#: ../../content/applications/services/project/project_management.rst:-1
+#: ../../content/applications/services/project/project_management.rst:None
 msgid "Project card"
 msgstr "项目卡"
 
@@ -5822,7 +5818,7 @@ msgstr ""
 "此外，您还可以将项目标记为 :guilabel:`收藏夹`，这样您就可以使用看板视图上"
 "的 :guilabel:`我的收藏夹` 筛选器找到它；"
 
-#: ../../content/applications/services/project/project_management.rst:-1
+#: ../../content/applications/services/project/project_management.rst:None
 msgid "Project settings"
 msgstr "项目设置"
 
@@ -5831,6 +5827,8 @@ msgid ""
 "`Odoo Tutorials: Customize projects <https://www.odoo.com/slides/slide/"
 "customize-projects-3615?fullscreen=1>`_"
 msgstr ""
+"`Odoo 教程：自定义项目<https://www.odoo.com/slides/slide/customize-projects-"
+"3615?fullscreen=1>`_"
 
 #: ../../content/applications/services/project/project_management.rst:62
 msgid ""
@@ -5842,7 +5840,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/project_management.rst:66
 msgid "Visibility and collaboration"
-msgstr ""
+msgstr "可见性与协作"
 
 #: ../../content/applications/services/project/project_management.rst:68
 msgid ""
@@ -5850,12 +5848,16 @@ msgid ""
 "make your project available to everyone in your organization or restrict "
 "access to certain internal or external users."
 msgstr ""
+"Odoo 允许您为每个项目设置可见性，使您可以让组织中的所有人都能访问项目，或将访"
+"问权限限制为特定的内部或外部用户。"
 
 #: ../../content/applications/services/project/project_management.rst:71
 msgid ""
 "To do so, go to the project's :guilabel:`Settings` tab and choose the "
 "desired :guilabel:`Visibility` option:"
 msgstr ""
+"要进行设置，请转到项目的:guilabel:`设置`选项卡，然后选择所需的:guilabel:`可见"
+"性`选项："
 
 #: ../../content/applications/services/project/project_management.rst:74
 msgid ""
@@ -5864,12 +5866,15 @@ msgid ""
 "applications/general/users/access_rights>` can access the project and its "
 "tasks."
 msgstr ""
+":guilabel:`受邀的内部用户（私有）`：只有关注该项目的用户以及具有项目管理"
+"员:doc:`访问权限 </applications/general/users/access_rights>`的用户才能访问该"
+"项目及其任务。"
 
 #: ../../content/applications/services/project/project_management.rst:77
 msgid ""
 ":guilabel:`All internal users`: All internal users can access the project "
 "and all of its tasks."
-msgstr ""
+msgstr ":guilabel:`所有内部用户`：所有内部用户都可以访问该项目及其所有任务。"
 
 #: ../../content/applications/services/project/project_management.rst:78
 msgid ""
@@ -5879,10 +5884,13 @@ msgid ""
 "access to the specific tasks they are following. This option is selected by "
 "default."
 msgstr ""
+":guilabel:`受邀的门户用户和所有内部用户（公开）`：所有内部用户都可以访问该项"
+"目及其所有任务。当关注项目时，:doc:`门户用户 </applications/general/users/"
+"portal>`\\ 仅能访问他们所关注的特定任务。此选项默认选中。"
 
 #: ../../content/applications/services/project/project_management.rst:84
 msgid "Inviting external users"
-msgstr ""
+msgstr "邀请外部用户"
 
 #: ../../content/applications/services/project/project_management.rst:86
 msgid ""
@@ -5891,12 +5899,16 @@ msgid ""
 "Project` at the top of the project’s settings. The following options are "
 "available:"
 msgstr ""
+"要邀请外部用户，请确保选择了:guilabel:`受邀的门户用户和所有内部用户（公开"
+"）`，然后单击项目设置顶部的:guilabel:`共享项目`。可用选项如下："
 
 #: ../../content/applications/services/project/project_management.rst:90
 msgid ""
 "Copy and share the :guilabel:`Public Link` displayed at the top of the pop-"
 "up window. Anyone with this link can access the project in read mode."
 msgstr ""
+"复制并共享弹出窗口顶部显示的:guilabel:`公开链接`。任何拥有此链接的人都可以以"
+"只读模式访问该项目。"
 
 #: ../../content/applications/services/project/project_management.rst:92
 msgid ""
@@ -5904,24 +5916,26 @@ msgid ""
 "the :guilabel:`Access Mode`, and check the box to send an invitation to "
 "their email address."
 msgstr ""
+"或单击:guilabel:`添加一行`，选择一个:guilabel:`协作者`，选择:guilabel:`访问模"
+"式`，然后勾选复选框以向其电子邮件地址发送邀请。"
 
 #: ../../content/applications/services/project/project_management.rst:95
 msgid "There are three types of :guilabel:`Access Mode` for collaborators:"
-msgstr ""
+msgstr "协作者有三种:guilabel:`访问模式`类型："
 
 #: ../../content/applications/services/project/project_management.rst:97
 msgid ":guilabel:`Read`: Collaborators can view tasks but cannot edit them."
-msgstr ""
+msgstr ":guilabel:`只读`：协作者可以查看任务但无法编辑。"
 
 #: ../../content/applications/services/project/project_management.rst:98
 msgid ""
 ":guilabel:`Edit with limited access`: Collaborators can view and edit the "
 "tasks they follow."
-msgstr ""
+msgstr ":guilabel:`有限访问权限编辑`：协作者可以查看和编辑他们关注的任务。"
 
 #: ../../content/applications/services/project/project_management.rst:99
 msgid ":guilabel:`Edit`: Collaborators can view and edit all tasks."
-msgstr ""
+msgstr ":guilabel:`编辑`：协作者可以查看和编辑所有任务。"
 
 #: ../../content/applications/services/project/project_management.rst:101
 msgid ""
@@ -5929,6 +5943,8 @@ msgid ""
 "at the top of the project’s settings, then click the :icon:`fa-trash-"
 "o` :guilabel:`(trash)` icon."
 msgstr ""
+"要撤销受邀协作者的访问权限，请点击项目设置顶部的:guilabel:`共享项目`，然后点"
+"击:icon:`fa-trash-o` :guilabel:`（垃圾桶）`图标。"
 
 #: ../../content/applications/services/project/project_management.rst:105
 msgid ""
@@ -5936,6 +5952,8 @@ msgid ""
 "URL has been shared with them. For projects set as :guilabel:`Invited "
 "internal users (private)`, they must also be a follower of the task."
 msgstr ""
+"没有项目访问权限的内部用户，如果URL已与他们共享，仍可以访问任务。对于设置"
+"为:guilabel:`受邀内部用户（私有）`的项目，他们还必须是任务的关注者。"
 
 #: ../../content/applications/services/project/project_management.rst:110
 msgid "Scheduling activities"
@@ -5975,6 +5993,8 @@ msgid ""
 "access to these essential resources. You can customize each project's top "
 "bar to match its specific needs."
 msgstr ""
+"在项目管理中，查看与项目相关的各种记录和文档通常是必要的。Odoo项目的**顶部"
+"栏**可快速访问这些基本资源。您可以自定义每个项目的顶部栏以满足其特定需求。"
 
 #: ../../content/applications/services/project/project_management.rst:132
 msgid ""
@@ -5985,6 +6005,10 @@ msgid ""
 "select the records you want to display, such as timesheets, sales orders, "
 "invoices, documents, dashboards, etc."
 msgstr ""
+"要为项目设置顶部栏，请进入:guilabel:`项目`应用，点击项目卡片，然后点击顶部栏"
+"的:icon:`fa-sliders` :guilabel:`（滑块）`按钮。在搜索栏上方出现的栏中，点"
+"击:icon:`fa-sliders` :guilabel:`（滑块）`按钮以选择要显示的记录，例如工时单、"
+"销售订单、发票、文档、统计面板等。"
 
 #: ../../content/applications/services/project/project_management.rst:137
 msgid ""
@@ -5992,44 +6016,50 @@ msgid ""
 "the Project app. To return to your project tasks' Kanban view, click "
 "the :guilabel:`Tasks` button in the top bar."
 msgstr ""
+"然后您可以点击按钮访问相关记录，而无需离开项目应用。要返回项目任务的看板视图"
+"，请点击顶部栏中的:guilabel:`任务`按钮。"
 
-#: ../../content/applications/services/project/project_management.rst:-1
+#: ../../content/applications/services/project/project_management.rst:None
 msgid "Top bar selection menu"
-msgstr ""
+msgstr "顶部栏选择菜单"
 
 #: ../../content/applications/services/project/project_management.rst:144
 msgid "Custom top bar buttons"
-msgstr ""
+msgstr "自定义顶部栏按钮"
 
 #: ../../content/applications/services/project/project_management.rst:146
 msgid "You can also create your own buttons to access more specific views:"
-msgstr ""
+msgstr "您还可以创建自己的按钮来访问更具体的视图："
 
 #: ../../content/applications/services/project/project_management.rst:148
 msgid "Click an existing top bar button to access the view."
-msgstr ""
+msgstr "点击现有的顶部栏按钮以访问视图。"
 
 #: ../../content/applications/services/project/project_management.rst:149
 msgid ""
 "Customize the view with keywords, filters, and grouping options using the "
 "search bar."
-msgstr ""
+msgstr "使用搜索栏中的关键字、筛选器和分组选项自定义视图。"
 
 #: ../../content/applications/services/project/project_management.rst:150
 msgid ""
 "Click the :icon:`fa-sliders` :guilabel:`(sliders)` button in the top bar and "
 "select :guilabel:`Save View`."
 msgstr ""
+"点击顶部栏中的:icon:`fa-sliders` :guilabel:`（滑块）`按钮，然后选"
+"择:guilabel:`保存视图`。"
 
 #: ../../content/applications/services/project/project_management.rst:152
 msgid ""
 "Edit the default button name if necessary, then enable :guilabel:`Shared` if "
 "you want to share the button with other users."
 msgstr ""
+"如有必要，编辑默认按钮名称，然后如果要与其他用户共享该按钮，请启"
+"用:guilabel:`共享`。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:3
 msgid "Project dashboard"
-msgstr ""
+msgstr "项目仪表板"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:5
 msgid ""
@@ -6042,10 +6072,14 @@ msgid ""
 "As such, it is a crucial tool for effective project management and ensuring "
 "that your project stays on track."
 msgstr ""
+"项目仪表板可让您全面掌握项目状态。它会显示与项目关联的任务总数、工时表和计划"
+"工时等信息，以及项目里程碑、成本和收入的详细信息。在项目仪表板中，您可以创建 "
+":guilabel:`项目更新`，以此记录项目在特定时间点的状态快照。因此，它是一项至关"
+"重要的工具，有助于实现高效的项目管理，并确保项目始终按计划推进。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:13
 msgid "Using the project dashboard"
-msgstr ""
+msgstr "使用项目仪表板"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:15
 msgid ""
@@ -6054,6 +6088,9 @@ msgid ""
 "icon to add :guilabel:`Dashboard` to the project's :ref:`top bar <project/"
 "project-management/top-bar>`."
 msgstr ""
+"要访问项目仪表板，请打开**项目**应用并导航至相应项目。点击 :icon:`fa-"
+"sliders`（:guilabel:`滑块`）图标，即可将 :guilabel:`仪表板` 添加到项目的 "
+":ref:`顶部栏 <project/project-management/top-bar>` 中。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:20
 msgid ""
@@ -6061,6 +6098,9 @@ msgid ""
 "project’s card, clicking the :icon:`fa-ellipsis-v` (:guilabel:`vertical "
 "ellipsis`), and selecting :guilabel:`Dashboard`."
 msgstr ""
+"您还可以将鼠标悬停在目标项目的卡片上，点击 :icon:`fa-ellipsis-"
+"v`（:guilabel:`垂直省略号`），然后选择 :guilabel:`仪表板`，以此访问项目仪表板"
+"。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:23
 msgid ""
@@ -6072,6 +6112,11 @@ msgid ""
 "project-dashboard/profitability>`, and :ref:`budgets <project/project-"
 "dashboard/budgets>`."
 msgstr ""
+"仪表板的左侧显示现有 :ref:`项目更新 <project/project-dashboard/updates>` 的列"
+"表，右侧则提供 :ref:`与该项目关联的记录的详细信息 <project/project-dashboard/"
+"smart-buttons>`，以及 :ref:`里程碑 <project/project-dashboard/milestones>`、 "
+":ref:`盈利能力 <project/project-dashboard/profitability>`，以及 :ref:`预算 "
+"<project/project-dashboard/budgets>`。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:30
 msgid ""
@@ -6080,16 +6125,18 @@ msgid ""
 "information about **Timesheets**, **Planning**, or **Purchase Orders** if "
 "the corresponding applications are not installed."
 msgstr ""
+"项目仪表板上显示的信息会根据数据库中安装的应用程序而有所不同。例如，如果未安"
+"装相应的应用程序，您将无法看到有关**工时单**、**排期**或**采购订单**的信息。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:37
 msgid "Totals smart buttons"
-msgstr ""
+msgstr "汇总智能按钮"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:39
 msgid ""
 "The following smart buttons are displayed on the top right of the project "
 "dashboard:"
-msgstr ""
+msgstr "项目仪表板右上角会显示以下智能按钮："
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:41
 msgid ""
@@ -6098,6 +6145,9 @@ msgid ""
 "statuses>`) and all tasks, in format completed/all, as well as the entire "
 "project's completion percentage estimation."
 msgstr ""
+":guilabel:`任务`：已完成任务（即 :guilabel:`已完成` 或 :guilabel:`已取消` "
+":ref:`任务 <project/tasks/task_stages_statuses/statuses>`）的数量与所有任务的"
+"数量，格式为“已完成/总数”，以及整个项目的预计完成百分比。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:44
 msgid ""
@@ -6106,6 +6156,9 @@ msgid ""
 "This includes all :doc:`timesheets </applications/services/timesheets>`, "
 "whether or not they have been validated."
 msgstr ""
+":guilabel:`工时单`：在项目**设置**中分配的小时数或天数（具体取决于**工时"
+"单**应用的配置）。这包括所有 :doc:`工时单 </applications/services/timesheets>"
+"`，无论它们是否已通过验证。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:47
 msgid ""
@@ -6114,12 +6167,17 @@ msgid ""
 "applications/services/planning>`, including past shifts and shifts that have "
 "not yet been published."
 msgstr ""
+":guilabel:`排期`：在**排期**应用中为班次安排的总小时数。这包括所有 :doc:`已计"
+"划的班次 </applications/services/planning>`，涵盖已过去的班次以及尚未发布的班"
+"次。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:50
 msgid ""
 ":guilabel:`Documents`: number of :doc:`documents </applications/productivity/"
 "documents>` in the project’s workspace."
 msgstr ""
+":guilabel:`文档`：项目工作区中 :doc:`文档 </applications/productivity/"
+"documents>` 的数量。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:52
 msgid ""
@@ -6127,6 +6185,8 @@ msgid ""
 "</applications/essentials/reporting>` on the status of the project’s tasks "
 "over time."
 msgstr ""
+":guilabel:`燃尽图`：点击智能按钮，即可查看一份关于项目任务随时间推移状态的 "
+":doc:`报告 </applications/essentials/reporting>`。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:54
 msgid ""
@@ -6135,6 +6195,9 @@ msgid ""
 "timesheets and shifts. This allows you to easily compare planned and "
 "effective hours of work on the project."
 msgstr ""
+":guilabel:`工时单与排期`：点击智能按钮，即可查看关于项目工时表和班次的 "
+":doc:`报告 </applications/essentials/reporting>`。这使您能够轻松比较项目中计"
+"划工时与实际工时。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:57
 msgid ""
@@ -6142,6 +6205,8 @@ msgid ""
 "Order Items`, :guilabel:`Purchase Orders`, and more, represent the number of "
 "records linked to the project."
 msgstr ""
+"**其他字段**，例如 :guilabel:`销售订单`、 :guilabel:`销售订单明"
+"细`、:guilabel:`采购订单` 等，表示与该项目关联的记录数量。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:61
 msgid ""
@@ -6150,6 +6215,9 @@ msgid ""
 "timesheets, :guilabel:`Planned` to create project "
 "planning, :guilabel:`Documents` to view and validate documents, etc."
 msgstr ""
+"使用项目仪表板中的智能按钮，即可轻松更新项目记录。点击 :guilabel:`工时单` 验"
+"证工时表，点击 :guilabel:`排期` 创建项目计划，点击 :guilabel:`文档` 查看和验"
+"证文档等。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:68
 msgid "Milestones"
@@ -6163,6 +6231,10 @@ msgid ""
 "in the checklist to edit it, enable its checkbox to mark it as completed, or "
 "click the :icon:`fa-trash` (:guilabel:`trash`) icon to remove it."
 msgstr ""
+"此部分仅在\\ :doc:`里程碑 </applications/sales/sales/invoicing/milestone>`\\ "
+"已在项目应用设置中启用时可见。点击\\ :guilabel:`添加里程碑`\\ 创建新里程碑。"
+"点击清单中的里程碑可进行编辑，启用其复选框可标记为已完成，或点击\\ :icon:`fa-"
+"trash`（:guilabel:`垃圾桶`）图标将其移除。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:75
 msgid ""
@@ -6172,6 +6244,9 @@ msgid ""
 "or :guilabel:`canceled` :ref:`status <project/tasks/task_stages_statuses/"
 "statuses>`)."
 msgstr ""
+"如果里程碑已过截止日期，则以红色显示；如果已准备好标记为已完成（即与该里程碑"
+"关联的任务已被标记为 :guilabel:`已完成` 或 :guilabel:`已取消` :ref:`状态 "
+"<project/tasks/task_stages_statuses/statuses>`），则以绿色显示。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:82
 msgid "Profitability"
@@ -6185,10 +6260,14 @@ msgid ""
 "and its :doc:`Analytic account </applications/finance/accounting/reporting/"
 "analytic_accounting>`."
 msgstr ""
+":doc:`盈利能力仪表板 </applications/services/project/project_management/"
+"project_profitability>` 提供了项目成本和收入的明细，这些数据会受到与该项目及"
+"其 :doc:`分析账户 </applications/finance/accounting/reporting/"
+"analytic_accounting>` 相关联的所有记录的影响。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:89
 msgid "The profitability report is only displayed for billable projects."
-msgstr ""
+msgstr "盈利能力报表仅针对可计费项目显示。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:94
 msgid "Budgets"
@@ -6200,6 +6279,8 @@ msgid ""
 "displayed in this section. Click :guilabel:`Add Budget` to create a new "
 "budget for the project."
 msgstr ""
+"如果已为项目设置了预算，则此部分将显示其状态和相关详细信息。点击:guilabel:`添"
+"加预算`为项目创建新预算。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:100
 msgid ""
@@ -6207,10 +6288,12 @@ msgid ""
 "enabled in your database’s **Accounting** application in order for this "
 "section to be displayed."
 msgstr ""
+"必须在数据库的**会计**应用中启用:doc:`预算 </applications/finance/accounting/"
+"reporting/budget>`，才能显示此部分。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:106
 msgid "Project updates"
-msgstr ""
+msgstr "项目更新"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:108
 msgid ""
@@ -6220,12 +6303,15 @@ msgid ""
 "any aspects of the project that need improvement, and estimate if the "
 "project is on or off track."
 msgstr ""
+"项目更新允许您在特定时间点（例如，在定期（每周、每两周或每月）审查期间）拍摄"
+"项目整体状态的快照。这使您可以比较特定数据点，记录项目中需要改进的任何方面，"
+"并估计项目是否按计划进行。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:113
 msgid ""
 "To create a new project update, go to the project dashboard, "
 "click :guilabel:`New`, and fill in the following fields:"
-msgstr ""
+msgstr "要创建新的项目更新，请转到项目仪表板，点击:guilabel:`新建`，并填写以下字段："
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:116
 msgid ""
@@ -6235,12 +6321,15 @@ msgid ""
 "Kanban card, allowing the project manager to easily identify which projects "
 "need attention."
 msgstr ""
+":guilabel:`状态`:在:guilabel:`进展顺利`、:guilabel:`有风险`、:guilabel:`偏离"
+"轨道`、:guilabel:`暂停`和:guilabel:`完成`之间选择。设置状态后,项目看板卡片上"
+"会显示一个彩色圆点,便于项目经理轻松识别哪些项目需要关注。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:120
 msgid ""
 ":guilabel:`Progress`: Manually input the completion percentage based on the "
 "project's progress."
-msgstr ""
+msgstr ":guilabel:`进度`:根据项目进度手动输入完成百分比。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:121
 msgid ""
@@ -6248,6 +6337,8 @@ msgid ""
 "filled in with appropriate information based on the user who created the "
 "update and the current date."
 msgstr ""
+":guilabel:`日期`和:guilabel:`作者`:这些字段会根据创建更新的用户和当前日期自动"
+"填充相应信息。"
 
 #: ../../content/applications/services/project/project_management/project_dashboard.rst:123
 msgid ""
@@ -6256,10 +6347,12 @@ msgid ""
 "may be pre-filled with current information on aspects such as profitability, "
 "budget, milestones, etc."
 msgstr ""
+":guilabel:`描述`:使用此富文本字段收集备注。根据项目配置(例如,如果项目可计费)"
+",此字段可能会预填充当前信息,如盈利能力、预算、里程碑等。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:3
 msgid "Project profitability"
-msgstr ""
+msgstr "项目盈利能力"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:5
 msgid ""
@@ -6269,12 +6362,15 @@ msgid ""
 "as employee costs, materials used, purchases, expenses, or after-sales "
 "services, and comparing them with the project revenues."
 msgstr ""
+"在处理可计费项目时,确定项目是否盈利至关重要。衡量**项目盈利能力**需要跟踪执行"
+"项目所用资源的成本,如员工成本、使用的材料、采购、费用或售后服务,并将其与项目"
+"收入进行比较。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:10
 msgid ""
 "Project profitability is tracked in the :doc:`project dashboard "
 "<project_dashboard>` on all billable projects."
-msgstr ""
+msgstr "项目盈利能力在所有可计费项目的:doc:`项目仪表板 <project_dashboard>`中跟踪。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:13
 msgid ""
@@ -6283,6 +6379,9 @@ msgid ""
 "sliders` (:guilabel:`sliders`) icon to add :guilabel:`Dashboard` to the "
 "project's :ref:`top bar <project/project-management/top-bar>`."
 msgstr ""
+"要访问:doc:`项目仪表板 <project_dashboard>`,打开**项目**应用并导航到相应项目"
+"。点击:icon:`fa-sliders`(:guilabel:`滑块`)图标,将:guilabel:`仪表板`添加到项目"
+"的:ref:`顶部栏 <project/project-management/top-bar>`。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:18
 msgid ""
@@ -6290,6 +6389,9 @@ msgid ""
 "hovering over the desired project’s card, clicking the :icon:`fa-ellipsis-v` "
 "(:guilabel:`vertical ellipsis`), and selecting :guilabel:`Dashboard`."
 msgstr ""
+"你也可以通过将鼠标悬停在所需项目的卡片上,点击:icon:`fa-ellipsis-v`"
+"(:guilabel:`垂直省略号`),然后选择:guilabel:`仪表板`来访问:doc:`项目仪表板 "
+"<project_dashboard>`。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:22
 msgid ""
@@ -6304,22 +6406,29 @@ msgid ""
 "under :guilabel:`Revenues` with the amount the customer paid for the work "
 "and under :guilabel:`Costs` with the amount of wages paid to the employees."
 msgstr ""
+"**盈利能力仪表板**位于项目仪表板右侧,显示链接到项目及其:doc:`分析账户 </"
+"applications/finance/accounting/reporting/analytic_accounting>`的所有记录的数"
+"据。它分为两个主要部分::ref:`收入 <project/project-profitability/revenues>"
+"`,显示项目产生的收入明细;以及公司产生的:ref:`成本 <project/project-"
+"profitability/costs>`。同一记录可以显示在两个部分中,例如,同一工时单"
+"在:guilabel:`收入`下列出客户为该工作支付的金额,在:guilabel:`成本`下列出支付给"
+"员工的工资金额。"
 
-#: ../../content/applications/services/project/project_management/project_profitability.rst:-1
+#: ../../content/applications/services/project/project_management/project_profitability.rst:None
 msgid "Project dashboard."
-msgstr ""
+msgstr "项目仪表板。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:35
 msgid ""
 "The amounts displayed in the profitability report are divided into three "
 "columns:"
-msgstr ""
+msgstr "盈利能力报告中显示的金额分为三列:"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:37
 msgid ""
 ":guilabel:`Expected`: the amounts expected based on existing sales or "
 "purchase orders."
-msgstr ""
+msgstr ":guilabel:`预期`:基于现有销售或采购订单的预期金额。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:38
 msgid ""
@@ -6329,12 +6438,15 @@ msgid ""
 "created and/or validated, a delivery order has been marked as done, or the "
 "delivered quantity has been manually updated on the sales order."
 msgstr ""
+":guilabel:`待开票`(收入)或:guilabel:`待计费`(成本):当工作或货物已交付时,金额"
+"会移至此列,例如,:doc:`工时单 </applications/services/timesheets>`已创建和/或"
+"验证、交付单已标记为完成,或销售订单上的交付数量已手动更新。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:43
 msgid ""
 ":guilabel:`Invoiced` or :guilabel:`Billed`: the amounts are moved to this "
 "column once an invoice or bill has been confirmed."
-msgstr ""
+msgstr ":guilabel:`已开票`或:guilabel:`已计费`:一旦发票或账单确认,金额会移至此列。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:46
 msgid ""
@@ -6343,6 +6455,9 @@ msgid ""
 "columns. Use the :icon:`fa-caret-right` (:guilabel:`arrow`) icon to see a "
 "detailed breakdown for each line."
 msgstr ""
+"基于相同原则,收入部分进一步分为:guilabel:`已售`、:guilabel:`已交"
+"付`和:guilabel:`已开票`列。使用:icon:`fa-caret-right`(:guilabel:`箭头`)图标查"
+"看每行的详细明细。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:51
 msgid ""
@@ -6350,6 +6465,8 @@ msgid ""
 "easily access and edit records linked to the project’s profitability from "
 "the project’s Kanban view."
 msgstr ""
+"使用项目的:ref:`顶部栏 <project/project-management/top-bar>`从项目的看板视图"
+"轻松访问和编辑与项目盈利能力相关的记录。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:55
 msgid ""
@@ -6357,10 +6474,12 @@ msgid ""
 "must be linked to the project and its :doc:`analytic account </applications/"
 "finance/accounting/reporting/analytic_accounting>`."
 msgstr ""
+"为了使记录显示在盈利能力仪表板上,它必须链接到项目及其:doc:`分析账户 </"
+"applications/finance/accounting/reporting/analytic_accounting>`。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:58
 msgid "The following records can be displayed in the profitability dashboard."
-msgstr ""
+msgstr "盈利能力仪表板中可以显示以下记录。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:63
 msgid "Revenues"
@@ -6376,36 +6495,46 @@ msgid ""
 "time_materials>`, :doc:`Based on Milestones </applications/sales/sales/"
 "invoicing/milestone>`)."
 msgstr ""
+":guilabel:`工时单`:来自:doc:`工时单 </applications/services/timesheets>`的收"
+"入,根据产品表单上选择的:guilabel:`开票政策`进行细分(例如,:doc:`预付/固定价格 "
+"</applications/sales/sales/invoicing/invoicing_policy>`、:doc:`基于工时单 </"
+"applications/sales/sales/invoicing/time_materials>`、:doc:`基于里程碑 </"
+"applications/sales/sales/invoicing/milestone>`)。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:70
 msgid ""
 ":guilabel:`Materials`: total of sales prices of products sold via sales "
 "orders linked to the project."
-msgstr ""
+msgstr ":guilabel:`材料`:通过链接到项目的销售订单销售的产品销售价格总额。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:72
 msgid ""
 ":guilabel:`Customer invoices`: a total of invoices linked to the project."
-msgstr ""
+msgstr ":guilabel:`客户发票`:与项目关联的发票总额。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:73
 msgid ""
 ":guilabel:`Subscriptions`: a total of sales prices of :doc:`subscriptions </"
 "applications/sales/subscriptions>` linked to the project."
 msgstr ""
+":guilabel:`订阅`:与项目关联的:doc:`订阅 </applications/sales/subscriptions>"
+"`销售价格总额。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:75
 msgid ""
 ":guilabel:`Down payments`: a total of :doc:`down payments </applications/"
 "sales/sales/invoicing/down_payment>` linked to the project."
 msgstr ""
+":guilabel:`预付款`:与项目关联的:doc:`预付款 </applications/sales/sales/"
+"invoicing/down_payment>`总额。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:77
 msgid ""
 ":guilabel:`Expenses`: any :doc:`expenses </applications/finance/expenses>` "
-"that have been :doc:`reinvoiced to the customer </applications/sales/sales/"
-"invoicing/expense>`."
+"that have been reinvoiced to the customer."
 msgstr ""
+":guilabel:`费用`：任何已向客户重新开票的 :doc:`费用 </applications/finance/"
+"expenses>`。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:83
 msgid "Costs"
@@ -6417,6 +6546,8 @@ msgid ""
 "via :doc:`timesheets </applications/services/timesheets>`, based on the "
 "employee's :ref:`HR settings <employees/hr-settings>`."
 msgstr ""
+":guilabel:`工时单`:员工通过:doc:`工时单 </applications/services/timesheets>"
+"`跟踪的时间总成本,基于员工的:ref:`人力资源设置 <employees/hr-settings>`。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:88
 msgid ""
@@ -6425,6 +6556,9 @@ msgid ""
 "project. Those could cover goods, materials, or even subcontracted services. "
 "This entry only appears once the vendor bill is posted."
 msgstr ""
+":guilabel:`采购订单`:与项目关联的:doc:`采购订单 </applications/"
+"inventory_and_mrp/purchase/manage_deals>`总成本。这些可能涵盖货物、材料甚至分"
+"包服务。此条目仅在供应商账单过账后显示。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:92
 msgid ""
@@ -6436,12 +6570,18 @@ msgid ""
 "applicable operations. This ensures that the product's cost is tracked "
 "during the stock move."
 msgstr ""
+":guilabel:`材料`:项目已验证的:doc:`库存移动 </applications/inventory_and_mrp/"
+"inventory/shipping_receiving>`(交付和收货)中包含的产品总成本。仅当"
+"在:menuselection:`库存 --> 配置 --> 操作类型`中为适用操作启用了:guilabel:`分"
+"析成本`时,才会显示此部分。这确保在库存移动期间跟踪产品成本。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:98
 msgid ""
 ":guilabel:`Expenses`: total costs of :doc:`expenses </applications/finance/"
 "expenses>` linked to the project that have been submitted and approved."
 msgstr ""
+":guilabel:`费用`:与项目关联且已提交和批准的:doc:`费用 </applications/finance/"
+"expenses>`总成本。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:100
 msgid ""
@@ -6449,22 +6589,24 @@ msgid ""
 "inventory_and_mrp/purchase/manage_deals/manage>` linked to the project's "
 "analytic account."
 msgstr ""
+":guilabel:`供应商账单`:与项目分析账户关联的:doc:`供应商账单 </applications/"
+"inventory_and_mrp/purchase/manage_deals/manage>`总成本。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:103
 msgid ""
 ":guilabel:`Manufacturing orders`: total costs of manufacturing orders linked "
 "to the project's analytic account."
-msgstr ""
+msgstr ":guilabel:`制造订单`:与项目分析账户关联的制造订单总成本。"
 
 #: ../../content/applications/services/project/project_management/project_profitability.rst:105
 msgid ""
 ":guilabel:`Other costs`: any other costs linked to the project's analytic "
 "account."
-msgstr ""
+msgstr ":guilabel:`其他成本`:与项目分析账户关联的任何其他成本。"
 
 #: ../../content/applications/services/project/tasks.rst:5
 msgid "Task management"
-msgstr ""
+msgstr "任务管理"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:3
 msgid "Recurring tasks"
@@ -6484,6 +6626,8 @@ msgid ""
 "`Odoo Tutorials: Recurring tasks <https://www.odoo.com/slides/slide/"
 "recurring-tasks-6958>`_"
 msgstr ""
+"`Odoo 教程:重复任务 <https://www.odoo.com/slides/slide/recurring-tasks-6958>"
+"`_"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:15
 msgid ""
@@ -6504,30 +6648,36 @@ msgid ""
 "button next to the :guilabel:`Deadline` field. Then, configure "
 "the :guilabel:`Repeat Every` field according to your needs."
 msgstr ""
+"在现有任务中,点击:guilabel:`截止日期`字段旁边的:icon:`fa-repeat`"
+"(:guilabel:`重复`)按钮。然后根据需要配置:guilabel:`重复间隔`字段。"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:25
 msgid ""
 "A new task in recurrence will be created once the status of the previous "
 "task is set to :guilabel:`Done` or :guilabel:`Canceled`."
 msgstr ""
+"一旦前一个任务的状态设置为:guilabel:`已完成`或:guilabel:`已取消`,就会创建新的"
+"重复任务。"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:28
 msgid ""
 "The new task is created on the project dashboard with the following "
 "configuration:"
-msgstr ""
+msgstr "新任务将在项目仪表板上创建,具有以下配置:"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:30
 msgid ""
 ":guilabel:`Stage`: is set to the first stage of the project dashboard "
 "(:guilabel:`New` or equivalent);"
-msgstr ""
+msgstr ":guilabel:`阶段`:设置为项目仪表板的第一个阶段(:guilabel:`新建`或同等阶段);"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:32
 msgid ""
 ":guilabel:`Name`, :guilabel:`Description`, :guilabel:`Project`, :guilabel:`Assignees`, :guilabel:`Customer`, :guilabel:`Tags`: "
 "are copied from the original task;"
 msgstr ""
+":guilabel:`名称`、:guilabel:`描述`、:guilabel:`项目`、:guilabel:`负责"
+"人`、:guilabel:`客户`、:guilabel:`标签`:从原始任务复制;"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:34
 msgid ""
@@ -6535,18 +6685,22 @@ msgid ""
 "(e.g., if the task is set to repeat once a week, 7 days will be added to the "
 "deadline);"
 msgstr ""
+":guilabel:`截止日期`:根据:guilabel:`重复间隔`字段更新(例如,如果任务设置为每周"
+"重复一次,则截止日期会增加7天);"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:36
 msgid ""
 ":guilabel:`Milestones`, :guilabel:`Timesheets`, :guilabel:`Chatter`, :guilabel:`Activities`, :guilabel:`Subtasks`: "
 "are **not** copied from the original task."
 msgstr ""
+":guilabel:`里程碑`、:guilabel:`工时单`、:guilabel:`讨论`、:guilabel:`活"
+"动`、:guilabel:`子任务`:**不会**从原始任务复制。"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:39
 msgid ""
 "Once a recurrence is configured, a **smart button** on the task displays the "
 "total number of existing recurrences."
-msgstr ""
+msgstr "配置重复后,任务上的**智能按钮**会显示现有重复的总数。"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:43
 msgid "Edit or stop task recurrence"
@@ -6579,61 +6733,63 @@ msgid ""
 "workload into smaller **sub-tasks**, making it easier to track progress and "
 "manage the work."
 msgstr ""
+"在处理项目任务时,通常可以将工作量拆分为更小的**子任务**,从而更轻松地跟踪进度"
+"和管理工作。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:8
 msgid ""
 "Odoo’s sub-task feature is particularly useful in some of the following "
 "cases:"
-msgstr ""
+msgstr "Odoo的子任务功能在以下情况中特别有用："
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:10
 msgid "The task workload is too big to handle in one record."
-msgstr ""
+msgstr "任务工作量太大，无法在一条记录中处理。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:11
 msgid "There’s a clear sequence of steps to follow."
-msgstr ""
+msgstr "需要遵循明确的步骤顺序。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:12
 msgid ""
 "Some parts of the workload fall under the scope of different projects and/or "
 "assignees."
-msgstr ""
+msgstr "部分工作量属于不同项目和/或受让人的范围。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:14
 msgid ""
 "The original task to which sub-tasks are linked is referred to as the "
 "**parent task**. The sub-tasks of the parent task are known as **child "
 "tasks**."
-msgstr ""
+msgstr "链接子任务的原始任务称为**父任务**。父任务的子任务称为**子任务**。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:18
 msgid "Creating sub-tasks"
-msgstr ""
+msgstr "创建子任务"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:20
 msgid "To create a sub-task:"
-msgstr ""
+msgstr "创建子任务："
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:22
 msgid "Open the Project app, then go into your desired project."
-msgstr ""
+msgstr "打开项目应用，然后进入所需项目。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:23
 msgid ""
 "Click the task where you want to add the sub-task, then click "
 "the :guilabel:`Sub-tasks` tab."
-msgstr ""
+msgstr "点击要添加子任务的任务，然后点击:guilabel:`子任务`标签页。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:24
 msgid "Click :guilabel:`Add a line`, then fill in the :guilabel:`Title`."
-msgstr ""
+msgstr "点击:guilabel:`添加行`，然后填写:guilabel:`标题`。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:25
 msgid ""
 "Click the :icon:`fa-cloud-upload` (:guilabel:`save`) icon to save the task "
 "manually."
-msgstr ""
+msgstr "点击:icon:`fa-cloud-upload`（:guilabel:`保存`）图标手动保存任务。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:28
 msgid ""
@@ -6643,12 +6799,16 @@ msgid ""
 "and :guilabel:`Assignees`. Use the :icon:`fa-sliders` (:guilabel:`sliders`) "
 "icon to add or remove fields."
 msgstr ""
+"您可以直接在父任务的子任务标签页中编辑子任务的多个字段，而无需打开单个子任务"
+"。默认情况下，这些字段包括：:guilabel:`标题`、:guilabel:`优先"
+"级`、:guilabel:`状态`和:guilabel:`受让人`。使用:icon:`fa-"
+"sliders`（:guilabel:`滑块`）图标添加或删除字段。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:33
 msgid ""
 "Once the new sub-task is created, the following changes occur in the parent "
 "task:"
-msgstr ""
+msgstr "创建新子任务后，父任务中会发生以下变化："
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:35
 msgid ""
@@ -6656,6 +6816,8 @@ msgid ""
 "number of closed (**done** or **canceled**) sub-tasks. Click the smart "
 "button to access the list of the sub-tasks."
 msgstr ""
+"**智能按钮**显示子任务总数以及已关闭（**完成**或**已取消**）的子任务数量。点"
+"击智能按钮访问子任务列表。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:37
 msgid ""
@@ -6664,81 +6826,91 @@ msgid ""
 "ensure that the time allocated to sub-tasks does not exceed time allocated "
 "to the parent task."
 msgstr ""
+":guilabel:`分配时间`显示分配给父任务的时间以及分配给子任务的时间。这可用于确"
+"保分配给子任务的时间不超过分配给父任务的时间。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:40
 msgid ""
 "The :guilabel:`Timesheets` tab includes a breakdown of time spent on the "
 "parent task as well as sub-tasks."
-msgstr ""
+msgstr ":guilabel:`工时单`标签页包含在父任务和子任务上花费时间的细分。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:43
 msgid ""
 "Click :guilabel:`View` to open the sub-task you created. The sub-task form "
 "is identical to the :ref:`task form <task_creation/task-configuration>`."
 msgstr ""
+"点击:guilabel:`查看`打开您创建的子任务。子任务表单与:ref:`任务表单 "
+"<task_creation/task-configuration>`相同。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:48
 msgid ""
 "A **smart button** allows to navigate back to the :guilabel:`Parent task`."
-msgstr ""
+msgstr "**智能按钮**允许导航回:guilabel:`父任务`。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:49
 msgid "The :guilabel:`Sub-tasks` tab allows for further creation of sub-tasks."
-msgstr ""
+msgstr ":guilabel:`子任务`标签页允许进一步创建子任务。"
 
 #: ../../content/applications/services/project/tasks/sub-tasks.rst:50
 msgid ""
 "Selecting a :guilabel:`Project` will trigger this sub-task to be displayed "
 "in the Kanban view of the selected project."
-msgstr ""
+msgstr "选择:guilabel:`项目`将触发此子任务在所选项目的看板视图中显示。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:3
 msgid "Task creation"
-msgstr ""
+msgstr "创建任务"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:5
 msgid ""
 "Tasks in Odoo Project can be created manually or automatically, including "
 "from emails or website forms."
-msgstr ""
+msgstr "Odoo 项目中的任务可以手动或自动创建,包括从电子邮件或网站表单创建。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:11
 msgid ""
 "Open the Project app and choose the desired project. Create a new task by "
 "doing one of the following:"
-msgstr ""
+msgstr "打开项目应用并选择所需的项目。通过以下方式之一创建新任务:"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:14
 msgid ""
 "Clicking the :icon:`fa-plus` (:guilabel:`plus`) button in the upper left "
 "corner. This creates a new task in the first stage of your Kanban view."
 msgstr ""
+"点击左上角的 :icon:`fa-plus` (:guilabel:`加号`) 按钮。这将在看板视图的第一个"
+"阶段创建新任务。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:16
 msgid ""
 "Pressing the :icon:`fa-plus` (:guilabel:`plus`) button next to the Kanban "
 "stage name. This creates a new task in this Kanban stage."
 msgstr ""
+"点击看板阶段名称旁边的 :icon:`fa-plus` (:guilabel:`加号`) 按钮。这将在该看板"
+"阶段创建新任务。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:19
 msgid ""
 "Fill in the :guilabel:`Task Title` and add one or "
 "more :guilabel:`Assignees`, then click :guilabel:`Add`."
 msgstr ""
+"填写 :guilabel:`任务标题` 并添加一个或多个 :guilabel:`负责人`,然后点击 "
+":guilabel:`添加`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:25
 msgid "Task configuration"
-msgstr ""
+msgstr "任务配置"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:27
 msgid ""
 "Click the task to open it. The task form includes the following fields that "
 "you can fill in:"
-msgstr ""
+msgstr "点击任务将其打开。任务表单包含以下可以填写的字段:"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:29
 msgid ":guilabel:`Task Title`: title of the task."
-msgstr ""
+msgstr ":guilabel:`任务标题`:任务的标题。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:30
 msgid ""
@@ -6746,27 +6918,31 @@ msgid ""
 "(:guilabel:`star`) icon to mark the task as high priority. The icon will "
 "turn yellow. Click it again to remove the high priority."
 msgstr ""
+":icon:`fa-star-o` (:guilabel:`星标`):点击 :icon:`fa-star-o` (:guilabel:`星"
+"标`) 图标将任务标记为高优先级。图标将变为黄色。再次点击可移除高优先级。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:32
 msgid ":guilabel:`Project`: the project that this task belongs to."
-msgstr ""
+msgstr ":guilabel:`项目`:此任务所属的项目。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:33
 msgid ""
 ":guilabel:`Assignees`: the person(s) in charge of handling the work on this "
 "task."
-msgstr ""
+msgstr ":guilabel:`负责人`:负责处理此任务工作的人员。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:34
 msgid ""
 ":guilabel:`Tags`: custom labels allowing to categorize and filter your tasks."
-msgstr ""
+msgstr ":guilabel:`标签`:用于分类和筛选任务的自定义标签。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:35
 msgid ""
 ":guilabel:`Customer`: the person or company that will be billed for this "
 "task. This field only appears in tasks that belong to billable projects."
 msgstr ""
+":guilabel:`客户`:将为此任务付费的个人或公司。此字段仅出现在属于计费项目的任务"
+"中。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:37
 msgid ""
@@ -6774,12 +6950,14 @@ msgid ""
 "used to create this task, or a sales order that was linked to this task "
 "manually. This field only appears in tasks linked to billable projects."
 msgstr ""
+":guilabel:`销售订单项`:这可以是用于创建此任务的销售订单,或手动链接到此任务的"
+"销售订单。此字段仅出现在链接到计费项目的任务中。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:40
 msgid ""
 ":guilabel:`Allocated Time`: the amount of time that the work on this task is "
 "expected to last, tracked by timesheets."
-msgstr ""
+msgstr ":guilabel:`分配时间`:此任务的工作预计持续的时间,由工时单跟踪。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:42
 msgid ""
@@ -6787,12 +6965,14 @@ msgid ""
 "filled in, you can also add a start date to designate the entire time frame "
 "of the tasks' duration."
 msgstr ""
+":guilabel:`截止日期`：任务的预期结束日期。填写此字段后，您还可以添加开始日期"
+"以指定任务持续时间的整个时间范围。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:47
 msgid ""
 "You can also create new tasks by switching to the list or Gantt view and "
 "clicking :guilabel:`New`."
-msgstr ""
+msgstr "您还可以通过切换到列表或甘特图视图并点击 :guilabel:`新建` 来创建新任务。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:49
 msgid ""
@@ -6803,28 +6983,34 @@ msgid ""
 "image` to your task by clicking the :icon:`fa-ellipsis-v` (**vertical "
 "ellipsis**)."
 msgstr ""
+"以下字段也可以直接在看板视图中编辑,无需打开单个任务::icon:`fa-star-o` (**优先"
+"级**)、:guilabel:`分配小时数`、:guilabel:`负责人` 和**任务状态**。您还可以通"
+"过点击 :icon:`fa-ellipsis-v` (**垂直省略号**) 对任务进行**颜色编码**或 "
+":guilabel:`设置封面图片`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:53
 msgid ""
 "You can use the following keyboard shortcuts in the task title to configure "
 "new tasks (modify the values in the examples below according to your needs):"
 msgstr ""
+"您可以在任务标题中使用以下键盘快捷方式来配置新任务(根据需要修改以下示例中的"
+"值):"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:56
 msgid "**30h**: to allocate 30 hours to the task."
-msgstr ""
+msgstr "**30h**:为任务分配 30 小时。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:57
 msgid "**#tags**: to add tags to the task."
-msgstr ""
+msgstr "**#标签**：向任务添加标签。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:58
 msgid "**@user**: to assign the task to a user."
-msgstr ""
+msgstr "**@用户**：将任务分配给用户。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:59
 msgid "**!**: to star the task as high priority."
-msgstr ""
+msgstr "**!**：将任务标记为高优先级。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:61
 msgid ""
@@ -6832,6 +7018,8 @@ msgid ""
 "followed by the allocated time, the tags, the assignee, and then the "
 "priority."
 msgstr ""
+"除了使用正确的格式外，请遵循以下顺序：任务名称、分配的时间、标签、分配人，然"
+"后是优先级。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:64
 msgid ""
@@ -6840,20 +7028,23 @@ msgid ""
 "its priority to :guilabel:`High`, enter the following task title: Prepare "
 "workshop 5h #school @Audrey !"
 msgstr ""
+"例如，如果您想创建一个名为“Prepare workshop”的任务，分配 5 小时，添加“School”"
+"标签，将其分配给 Audrey 并将其优先级设置为:guilabel:`高`，请输入以下任务标题"
+"：Prepare workshop 5h #school @Audrey !"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:0
 msgid "Using keyboard shortcuts to create a task in Project."
-msgstr ""
+msgstr "使用键盘快捷键在项目中创建任务"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:74
 msgid "Creating tasks from an email alias"
-msgstr ""
+msgstr "从电子邮件别名创建任务"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:76
 msgid ""
 "This feature allows for project tasks to be automatically created once an "
 "email is delivered to a designated email address."
-msgstr ""
+msgstr "此功能允许在电子邮件发送到指定的电子邮件地址后自动创建项目任务。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:79
 msgid ""
@@ -6861,116 +7052,129 @@ msgid ""
 "(:guilabel:`vertical ellipsis`) icon next to the desired project's name. "
 "Select :guilabel:`Settings`, then open the :guilabel:`Settings` tab."
 msgstr ""
+"要配置此功能，请打开项目应用，然后单击所需项目名称旁边的:icon:`fa-ellipsis-"
+"v`（:guilabel:`竖向省略号`）图标。选择:guilabel:`设置`，然后打开:guilabel:`设"
+"置`选项卡。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:83
 msgid ""
 "Fill in the :guilabel:`Create tasks by sending an email to` field as follows:"
-msgstr ""
+msgstr "按以下方式填写:guilabel:`通过发送电子邮件到此地址来创建任务`字段："
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:85
 msgid ""
 "**Section of the alias before the @ symbol**: type the name of the email "
 "alias, e.g. `contact`, `help`, `jobs`."
 msgstr ""
+"**@ 符号之前的别名部分**：输入电子邮件别名的名称，例如 "
+"`contact`、`help`、`jobs`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:87
 msgid ""
 "**Domain**: in most cases, this is filled in by default with "
 "your :doc:`domain <../../../general/email_communication>`."
 msgstr ""
+"**域**：在大多数情况下，此处默认填入您的:doc:`域 <../../../general/"
+"email_communication>`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:89
 msgid ""
 "**Accept Emails From**: refine the senders whose emails will create tasks in "
 "the project."
-msgstr ""
+msgstr "**接受来自的电子邮件**：细化将在项目中创建任务的邮件发送者。"
 
-#: ../../content/applications/services/project/tasks/task_creation.rst:-1
+#: ../../content/applications/services/project/tasks/task_creation.rst:None
 msgid "View of the email alias chosen on the dashboard view in Odoo Project"
-msgstr ""
+msgstr "在 Odoo 项目的仪表板视图上选择的电子邮件别名的视图"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:94
 msgid ""
 "Once configured, the email alias can be seen under the name of your project "
 "on the Kanban dashboard."
-msgstr ""
+msgstr "配置完成后，电子邮件别名将显示在看板仪表板上项目名称的下方。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:96
 msgid ""
 "When an email is sent to the alias, the email is automatically converted "
 "into a project task. The following rules apply:"
-msgstr ""
+msgstr "当电子邮件发送到该别名时，电子邮件会自动转换为项目任务。适用以下规则："
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:99
 msgid "The email sender is displayed in the :guilabel:`Customer` field."
-msgstr ""
+msgstr "电子邮件发送者显示在:guilabel:`客户`字段中。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:100
 msgid "The email subject is displayed in the :guilabel:`Task Title` field."
-msgstr ""
+msgstr "电子邮件主题显示在:guilabel:`任务标题`字段中。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:101
 msgid "The email body is displayed in the :guilabel:`Description` field."
-msgstr ""
+msgstr "电子邮件正文显示在:guilabel:`描述`字段中。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:102
 msgid ""
 "The whole content of the email is additionally displayed in the **chatter**."
-msgstr ""
+msgstr "电子邮件的全部内容另外显示在**聊天记录**中。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:103
 msgid ""
 "All the recipients of the email (To/Cc/Bcc) that are Odoo users are "
 "automatically added as **followers** of the task."
 msgstr ""
+"所有电子邮件的收件人（收件人/抄送/密送）如果是 Odoo 用户，会自动添加为该任务"
+"的**关注者**。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:107
 msgid "Creating tasks from a website form"
-msgstr ""
+msgstr "从网站表单创建任务"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:109
 msgid ""
 "If you have the Website app installed in your database, you can configure "
 "any form on your website to trigger the creation of tasks in a project."
 msgstr ""
+"如果您的数据库中安装了网站应用，您可以配置网站上的任何表单以触发在项目中创建"
+"任务。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:112
 msgid ""
 "Go to the website page where you wish to add the form and :doc:`add the Form "
 "building block </applications/websites/website/web_design/building_blocks>`."
 msgstr ""
+"转到您希望添加表单的网站页面，并:doc:`添加表单构建块 </applications/websites/"
+"website/web_design/building_blocks>`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:114
 msgid "In the website editor, edit the following fields:"
-msgstr ""
+msgstr "在网站编辑器中，编辑以下字段："
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:116
 msgid ":guilabel:`Action`: select :guilabel:`Create a Task`."
-msgstr ""
+msgstr ":guilabel:`操作`：选择:guilabel:`创建任务`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:117
 msgid ""
 ":guilabel:`Project`: choose the project that you want the new tasks to be "
 "created in."
-msgstr ""
+msgstr ":guilabel:`项目`：选择您希望在其中创建新任务的项目。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:119
 msgid ":ref:`Customize the form <website/building_blocks/form>`."
-msgstr ""
+msgstr ":ref:`自定义表单 <website/building_blocks/form>`。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:121
 msgid ""
 "When the form is submitted, it automatically creates a project task. The "
 "task's content is defined by the form's corresponding fields."
-msgstr ""
+msgstr "提交表单时，会自动创建一个项目任务。任务的内容由表单的相应字段定义。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:125
 msgid ":ref:`Website forms <website/building_blocks/form>`"
-msgstr ""
+msgstr ":ref:`网站表单 <website/building_blocks/form>`"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:3
 msgid "Task dependencies"
-msgstr ""
+msgstr "任务依赖关系"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:5
 msgid ""
@@ -6979,6 +7183,8 @@ msgid ""
 "executed. Task dependencies ensure that certain tasks begin only after the "
 "preceding tasks are completed."
 msgstr ""
+"Odoo 项目允许您将项目分解为任务，并在这些任务之间建立关系，以确定它们的执行顺"
+"序。任务依赖关系确保某些任务只有在前置任务完成后才开始。"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:9
 msgid ""
@@ -6986,10 +7192,12 @@ msgid ""
 "Configuration --> Settings`, enable :guilabel:`Task Dependencies`, and "
 "click :guilabel:`Save`."
 msgstr ""
+"要在项目中启用任务依赖关系，请前往\\ :menuselection:`项目 --> 配置 --> 设"
+"置`，启用\\ :guilabel:`任务依赖关系`，然后点击\\ :guilabel:`保存`。"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:13
 msgid "Set task dependencies"
-msgstr ""
+msgstr "设置任务依赖关系"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:15
 msgid ""
@@ -6997,6 +7205,8 @@ msgid ""
 "view by linking the successor task (i.e., the task blocked by other tasks) "
 "to its predecessor task(s) (i.e., the tasks blocking the successor task)."
 msgstr ""
+"可以从任务表单或项目的甘特图视图创建任务依赖关系，方法是将后续任务（即被其他"
+"任务阻塞的任务）链接到其前置任务（即阻塞后续任务的任务）。"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:19
 msgid ""
@@ -7006,6 +7216,9 @@ msgid ""
 "successor tasks from the predecessor task, click the :guilabel:`Blocked "
 "Tasks` smart button."
 msgstr ""
+"要从任务表单创建任务依赖关系，请访问所需的任务，在:guilabel:`阻塞者`选项卡中"
+"，点击:guilabel:`添加一行`。点击:guilabel:`查看`以访问前置任务。要从前置任务"
+"访问后续任务，请点击:guilabel:`已阻塞任务`智能按钮。"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:24
 msgid ""
@@ -7014,10 +7227,13 @@ msgid ""
 "drop the dot onto the successor task. An arrow appears, indicating the "
 "dependency from the predecessor task to the successor."
 msgstr ""
+"要从甘特图视图创建任务依赖关系，请将鼠标悬停在前置任务上，然后点击其周围出现"
+"的圆点之一。将圆点拖放到后续任务上。会出现一个箭头，指示从前置任务到后续任务"
+"的依赖关系。"
 
-#: ../../content/applications/services/project/tasks/task_dependencies.rst:-1
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:None
 msgid "Task dependency"
-msgstr ""
+msgstr "任务依赖关系"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:32
 msgid ""
@@ -7026,20 +7242,25 @@ msgid ""
 "moved to :guilabel:`In Progress` until their predecessor task(s) are marked "
 "as :guilabel:`Approved`, :guilabel:`Cancelled`, or :guilabel:`Done`."
 msgstr ""
+"Odoo 会根据任务的依赖关系自动管理任务进度。后续任务会被分配:guilabel:`等待"
+"中`状态，在其前置任务标记为:guilabel:`已批准`、:guilabel:`已取"
+"消`或:guilabel:`已完成`之前，无法移至:guilabel:`进行中`。"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:37
 msgid "Remove dependencies"
-msgstr ""
+msgstr "删除依赖关系"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:39
 msgid "To remove a task dependency, proceed as follows:"
-msgstr ""
+msgstr "要删除任务依赖关系，请按以下步骤操作："
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:41
 msgid ""
 "From the task form, go to the **Blocked by** tab and click the :icon:`fa-"
 "times` (:guilabel:`times`) button."
 msgstr ""
+"从任务表单中，转到**阻塞者**选项卡，点击:icon:`fa-times`（:guilabel:`删除`）"
+"按钮。"
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:43
 msgid ""
@@ -7047,14 +7268,16 @@ msgid ""
 "button that appears at the center of the arrow when you hover your mouse "
 "over it."
 msgstr ""
+"从甘特视图中，将鼠标悬停在箭头上时，点击出现在箭头中心的红色:icon:`fa-"
+"times`（:guilabel:`次`）按钮。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:3
 msgid "Task stages and statuses"
-msgstr ""
+msgstr "任务阶段和状态"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:6
 msgid "Task stages"
-msgstr ""
+msgstr "任务阶段"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:8
 msgid ""
@@ -7063,16 +7286,20 @@ msgid ""
 "projects, the stages will be akin to **New**, **In progress**, **Backlog**, "
 "etc."
 msgstr ""
+"任务阶段在项目的看板视图中显示为列，允许您通过拖放更新任务的进度。在大多数项"
+"目中，阶段将类似于**新建**、**进行中**、**待办**等。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:12
 msgid ""
 "By default, task stages are project-specific but can be shared across "
 "multiple projects that follow the same workflow."
 msgstr ""
+"默认情况下，任务阶段是项目特定的，但可以在遵循相同工作流程的多个项目之间共享"
+"。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:16
 msgid "Creating task stages"
-msgstr ""
+msgstr "创建任务阶段"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:18
 msgid ""
@@ -7081,59 +7308,68 @@ msgid ""
 "do so immediately after :ref:`creating a new project <project_management/"
 "configuration>`."
 msgstr ""
+"Odoo 项目不提供默认阶段，而是允许您创建适合特定业务需求的自定义阶段。"
+"在:ref:`创建新项目 <project_management/configuration>`后，系统会立即提示您执"
+"行此操作。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:22
 msgid ""
 "To create a stage, type its name into the :guilabel:`Stage...` field, then "
 "click :guilabel:`Add`."
 msgstr ""
+"要创建阶段，请在:guilabel:`阶段...`字段中输入其名称，然后点击:guilabel:`添"
+"加`。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:25
 msgid ""
 "Click :guilabel:`See examples` to find ideas for stage names applicable to "
 "your line of business."
-msgstr ""
+msgstr "点击:guilabel:`查看示例`以查找适用于您业务领域的阶段名称创意。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:28
 msgid "Editing task stages"
-msgstr ""
+msgstr "编辑任务阶段"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:30
 msgid ""
 "To edit the task stage, click the :icon:`fa-cog` (:guilabel:`cog`) icon next "
 "to its name. From there, click one of the following:"
 msgstr ""
+"要编辑任务阶段，请点击其名称旁边的:icon:`fa-cog`（:guilabel:`齿轮`）图标。然"
+"后点击以下选项之一："
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:33
 msgid ""
 ":guilabel:`Fold`: to hide the task stage and all of the tasks in this stage "
 "from the Kanban view."
-msgstr ""
+msgstr ":guilabel:`折叠`：从看板视图中隐藏该任务阶段及此阶段中的所有任务。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:34
 msgid ":guilabel:`Edit`:"
-msgstr ""
+msgstr ":guilabel:`编辑`："
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:36
 msgid ":guilabel:`Name`: to change the name of the stage."
-msgstr ""
+msgstr ":guilabel:`名称`：更改阶段的名称。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:37
 msgid ""
 ":guilabel:`SMS/Email Template`: to automatically send an email or SMS "
 "notification to the customer when a task reaches this stage."
 msgstr ""
+":guilabel:`短信/邮件模板`：当任务到达此阶段时，自动向客户发送电子邮件或短信通"
+"知。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:39
 msgid ""
 ":guilabel:`Folded in Kanban`: to hide the task stage and all of the tasks in "
 "this stage from the Kanban view."
-msgstr ""
+msgstr ":guilabel:`在看板中折叠`：从看板视图中隐藏该任务阶段及此阶段中的所有任务。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:41
 msgid ""
 ":guilabel:`Projects`: to share this task stage between several projects."
-msgstr ""
+msgstr ":guilabel:`项目`：在多个项目之间共享此任务阶段。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:42
 msgid ""
@@ -7142,20 +7378,23 @@ msgid ""
 "adding followers, or sending webhook notifications). Note that this will "
 "activate Studio in your database, which may impact your pricing plan."
 msgstr ""
+":guilabel:`自动化`：创建:doc:`触发自动操作的自定义规则 <../../../studio/"
+"automated_actions>`（例如，创建活动、添加关注者或发送 webhook 通知）。请注意"
+"，这将在您的数据库中激活工作室，这可能会影响您的定价计划。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:47
 msgid ":guilabel:`Delete`: to delete this stage."
-msgstr ""
+msgstr ":guilabel:`删除`：删除此阶段。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:48
 msgid ""
 ":guilabel:`Archive/Unarchive all`: to archive or unarchive all of the tasks "
 "in this stage."
-msgstr ""
+msgstr ":guilabel:`归档/取消归档全部`：归档或取消归档此阶段中的所有任务。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:53
 msgid "Task statuses"
-msgstr ""
+msgstr "任务状态"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:55
 msgid ""
@@ -7164,12 +7403,16 @@ msgid ""
 "stages, they cannot be customized; five task statuses exist in Odoo and are "
 "used as follows:"
 msgstr ""
+"任务状态用于跟踪看板阶段中任务的状态，以及在任务完成或取消时关闭任务。与看板"
+"阶段不同，任务状态无法自定义；Odoo中存在五种任务状态，使用方式如下："
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:59
 msgid ""
 ":guilabel:`In Progress`: this is the default state of all tasks, meaning "
 "that work required for the task to move to the next Kanban stage is ongoing."
 msgstr ""
+":guilabel:`进行中`：这是所有任务的默认状态，表示任务移至下一个看板阶段所需的"
+"工作正在进行中。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:61
 msgid ""
@@ -7177,20 +7420,22 @@ msgid ""
 "by the customer or internally, are needed before the task is moved to the "
 "next Kanban stage."
 msgstr ""
+":guilabel:`要求更改`：用于突出显示在任务移至下一个看板阶段之前需要进行更改（"
+"客户要求或内部要求）。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:63
 msgid ""
 ":guilabel:`Approved`: to highlight that the task is ready to be moved to the "
 "next stage."
-msgstr ""
+msgstr ":guilabel:`已批准`：用于突出显示任务已准备好移至下一阶段。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:64
 msgid ":guilabel:`Canceled`: to cancel the task."
-msgstr ""
+msgstr ":guilabel:`已取消`：用于取消任务。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:65
 msgid ":guilabel:`Done`: to close the task once it's been completed."
-msgstr ""
+msgstr ":guilabel:`已完成`：用于在任务完成后关闭任务。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:69
 msgid ""
@@ -7201,6 +7446,9 @@ msgid ""
 "applied again once the necessary work has been completed in this Kanban "
 "stage."
 msgstr ""
+":guilabel:`要求更改`和:guilabel:`已批准`任务状态会在任务移至另一个看板阶段后"
+"立即清除。任务状态会恢复为默认的:guilabel:`进行中`状态，以便在此看板阶段完成"
+"必要工作后可以再次应用:guilabel:`要求更改`或:guilabel:`已批准`状态。"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:73
 msgid ""
@@ -7209,6 +7457,9 @@ msgid ""
 "or :guilabel:`Canceled`, it is closed. If needed, it can be reopened by "
 "changing its status."
 msgstr ""
+":guilabel:`已完成`和:guilabel:`已取消`状态独立于看板阶段。任务一旦标记"
+"为:guilabel:`已完成`或:guilabel:`已取消`，就会被关闭。如有需要，可以通过更改"
+"其状态来重新打开。"
 
 #: ../../content/applications/services/timesheets.rst:8
 msgid "Timesheets"
@@ -7216,7 +7467,7 @@ msgstr "工时单"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:5
 msgid "Timesheet billing rates and leaderboard"
-msgstr ""
+msgstr "工时单计费率和排行榜"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:7
 msgid ""
@@ -7228,10 +7479,15 @@ msgid ""
 "employees, and can be enhanced with :ref:`motivational tips <timesheets/"
 "billing_rates/tips>`."
 msgstr ""
+"Odoo的**工时单**应用允许您为员工设置个性化的:ref:`计费率目标 <timesheets/"
+"billing_rates/targets>`。除了计费率目标外，还可以启用:ref:`排行榜 "
+"<timesheets/billing_rates/leaderboard>`来激励员工并增加其体验的游戏化。排行榜"
+"显示员工记录的可计费和总时间，并可通过:ref:`激励提示 <timesheets/"
+"billing_rates/tips>`进行增强。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:16
 msgid "Billing rate indicators"
-msgstr ""
+msgstr "计费率指标"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:21
 msgid ""
@@ -7239,6 +7495,8 @@ msgid ""
 "> Configuration --> Settings`, then enable :guilabel:`Billing Rate "
 "Indicators`, and click :guilabel:`Save`."
 msgstr ""
+"要启用计费率指标，请导航至:menuselection:`工时单 --> 配置 --> 设置`，然后启"
+"用:guilabel:`计费率指标`，并点击:guilabel:`保存`。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:24
 msgid ""
@@ -7248,6 +7506,9 @@ msgid ""
 "Time Target` in hours or days, depending on the :guilabel:`Encoding Method` "
 "selected in the **Timesheets** :guilabel:`Settings`."
 msgstr ""
+"要设置目标，请点击:guilabel:`设置员工可计费时间目标`，访问您要编辑的员工表单"
+"，导航至:guilabel:`设置`选项卡，然后根据**工时单**:guilabel:`设置`中选择"
+"的:guilabel:`编码方法`，以小时或天为单位输入每月:guilabel:`计费时间目标`。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:30
 msgid ""
@@ -7255,10 +7516,12 @@ msgid ""
 "set the employees' :guilabel:`Monthly Billing Time Target` directly from the "
 "**Employees** app."
 msgstr ""
+"启用:guilabel:`计费率指标`后，您还可以直接从**员工**应用设置员工"
+"的:guilabel:`每月计费时间目标`。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:34
 msgid "Using the billing rate indicators"
-msgstr ""
+msgstr "使用计费率指标"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:36
 msgid ""
@@ -7270,20 +7533,24 @@ msgid ""
 "highlighted in red if the user falls below the target and in green once the "
 "target is reached."
 msgstr ""
+"启用后，计费率指标会显示在所有用户的看板、网格和列表视图中:guilabel:`我的工时"
+"单`菜单右上角。用户记录的每月时间量以以下格式显示：**已记录可计费时间 / 可计"
+"费时间目标**。还会显示计费率目标的完成百分比，如果用户低于目标则以红色突出显"
+"示，达到目标后则以绿色显示。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:42
 msgid ""
 "Below the billing rate indicators, the total monthly amount of time logged "
 "by the user is also displayed."
-msgstr ""
+msgstr "在计费率指标下方，还会显示用户记录的每月总时间量。"
 
-#: ../../content/applications/services/timesheets/billing_rates.rst:-1
+#: ../../content/applications/services/timesheets/billing_rates.rst:None
 msgid "Billing rate indicators."
-msgstr ""
+msgstr "计费率指标。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:51
 msgid "Billing rate leaderboard"
-msgstr ""
+msgstr "签单率排行榜"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:56
 msgid ""
@@ -7292,6 +7559,8 @@ msgid ""
 "**billing rate leaderboard** in order to motivate employees and enhance "
 "workplace transparency."
 msgstr ""
+"启用:ref:`每月计费时间目标 <timesheets/billing_rates/targets>`后，Odoo提供了"
+"激活**计费率排行榜**的可能性，以激励员工并增强工作场所透明度。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:60
 msgid ""
@@ -7299,10 +7568,12 @@ msgid ""
 "to :menuselection:`Timesheets --> Configuration --> Settings`, "
 "activate :guilabel:`Billing Rate Leaderboard`, then click :guilabel:`Save`."
 msgstr ""
+"要启用计费率排行榜，请导航至:menuselection:`工时单 --> 配置 --> 设置`，激"
+"活:guilabel:`计费率排行榜`，然后点击:guilabel:`保存`。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:64
 msgid "Using the billing rate leaderboard"
-msgstr ""
+msgstr "使用计费率排行榜"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:66
 msgid ""
@@ -7311,6 +7582,8 @@ msgid ""
 "displays the current top three performers who have logged the highest "
 "percentage of their allocated billing hours."
 msgstr ""
+"计费率排行榜随后显示在:guilabel:`我的工时单`视图右上角，位于计费率指标旁边。"
+"它显示当前记录计费时间占分配计费时间百分比最高的前三名员工。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:70
 msgid ""
@@ -7318,6 +7591,8 @@ msgid ""
 "logged billable time / billable time target, as well as the total time "
 "logged."
 msgstr ""
+"它还以以下格式显示登录用户记录的时间：已记录计费时间 / 计费时间目标，以及记录"
+"的总时间。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:73
 msgid ""
@@ -7327,14 +7602,17 @@ msgid ""
 "Time Leaderboard`, which displays the total time logged by team members "
 "across billable and internal projects."
 msgstr ""
+"点击前三名员工区域可打开所有团队成员的排行榜。使用左上角的下拉菜单"
+"在:guilabel:`计费率排行榜`和:guilabel:`总时间排行榜`之间切换，后者显示团队成"
+"员在计费项目和内部项目中记录的总时间。"
 
-#: ../../content/applications/services/timesheets/billing_rates.rst:-1
+#: ../../content/applications/services/timesheets/billing_rates.rst:None
 msgid "Billing rate leaderboard."
-msgstr ""
+msgstr "计费率排行榜。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:84
 msgid "Leaderboard tips"
-msgstr ""
+msgstr "排行榜提示"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:86
 msgid ""
@@ -7342,6 +7620,8 @@ msgid ""
 "enhance the billing rate and total time leaderboard. The tips are randomly "
 "selected and change daily."
 msgstr ""
+"**每日激励提示**显示在排行榜右侧，增强了计费率和总时间排行榜的效果。这些提示"
+"是随机选择的，每天更换。"
 
 #: ../../content/applications/services/timesheets/billing_rates.rst:89
 msgid ""
@@ -7349,96 +7629,331 @@ msgid ""
 "Configuration --> Tips`, then click :guilabel:`New` or double-click a tip's "
 "text."
 msgstr ""
+"要创建或编辑现有提示，请转到:menuselection:`工时单 --> 配置 --> 提示`，然后点"
+"击:guilabel:`新建`或双击提示文本。"
 
 #: ../../content/applications/services/timesheets/time_off.rst:3
-msgid "Create Timesheets upon Time Off Validation"
-msgstr "在下班验证时创建时间表"
+msgid "Time off entries"
+msgstr "休息时间条目"
 
 #: ../../content/applications/services/timesheets/time_off.rst:5
 msgid ""
-"Odoo automatically timesheets on project/tasks upon time off requests. This "
-"allows for better overall control over the validation of timesheets, as it "
-"does not leave place for forgetfulness and questions after hours that have "
-"not been timesheeted by the employee."
+"Odoo automatically generates timesheet entries on projects and tasks once a "
+"time off request is approved. This streamlines timesheet validation by "
+"ensuring approved time off is accurately reflected in timesheets."
 msgstr ""
-"根据休假请求，Odoo会自动生成项目/任务的时间表。这样可以更好地对时间表的验证进"
-"行总体控制，因为它不会让员工忘记和在下班后提出问题。"
+"一旦休息时间请求获得批准，Odoo 会自动在项目和任务上生成工时单条目。这通过确保"
+"已批准的休息时间准确反映在工时单中来简化工时单验证。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:9
+#: ../../content/applications/services/timesheets/time_off.rst:14
 msgid ""
-"Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, and "
-"change the *Project* and *Task* set by default, if you like."
+"First, activate the :ref:`developer mode <developer-mode>`, then open the "
+"**Timesheets** app, and navigate to :menuselection:`Configuration --> "
+"Settings`. Scroll to the :guilabel:`Time Off` section and enable "
+"the :guilabel:`Time Off` checkbox. Enabling this option creates timesheet "
+"entries for validated time off requests and public holidays."
 msgstr ""
-"激活：ref:`开发者模式 <developer-mode>`，转到*时间表*，如果愿意，更改默认设置"
-"的*项目*和*任务*。"
+"首先，激活 :ref:`开发者模式 <developer-mode>`，然后打开**工时单**应用，并导航"
+"至 :menuselection:`配置 --> 设置`。滚动到 :guilabel:`休息时间` 部分并启用 "
+":guilabel:`休息时间` 复选框。启用此选项会为已验证的休息时间请求和公共假日创建"
+"工时单条目。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
+#: ../../content/applications/services/timesheets/time_off.rst:19
 msgid ""
-"View of Timesheets setting enabling the feature record time off in Odoo "
-"Timesheets"
+"Once enabled, two fields appear: :guilabel:`Project` and :guilabel:`Task`. "
+"The default selection for :guilabel:`Project` is :guilabel:`Internal`, and "
+"the default selection for :guilabel:`Task` is :guilabel:`Time Off`. These "
+"inform Odoo where to log the time off requests, which project, and task. "
+"These can be modified, if desired, using the drop-down menu."
 msgstr ""
+"启用后，会出现两个字段：:guilabel:`项目` 和 :guilabel:`任务`。:guilabel:`项"
+"目` 的默认选择是 :guilabel:`内部`，:guilabel:`任务` 的默认选择是 "
+":guilabel:`休息时间`。这些字段告知 Odoo 在哪里记录休息时间请求、哪个项目和任"
+"务。如有需要，可以使用下拉菜单修改这些选项。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:16
+#: ../../content/applications/services/timesheets/time_off.rst:25
 msgid ""
-"Go to :menuselection:`Time Off --> Configuration --> Time Off Types`. Select "
-"or create the needed type, and decide if you would like the requests to be "
-"validated or not."
-msgstr ""
-"转到：菜单选择：`Time Off-->Configuration-->Time Off Types`。选择或创建所需的"
-"类型，并决定是否要验证请求。"
+"The available options presented vary based on the installed applications."
+msgstr "显示的可用选项因已安装的应用而异。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
+#: ../../content/applications/services/timesheets/time_off.rst:28
 msgid ""
-"View of a time off types form emphasizing the time off requests and "
-"timesheets section in\n"
-"Odoo Time Off"
+"Time off categories without validation requirements create timesheet records "
+"instantly. Requests requiring validation creates timesheet entries *after* "
+"the time off request is approved."
 msgstr ""
+"不需要验证的休息时间类别会立即创建工时单记录。需要验证的请求会在休息时间请求"
+"获得批准*后*创建工时单条目。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:26
+#: ../../content/applications/services/timesheets/time_off.rst:31
 msgid ""
-"Now, once the employee has requested his time off and the request has been "
-"validated (or not, depending on the setting chosen), the time is "
-"automatically allocated on *Timesheets*, under the respective project and "
-"task."
+"To check if a time off type requires approval, check "
+"the :guilabel:`Approvals` section of the :ref:`time off type form <time_off/"
+"time-off-requests>`."
 msgstr ""
-"现在，一旦员工请求休假并验证了请求（或未验证，取决于所选的设置），时间就会自"
-"动分配到各自项目和任务下的*时间表*。"
+"要检查休息时间类型是否需要批准，请查看 :ref:`休息时间类型表单 <time_off/time-"
+"off-requests>` 的 :guilabel:`审批` 部分。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:27
+#: ../../content/applications/services/timesheets/time_off.rst:35
+msgid "Workflow"
+msgstr "工作流程"
+
+#: ../../content/applications/services/timesheets/time_off.rst:37
 msgid ""
-"On the example below, the user requested *Paid Time off* from July 13th to "
-"15th."
-msgstr "在下面的例子中，用户请求*带薪休假*从7月13日到15日。"
-
-#: ../../content/applications/services/timesheets/time_off.rst:-1
-msgid "View of the time off request form in Odoo Time Off"
+"Once the employee has :doc:`requested time off <../../hr/time_off/"
+"request_time_off>`, and the request has been validated, if necessary, the "
+"time is automatically logged on the **Timesheets** app, under the respective "
+"project and task."
 msgstr ""
-
-#: ../../content/applications/services/timesheets/time_off.rst:33
-msgid ""
-"Considering that validation is not required, the requested time off is "
-"automatically displayed in *Timesheets*. If validation is necessary, the "
-"time is automatically allocated after the responsible person for validating "
-"does it so."
-msgstr ""
-"考虑到不需要验证，请求的休息时间自动显示在*时间表*中。如果需要验证，则在负责"
-"验证的人员完成验证后，时间会自动分配。"
-
-#: ../../content/applications/services/timesheets/time_off.rst:-1
-msgid ""
-"Video of timesheets emphasizing the requested time off from the employee in "
-"Odoo Timesheets"
-msgstr ""
+"一旦员工 :doc:`请求休息时间 <../../hr/time_off/request_time_off>`，并且请求已"
+"被验证（如有必要），时间会自动记录在**工时单**应用中相应的项目和任务下。"
 
 #: ../../content/applications/services/timesheets/time_off.rst:41
 msgid ""
-"Click on the magnifying glass, hovering over the concerned cell, to access "
-"all the aggregated data on that cell (day), and see details regarding the "
-"project/task."
+"To view the logged entry, open the **Timesheets** app and navigate to the "
+"relevant time period. The time off appears in the corresponding field, "
+"according to the :ref:`configuration <timesheets/config>`."
 msgstr ""
-"单击放大镜，将光标悬停在相关单元格上，以访问该单元格（天）上的所有聚合数据，"
-"并查看有关项目/任务的详细信息。"
+"要查看记录的条目，请打开**工时单**应用并导航到相关时间段。休息时间会根据 "
+":ref:`配置 <timesheets/config>` 显示在相应字段中。"
 
-#: ../../content/applications/services/timesheets/time_off.rst:-1
-msgid "View of the details of a project/task in Odoo Timeheets"
+#: ../../content/applications/services/timesheets/time_off.rst:45
+msgid ""
+"To view the timesheet entry details, click the :icon:`fa-"
+"search` :guilabel:`(magnifying glass)` icon that appears when hovering over "
+"the entry, and the detailed timesheet information appears."
 msgstr ""
+"要查看工时单条目详情，请点击悬停在条目上时出现的 :icon:`fa-search` "
+":guilabel:`（放大镜）` 图标，详细的工时单信息就会显示出来。"
+
+#: ../../content/applications/services/timesheets/time_off.rst:49
+msgid ""
+"An employee is attending internal training the week of December 15-19, 2025, "
+"and logs their time in the **Timesheets** app under the `Internal` project, "
+"with a task of `Training`. On December 19, 2025, the employee is home sick, "
+"and requests the day off in the **Time Off** app."
+msgstr ""
+"一名员工在 2025 年 12 月 15 日至 19 日这一周参加内部培训，并在**工时单**应用"
+"中的 `Internal` 项目下记录时间，任务为 `Training`。2025 年 12 月 19 日，该员"
+"工因病在家，并在**休息时间**应用中请假。"
+
+#: ../../content/applications/services/timesheets/time_off.rst:53
+msgid ""
+"The *time off type* they request is *Sick Time off*, which is configured to "
+"**not** require validation. The employee's time off request is automatically "
+"approved, and is logged in the **Timesheets** app, under the `Internal` "
+"project, and the `Time Off` task."
+msgstr ""
+"他们请求的*休息时间类型*是*病假*，该类型配置为**无需**验证。员工的休息时间请"
+"求会自动批准，并记录在\\ **工时单**\\ 应用中的`内部`项目和`休息时间`任务下。"
+
+#: ../../content/applications/services/timesheets/time_off.rst:0
+msgid "A timecard reflecting training hours and sick time off."
+msgstr "反映培训时间和病假的工时卡。"
+
+#~ msgid "Create Timesheets upon Time Off Validation"
+#~ msgstr "在下班验证时创建时间表"
+
+#~ msgid ""
+#~ "Odoo automatically timesheets on project/tasks upon time off requests. "
+#~ "This allows for better overall control over the validation of timesheets, "
+#~ "as it does not leave place for forgetfulness and questions after hours "
+#~ "that have not been timesheeted by the employee."
+#~ msgstr ""
+#~ "根据休假请求，Odoo会自动生成项目/任务的时间表。这样可以更好地对时间表的验"
+#~ "证进行总体控制，因为它不会让员工忘记和在下班后提出问题。"
+
+#~ msgid ""
+#~ "Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, "
+#~ "and change the *Project* and *Task* set by default, if you like."
+#~ msgstr ""
+#~ "激活：ref:`开发者模式 <developer-mode>`，转到*时间表*，如果愿意，更改默认"
+#~ "设置的*项目*和*任务*。"
+
+#~ msgid ""
+#~ "Go to :menuselection:`Time Off --> Configuration --> Time Off Types`. "
+#~ "Select or create the needed type, and decide if you would like the "
+#~ "requests to be validated or not."
+#~ msgstr ""
+#~ "转到：菜单选择：`Time Off-->Configuration-->Time Off Types`。选择或创建所"
+#~ "需的类型，并决定是否要验证请求。"
+
+#~ msgid ""
+#~ "Now, once the employee has requested his time off and the request has "
+#~ "been validated (or not, depending on the setting chosen), the time is "
+#~ "automatically allocated on *Timesheets*, under the respective project and "
+#~ "task."
+#~ msgstr ""
+#~ "现在，一旦员工请求休假并验证了请求（或未验证，取决于所选的设置），时间就会"
+#~ "自动分配到各自项目和任务下的*时间表*。"
+
+#~ msgid ""
+#~ "On the example below, the user requested *Paid Time off* from July 13th "
+#~ "to 15th."
+#~ msgstr "在下面的例子中，用户请求*带薪休假*从7月13日到15日。"
+
+#~ msgid ""
+#~ "Considering that validation is not required, the requested time off is "
+#~ "automatically displayed in *Timesheets*. If validation is necessary, the "
+#~ "time is automatically allocated after the responsible person for "
+#~ "validating does it so."
+#~ msgstr ""
+#~ "考虑到不需要验证，请求的休息时间自动显示在*时间表*中。如果需要验证，则在负"
+#~ "责验证的人员完成验证后，时间会自动分配。"
+
+#~ msgid ""
+#~ "Click on the magnifying glass, hovering over the concerned cell, to "
+#~ "access all the aggregated data on that cell (day), and see details "
+#~ "regarding the project/task."
+#~ msgstr ""
+#~ "单击放大镜，将光标悬停在相关单元格上，以访问该单元格（天）上的所有聚合数"
+#~ "据，并查看有关项目/任务的详细信息。"
+
+#~ msgid "Stages"
+#~ msgstr "阶段"
+
+#~ msgid "Create or modify stages"
+#~ msgstr "创建或修改阶段"
+
+#~ msgid ""
+#~ ":ref:`Developer mode <developer-mode>` **must** be activated to access "
+#~ "the stages menu. To activate developer mode, go "
+#~ "to :menuselection:`Settings app --> General Settings --> Developer "
+#~ "Tools`, and click :guilabel:`Activate the developer mode`."
+#~ msgstr ""
+#~ ":ref:`开发者模式<developer-mode>` **必须** 激活才能访问阶段菜单。要激活开"
+#~ "发者模式，请进入 :menuselection:`设置应用程序 --> 常规设置 --> 开发工具`，"
+#~ "然后点击 :guilabel:`激活开发者模式`。"
+
+#~ msgid ""
+#~ "View of the stage list page emphasizing the buttons used to change the "
+#~ "order the stages\n"
+#~ "appear in the list."
+#~ msgstr "阶段列表页面的视图，强调用于更改阶段顺序的按钮。"
+
+#~ msgid ""
+#~ "To create a new stage, click the :guilabel:`New` button at the top-left "
+#~ "of the stage list. Doing so reveals a blank stage form."
+#~ msgstr ""
+#~ "要创建新舞台，请点击阶段列表左上角的 :guilabel:`新建` 按钮。这样就会显示一"
+#~ "个空白的阶段表格。"
+
+#~ msgid "View of a stage's settings page in Odoo Helpdesk."
+#~ msgstr "在 Odoo 服务台中查看阶段设置页面。"
+
+#~ msgid "Add email and SMS templates to stages"
+#~ msgstr "在阶段中添加电子邮件和短信模板"
+
+#~ msgid ""
+#~ "SMS text messaging is an :doc:`In-App Purchase (IAP) </applications/"
+#~ "essentials/in_app_purchase/>` service that requires prepaid credits to "
+#~ "work. Refer to `SMS Pricing FAQ <https://iap-services.odoo.com/iap/sms/"
+#~ "pricing>`_ for additional information."
+#~ msgstr ""
+#~ "SMS 文字短信是 :doc:`应用程序内购买（IAP） </applications/essentials/"
+#~ "in_app_purchase/>` 服务，需要预缴够买点数才可使用。想知更多信息，请参阅 "
+#~ "`SMS 定价常见问答 <https://iap-services.odoo.com/iap/sms/pricing>`_ 。"
+
+#~ msgid ""
+#~ "To select an existing email template, select it from the :guilabel:`Email "
+#~ "Template` field. After choosing a template, click on the :icon:`oi-arrow-"
+#~ "right` :guilabel:`(right arrow)` icon to the right of the field to edit "
+#~ "the chosen template."
+#~ msgstr ""
+#~ "要选择现有的电子邮件模板，请从 :guilabel:`电子邮件模版` 字段中选择。选择模"
+#~ "板后，点击字段右侧的 :icon:`oi-arrow-right`:guilabel:`（右箭头）` 图标，编"
+#~ "辑所选模板。"
+
+#~ msgid ""
+#~ "To create a new template from this form, click the field, and enter a "
+#~ "title for the new template. Then, select :guilabel:`Create and edit` from "
+#~ "the drop-down menu that appears, and complete the form details."
+#~ msgstr ""
+#~ "要在此表单中创建新模板，请点击该字段，然后输入新模板的标题。然后，从出现的"
+#~ "下拉菜单中选择 :guilabel:`创建和编辑`，并填写表格详细信息。"
+
+#~ msgid ""
+#~ "Follow the same steps to select, edit, or create an :guilabel:`SMS "
+#~ "Template`."
+#~ msgstr "按照相同步骤选择、编辑或创建 :guilabel:`SMS 模板`。"
+
+#~ msgid "View of an SMS template setup page in Odoo Helpdesk."
+#~ msgstr "查看 Odoo 服务台中的短信模板设置页面。"
+
+#~ msgid ":doc:`/applications/general/companies/email_template`"
+#~ msgstr ":doc:`/applications/general/companies/email_template`"
+
+#~ msgid "Fold a stage"
+#~ msgstr "折叠阶段"
+
+#~ msgid ""
+#~ "By default, stages are unfolded in the Kanban view of either tickets "
+#~ "dashboard: :guilabel:`My Tickets` (:menuselection:`Helpdesk app --> "
+#~ "Tickets --> My Tickets`) or :guilabel:`All Tickets` "
+#~ "(:menuselection:`Helpdesk app --> Tickets --> All Tickets`)."
+#~ msgstr ""
+#~ "默认情况下，阶段在以下任一工单仪表板的看板视图中展开：:guilabel:`我的工单`"
+#~ "（:menuselection:`服务台应用程序 --> 工单 --> 我的工单`）或 :guilabel:`所"
+#~ "有工单`（:menuselection:`服务台应用程序 --> 工单 --> 所有工单`）。"
+
+#~ msgid ""
+#~ "Tickets in an unfolded stage are visible in the pipeline under the stage "
+#~ "name, and are considered *open*."
+#~ msgstr "已展开阶段中的工单在管道中的阶段名称下可见，并被视为 *开放*。"
+
+#~ msgid ""
+#~ "The name of the folded stages are still visible, but the tickets in the "
+#~ "stage are hidden from view."
+#~ msgstr "折叠阶段的名称仍然可见，但阶段中的工单被隐藏起来。"
+
+#~ msgid ""
+#~ "To fold a stage, tick the :guilabel:`Folded in Kanban` checkbox on "
+#~ "the :guilabel:`Stages` form."
+#~ msgstr ""
+#~ "要折叠阶段，请在 :guilabel:`阶段` 表单中勾选 :guilabel:`折叠看板` 复选框。"
+
+#~ msgid ""
+#~ "Tickets that reach a *folded* stage are considered *closed*. Closing a "
+#~ "ticket before the work is completed can result in reporting and "
+#~ "communication issues. This setting should **only** be enabled for stages "
+#~ "that are considered *closing* stages."
+#~ msgstr ""
+#~ "达到 *折叠* 阶段的工单被视为 *已关闭*。在工作完成之前关闭工单，可能会导致"
+#~ "报告和沟通问题。此设置只应在被视为 *关闭* 阶段时启用。"
+
+#~ msgid "Assign stages to a team"
+#~ msgstr "为团队分配阶段"
+
+#~ msgid ""
+#~ "Make a selection in the :guilabel:`Helpdesk Teams` field on "
+#~ "the :guilabel:`Stages` form. More than one team may be selected, since "
+#~ "the same stage can be assigned to multiple teams."
+#~ msgstr ""
+#~ "在 :guilabel:`阶段` 表单的 :guilabel:`服务台团队` 字段中进行选择。可选择多"
+#~ "个团队，因为同一阶段可分配给多个团队。"
+
+#~ msgid ""
+#~ "To create a shift template, click :guilabel:`New` on any schedule, then "
+#~ "fill in the :ref:`details of the shift <planning/create-shift>`. In order "
+#~ "for the shift to be saved as a template, tick :guilabel:`Save as "
+#~ "Template`."
+#~ msgstr ""
+#~ "要创建班次模板，请在任意计划表上点击 :guilabel:`新建`，然后填写 :ref:`班次"
+#~ "详情 <planning/create-shift>`。要将班次保存为模板，请勾选 :guilabel:`保存"
+#~ "为模板`。"
+
+#~ msgid "Shift form with the option `save template` ticked."
+#~ msgstr "勾选 `保存模板` 选项的移位表单。"
+
+#~ msgid ""
+#~ "Alternatively, you can go to :menuselection:`Planning --> Configuration --"
+#~ "> Shift Templates`, then click :guilabel:`New`. Fill in "
+#~ "the :guilabel:`Start Hour` and :guilabel:`Shift Duration`. The "
+#~ "shift’s :guilabel:`End Time` is then calculated based on "
+#~ "the :guilabel:`Working Hours`, taking into account working time as well "
+#~ "as breaks."
+#~ msgstr ""
+#~ "或者，您可以进入 :menuselection:`排期 --> 配置 --> 班次模板`，然后点"
+#~ "击 :guilabel:`新建`。填写 :guilabel:`开始时间` 和 :guilabel:`班次时间`。班"
+#~ "次的 :guilabel:`结束时间` 将根据 :guilabel:`工作时间` 计算，并将工作时间和"
+#~ "休息时间考虑在内。"

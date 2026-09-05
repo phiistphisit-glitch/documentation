@@ -28,9 +28,9 @@ Payment methods
 Several payment methods are available in Odoo to allow different configurations for different types
 of payments. Examples of payment methods include manual payments (such as cash), :doc:`checks
 <payments/pay_checks>`, and batch payment files (such as :ref:`NACHA
-<l10n_us/ach-electronic-transfers>` and :doc:`SEPA <payments/pay_sepa>`). Payment methods can be
-configured in the :guilabel:`Incoming Payments` and :guilabel:`Outgoing Payments` tabs of a bank or
-cash journal.
+<l10n_us/ach-electronic-transfers>` and :doc:`SEPA <payments/sepa_payments>`). Payment methods can
+be configured in the :guilabel:`Incoming Payments` and :guilabel:`Outgoing Payments` tabs of a bank
+or cash journal.
 
 .. seealso::
    :doc:`../../sales/point_of_sale/payment_methods` for Point of Sale
@@ -91,8 +91,10 @@ payment method.
 
 .. _accounting/payments/from-invoice-bill:
 
-Registering payment from an invoice or bill
-===========================================
+.. _finance/accounting/register-payment-invoice-bill:
+
+Registering payments from an invoice or bill
+============================================
 
 To register a payment for an invoice or a bill, follow these steps:
 
@@ -113,8 +115,8 @@ After the payment is registered, the customer invoice or vendor bill is marked a
 
    .. group-tab:: Without outstanding accounts
 
-      If no :ref:`outstanding accounts <accounting/bank/outstanding-accounts>` are configured, no
-      journal entry is created. To display more information about the payment, click the
+      If no :ref:`outstanding accounts <accounting/journals/outstanding-accounts>` are configured,
+      no journal entry is created. To display more information about the payment, click the
       :guilabel:`Payments` smart button.
 
       When the invoice or vendor bill is :doc:`reconciled <bank/reconciliation>` with a bank
@@ -130,11 +132,11 @@ After the payment is registered, the customer invoice or vendor bill is marked a
 
       By default, payments in Odoo do not create journal entries, but they can easily be configured
       to create journal entries using :ref:`outstanding accounts
-      <accounting/bank/outstanding-accounts>`.
+      <accounting/journals/outstanding-accounts>`.
 
       Registering a payment on a customer invoice or vendor bill generates a new journal entry and
       reduces the :guilabel:`Amount Due` based on the payment amount. The counterpart is
-      reflected in an :ref:`outstanding <accounting/bank/outstanding-accounts>` **receipts** or
+      reflected in an :ref:`outstanding <accounting/journals/outstanding-accounts>` **receipts** or
       **payments** account. At this point, the customer invoice or vendor bill is marked as
       :guilabel:`In payment`. Then, when the payment is :doc:`reconciled <bank/reconciliation>` with
       a bank transaction, the invoice or vendor bill status changes to :guilabel:`Paid`.
@@ -172,7 +174,7 @@ directly linked to an invoice or bill.
    .. group-tab:: Without outstanding accounts
 
       Payments that are not linked to an invoice or bill should not be registered without using
-      :ref:`outstanding accounts <accounting/bank/outstanding-accounts>`, as there is no way to
+      :ref:`outstanding accounts <accounting/journals/outstanding-accounts>`, as there is no way to
       associate the payment with the invoice or bill since no journal entry is created for the
       payment. The amount paid or received is not reflected in the accounting and the
       :guilabel:`Amount Due` is not updated based on the payment amount.
@@ -319,9 +321,9 @@ Registering a single payment for multiple customers or vendors (batch payments)
 ===============================================================================
 
 Batch payments allow grouping payments from multiple customers to ease :doc:`reconciliation
-<bank/reconciliation>`. They are also useful when depositing :ref:`checks
-<accounting/payments/checks>` or cash payments to the bank or for generating bank payment files such
-as :doc:`SEPA <payments/pay_sepa>` or :ref:`NACHA <l10n_us/nacha>`.
+<bank/reconciliation>`. They are also useful when depositing :doc:`checks
+<payments/pay_checks>` or cash payments to the bank or for generating bank payment files such
+as :doc:`SEPA <payments/sepa_payments>` or :ref:`NACHA <l10n_us/nacha>`.
 
 .. seealso::
    :doc:`payments/batch`
@@ -401,9 +403,6 @@ Reconciling payments with bank transactions
 
    payments/online
    payments/batch
-   payments/batch_sdd
+   payments/sepa_payments
    payments/follow_up
-   payments/pay_sepa
    payments/pay_checks
-   payments/forecast
-   payments/trusted_accounts

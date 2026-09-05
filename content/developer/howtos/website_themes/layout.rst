@@ -228,10 +228,10 @@ below:
       .. code-block:: xml
 
          <xpath expr="//*[hasclass('o_wsale_products_main_row')]" position="before">
-         <xpath expr="//t[@t-if='opt_wsale_categories_top']" position="move" />
+            <xpath expr="//t[@t-if='opt_wsale_categories_top']" position="move" />
          </xpath>
          <xpath expr="//*[hasclass('o_wsale_products_main_row')]" position="before">
-         <div><!-- Content --></div>
+            <div><!-- Content --></div>
          </xpath>
 
       | **Bad example:**
@@ -239,8 +239,8 @@ below:
       .. code-block:: xml
 
          <xpath expr="//*[hasclass('o_wsale_products_main_row')]" position="before">
-         <xpath expr="//t[@t-if='opt_wsale_categories_top']" position="move" />
-         <div><!-- Content --></div>
+            <xpath expr="//t[@t-if='opt_wsale_categories_top']" position="move" />
+            <div><!-- Content --></div>
          </xpath>
 
 
@@ -284,7 +284,7 @@ First, create a record to declare the field. This field has to be linked to an e
       <field name="model_id" ref="website_blog.model_blog_post"/>
    </record>
 
-.. note:: Fields creation is also possible (and recommended) through `a model using Python </developer/tutorials/backend>`_.
+.. note:: Fields creation is also possible (and recommended) through `a model using Python <../../tutorials/getting_started/04_basicmodel.html#model-fields>`_.
 
 .. _website_themes/layout/custom_fields/backend :
 
@@ -761,7 +761,7 @@ Responsive
 ==========
 
 Odoo in general relies on the Bootstrap framework which eases the responsiveness of your website on
- desktop and mobile. On Odoo 16, you can mainly take action on 3 aspects:
+desktop and mobile. You can mainly take action on 3 aspects:
 
 #. Automatic computed font sizes depending on the device
 #. Column sizes on desktop (the columns are automatically stacked on mobile)

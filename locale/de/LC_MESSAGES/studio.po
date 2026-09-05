@@ -1,26 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Dylan Kiss (dyki)" <dyki@odoo.com>, 2026.
+# Anthropic <noreply-mt-anthropic@weblate.org>, 2026.
 #
 # Translators:
 # Wil Odoo, 2025
 # Larissa Manderfeld, 2025
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 08:33+0000\n"
-"PO-Revision-Date: 2024-10-08 06:34+0000\n"
-"Last-Translator: Larissa Manderfeld, 2025\n"
-"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"POT-Creation-Date: 2026-06-05 19:23+0000\n"
+"PO-Revision-Date: 2026-07-06 12:17+0000\n"
+"Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
+"Language-Team: German <https://translate.odoo.com/projects/odoo-18-doc/"
+"studio/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../../content/applications/studio.rst:6
 msgid "Studio"
@@ -31,6 +34,9 @@ msgid ""
 "**Odoo Studio** is a toolbox used to customize Odoo without coding "
 "knowledge. For example, in any app, add or modify:"
 msgstr ""
+"**Odoo Studio** ist ein Werkzeugkasten, mit der Sie Odoo ohne "
+"Programmierkenntnisse anpassen können. Bearbeiten oder fügen Sie zum "
+"Beispiel Folgendes hinzu:"
 
 #: ../../content/applications/studio.rst:21
 msgid ":doc:`Fields <studio/fields>`"
@@ -78,6 +84,11 @@ msgid ""
 "with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
 "icon and navigate to the relevant app and model."
 msgstr ""
+"Um auf **Studio** zuzugreifen, navigieren Sie zur App und zum Modell, das "
+"Sie ändern möchten, und klicken Sie dann auf das :icon:`oi-studio`-Symbol "
+"(:guilabel:`Studio umschalten`). Alternativ können Sie bei geöffneter App "
+"auf das :icon:`oi-studio`-Symbol (:guilabel:`Studio umschalten`) klicken und "
+"zur relevanten App und zum relevanten Modell navigieren."
 
 #: ../../content/applications/studio.rst:38
 msgid "To close **Studio**, click :guilabel:`Close` in the upper-right corner."
@@ -90,24 +101,32 @@ msgid ""
 "Installing **Studio** in an Odoo database on the *Standard* pricing plan "
 "automatically triggers an upsell to the *Custom* pricing plan."
 msgstr ""
+"Die Installation von **Studio** in einer Odoo-Datenbank im Preisplan "
+"*Standard* löst automatisch ein Upsell zum Preisplan *Custom* aus."
 
 #: ../../content/applications/studio.rst:44
 msgid ""
 "**For yearly or multi-year contracts**: An upsell order is created with a 30-"
 "day limit."
 msgstr ""
+"**Für ein- oder mehrjährige Verträge**: Es wird ein Upselling-Auftrag mit "
+"einer 30-tägigen Frist erstellt."
 
 #: ../../content/applications/studio.rst:45
 msgid ""
 "**For monthly contracts**: The subscription automatically switches to the "
 "*Custom* plan and the new rate is applied when the next bill is generated."
 msgstr ""
+"**Für Monatsverträge**: Das Abonnement wechselt automatisch zum *Custom*-"
+"Plan und der neue Preis wird bei der nächsten Rechnungsstellung angewendet."
 
 #: ../../content/applications/studio.rst:48
 msgid ""
 "For more information, refer to `Odoo's pricing page <https://www.odoo.com/"
 "pricing-plan>`_ or contact your account manager."
 msgstr ""
+"Weitere Informationen finden Sie auf der `Odoo-Preisseite <https://"
+"www.odoo.com/pricing-plan>`_ oder wenden Sie sich an Ihren Kundenbetreuer."
 
 #: ../../content/applications/studio.rst:52
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
@@ -269,7 +288,7 @@ msgstr ""
 "**Benutzer-Avatar**-Symbol angezeigt. Durch Klicken auf ein Symbol werden "
 "die Schritte angezeigt."
 
-#: ../../content/applications/studio/approval_rules.rst:-1
+#: ../../content/applications/studio/approval_rules.rst:None
 msgid "Confirm button with two approval steps"
 msgstr "Die Schaltfläche „Bestätigen“ mit zwei Genehmigungsschritten"
 
@@ -390,6 +409,11 @@ msgid ""
 "response to a specific trigger, e.g., create an activity when a field is set "
 "to a specific value, or archive a record 7 days after its last update."
 msgstr ""
+"Automatisierungsregeln ermöglichen die Ausführung einer oder mehrerer "
+"vordefinierter Aktionen als Reaktion auf einen bestimmten Auslöser, z. B. "
+"das Erstellen einer Aktivität, wenn ein Feld auf einen bestimmten Wert "
+"gesetzt wird, oder das Archivieren eines Datensatzes 7 Tage nach seiner "
+"letzten Aktualisierung."
 
 #: ../../content/applications/studio/automated_actions.rst:11
 msgid ""
@@ -398,10 +422,17 @@ msgid ""
 "automation rule to run, e.g., the opportunity must be assigned to a specific "
 "salesperson, or the state of the record must not be :guilabel:`Draft`."
 msgstr ""
+"Beim Erstellen einer Automatisierungsregel erlauben :ref:`Domänenfilter "
+"<studio/automated-actions/conditions>`, Bedingungen hinzuzufügen, die "
+"erfüllt sein müssen, damit die Automatisierungsregel ausgeführt wird, z. B. "
+"muss die Verkaufschance einem bestimmten Verkäufer zugewiesen sein oder der "
+"Status des Datensatzes darf nicht :guilabel:`Entwurf` sein."
 
 #: ../../content/applications/studio/automated_actions.rst:16
 msgid "To create an automation rule with **Odoo Studio**, proceed as follows:"
 msgstr ""
+"Um eine Automatisierungsregel mit **Odoo Studio** zu erstellen, gehen Sie "
+"wie folgt vor:"
 
 #: ../../content/applications/studio/automated_actions.rst:18
 msgid ""
@@ -416,6 +447,8 @@ msgid ""
 "Give the automation rule a clear, meaningful name that identifies its "
 "purpose."
 msgstr ""
+"Geben Sie der Automatisierungsregel einen klaren, aussagekräftigen Namen, "
+"der ihren Zweck kennzeichnet."
 
 #: ../../content/applications/studio/automated_actions.rst:20
 msgid ""
@@ -423,6 +456,9 @@ msgid ""
 "necessary, fill in the fields that appear on the screen based on the chosen "
 "trigger."
 msgstr ""
+"Wählen Sie den :ref:`Auslöser <studio/automated-actions/trigger>` und füllen "
+"Sie bei Bedarf die Felder aus, die basierend auf dem gewählten Auslöser auf "
+"dem Bildschirm erscheinen."
 
 #: ../../content/applications/studio/automated_actions.rst:22
 msgid ""
@@ -447,10 +483,14 @@ msgid ""
 "an activity 3 months after a sales order is created for clients with a "
 "satisfaction percentage lower than 30%."
 msgstr ""
+"Um die Nachverfolgung weniger zufriedener Kunden sicherzustellen, erstellt "
+"diese Automatisierungsregel 3 Monate nach der Erstellung eines "
+"Verkaufsauftrags eine Aktivität für Kunden mit einem "
+"Zufriedenheitsprozentsatz unter 30 %."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an automation rule on the Subscription model"
-msgstr ""
+msgstr "Beispiel einer Automatisierungsregel für das Abonnement-Modell"
 
 #: ../../content/applications/studio/automated_actions.rst:37
 msgid ""
@@ -458,6 +498,9 @@ msgid ""
 "automation rules. This makes rules easier to maintain and facilitates "
 "collaboration between users."
 msgstr ""
+"Verwenden Sie die Registerkarte :guilabel:`Notizen`, um den Zweck und die "
+"Funktionsweise von Automatisierungsregeln zu dokumentieren. Dies erleichtert "
+"die Wartung von Regeln und fördert die Zusammenarbeit zwischen Benutzern."
 
 #: ../../content/applications/studio/automated_actions.rst:39
 msgid ""
@@ -467,6 +510,12 @@ msgid ""
 "automation rule, and select the :guilabel:`Model` in "
 "the :guilabel:`Automation Rules` form."
 msgstr ""
+"Um das von der Automatisierungsregel angesprochene :doc:`Modell "
+"<models_modules_apps>` zu ändern, wechseln Sie das Modell, bevor Sie in "
+"Studio auf :guilabel:`Automatisierungen` klicken, oder :ref:`aktivieren Sie "
+"den Entwicklermodus <developer-mode>`, erstellen oder bearbeiten Sie eine "
+"Automatisierungsregel und wählen Sie das :guilabel:`Modell` im Formular "
+":guilabel:`Automatisierungsregeln`."
 
 #: ../../content/applications/studio/automated_actions.rst:43
 msgid ""
@@ -476,6 +525,12 @@ msgid ""
 "case, the :guilabel:`Trigger` is set to :guilabel:`Stage is set to` by "
 "default, but it can be changed if necessary."
 msgstr ""
+"Automatisierungsregeln können aus jeder Kanban-Stufe erstellt werden, indem "
+"Sie auf das :icon:`fa-cog`-:guilabel:`(Einstellungen)`-Symbol klicken, das "
+"beim Hovern über dem Namen der Kanban-Stufe erscheint, und dann "
+":guilabel:`Automatisierungen` auswählen. In diesem Fall ist der "
+":guilabel:`Auslöser` standardmäßig auf :guilabel:`Stufe ist gesetzt auf` "
+"eingestellt, kann aber bei Bedarf geändert werden."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Create automations from a kanban stage"
@@ -492,30 +547,34 @@ msgid ""
 "the :doc:`model <models_modules_apps>`. Five trigger categories are "
 "available overall:"
 msgstr ""
+"Der :guilabel:`Auslöser` wird verwendet, um zu definieren, welche Art von "
+"Ereignis eintreten muss, damit die Automatisierungsregel ausgeführt wird. "
+"Die verfügbaren Auslöser hängen vom :doc:`Modell <models_modules_apps>` ab. "
+"Insgesamt sind fünf Auslöserkategorien verfügbar:"
 
 #: ../../content/applications/studio/automated_actions.rst:60
 msgid ":ref:`studio/automated-actions/trigger-values-updated`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-values-updated`"
 
 #: ../../content/applications/studio/automated_actions.rst:61
 msgid ":ref:`studio/automated-actions/trigger-email-events`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-email-events`"
 
 #: ../../content/applications/studio/automated_actions.rst:62
 msgid ":ref:`studio/automated-actions/trigger-timing-conditions`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-timing-conditions`"
 
 #: ../../content/applications/studio/automated_actions.rst:63
 msgid ":ref:`studio/automated-actions/trigger-custom`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-custom`"
 
 #: ../../content/applications/studio/automated_actions.rst:64
 msgid ":ref:`studio/automated-actions/trigger-external`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger-external`"
 
 #: ../../content/applications/studio/automated_actions.rst:69
 msgid "Adding conditions"
-msgstr ""
+msgstr "Bedingungen hinzufügen"
 
 #: ../../content/applications/studio/automated_actions.rst:71
 msgid ""
@@ -523,18 +582,28 @@ msgid ""
 "target or exclude. Efficient filtering enhances overall performance as it "
 "avoids unnecessary processing on records that are not impacted by the rule."
 msgstr ""
+"Domänenfilter ermöglichen es, die Datensätze zu bestimmen, auf die eine "
+"Automatisierungsregel abzielen oder die sie ausschließen soll. Effiziente "
+"Filterung verbessert die Gesamtleistung, da unnötige Verarbeitung von "
+"Datensätzen vermieden wird, die von der Regel nicht betroffen sind."
 
 #: ../../content/applications/studio/automated_actions.rst:76
 msgid ""
 ":ref:`Activate developer mode <developer-mode>` before creating an "
 "automation rule to have the most flexibility in adding domain filters."
 msgstr ""
+":ref:`Entwicklermodus aktivieren <developer-mode>`, bevor Sie eine "
+"Automatisierungsregel erstellen, um maximale Flexibilität beim Hinzufügen "
+"von Domänenfiltern zu haben."
 
 #: ../../content/applications/studio/automated_actions.rst:79
 msgid ""
 "Depending on the trigger chosen, it is possible to define one or more "
 "conditions a record must meet *before* and/or *after* a trigger occurs."
 msgstr ""
+"Abhängig vom gewählten Auslöser können eine oder mehrere Bedingungen "
+"definiert werden, die ein Datensatz *vor* und/oder *nach* dem Auftreten "
+"eines Auslösers erfüllen muss."
 
 #: ../../content/applications/studio/automated_actions.rst:82
 msgid ""
@@ -542,12 +611,18 @@ msgid ""
 "meet *before* the trigger event occurs, e.g., the record must have `Type = "
 "Customer Invoice` and `Status = Posted`."
 msgstr ""
+"Die :guilabel:`Domäne vor Aktualisierung` definiert die Bedingungen, die ein "
+"Datensatz erfüllen muss, *bevor* das Auslöseereignis auftritt, z. B. muss "
+"der Datensatz `Typ = Kundenrechnung` und `Status = Gebucht` haben."
 
 #: ../../content/applications/studio/automated_actions.rst:85
 msgid ""
 "With :ref:`developer mode activated <developer-mode>`, click :guilabel:`Edit "
 "Domain`, if available, then :guilabel:`New Rule`."
 msgstr ""
+"Bei :ref:`aktiviertem Entwicklermodus <developer-mode>` klicken Sie auf "
+":guilabel:`Domäne bearbeiten`, falls verfügbar, dann auf :guilabel:`Neue "
+"Regel`."
 
 #: ../../content/applications/studio/automated_actions.rst:88
 msgid ""
@@ -555,6 +630,10 @@ msgid ""
 "define the conditions a record must meet *after* the trigger event occurs, "
 "e.g., the customer invoice must have `Payment Status = Partially Paid`."
 msgstr ""
+":guilabel:`Zusätzliche Bedingungen` oder in einigen Fällen "
+":guilabel:`Anwenden auf`-Filter definieren die Bedingungen, die ein "
+"Datensatz *nach* dem Auslöseereignis erfüllen muss, z. B. muss die "
+"Kundenrechnung `Zahlungsstatus = Teilweise bezahlt` haben."
 
 #: ../../content/applications/studio/automated_actions.rst:92
 msgid ""
@@ -562,6 +641,9 @@ msgid ""
 "click :guilabel:`Add conditions` or :guilabel:`Edit Domain`, as relevant, "
 "then :guilabel:`New Rule`."
 msgstr ""
+"Bei Bedarf mit :ref:`aktiviertem Entwicklermodus <developer-mode>` klicken "
+"Sie auf :guilabel:`Bedingungen hinzufügen` oder :guilabel:`Domäne "
+"bearbeiten`, je nach Relevanz, dann auf :guilabel:`Neue Regel`."
 
 #: ../../content/applications/studio/automated_actions.rst:95
 msgid ""
@@ -570,6 +652,11 @@ msgid ""
 "checks the defined conditions and only executes the :ref:`action <studio/"
 "automated-actions/action>` if the record matches those conditions."
 msgstr ""
+"Wenn ein :ref:`Auslöser <studio/automated-actions/trigger>` auftritt, z. B. "
+"der Zahlungsstatus einer gebuchten Kundenrechnung aktualisiert wird, prüft "
+"die Automatisierungsregel die definierten Bedingungen und führt die "
+":ref:`Aktion <studio/automated-actions/action>` nur aus, wenn der Datensatz "
+"diesen Bedingungen entspricht."
 
 #: ../../content/applications/studio/automated_actions.rst:100
 msgid ""
@@ -579,6 +666,12 @@ msgid ""
 "and `Is a Company is not set` as the :guilabel:`Before Update Domain` and "
 "`Email is set` as the :guilabel:`Apply on` domain."
 msgstr ""
+"Wenn die automatisierte Aktion ausgeführt werden soll, wenn eine E-Mail-"
+"Adresse zum ersten Mal gesetzt wird (im Gegensatz zur Änderung einer E-Mail-"
+"Adresse) bei einem bestehenden Kontakt, der eine Einzelperson und kein "
+"Unternehmen ist, verwenden Sie `E-Mail ist nicht gesetzt` und `Ist ein "
+"Unternehmen ist nicht gesetzt` als :guilabel:`Domäne vor Aktualisierung` und "
+"`E-Mail ist gesetzt` als :guilabel:`Anwenden auf` Domäne."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a trigger with a Before Update Domain"
@@ -589,6 +682,8 @@ msgid ""
 "The :guilabel:`Before Update Domain` is not checked upon the creation of a "
 "record."
 msgstr ""
+"Die :guilabel:`Domäne vor Aktualisierung` wird beim Erstellen eines "
+"Datensatzes nicht geprüft."
 
 #: ../../content/applications/studio/automated_actions.rst:114
 msgid "Values Updated"
@@ -601,10 +696,15 @@ msgid ""
 "common changes, such as adding a specific tag (e.g., to a task) or setting a "
 "field's value (e.g., setting the :guilabel:`User` field)."
 msgstr ""
+"Automatisierte Aktionen auslösen, wenn bestimmte Änderungen in der Datenbank "
+"auftreten. Die in dieser Kategorie verfügbaren Auslöser hängen vom Modell ab "
+"und basieren auf häufigen Änderungen, wie dem Hinzufügen eines bestimmten "
+"Tags (z. B. zu einer Aufgabe) oder dem Setzen eines Feldwerts (z. B. Setzen "
+"des :guilabel:`Benutzer` Felds)."
 
 #: ../../content/applications/studio/automated_actions.rst:120
 msgid "Select the trigger, then select a value if required."
-msgstr ""
+msgstr "Wählen Sie den Auslöser und wählen Sie bei Bedarf einen Wert aus."
 
 #: ../../content/applications/studio/automated_actions.rst:125
 msgid "Email Events"
@@ -624,24 +724,34 @@ msgid ""
 "Trigger automated actions at a point in time relative to a date field or to "
 "the creation or update of a record. The following triggers are available:"
 msgstr ""
+"Automatisierte Aktionen zu einem Zeitpunkt relativ zu einem Datumsfeld oder "
+"zur Erstellung oder Aktualisierung eines Datensatzes auslösen. Die folgenden "
+"Auslöser sind verfügbar:"
 
 #: ../../content/applications/studio/automated_actions.rst:137
 msgid ""
 ":guilabel:`Based on date field`: The action is triggered a defined period of "
 "time before or after the date of the selected date field."
 msgstr ""
+":guilabel:`Basierend auf Datumsfeld`: Die Aktion wird einen festgelegten "
+"Zeitraum vor oder nach dem Datum des ausgewählten Datumsfelds ausgelöst."
 
 #: ../../content/applications/studio/automated_actions.rst:139
 msgid ""
 ":guilabel:`After creation`: The action is triggered a defined period of time "
 "after a record is created and saved."
 msgstr ""
+":guilabel:`Nach Erstellung`: Die Aktion wird nach einem definierten Zeitraum "
+"ausgelöst, nachdem ein Datensatz erstellt und gespeichert wurde."
 
 #: ../../content/applications/studio/automated_actions.rst:141
 msgid ""
 ":guilabel:`After last update`: The action is triggered a defined period of "
 "time after an existing record is edited and saved."
 msgstr ""
+":guilabel:`Nach letzter Aktualisierung`: Die Aktion wird nach einem "
+"definierten Zeitraum ausgelöst, nachdem ein bestehender Datensatz bearbeitet "
+"und gespeichert wurde."
 
 #: ../../content/applications/studio/automated_actions.rst:144
 msgid "You can then define:"
@@ -654,6 +764,12 @@ msgid ""
 "number. If you selected the :guilabel:`Based on date field` trigger, you "
 "must also select the date field to be used to determine the delay."
 msgstr ""
+"eine :guilabel:`Verzögerung`: Geben Sie die Anzahl der Minuten, Stunden, "
+"Tage oder Monate an. Um eine Aktion vor dem Auslösedatum ausführen zu "
+"lassen, geben Sie eine negative Zahl an. Wenn Sie den Auslöser "
+":guilabel:`Basierend auf Datumsfeld` ausgewählt haben, müssen Sie auch das "
+"Datumsfeld auswählen, das zur Bestimmung der Verzögerung verwendet werden "
+"soll."
 
 #: ../../content/applications/studio/automated_actions.rst:151
 msgid ""
@@ -661,6 +777,10 @@ msgid ""
 "240 minutes, or 4 hours. This frequency is generally sufficient for delays "
 "such as 3 months after the order date or 7 days after the last update."
 msgstr ""
+"Standardmäßig prüft der Scheduler alle 240 Minuten oder 4 Stunden auf "
+"zeitgesteuerte Automatisierungsregeln. Diese Häufigkeit ist im Allgemeinen "
+"ausreichend für Verzögerungen wie 3 Monate nach dem Bestelldatum oder 7 Tage "
+"nach der letzten Aktualisierung."
 
 #: ../../content/applications/studio/automated_actions.rst:155
 msgid ""
@@ -669,16 +789,23 @@ msgid ""
 "delays, e.g., 1 hour before the event start date and time, or 30 minutes "
 "after creation, can be respected as closely as possible."
 msgstr ""
+"Bei Verzögerungen von weniger als dem Äquivalent von 2400 Minuten oder 40 "
+"Stunden berechnet das System die Häufigkeit dieser Prüfung neu, um "
+"sicherzustellen, dass feinere Verzögerungen, z. B. 1 Stunde vor dem "
+"Ereignisstartdatum und -zeit oder 30 Minuten nach der Erstellung, so genau "
+"wie möglich eingehalten werden können."
 
 #: ../../content/applications/studio/automated_actions.rst:159
 msgid ""
 "An on-screen message indicates the possible delay after the scheduled "
 "triggering of the rule."
 msgstr ""
+"Eine Bildschirmmeldung weist auf die mögliche Verzögerung nach der geplanten "
+"Auslösung der Regel hin."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Message about possible delay after scheduled execution"
-msgstr ""
+msgstr "Meldung über mögliche Verzögerung nach geplanter Ausführung"
 
 #: ../../content/applications/studio/automated_actions.rst:164
 msgid ""
@@ -687,6 +814,10 @@ msgid ""
 "to :menuselection:`Settings --> Technical --> Scheduled Actions` to see all "
 "scheduled actions for your database."
 msgstr ""
+"Um die Häufigkeit des Schedulers anzuzeigen oder manuell zu bearbeiten, "
+"gehen Sie bei :ref:`aktiviertem Entwicklermodus <developer-mode>` zu "
+":menuselection:`Einstellungen --> Technisch --> Geplante Aktionen`, um alle "
+"geplanten Aktionen für Ihre Datenbank anzuzeigen."
 
 #: ../../content/applications/studio/automated_actions.rst:168
 msgid ""
@@ -695,6 +826,11 @@ msgid ""
 "the value of the :guilabel:`Execute Every` field. Click :guilabel:`Run "
 "Manually` at any time to manually trigger this scheduled action."
 msgstr ""
+"Geben Sie `Automation` in die Suchleiste ein, klicken Sie dann in der "
+"Ergebnisliste auf :guilabel:`Automatisierungsregeln: prüfen und ausführen`. "
+"Aktualisieren Sie bei Bedarf den Wert des Feldes :guilabel:`Ausführen alle`. "
+"Klicken Sie jederzeit auf :guilabel:`Manuell ausführen`, um diese geplante "
+"Aktion manuell auszulösen."
 
 #: ../../content/applications/studio/automated_actions.rst:172
 msgid ""
@@ -702,11 +838,17 @@ msgid ""
 "the conditions to be met for the automation rule to run. "
 "Click :guilabel:`New Rule` to add another condition."
 msgstr ""
+":guilabel:`Zusätzliche Bedingungen`: Klicken Sie auf :guilabel:`Bedingung "
+"hinzufügen`, geben Sie dann die Bedingungen an, die erfüllt sein müssen, "
+"damit die Automatisierungsregel ausgeführt wird. Klicken Sie auf "
+":guilabel:`Neue Regel`, um eine weitere Bedingung hinzuzufügen."
 
 #: ../../content/applications/studio/automated_actions.rst:175
 msgid ""
 "The action is executed when the delay is reached and the conditions are met."
 msgstr ""
+"Die Aktion wird ausgeführt, wenn die Verzögerung erreicht ist und die "
+"Bedingungen erfüllt sind."
 
 #: ../../content/applications/studio/automated_actions.rst:178
 msgid ""
@@ -715,9 +857,13 @@ msgid ""
 "the :guilabel:`Trigger` and set the :guilabel:`Delay` to "
 "`-30` :guilabel:`Minutes`."
 msgstr ""
+"Um eine Erinnerungs-E-Mail 30 Minuten *vor* Beginn eines Kalender-"
+"Ereignisses zu senden, wählen Sie :guilabel:`Start (Kalender-Ereignis)` als "
+"Datumsfeld für den :guilabel:`Auslöser` und setzen Sie die "
+":guilabel:`Verzögerung` auf `-30` :guilabel:`Minuten`."
 
 #: ../../content/applications/studio/automated_actions.rst:0
-#: ../../content/applications/studio/automated_actions.rst:-1
+#: ../../content/applications/studio/automated_actions.rst:None
 msgid "Example of a Based on date field trigger"
 msgstr "Beispeil eines Auslösers „Basierend auf Datumsfeld“ "
 
@@ -731,17 +877,20 @@ msgstr "Automatisierte Aktionen auslösen:"
 
 #: ../../content/applications/studio/automated_actions.rst:192
 msgid ":guilabel:`On save`: when a record is saved."
-msgstr ""
+msgstr ":guilabel:`Beim Speichern`: wenn ein Datensatz gespeichert wird."
 
 #: ../../content/applications/studio/automated_actions.rst:193
 msgid ":guilabel:`On deletion`: when a record is deleted."
-msgstr ""
+msgstr ":guilabel:`Bei Löschung`: wenn ein Datensatz gelöscht wird."
 
 #: ../../content/applications/studio/automated_actions.rst:194
 msgid ""
 ":guilabel:`On UI change`: when a field's value is changed on the :ref:`Form "
 "view <studio/views/general/form>`, even before the record is saved."
 msgstr ""
+":guilabel:`Bei UI-Änderung`: wenn der Wert eines Feldes in der "
+":ref:`Formularansicht <studio/views/general/form>` geändert wird, noch bevor "
+"der Datensatz gespeichert wird."
 
 #: ../../content/applications/studio/automated_actions.rst:197
 msgid ""
@@ -779,16 +928,25 @@ msgid ""
 "Update Domain` and `ID is set` as the :guilabel:`Apply on` domain. Make sure "
 "the correct field is selected in the :guilabel:`When updating` field."
 msgstr ""
+"Um eine automatisierte Aktion *bei* der Erstellung eines Datensatzes "
+"auszulösen, z. B. wenn ein neuer Kontakt erstellt wird, wählen Sie den "
+":ref:`Beim Speichern <studio/automated-actions/trigger-custom>`-Auslöser und "
+"verwenden Sie `ID ist nicht gesetzt` als :guilabel:`Domäne vor "
+"Aktualisierung` und `ID ist gesetzt` als :guilabel:`Anwenden auf`-Domäne. "
+"Stellen Sie sicher, dass das richtige Feld im Feld :guilabel:`Beim "
+"Aktualisieren` ausgewählt ist."
 
 #: ../../content/applications/studio/automated_actions.rst:214
 msgid ""
 "When a new contact is saved, it is automatically assigned a database ID, "
 "thereby triggering the automation rule."
 msgstr ""
+"Wenn ein neuer Kontakt gespeichert wird, wird ihm automatisch eine Datenbank-"
+"ID zugewiesen, wodurch die Automatisierungsregel ausgelöst wird."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a triggering an action upon creation of a record"
-msgstr ""
+msgstr "Beispiel für das Auslösen einer Aktion bei Erstellung eines Datensatzes"
 
 #: ../../content/applications/studio/automated_actions.rst:221
 msgid ""
@@ -797,6 +955,11 @@ msgid ""
 "when a modification is made manually. The action is not executed if the "
 "field is changed through another automation rule."
 msgstr ""
+"Der Auslöser :guilabel:`Bei UI-Änderung` kann nur mit der Aktion :ref:`Code "
+"ausführen <studio/automated-actions/action-execute-code>` verwendet werden "
+"und funktioniert nur, wenn eine Änderung manuell vorgenommen wird. Die "
+"Aktion wird nicht ausgeführt, wenn das Feld durch eine andere "
+"Automatisierungsregel geändert wird."
 
 #: ../../content/applications/studio/automated_actions.rst:228
 msgid "External"
@@ -807,6 +970,9 @@ msgid ""
 "Trigger automated actions based on a specific event in an external system or "
 "application using a :doc:`webhook <automated_actions/webhooks>`."
 msgstr ""
+"Automatisierte Aktionen basierend auf einem bestimmten Ereignis in einem "
+"externen System oder einer externen Anwendung mithilfe eines :doc:`Webhooks "
+"<automated_actions/webhooks>` auslösen."
 
 #: ../../content/applications/studio/automated_actions.rst:233
 msgid ""
@@ -814,6 +980,9 @@ msgid ""
 "generated and the target record defined, it needs to be implemented in the "
 "external system."
 msgstr ""
+"Nachdem der Webhook in Odoo konfiguriert wurde, wobei die URL des Webhooks "
+"generiert und der Zieldatensatz definiert wird, muss er im externen System "
+"implementiert werden."
 
 #: ../../content/applications/studio/automated_actions.rst:237
 #: ../../content/applications/studio/automated_actions/webhooks.rst:6
@@ -836,10 +1005,13 @@ msgid ""
 "external system's webhook <studio/automated-actions/action-webhook>` when an "
 "event occurs in your Odoo database."
 msgstr ""
+"Es ist auch möglich, eine automatisierte Aktion einzurichten, die "
+":ref:`Daten an den Webhook eines externen Systems sendet <studio/automated-"
+"actions/action-webhook>`, wenn ein Ereignis in Ihrer Odoo-Datenbank auftritt."
 
 #: ../../content/applications/studio/automated_actions.rst:249
 msgid ":doc:`Webhook documentation <automated_actions/webhooks>`"
-msgstr ""
+msgstr ":doc:`Webhook-Dokumentation <automated_actions/webhooks>`"
 
 #: ../../content/applications/studio/automated_actions.rst:254
 msgid "Actions"
@@ -851,12 +1023,19 @@ msgid ""
 "actions/trigger>`, click :guilabel:`Add an action` in the :guilabel:`Actions "
 "To Do` tab to define the action to be executed."
 msgstr ""
+"Sobald Sie den :ref:`Auslöser <studio/automated-actions/trigger>` der "
+"Automatisierungsregel definiert haben, klicken Sie auf :guilabel:`Aktion "
+"hinzufügen` im Tab :guilabel:`Auszuführende Aktionen`, um die auszuführende "
+"Aktion zu definieren."
 
 #: ../../content/applications/studio/automated_actions.rst:260
 msgid ""
 "You can define multiple actions for the same automation rule. By default, "
 "actions are executed in the order in which they were defined."
 msgstr ""
+"Sie können mehrere Aktionen für dieselbe Automatisierungsregel definieren. "
+"Standardmäßig werden Aktionen in der Reihenfolge ausgeführt, in der sie "
+"definiert wurden."
 
 #: ../../content/applications/studio/automated_actions.rst:263
 msgid ""
@@ -866,6 +1045,13 @@ msgid ""
 "the :guilabel:`Send email` action is defined before the :guilabel:`Update "
 "record` action, the email uses the values set *before* the record is updated."
 msgstr ""
+"Das bedeutet zum Beispiel, dass, wenn Sie eine Aktion :guilabel:`Datensatz "
+"aktualisieren` und dann eine Aktion :guilabel:`E-Mail senden` definieren, "
+"bei der die E-Mail auf das aktualisierte Feld verweist, die E-Mail die "
+"aktualisierten Werte verwendet. Wenn jedoch die Aktion :guilabel:`E-Mail "
+"senden` vor der Aktion :guilabel:`Datensatz aktualisieren` definiert wird, "
+"verwendet die E-Mail die Werte, die *vor* der Aktualisierung des Datensatzes "
+"gesetzt wurden."
 
 #: ../../content/applications/studio/automated_actions.rst:268
 msgid ""
@@ -873,6 +1059,9 @@ msgid ""
 "draggable` :guilabel:`(drag handle)` icon beside an action and drag it to "
 "the desired position."
 msgstr ""
+"Um die Reihenfolge der definierten Aktionen zu ändern, klicken Sie auf das "
+"Symbol :icon:`oi-draggable` :guilabel:`(Ziehgriff)` neben einer Aktion und "
+"ziehen Sie sie an die gewünschte Position."
 
 #: ../../content/applications/studio/automated_actions.rst:274
 msgid "Update Record"
@@ -886,6 +1075,12 @@ msgid ""
 "right` :guilabel:`(right arrow)` next to the field name to access the list "
 "of related fields."
 msgstr ""
+"Diese Aktion aktualisiert eines der Felder des Datensatzes (oder verknüpfter "
+"Datensätze). Klicken Sie auf das Feld :guilabel:`Aktualisieren` und wählen "
+"Sie in der sich öffnenden Liste das zu aktualisierende Feld aus oder suchen "
+"Sie danach. Falls erforderlich, klicken Sie auf :icon:`oi-chevron-right` "
+":guilabel:`(Pfeil nach rechts)` neben dem Feldnamen, um auf die Liste der "
+"verknüpften Felder zuzugreifen."
 
 #: ../../content/applications/studio/automated_actions.rst:281
 msgid ""
@@ -906,6 +1101,10 @@ msgid ""
 "set the :guilabel:`Update` field to :guilabel:`Customer > Tags`, "
 "select :guilabel:`by Removing`, then select the tag."
 msgstr ""
+"Wenn Sie möchten, dass die automatisierte Aktion ein Schlagwort vom "
+"Kundendatensatz entfernt, setzen Sie das Feld :guilabel:`Aktualisieren` auf "
+":guilabel:`Kunde > Schlagwörter`, wählen Sie :guilabel:`durch Entfernen` und "
+"wählen Sie dann das Schlagwort aus."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an Update Record action"
@@ -961,6 +1160,9 @@ msgid ""
 "To always assign the activity to the same user, select :guilabel:`Specific "
 "User`, then add the user in the :guilabel:`Responsible` field;"
 msgstr ""
+"Um die Aktivität immer demselben Benutzer zuzuweisen, wählen Sie "
+":guilabel:`Bestimmter Benutzer` und fügen Sie dann den Benutzer im Feld "
+":guilabel:`Verantwortlich` hinzu;"
 
 #: ../../content/applications/studio/automated_actions.rst:315
 msgid ""
@@ -1076,6 +1278,9 @@ msgid ""
 "specific record. To do so, select the appropriate :guilabel:`WhatsApp "
 "Template` from the dropdown menu."
 msgstr ""
+"Diese Aktion wird verwendet, um eine WhatsApp-Nachricht an einen Kontakt zu "
+"senden, der mit einem bestimmten Datensatz verknüpft ist. Wählen Sie dazu "
+"die entsprechende :guilabel:`WhatsApp-Vorlage` aus dem Dropdown-Menü aus."
 
 #: ../../content/applications/studio/automated_actions.rst:362
 msgid "Add Followers and Remove Followers"
@@ -1086,6 +1291,8 @@ msgid ""
 "This action is used to subscribe/unsubscribe existing contacts to/from the "
 "record."
 msgstr ""
+"Diese Aktion wird verwendet, um bestehende Kontakte für den Datensatz zu "
+"abonnieren/abzubestellen."
 
 #: ../../content/applications/studio/automated_actions.rst:369
 msgid "Create Record"
@@ -1132,6 +1339,13 @@ msgid ""
 "create a new project task and then assign it to a specific user using "
 "an :guilabel:`Update Record` action."
 msgstr ""
+"Sie können eine weitere Automatisierungsregel mit :ref:`studio/automated-"
+"actions/action-update-record`-Aktionen erstellen, um bei Bedarf die Felder "
+"des neuen Datensatzes zu aktualisieren. Sie können beispielsweise eine "
+":guilabel:`Datensatz erstellen`-Aktion verwenden, um eine neue "
+"Projektaufgabe zu erstellen, und diese dann mithilfe einer "
+":guilabel:`Datensatz aktualisieren`-Aktion einem bestimmten Benutzer "
+"zuweisen."
 
 #: ../../content/applications/studio/automated_actions.rst:392
 msgid "Execute Code"
@@ -1144,6 +1358,11 @@ msgid ""
 "code is not included in the *Standard* or *Custom* pricing plans and "
 "incurs :ref:`additional fees <charges_standard>`."
 msgstr ""
+"Für Automatisierungsregeln, die die Ausführung von :ref:`benutzerdefiniertem "
+"Code <studio/automated-actions/action-execute-code>` erfordern, beachten "
+"Sie, dass die Wartung von benutzerdefiniertem Code nicht in den Preisplänen "
+"*Standard* oder *Custom* enthalten ist und :ref:`zusätzliche Gebühren "
+"<charges_standard>` anfallen."
 
 #: ../../content/applications/studio/automated_actions.rst:400
 msgid ""
@@ -1229,7 +1448,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:421
 msgid ":doc:`Odoo's ORM capabilities <../../developer/reference/backend/orm>`"
-msgstr ""
+msgstr ":doc:`Odoos ORM-Funktionen <../../developer/reference/backend/orm>`"
 
 #: ../../content/applications/studio/automated_actions.rst:426
 msgid "Send Webhook Notification"
@@ -1241,6 +1460,9 @@ msgid ""
 "selected :guilabel:`Fields` to the webhook URL specified in "
 "the :guilabel:`URL` field."
 msgstr ""
+"Diese Aktion wird verwendet, um eine `POST`-API-Anfrage mit den Werten der "
+"ausgewählten :guilabel:`Felder` an die im Feld :guilabel:`URL` angegebene "
+"Webhook-URL zu senden."
 
 #: ../../content/applications/studio/automated_actions.rst:431
 msgid ""
@@ -1258,6 +1480,10 @@ msgid ""
 "to receive data from an external system <automated_actions/webhooks>` when a "
 "predefined event occurs in that system."
 msgstr ""
+"Es ist auch möglich, eine automatisierte Aktion einzurichten, die "
+":doc:`einen Webhook verwendet, um Daten von einem externen System zu "
+"empfangen <automated_actions/webhooks>`, wenn ein vordefiniertes Ereignis in "
+"diesem System auftritt."
 
 #: ../../content/applications/studio/automated_actions.rst:441
 msgid "Execute Existing Actions"
@@ -1287,6 +1513,9 @@ msgid ""
 "action in your Odoo database when a specific event occurs in another, "
 "external system."
 msgstr ""
+"Webhooks, die in **Studio** erstellt werden können, ermöglichen es Ihnen, "
+"eine Aktion in Ihrer Odoo-Datenbank zu automatisieren, wenn ein bestimmtes "
+"Ereignis in einem anderen externen System auftritt."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:13
 msgid ""
@@ -1295,6 +1524,10 @@ msgid ""
 "a `POST` API request, and a predefined action is performed in your Odoo "
 "database."
 msgstr ""
+"In der Praxis funktioniert das wie folgt: Wenn das Ereignis im externen "
+"System auftritt, wird eine Datendatei (die \"Payload\") über eine `POST`-API-"
+"Anfrage an die URL des Odoo-Webhooks gesendet und eine vordefinierte Aktion "
+"wird in Ihrer Odoo-Datenbank ausgeführt."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:17
 msgid ""
@@ -1304,6 +1537,12 @@ msgid ""
 "webhook to have your Odoo inventory data updated automatically when a sales "
 "order is confirmed in an external point-of-sale system."
 msgstr ""
+"Im Gegensatz zu geplanten Aktionen, die in vordefinierten Intervallen "
+"ausgeführt werden, oder manuellen API-Anfragen, die explizit aufgerufen "
+"werden müssen, ermöglichen Webhooks ereignisgesteuerte Kommunikation und "
+"Automatisierung in Echtzeit. Sie können beispielsweise einen Webhook "
+"einrichten, um Ihre Odoo-Lagerdaten automatisch zu aktualisieren, wenn ein "
+"Verkaufsauftrag in einem externen Kassensystem bestätigt wird."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:22
 msgid ""
@@ -1312,6 +1551,11 @@ msgid ""
 "requires an external tool. :ref:`Custom target records or actions <studio/"
 "webhooks/webhook-example>` may require programming skills."
 msgstr ""
+"Das Einrichten eines Webhooks in Odoo erfordert keine Programmierung, wenn "
+"zwei Odoo-Datenbanken verbunden werden, aber :ref:`das Testen eines Webhooks "
+"<studio/webhooks/test-webhook>` erfordert ein externes Tool. "
+":ref:`Benutzerdefinierte Zieldatensätze oder Aktionen <studio/webhooks/"
+"webhook-example>` können Programmierkenntnisse erfordern."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:28
 msgid ""
@@ -1320,17 +1564,26 @@ msgid ""
 "that :ref:`sends data to an external webhook <studio/automated-actions/"
 "action-webhook>` when a change occurs in your Odoo database."
 msgstr ""
+"Dieser Artikel behandelt das Erstellen eines Webhooks, der Daten von einer "
+"externen Quelle *empfängt*. Es ist jedoch auch möglich, eine automatisierte "
+"Aktion zu erstellen, die :ref:`Daten an einen externen Webhook sendet "
+"<studio/automated-actions/action-webhook>`, wenn eine Änderung in Ihrer Odoo-"
+"Datenbank auftritt."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:35
 msgid "Create a webhook in Odoo"
-msgstr ""
+msgstr "Webhook in Odoo erstellen"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:38
 msgid ""
 "Before implementing a webhook in a live database, configure and test it "
-"using a :ref:`duplicate database <odoo_online/database-management>` to "
-"ensure the webhook performs as intended."
+"using a :ref:`duplicate database <odoo-online/duplicate>` to ensure the "
+"webhook performs as intended."
 msgstr ""
+"Konfigurieren und testen Sie einen Webhook mithilfe einer :ref:`duplizierten "
+"Datenbank <odoo-online/duplicate>`, bevor Sie ihn in einer Live-Datenbank "
+"implementieren, um sicherzustellen, dass der Webhook wie beabsichtigt "
+"funktioniert."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:42
 msgid ""
@@ -1340,6 +1593,11 @@ msgid ""
 "find the technical name of the model and fields, which may be needed to "
 "configure the payload."
 msgstr ""
+":ref:`Den Entwicklermodus zu aktivieren <developer-mode>`, bevor ein Webhook "
+"erstellt wird, bietet größere Flexibilität bei der Auswahl des :doc:`Modells "
+"<../models_modules_apps>`, auf das die Automatisierungsregel abzielt. Es "
+"ermöglicht auch, den technischen Namen des Modells und der Felder zu finden, "
+"die möglicherweise zur Konfiguration der Payload benötigt werden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:47
 msgid ""
@@ -1349,20 +1607,30 @@ msgid ""
 "example, a sales order webhook uses the *Sales Order* model, but the "
 "technical name `sale.order` is used in the payload."
 msgstr ""
+"Um den technischen Namen eines Modells zu finden, fahren Sie bei aktiviertem "
+"Entwicklermodus über den Modellnamen und klicken Sie dann auf :icon:`fa-"
+"arrow-right` :guilabel:`Interner Link`. Der technische Name befindet sich im "
+"Feld :guilabel:`Modell`. Beispielsweise verwendet ein Verkaufsauftrag-"
+"Webhook das Modell *Verkaufsauftrag*, aber der technische Name `sale.order` "
+"wird in der Payload verwendet."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:52
 msgid "To create a webhook in **Studio**, proceed as follows:"
-msgstr ""
+msgstr "Um einen Webhook in **Studio** zu erstellen, gehen Sie wie folgt vor:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:54
 msgid ""
 ":ref:`Open Studio <studio/access>` and click :guilabel:`Webhooks`, "
 "then :guilabel:`New`."
 msgstr ""
+":ref:`Studio öffnen <studio/access>` und auf :guilabel:`Webhooks` klicken, "
+"dann auf :guilabel:`Neu`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:55
 msgid "Give the webhook a clear, meaningful name that identifies its purpose."
 msgstr ""
+"Geben Sie dem Webhook einen klaren, aussagekräftigen Namen, der seinen Zweck "
+"identifiziert."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:56
 msgid ""
@@ -1370,6 +1638,10 @@ msgid ""
 "appropriate :guilabel:`Model` from the dropdown. If developer mode is not "
 "activated, the automation rule targets the current model by default."
 msgstr ""
+"Falls erforderlich und sofern der Entwicklermodus aktiviert ist, wählen Sie "
+"das entsprechende :guilabel:`Modell` aus dem Dropdown-Menü aus. Wenn der "
+"Entwicklermodus nicht aktiviert ist, zielt die Automatisierungsregel "
+"standardmäßig auf das aktuelle Modell ab."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:60
 msgid ""
@@ -1378,6 +1650,10 @@ msgid ""
 "when implementing the webhook in the external system that will send updates "
 "to the database."
 msgstr ""
+"Die URL des Webhooks wird automatisch generiert, kann aber bei Bedarf durch "
+"Klicken auf :guilabel:`Secret rotieren` geändert werden. Dies ist die URL, "
+"die beim Implementieren des Webhooks im externen System verwendet werden "
+"sollte, das Updates an die Datenbank sendet."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:65
 msgid ""
@@ -1386,12 +1662,20 @@ msgid ""
 "database. If the URL is updated after the initial implementation, make sure "
 "to update it in the external system."
 msgstr ""
+"Die URL ist **vertraulich** und sollte mit Vorsicht behandelt werden. Wenn "
+"Sie sie online oder unvorsichtig teilen, kann dies unbeabsichtigten Zugriff "
+"auf die Odoo-Datenbank ermöglichen. Wenn die URL nach der ersten "
+"Implementierung aktualisiert wird, stellen Sie sicher, dass sie im externen "
+"System aktualisiert wird."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:69
 msgid ""
 "If desired, enable :guilabel:`Log Calls` to track the history of API "
 "requests made to the webhook's URL, e.g., for troubleshooting purposes."
 msgstr ""
+"Falls gewünscht, aktivieren Sie :guilabel:`Aufrufe protokollieren`, um den "
+"Verlauf der API-Anfragen an die URL des Webhooks zu verfolgen, z. B. für "
+"Fehlerbehebungszwecke."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:72
 msgid ""
@@ -1400,6 +1684,11 @@ msgid ""
 "API request is made to the webhook's URL. If the system sending the webhook "
 "is an Odoo database, ensure that the `id` and `model` appear in the payload."
 msgstr ""
+"Wenn das System, das den Webhook sendet, nicht Odoo ist, passen Sie den Code "
+"für :guilabel:`Zieldatensatz` an, um nach dem JSON-Datensatz zu suchen, der "
+"in der Payload enthalten ist, wenn die API-Anfrage an die URL des Webhooks "
+"gestellt wird. Wenn das System, das den Webhook sendet, eine Odoo-Datenbank "
+"ist, stellen Sie sicher, dass `id` und `model` in der Payload erscheinen."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:77
 msgid ""
@@ -1407,24 +1696,35 @@ msgid ""
 "`model.browse(i)` or `model.search(i)` instead of the "
 "default :guilabel:`Target Record` format."
 msgstr ""
+"Wenn der Webhook zum Erstellen von Datensätzen in der Odoo-Datenbank "
+"verwendet wird, verwenden Sie `model.browse(i)` oder `model.search(i)` "
+"anstelle des Standard-:guilabel:`Zieldatensatz`-Formats."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:80
 msgid ""
 "Click :guilabel:`Add an action` in the :guilabel:`Actions To Do` tab to "
 "define the :ref:`actions <studio/automated-actions/action>` to be executed."
 msgstr ""
+"Klicken Sie auf :guilabel:`Aktion hinzufügen` im Tab "
+":guilabel:`Auszuführende Aktionen`, um die auszuführenden :ref:`Aktionen "
+"<studio/automated-actions/action>` zu definieren."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:82
 msgid ""
 "Before implementing the webhook in the external system, :ref:`test <studio/"
 "webhooks/test-webhook>` it to ensure it works as intended."
 msgstr ""
+"Bevor Sie den Webhook im externen System implementieren, :ref:`testen "
+"<studio/webhooks/test-webhook>` Sie ihn, um sicherzustellen, dass er wie "
+"beabsichtigt funktioniert."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:86
 msgid ""
 "Webhooks can also be created via the :guilabel:`Automations` menu in "
 "**Studio** by selecting the trigger :guilabel:`On webhook`."
 msgstr ""
+"Webhooks können auch über das Menü :guilabel:`Automationen` in **Studio** "
+"erstellt werden, indem der Auslöser :guilabel:`Bei Webhook` ausgewählt wird."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:88
 msgid ""
@@ -1432,6 +1732,9 @@ msgid ""
 "enabled, click the :guilabel:`Logs` smart button at the top of "
 "the :guilabel:`Automation rules` form."
 msgstr ""
+"Um auf den Verlauf der API-Anfragen zuzugreifen, falls :guilabel:`Aufrufe "
+"protokollieren` aktiviert wurde, klicken Sie auf die Schaltfläche "
+":guilabel:`Protokolle` oben im Formular :guilabel:`Automatisierungsregeln`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:90
 msgid ""
@@ -1439,10 +1742,13 @@ msgid ""
 "record, e.g., to create a new record, the :guilabel:`Execute Code` action "
 "must be chosen."
 msgstr ""
+"Falls der Zweck des Webhooks nicht darin besteht, einen vorhandenen "
+"Datensatz zu aktualisieren, z. B. um einen neuen Datensatz zu erstellen, "
+"muss die Aktion :guilabel:`Code ausführen` gewählt werden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:96
 msgid "Test a webhook"
-msgstr ""
+msgstr "Webhook testen"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:98
 msgid ""
@@ -1450,47 +1756,64 @@ msgid ""
 "like `Postman <https://www.postman.com/>`_, to send the payload via a `POST` "
 "API request. This section presents the steps to test a webhook in Postman."
 msgstr ""
+"Das Testen eines Webhooks erfordert eine Test-Payload und ein externes Tool "
+"oder System wie `Postman <https://www.postman.com/>`_, um die Payload über "
+"eine `POST`-API-Anfrage zu senden. Dieser Abschnitt stellt die Schritte zum "
+"Testen eines Webhooks in Postman vor."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:103
 msgid ""
 "See the :ref:`webhook use cases section <studio/webhooks/webhook-examples>` "
 "for step-by-step explanations of how to test webhooks using test payloads."
 msgstr ""
+"Siehe den :ref:`Abschnitt zu Webhook-Anwendungsfällen <studio/webhooks/"
+"webhook-examples>` für schrittweise Erklärungen zum Testen von Webhooks mit "
+"Test-Payloads."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:105
 msgid ""
 "To get specific help with testing a webhook with Postman, contact their "
 "support team."
 msgstr ""
+"Um spezifische Hilfe beim Testen eines Webhooks mit Postman zu erhalten, "
+"kontaktieren Sie deren Support-Team."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:107
 msgid ""
 "In Postman, create a new HTTP request and set its method to :guilabel:`POST`."
 msgstr ""
+"Erstellen Sie in Postman eine neue HTTP-Anfrage und setzen Sie deren Methode "
+"auf :guilabel:`POST`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:108
 msgid ""
 "Copy the webhook's URL from your Odoo database using the :icon:`fa-"
 "link` :guilabel:`(link)` icon and paste it into the URL field in Postman."
 msgstr ""
+"Kopieren Sie die URL des Webhooks aus Ihrer Odoo-Datenbank mit dem Symbol "
+":icon:`fa-link` :guilabel:`(Link)` und fügen Sie sie in das URL-Feld in "
+"Postman ein."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:110
 #: ../../content/applications/studio/automated_actions/webhooks.rst:192
 #: ../../content/applications/studio/automated_actions/webhooks.rst:267
 msgid "Click the :guilabel:`Body` tab and select :guilabel:`raw`."
 msgstr ""
+"Klicken Sie auf den Tab :guilabel:`Body` und wählen Sie :guilabel:`raw`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:111
 msgid ""
 "Set the file type to :guilabel:`JSON`, then copy the code from the test "
 "payload and paste it into the code editor."
 msgstr ""
+"Setzen Sie den Dateityp auf :guilabel:`JSON`, kopieren Sie dann den Code aus "
+"der Test-Payload und fügen Sie ihn in den Code-Editor ein."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:113
 #: ../../content/applications/studio/automated_actions/webhooks.rst:206
 #: ../../content/applications/studio/automated_actions/webhooks.rst:281
 msgid "Click :guilabel:`Send`."
-msgstr ""
+msgstr "Klicken Sie auf :guilabel:`Senden`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:117
 msgid ""
@@ -1498,6 +1821,9 @@ msgid ""
 "details, including a HTTP response code, indicate whether or not the webhook "
 "is functioning correctly."
 msgstr ""
+"Im Viewer :guilabel:`Response` unten auf dem Bildschirm in Postman zeigen "
+"Details, einschließlich eines HTTP-Antwortcodes, an, ob der Webhook korrekt "
+"funktioniert oder nicht."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:120
 msgid ""
@@ -1505,6 +1831,10 @@ msgid ""
 "properly on Odoo's side. From here, implementation can begin with the other "
 "system to automatically send the API requests to the Odoo webhook's URL."
 msgstr ""
+"Eine Meldung `200 OK` oder `status: ok` zeigt an, dass der Webhook auf Odoo-"
+"Seite ordnungsgemäß funktioniert. Von hier aus kann die Implementierung mit "
+"dem anderen System beginnen, um die API-Anfragen automatisch an die URL des "
+"Odoo-Webhooks zu senden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:124
 msgid ""
@@ -1514,16 +1844,25 @@ msgid ""
 "the fields found in the JSON file are properly mapped in the webhook's "
 "configuration and in the system sending the test call."
 msgstr ""
+"Wenn eine andere Antwort zurückgegeben wird, hilft die zugehörige Nummer "
+"dabei, das Problem zu identifizieren. Beispielsweise bedeutet eine Meldung "
+"`500 Internal Server Error`, dass Odoo den Aufruf nicht korrekt "
+"interpretieren konnte. Stellen Sie in diesem Fall sicher, dass die in der "
+"JSON-Datei gefundenen Felder in der Konfiguration des Webhooks und im "
+"System, das den Testaufruf sendet, korrekt zugeordnet sind."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:130
 msgid ""
 "Turning on call logging in the webhook's configuration in Odoo provides "
 "error logs if the webhook is not functioning as intended."
 msgstr ""
+"Das Aktivieren der Aufrufprotokollierung in der Konfiguration des Webhooks "
+"in Odoo liefert Fehlerprotokolle, falls der Webhook nicht wie beabsichtigt "
+"funktioniert."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:134
 msgid "Implement a webhook in an external system"
-msgstr ""
+msgstr "Webhook in einem externen System implementieren"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:136
 msgid ""
@@ -1531,6 +1870,10 @@ msgid ""
 "it in the system that sends data to the Odoo database, making sure the "
 "`POST` API requests are sent to the webhook's URL."
 msgstr ""
+"Wenn der Webhook erfolgreich in Odoo erstellt und getestet wurde, "
+"implementieren Sie ihn in dem System, das Daten an die Odoo-Datenbank "
+"sendet, und stellen Sie sicher, dass die `POST`-API-Anfragen an die URL des "
+"Webhooks gesendet werden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:142
 msgid "Webhook use cases"
@@ -1543,6 +1886,10 @@ msgid ""
 "webhook. `Postman <https://www.postman.com/>`_ is used to send the test "
 "payload."
 msgstr ""
+"Im Folgenden finden Sie zwei Beispiele für die Verwendung von Webhooks in "
+"Odoo. Für jedes Beispiel wird eine Test-Payload bereitgestellt, die im "
+"Abschnitt zum Testen des Webhooks zu finden ist. `Postman <https://"
+"www.postman.com/>`_ wird verwendet, um die Test-Payload zu senden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:149
 msgid "Update a sales order's currency"
@@ -1555,6 +1902,10 @@ msgid ""
 "includes that sales order number (which is identified by the payload's `id` "
 "record)."
 msgstr ""
+"Dieser Webhook aktualisiert einen Verkaufsauftrag in der App **Verkauf** auf "
+"`USD`, wenn das externe System eine `POST`-API-Anfrage an die URL des "
+"Webhooks sendet, die diese Verkaufsauftragsnummer enthält (die durch den "
+"`id`-Datensatz der Payload identifiziert wird)."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:155
 msgid ""
@@ -1562,22 +1913,29 @@ msgid ""
 "mother company located inside the United States or during mergers when "
 "consolidating data into one Odoo database."
 msgstr ""
+"Dies könnte nützlich sein für Tochtergesellschaften außerhalb der "
+"Vereinigten Staaten mit einer Muttergesellschaft innerhalb der Vereinigten "
+"Staaten oder während Fusionen, wenn Daten in einer Odoo-Datenbank "
+"konsolidiert werden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:159
 #: ../../content/applications/studio/automated_actions/webhooks.rst:221
 msgid "Create the webhook"
-msgstr ""
+msgstr "Webhook erstellen"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:161
 #: ../../content/applications/studio/automated_actions/webhooks.rst:223
 msgid "To create this webhook, proceed as follows:"
-msgstr ""
+msgstr "Um diesen Webhook zu erstellen, gehen Sie wie folgt vor:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:163
 msgid ""
 "Open the **Sales** app, then :ref:`open Studio <studio/access>` and "
 "click :guilabel:`Webhooks`. The *Sales Order* model is selected by default."
 msgstr ""
+"Öffnen Sie die **Verkauf**-App, dann :ref:`öffnen Sie Studio <studio/access>"
+"` und klicken Sie auf :guilabel:`Webhooks`. Das Modell *Verkaufsauftrag* ist "
+"standardmäßig ausgewählt."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:165
 #: ../../content/applications/studio/automated_actions/webhooks.rst:227
@@ -1585,12 +1943,16 @@ msgid ""
 "Click :guilabel:`New`. The :guilabel:`Trigger` is set to :guilabel:`On "
 "webhook` by default."
 msgstr ""
+"Klicken Sie auf :guilabel:`Neu`. Der :guilabel:`Auslöser` ist standardmäßig "
+"auf :guilabel:`Bei Webhook` gesetzt."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:166
 msgid ""
 "Set the :guilabel:`Target Record` to "
 "`model.env[payload.get('model')].browse(int(payload.get('id')))`, where:"
 msgstr ""
+"Setzen Sie den :guilabel:`Zieldatensatz` auf `model.env[payload.get('model')"
+"].browse(int(payload.get('id')))`, wobei:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:169
 msgid ""
@@ -1598,6 +1960,9 @@ msgid ""
 "in the payload, i.e., `sale.order`, which is the technical name of the "
 "*Sales Order* model."
 msgstr ""
+"`payload.get('model')` den Wert abruft, der mit dem Schlüssel `model` in der "
+"Nutzlast verknüpft ist, d. h. `sale.order`, was der technische Name des "
+"Modells *Verkaufsauftrag* ist."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:171
 msgid ""
@@ -1605,32 +1970,42 @@ msgid ""
 "payload, i.e., the number of the target sales order in your Odoo database "
 "with the `S` and leading zeros removed."
 msgstr ""
+"`payload.get('id')` ruft den Wert ab, der mit dem Schlüssel `id` in der "
+"Nutzlast verknüpft ist, d. h. die Nummer des Ziel-Verkaufsauftrags in Ihrer "
+"Odoo-Datenbank, wobei das `S` und führende Nullen entfernt wurden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:174
 msgid ""
 "`int` converts the retrieved id to an integer (i.e., a whole number) because "
 "the method `browse()` can only be used with an integer."
 msgstr ""
+"`int` konvertiert die abgerufene ID in eine Ganzzahl, da die Methode `browse"
+"()` nur mit einer Ganzzahl verwendet werden kann."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:177
 #: ../../content/applications/studio/automated_actions/webhooks.rst:231
 msgid "Click :guilabel:`Add an action`."
-msgstr ""
+msgstr "Klicken Sie auf :guilabel:`Aktion hinzufügen`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:178
 msgid "In the :guilabel:`Type` section, click :guilabel:`Update Record`."
 msgstr ""
+"Klicken Sie im Abschnitt :guilabel:`Typ` auf :guilabel:`Datensatz "
+"aktualisieren`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:179
 msgid ""
 "In the :guilabel:`Action details` section, select :guilabel:`Update`, choose "
 "the field :guilabel:`Currency`, and select :guilabel:`USD`."
 msgstr ""
+"Wählen Sie im Abschnitt :guilabel:`Aktionsdetails` die Option "
+":guilabel:`Aktualisieren`, wählen Sie das Feld :guilabel:`Währung` und "
+"wählen Sie :guilabel:`USD`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:181
 #: ../../content/applications/studio/automated_actions/webhooks.rst:256
 msgid "Click :guilabel:`Save & Close`."
-msgstr ""
+msgstr "Klicken Sie auf :guilabel:`Speichern & Schließen`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:184
 #: ../../content/applications/studio/automated_actions/webhooks.rst:259
@@ -1640,13 +2015,15 @@ msgstr "Webhook testen"
 #: ../../content/applications/studio/automated_actions/webhooks.rst:186
 #: ../../content/applications/studio/automated_actions/webhooks.rst:261
 msgid "To test this webhook, proceed as follows:"
-msgstr ""
+msgstr "Um diesen Webhook zu testen, gehen Sie wie folgt vor:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:188
 msgid ""
 "With `Postman <https://www.postman.com/>`_ open, create a new HTTP request "
 "and set its method to :guilabel:`POST`."
 msgstr ""
+"Öffnen Sie `Postman <https://www.postman.com/>`_, erstellen Sie eine neue "
+"HTTP-Anfrage und setzen Sie die Methode auf :guilabel:`POST`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:190
 #: ../../content/applications/studio/automated_actions/webhooks.rst:265
@@ -1654,6 +2031,8 @@ msgid ""
 "Copy the URL of the Odoo webhook using the :icon:`fa-"
 "link` :guilabel:`(link)` icon and paste it into the URL field in Postman."
 msgstr ""
+"Kopieren Sie die URL des Odoo-Webhooks über das :icon:`fa-link` :guilabel:`"
+"(Link)`-Symbol und fügen Sie sie in das URL-Feld in Postman ein."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:193
 #: ../../content/applications/studio/automated_actions/webhooks.rst:268
@@ -1661,6 +2040,8 @@ msgid ""
 "Set the file type to :guilabel:`JSON`, then copy this code, i.e., the "
 "payload, and paste it into the code editor:"
 msgstr ""
+"Setzen Sie den Dateityp auf :guilabel:`JSON`, kopieren Sie dann diesen Code, "
+"d. h. die Payload, und fügen Sie ihn in den Code-Editor ein:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:203
 msgid ""
@@ -1669,6 +2050,11 @@ msgid ""
 "without the `S` or any zeros before the number. For example, a sales order "
 "with the number `S00007` should be entered as `7` in Postman."
 msgstr ""
+"Wählen Sie in Ihrer Odoo-Datenbank einen Verkaufsauftrag aus, um den Webhook "
+"zu testen. Ersetzen Sie im eingefügten Code `SALES ORDER NUMBER` durch die "
+"Nummer des Verkaufsauftrags ohne das `S` und ohne Nullen vor der Nummer. "
+"Beispielsweise sollte ein Verkaufsauftrag mit der Nummer `S00007` in Postman "
+"als `7` eingegeben werden."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:207
 #: ../../content/applications/studio/automated_actions/webhooks.rst:282
@@ -1678,6 +2064,11 @@ msgid ""
 "If a message other than `200 OK` or `status: ok` is returned, the number "
 "associated with the message helps to identify the problem."
 msgstr ""
+"Sehen Sie sich den :ref:`Response-Viewer <studio/webhooks/test-webhook-"
+"response>` in Postman an, um festzustellen, ob der Webhook ordnungsgemäß "
+"funktioniert. Wenn eine andere Meldung als `200 OK` oder `status: ok` "
+"zurückgegeben wird, hilft die mit der Meldung verbundene Nummer, das Problem "
+"zu identifizieren."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:214
 msgid "Create a new contact"
@@ -1690,12 +2081,20 @@ msgid ""
 "that includes the contact's information. This could be helpful for "
 "automatically creating new vendors or customers."
 msgstr ""
+"Dieser Webhook verwendet benutzerdefinierten Code, um einen neuen Kontakt in "
+"einer Odoo-Datenbank zu erstellen, wenn das externe System eine `POST`-API-"
+"Anfrage an die URL des Webhooks sendet, die die Informationen des Kontakts "
+"enthält. Dies könnte hilfreich sein, um automatisch neue Lieferanten oder "
+"Kunden zu erstellen."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:225
 msgid ""
 "Open the **Contacts** app, then :ref:`open Studio <studio/access>` and "
 "click :guilabel:`Webhooks`. The *Contact* model is selected by default."
 msgstr ""
+"Öffnen Sie die **Kontakte**-App, dann :ref:`öffnen Sie Studio <studio/access>"
+"` und klicken Sie auf :guilabel:`Webhooks`. Das *Kontakt*-Modell ist "
+"standardmäßig ausgewählt."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:228
 msgid ""
@@ -1704,28 +2103,38 @@ msgid ""
 "webhook what needs to be retrieved from the payload and in which model the "
 "record needs to be created."
 msgstr ""
+"Setzen Sie den :guilabel:`Zieldatensatz` auf `model.browse([2])`. Dies ist "
+"im Wesentlichen ein Platzhalter, da der Code in der automatisierten Aktion "
+"dem Webhook mitteilt, was aus der Nutzlast abgerufen werden muss und in "
+"welchem Modell der Datensatz erstellt werden muss."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:232
 msgid "In the :guilabel:`Type` section, click :guilabel:`Execute Code`."
-msgstr ""
+msgstr "Klicken Sie im Bereich :guilabel:`Typ` auf :guilabel:`Code ausführen`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:233
 msgid ""
 "Copy this code and paste it into the code editor in the :guilabel:`Code` tab "
 "of the :guilabel:`Action details` section:"
 msgstr ""
+"Kopieren Sie diesen Code und fügen Sie ihn in den Code-Editor auf der "
+"Registerkarte :guilabel:`Code` im Bereich :guilabel:`Aktionsdetails` ein:"
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:263
 msgid ""
 "In `Postman <https://www.postman.com/>`_, create a new HTTP request and set "
 "its method to :guilabel:`POST`."
 msgstr ""
+"Erstellen Sie in `Postman <https://www.postman.com/>`_ eine neue HTTP-"
+"Anfrage und setzen Sie die Methode auf :guilabel:`POST`."
 
 #: ../../content/applications/studio/automated_actions/webhooks.rst:279
 msgid ""
 "In the pasted code, replace the `CONTACT NAME`, `CONTACTEMAIL@EMAIL.COM`, "
 "and `CONTACT PHONE NUMBER` with a new contact's information."
 msgstr ""
+"Ersetzen Sie im eingefügten Code `CONTACT NAME`, `CONTACTEMAIL@EMAIL.COM` "
+"und `CONTACT PHONE NUMBER` durch die Informationen eines neuen Kontakts."
 
 #: ../../content/applications/studio/fields.rst:3
 msgid "Fields and widgets"
@@ -1733,63 +2142,133 @@ msgstr "Felder und Widgets"
 
 #: ../../content/applications/studio/fields.rst:5
 msgid ""
-"Fields structure the models of a database. If you picture a model as a table "
-"or spreadsheet, fields are the columns where data is stored in the records "
-"(i.e., the rows). Fields also define the type of data that is stored within "
-"them. How the data is presented and formatted on the :abbr:`UI (User "
-"Interface)` is defined by their widget."
+"Fields structure the :doc:`models <models_modules_apps>` of a database. If "
+"you think of a model as a table or spreadsheet, fields are the columns and "
+"records are the individual rows. Fields also define the type of data that is "
+"stored within them. The way in which a field's data is presented and "
+"formatted on the :abbr:`UI (User Interface)` is controlled by its widget."
 msgstr ""
-"Felder strukturieren die Modelle einer Datenbank. Wenn Sie sich ein Modell "
-"als Tabelle oder Tabellenkalkulation vorstellen, sind Felder die Spalten, in "
-"denen die Daten in den Datensätzen (d. h. den Zeilen) gespeichert werden. "
-"Felder definieren auch die Art der Daten, die in ihnen gespeichert sind. Wie "
-"die Daten auf der :abbr:`UI (Benutzeroberfläche)` dargestellt und formatiert "
-"werden, wird durch ihr Widget definiert."
+"Felder strukturieren die :doc:`Modelle <models_modules_apps>` einer "
+"Datenbank. Wenn Sie sich ein Modell als Tabelle oder Tabellenkalkulation "
+"vorstellen, sind Felder die Spalten und Datensätze die einzelnen Zeilen. "
+"Felder definieren auch den Typ der Daten, die in ihnen gespeichert werden. "
+"Die Art und Weise, wie die Daten eines Feldes im :abbr:`UI (User Interface)` "
+"dargestellt und formatiert werden, wird durch sein Widget gesteuert."
 
 #: ../../content/applications/studio/fields.rst:10
-msgid ""
-"From a technical point of view, there are 15 field types in Odoo. However, "
-"you can choose from 20 fields in Studio, as some field types are available "
-"more than once with a different default widget."
-msgstr ""
-"Aus technischer Sicht gibt es 15 Feldtypen in Odoo. In Studio können Sie "
-"jedoch aus 20 Feldern wählen, da einige Feldtypen mehr als einmal mit einem "
-"anderen Standard-Widget verfügbar sind."
+msgid "With Studio, it is possible to:"
+msgstr "Mit Studio ist es möglich:"
 
-#: ../../content/applications/studio/fields.rst:14
+#: ../../content/applications/studio/fields.rst:12
 msgid ""
-":guilabel:`New Fields` can only be added to the :ref:`studio/views/general/"
-"form` and :ref:`studio/views/multiple-records/list` views. On other views, "
-"you can only add :guilabel:`Existing Fields` :dfn:`(fields already on the "
-"model)`."
+":ref:`add new fields <studio/fields/add-new>` to your database. From a "
+"technical point of view, there are 15 :ref:`field types <studio/fields/field-"
+"types>` in Odoo. However, you can choose from 20 field types in Studio, as "
+"some field types are available more than once with a different default "
+"widget;"
 msgstr ""
-":guilabel:`Neue Felder` können nur zu den Ansichten :ref:`studio/views/"
-"general/form` und :ref:`studio/views/multiple-records/list` hinzugefügt "
-"werden. In anderen Ansichten können Sie nur :guilabel:`Vorhandene "
-"Felder` :dfn:`(Felder, die bereits im Modell enthalten sind)` hinzufügen."
+":ref:`neue Felder <studio/fields/add-new>` zu Ihrer Datenbank hinzufügen. "
+"Aus technischer Sicht gibt es 15 :ref:`Feldtypen <studio/fields/field-types>"
+"` in Odoo. In Studio können Sie jedoch aus 20 Feldtypen wählen, da einige "
+"Feldtypen mehrfach mit einem anderen Standard-Widget verfügbar sind;"
+
+#: ../../content/applications/studio/fields.rst:16
+msgid ""
+":ref:`add existing fields, <studio/fields/add-existing>` i.e., fields that "
+"already exists on a model, to any view of that model;"
+msgstr ""
+":ref:`bestehende Felder hinzuzufügen, <studio/fields/add-existing>` d. h. "
+"Felder, die bereits in einem Modell vorhanden sind, zu jeder Ansicht dieses "
+"Modells;"
+
+#: ../../content/applications/studio/fields.rst:18
+msgid ":ref:`modify a field's properties <studio/fields/modify>`; or"
+msgstr ""
+":ref:`die Eigenschaften eines Feldes zu ändern <studio/fields/modify>`; oder"
+
+#: ../../content/applications/studio/fields.rst:19
+msgid ":ref:`remove a field from a view <studio/fields/remove>`."
+msgstr ":ref:`ein Feld aus einer Ansicht zu entfernen <studio/fields/remove>`."
 
 #: ../../content/applications/studio/fields.rst:21
+msgid "Studio fields vs. property fields"
+msgstr "Studio-Felder vs. Eigenschaftsfelder"
+
+#: ../../content/applications/studio/fields.rst:23
+msgid ""
+"Fields created using Studio are saved as columns in your Odoo "
+"database. :doc:`Property fields <../essentials/property_fields>`, on the "
+"other hand, act as pseudo-fields; they are shared by all records that are "
+"linked to the same parent record (e.g., for tasks, the project, or for a "
+"product, the product category), but they are not saved as columns in your "
+"database."
+msgstr ""
+"Mit Studio erstellte Felder werden als Spalten in Ihrer Odoo-Datenbank "
+"gespeichert. :doc:`Eigenschaftsfelder <../essentials/property_fields>` "
+"hingegen fungieren als Pseudofelder; sie werden von allen Datensätzen "
+"gemeinsam genutzt, die mit demselben übergeordneten Datensatz verknüpft sind "
+"(z. B. bei Aufgaben das Projekt oder bei einem Produkt die Produktkategorie)"
+", werden jedoch nicht als Spalten in Ihrer Datenbank gespeichert."
+
+#: ../../content/applications/studio/fields.rst:29
+msgid ""
+"Adding a :guilabel:`Deadline` field to the form view of a task using Studio "
+"makes that field visible in every task in your database. Adding "
+"a :guilabel:`Special instructions` property field to a task makes the field "
+"visible in all tasks *within the same project* (i.e., its parent) while "
+"other projects’ tasks remain unaffected."
+msgstr ""
+"Wenn Sie mithilfe von Studio ein Feld :guilabel:`Deadline` zur "
+"Formularansicht einer Aufgabe hinzufügen, wird dieses Feld in jeder Aufgabe "
+"in Ihrer Datenbank sichtbar. Wenn Sie ein Eigenschaftsfeld "
+":guilabel:`Special instructions` zu einer Aufgabe hinzufügen, wird das Feld "
+"in allen Aufgaben *innerhalb desselben Projekts* (d. h. seines "
+"übergeordneten Elements) sichtbar, während die Aufgaben anderer Projekte "
+"nicht betroffen sind."
+
+#: ../../content/applications/studio/fields.rst:37
+msgid "Field types"
+msgstr "Feldtypen"
+
+#: ../../content/applications/studio/fields.rst:39
+msgid "Fields can be broadly divided into two categories:"
+msgstr "Felder können grob in zwei Kategorien unterteilt werden:"
+
+#: ../../content/applications/studio/fields.rst:41
+msgid ""
+":ref:`Simple fields <studio/fields/simple-fields>`, which contain basic "
+"values, such as text, numbers, files, etc."
+msgstr ""
+":ref:`Einfache Felder <studio/fields/simple-fields>`, die grundlegende Werte "
+"enthalten, wie Text, Zahlen, Dateien usw."
+
+#: ../../content/applications/studio/fields.rst:43
+msgid ""
+":ref:`Relational fields <studio/fields/relational-fields>`, which are used "
+"to link and display the data from records on another model."
+msgstr ""
+":ref:`Beziehungsfelder <studio/fields/relational-fields>`, die verwendet "
+"werden, um Daten aus Datensätzen eines anderen Modells zu verknüpfen und "
+"anzuzeigen."
+
+#: ../../content/applications/studio/fields.rst:49
 msgid "Simple fields"
 msgstr "Einfache Felder"
 
-#: ../../content/applications/studio/fields.rst:23
-msgid "Simple fields contain basic values, such as text, numbers, files, etc."
-msgstr ""
-"Einfache Felder enthalten grundlegende Werte, wie Text, Zahlen, Dateien usw."
-
-#: ../../content/applications/studio/fields.rst:26
+#: ../../content/applications/studio/fields.rst:52
+#: ../../content/applications/studio/fields.rst:390
 msgid ""
 "Non-default widgets, when available, are presented as bullet points or sub-"
-"headings below."
+"headings."
 msgstr ""
-"Widgets, die nicht standardmäßig verfügbar sind, werden im Folgenden als "
-"Aufzählungspunkte oder Untertitel dargestellt."
+"Nicht-Standard-Widgets werden, sofern verfügbar, als Aufzählungspunkte oder "
+"Unterüberschriften dargestellt."
 
-#: ../../content/applications/studio/fields.rst:31
+#: ../../content/applications/studio/fields.rst:57
 msgid "Text (`char`)"
 msgstr "Text (`char`)"
 
-#: ../../content/applications/studio/fields.rst:33
+#: ../../content/applications/studio/fields.rst:59
 msgid ""
 "The :guilabel:`Text` field is used for short text containing any character. "
 "One text line is displayed when filling out the field."
@@ -1797,8 +2276,8 @@ msgstr ""
 "Das Feld :guilabel:`Text` wird für kurzen Text mit beliebigen Zeichen "
 "verwendet. Beim Ausfüllen des Feldes wird eine Textzeile angezeigt."
 
-#: ../../content/applications/studio/fields.rst:36
-#: ../../content/applications/studio/fields.rst:258
+#: ../../content/applications/studio/fields.rst:62
+#: ../../content/applications/studio/fields.rst:284
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI, but a default value can be set."
@@ -1807,19 +2286,19 @@ msgstr ""
 "wie ein Stichwort. Der Wert kann auf der Benutzeroberfläche nicht bearbeitet "
 "werden, aber es kann ein Standardwert festgelegt werden."
 
-#: ../../content/applications/studio/fields.rst:38
-#: ../../content/applications/studio/fields.rst:70
+#: ../../content/applications/studio/fields.rst:64
+#: ../../content/applications/studio/fields.rst:96
 msgid ""
 ":guilabel:`Copy to Clipboard`: users can copy the value by clicking a button."
 msgstr ""
 ":guilabel:`In Zwischenablage kopieren`: Benutzer können den Wert durch "
 "Anklicken einer Schaltfläche kopieren."
 
-#: ../../content/applications/studio/fields.rst:39
+#: ../../content/applications/studio/fields.rst:65
 msgid ":guilabel:`E-mail`: the value becomes a clickable *mailto* link."
 msgstr ":guilabel:`E-Mail`: Der Wert wird zu einem anklickbaren *mailto*-Link."
 
-#: ../../content/applications/studio/fields.rst:40
+#: ../../content/applications/studio/fields.rst:66
 msgid ""
 ":guilabel:`Image`: displays an image using a URL. The value cannot be edited "
 "manually, but a default value can be set."
@@ -1828,24 +2307,24 @@ msgstr ""
 "kann nicht manuell bearbeitet werden, aber es kann ein Standardwert "
 "festgelegt werden."
 
-#: ../../content/applications/studio/fields.rst:44
+#: ../../content/applications/studio/fields.rst:70
 msgid ""
-"This works differently than selecting the :ref:`Image field <studio/fields/"
+"This works differently from selecting the :ref:`Image field <studio/fields/"
 "simple-fields-image>` directly, as the image is not stored in Odoo when "
 "using a :guilabel:`Text` field with the :guilabel:`Image` widget. For "
 "example, it can be useful if you want to save disk space."
 msgstr ""
 "Dies funktioniert anders als die direkte Auswahl des :ref:`Bildfeldes "
-"<studio/fields/simple-fields-image>`, da das Bild nicht in Odoo gespeichert "
-"wird, wenn Sie ein :guilabel:`Text`-Feld mit dem :guilabel:`Bild`-Widget "
-"verwenden. Dies kann zum Beispiel nützlich sein, wenn Sie Speicherplatz "
-"sparen möchten."
+"<studio/fields/simple-fields-image>`, da das Bild bei Verwendung eines "
+":guilabel:`Text`-Feldes mit dem :guilabel:`Bild`-Widget nicht in Odoo "
+"gespeichert wird. Dies kann beispielsweise nützlich sein, wenn Sie "
+"Speicherplatz sparen möchten."
 
-#: ../../content/applications/studio/fields.rst:49
+#: ../../content/applications/studio/fields.rst:75
 msgid ":guilabel:`Phone`: the value becomes a clickable *tel* link."
 msgstr ":guilabel:`Telefon`: Der Wert wird zu einem anklickbaren *tel*-Link."
 
-#: ../../content/applications/studio/fields.rst:52
+#: ../../content/applications/studio/fields.rst:78
 msgid ""
 "Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from "
 "Odoo next to the field."
@@ -1853,7 +2332,7 @@ msgstr ""
 "Markieren Sie :guilabel:`SMS aktivieren`, um eine Option zum Senden einer "
 "SMS direkt aus Odoo neben dem Feld hinzuzufügen."
 
-#: ../../content/applications/studio/fields.rst:55
+#: ../../content/applications/studio/fields.rst:81
 msgid ":guilabel:`URL`: the value becomes a clickable URL."
 msgstr ":guilabel:`URL`: Der Wert wird zu einer anklickbaren URL."
 
@@ -1861,11 +2340,11 @@ msgstr ":guilabel:`URL`: Der Wert wird zu einer anklickbaren URL."
 msgid "Examples of Text fields with different widgets"
 msgstr "Beispiele der Textfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:65
+#: ../../content/applications/studio/fields.rst:91
 msgid "Multiline Text (`text`)"
 msgstr "Mehrzeiliger Text (`text`)"
 
-#: ../../content/applications/studio/fields.rst:67
+#: ../../content/applications/studio/fields.rst:93
 msgid ""
 "The :guilabel:`Multiline Text` field is used for longer text containing any "
 "type of character. Two text lines are displayed on the UI when filling out "
@@ -1880,11 +2359,11 @@ msgid "Examples of Multiline Text fields with different widgets"
 msgstr ""
 "Beispiele der Felder mit mehrzeiligen Texten mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:80
+#: ../../content/applications/studio/fields.rst:106
 msgid "Integer (`integer`)"
 msgstr "Ganzzahl (`integer`)"
 
-#: ../../content/applications/studio/fields.rst:82
+#: ../../content/applications/studio/fields.rst:108
 msgid ""
 "The :guilabel:`Integer` field is used for all integer numbers "
 "(:dfn:`positive, negative, or zero, without a decimal`)."
@@ -1892,7 +2371,7 @@ msgstr ""
 "Das Feld :guilabel:`Ganzzahl` wird für alle ganzzahligen Zahlen verwendet "
 "(:dfn:`positiv, negativ oder Null, ohne Dezimalstelle`)."
 
-#: ../../content/applications/studio/fields.rst:85
+#: ../../content/applications/studio/fields.rst:111
 msgid ""
 ":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
 "usually for a computed value. The value cannot be edited on the UI, but a "
@@ -1903,8 +2382,8 @@ msgstr ""
 "Benutzeroberfläche nicht bearbeitet werden, aber Sie können einen "
 "Standardwert festlegen."
 
-#: ../../content/applications/studio/fields.rst:87
-#: ../../content/applications/studio/fields.rst:115
+#: ../../content/applications/studio/fields.rst:113
+#: ../../content/applications/studio/fields.rst:141
 msgid ""
 ":guilabel:`Progress Bar`: displays the value next to a percentage bar, "
 "usually for a computed value. The field cannot be edited manually, but a "
@@ -1914,7 +2393,7 @@ msgstr ""
 "normalerweise für einen berechneten Wert. Das Feld kann nicht manuell "
 "bearbeitet werden, aber es kann ein Standardwert festgelegt werden."
 
-#: ../../content/applications/studio/fields.rst:89
+#: ../../content/applications/studio/fields.rst:115
 msgid ""
 ":guilabel:`Handle`: displays a drag handle icon to order records manually "
 "in :ref:`List view <studio/views/multiple-records/list>`."
@@ -1926,11 +2405,11 @@ msgstr ""
 msgid "Examples of Integer fields with different widgets"
 msgstr "Beispiele der Ganzzahlenfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:100
+#: ../../content/applications/studio/fields.rst:126
 msgid "Decimal (`float`)"
 msgstr "Dezimal (`float`)"
 
-#: ../../content/applications/studio/fields.rst:102
+#: ../../content/applications/studio/fields.rst:128
 msgid ""
 "The :guilabel:`Decimal` field is used for all decimal numbers "
 "(:dfn:`positive, negative, or zero, with a decimal`)."
@@ -1938,7 +2417,7 @@ msgstr ""
 "Das Feld :guilabel:`Dezimal` wird für alle Dezimalzahlen verwendet "
 "(:dfn:`positiv, negativ oder Null, mit Dezimalstelle`)."
 
-#: ../../content/applications/studio/fields.rst:106
+#: ../../content/applications/studio/fields.rst:132
 msgid ""
 "Decimal numbers are displayed with two decimals after the decimal point on "
 "the UI, but they are stored in the database with more precision."
@@ -1947,7 +2426,7 @@ msgstr ""
 "dem Komma angezeigt, in der Datenbank werden sie jedoch mit einer höheren "
 "Genauigkeit gespeichert."
 
-#: ../../content/applications/studio/fields.rst:109
+#: ../../content/applications/studio/fields.rst:135
 msgid ""
 ":guilabel:`Monetary`: it is similar to using the :ref:`Monetary field "
 "<studio/fields/simple-fields-monetary>`. It is recommended to use the latter "
@@ -1957,13 +2436,13 @@ msgstr ""
 "fields/simple-fields/monetary>`. Es wird empfohlen, letzteres zu verwenden, "
 "da es mehr Funktionalitäten bietet."
 
-#: ../../content/applications/studio/fields.rst:112
+#: ../../content/applications/studio/fields.rst:138
 msgid ""
 ":guilabel:`Percentage`: displays a percent character `%` after the value."
 msgstr ""
 ":guilabel:`Prozentsatz`: zeigt ein Prozentzeichen `%` nach dem Wert an."
 
-#: ../../content/applications/studio/fields.rst:113
+#: ../../content/applications/studio/fields.rst:139
 msgid ""
 ":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
 "usually for a computed value. The field cannot be edited manually, but a "
@@ -1973,7 +2452,7 @@ msgstr ""
 "normalerweise für einen berechneten Wert. Das Feld kann nicht manuell "
 "bearbeitet werden, aber Sie können einen Standardwert festlegen."
 
-#: ../../content/applications/studio/fields.rst:117
+#: ../../content/applications/studio/fields.rst:143
 msgid ""
 ":guilabel:`Time`: the value must follow the *hh:mm* format, with a maximum "
 "of 59 minutes."
@@ -1985,15 +2464,15 @@ msgstr ""
 msgid "Examples of Decimal fields with different widgets"
 msgstr "Beispiele der Dezimalzahlenfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:127
+#: ../../content/applications/studio/fields.rst:153
 msgid "Monetary (`monetary`)"
 msgstr "Monetär (`monetary`)"
 
-#: ../../content/applications/studio/fields.rst:129
+#: ../../content/applications/studio/fields.rst:155
 msgid "The :guilabel:`Monetary` field is used for all monetary values."
 msgstr "Das Feld :guilabel:`Monetär` wird für alle Geldbeträge verwendet."
 
-#: ../../content/applications/studio/fields.rst:132
+#: ../../content/applications/studio/fields.rst:158
 msgid ""
 "When you first add a :guilabel:`Monetary` field, you are prompted to add "
 "a :guilabel:`Currency` field if none exists already on the model. Odoo "
@@ -2010,11 +2489,11 @@ msgstr ""
 msgid "Example of a Monetary field along with its Currency field"
 msgstr "Beispiel für ein monetäres Feld zusammen mit seinem Währungsfeld"
 
-#: ../../content/applications/studio/fields.rst:144
+#: ../../content/applications/studio/fields.rst:170
 msgid "Html (`html`)"
 msgstr "Html (`html`)"
 
-#: ../../content/applications/studio/fields.rst:146
+#: ../../content/applications/studio/fields.rst:172
 msgid ""
 "The :guilabel:`Html` field is used to add text that can be edited using the "
 "Odoo HTML editor."
@@ -2022,7 +2501,7 @@ msgstr ""
 "Das Feld :guilabel:`Html` wird verwendet, um Text hinzuzufügen, der mit dem "
 "Odoo-HTML-Editor bearbeitet werden kann."
 
-#: ../../content/applications/studio/fields.rst:148
+#: ../../content/applications/studio/fields.rst:174
 msgid ""
 ":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing "
 "raw HTML."
@@ -2034,17 +2513,17 @@ msgstr ""
 msgid "Examples of Html fields with different widgets"
 msgstr "Beispiele der HTML-Felder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:158
+#: ../../content/applications/studio/fields.rst:184
 msgid "Date (`date`)"
 msgstr "Datum (`date`)"
 
-#: ../../content/applications/studio/fields.rst:160
+#: ../../content/applications/studio/fields.rst:186
 msgid "The :guilabel:`Date` field is used to select a date on a calendar."
 msgstr ""
 "Das Feld :guilabel:`Datum` wird verwendet, um ein Datum in einem Kalender "
 "auszuwählen."
 
-#: ../../content/applications/studio/fields.rst:162
+#: ../../content/applications/studio/fields.rst:188
 msgid ""
 ":guilabel:`Remaining Days`: the remaining number of days before the selected "
 "date is displayed (e.g., *In 5 days*), based on the current date. This field "
@@ -2058,11 +2537,11 @@ msgstr ""
 msgid "Examples of Date fields with different widgets"
 msgstr "Beispiele der Datumsfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:173
+#: ../../content/applications/studio/fields.rst:199
 msgid "Date & Time (`datetime`)"
 msgstr "Datum/Zeit (`datetime`)"
 
-#: ../../content/applications/studio/fields.rst:175
+#: ../../content/applications/studio/fields.rst:201
 msgid ""
 "The :guilabel:`Date & Time` field is used to select a date on a calendar and "
 "a time on a clock. The user's current time is automatically used if no time "
@@ -2072,7 +2551,7 @@ msgstr ""
 "Kalender und eine Uhrzeit in einer Uhr auszuwählen. Die aktuelle Zeit des "
 "Benutzers wird automatisch verwendet, wenn keine Zeit eingestellt ist."
 
-#: ../../content/applications/studio/fields.rst:180
+#: ../../content/applications/studio/fields.rst:206
 msgid ""
 "As well as :ref:`general properties <studio/fields/properties>`, "
 "some :ref:`specific properties <studio/fields/properties-date-datetime>` are "
@@ -2085,11 +2564,11 @@ msgstr ""
 "ist, einige :ref:`spezifische Eigenschaften <studio/fields/properties-date-"
 "datetime>` zur Verfügung."
 
-#: ../../content/applications/studio/fields.rst:186
+#: ../../content/applications/studio/fields.rst:212
 msgid "Date Range (`daterange`)"
 msgstr "Datumsbereich (`daterange`)"
 
-#: ../../content/applications/studio/fields.rst:188
+#: ../../content/applications/studio/fields.rst:214
 msgid ""
 "The :guilabel:`Date Range` widget is used to display a period of time "
 "defined by a start date and an end date in a single line. A date range can "
@@ -2104,7 +2583,7 @@ msgstr ""
 "Start- oder Enddatum zulassen, z. B. für einen Außendiensttermin oder eine "
 "Projektaufgabe."
 
-#: ../../content/applications/studio/fields.rst:193
+#: ../../content/applications/studio/fields.rst:219
 msgid ""
 "Adding a date range requires two fields: a :guilabel:`Date & Time` field "
 "with the :guilabel:`Date Range` widget set and another field that is "
@@ -2119,11 +2598,11 @@ msgstr ""
 "fields/simple-fields-date>` oder :guilabel:`Datum & Uhrzeit` sein oder "
 "speziell für diesen Zweck erstellt werden."
 
-#: ../../content/applications/studio/fields.rst:198
+#: ../../content/applications/studio/fields.rst:224
 msgid "To add a date range:"
 msgstr "Um einen Datumsbereich hinzuzufügen:"
 
-#: ../../content/applications/studio/fields.rst:200
+#: ../../content/applications/studio/fields.rst:226
 msgid ""
 "Identify an existing :guilabel:`Date` or :guilabel:`Date & Time` field that "
 "can be used as the underlying start/end date field, or add a new one. If the "
@@ -2134,7 +2613,7 @@ msgstr ""
 "Start-/Endedatum verwendet werden kann, oder fügen Sie ein neues Feld hinzu. "
 "Wenn der Datumsbereich:"
 
-#: ../../content/applications/studio/fields.rst:203
+#: ../../content/applications/studio/fields.rst:229
 msgid ""
 "has a mandatory start date and end date, this field can be either the start "
 "date or end date; the outcome is the same."
@@ -2142,7 +2621,7 @@ msgstr ""
 "ein obligatorisches Start- und Enddatum hat, kann dieses Feld entweder das "
 "Start- oder Enddatum sein. Das Ergebnis ist dasselbe."
 
-#: ../../content/applications/studio/fields.rst:205
+#: ../../content/applications/studio/fields.rst:231
 msgid ""
 "allows an optional start or end date, this field is the start date or end "
 "date, respectively."
@@ -2150,7 +2629,7 @@ msgstr ""
 "ein optionales Start- oder Enddatum ermöglicht, ist dieses Feld das Start- "
 "bzw. Enddatum."
 
-#: ../../content/applications/studio/fields.rst:208
+#: ../../content/applications/studio/fields.rst:234
 msgid ""
 "To avoid displaying the same information twice, the underlying start/end "
 "date field can be made invisible by enabling :guilabel:`Invisible` or "
@@ -2161,7 +2640,7 @@ msgstr ""
 "machen, indem Sie :guilabel:`Unsichtbar` aktivieren, oder es aus der Ansicht "
 "entfernen, indem Sie auf :guilabel:`Aus Ansicht entfernen` klicken."
 
-#: ../../content/applications/studio/fields.rst:212
+#: ../../content/applications/studio/fields.rst:238
 msgid ""
 "Add a :guilabel:`Date & Time` field and set the :guilabel:`Widget` field "
 "to :guilabel:`Date Range`."
@@ -2169,11 +2648,11 @@ msgstr ""
 "Fügen Sie ein Feld :guilabel:`Datum & Uhrzeit` hinzu und legen Sie "
 "das :guilabel:`Widget`-Feld auf :guilabel:`Datumsbereich` fest."
 
-#: ../../content/applications/studio/fields.rst:214
+#: ../../content/applications/studio/fields.rst:240
 msgid "Enter an appropriate :guilabel:`Label`."
 msgstr "Geben Sie eine geeignete :guilabel:`Bezeichnung` ein."
 
-#: ../../content/applications/studio/fields.rst:215
+#: ../../content/applications/studio/fields.rst:241
 msgid ""
 "Select the underlying start/end date field from the :guilabel:`Start date "
 "field` or :guilabel:`End date field` dropdown, as relevant."
@@ -2182,7 +2661,7 @@ msgstr ""
 "down-Liste :guilabel:`Startdatum` oder :guilabel:`Enddatum` aus, je nach "
 "Bedarf."
 
-#: ../../content/applications/studio/fields.rst:217
+#: ../../content/applications/studio/fields.rst:243
 msgid ""
 "If the date range should have a mandatory start and end date, "
 "enable :guilabel:`Always range`."
@@ -2190,7 +2669,7 @@ msgstr ""
 "Wenn der Datumsbereich ein obligatorisches Start- und Enddatum haben soll, "
 "aktivieren Sie :guilabel:`Immer Bereich`."
 
-#: ../../content/applications/studio/fields.rst:218
+#: ../../content/applications/studio/fields.rst:244
 msgid ""
 "Update any other :ref:`general properties <studio/fields/properties>` or "
 "specific :ref:`properties for Date & Time fields <studio/fields/properties-"
@@ -2206,11 +2685,11 @@ msgstr ""
 msgid "Examples of Date & Time fields with different widgets"
 msgstr "Beispiele der Datums- und Zeitfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:228
+#: ../../content/applications/studio/fields.rst:254
 msgid "Remaining Days (`remaining_days`)"
 msgstr "Verbleibende Tage (`remaining_days`)"
 
-#: ../../content/applications/studio/fields.rst:230
+#: ../../content/applications/studio/fields.rst:256
 msgid ""
 "The :guilabel:`Remaining Days` widget displays the remaining number of days "
 "before the selected date (e.g., *In 5 days*), based on the current date and "
@@ -2221,11 +2700,11 @@ msgstr ""
 "dem aktuellen Datum und der entsprechenden Uhrzeit. Dieses Feld "
 "sollte :guilabel:`Schreibgeschützt` sein."
 
-#: ../../content/applications/studio/fields.rst:237
+#: ../../content/applications/studio/fields.rst:263
 msgid "Checkbox (`boolean`)"
 msgstr "Kontrollkästchen (`boolean`)"
 
-#: ../../content/applications/studio/fields.rst:239
+#: ../../content/applications/studio/fields.rst:265
 msgid ""
 "The :guilabel:`Checkbox` field is used when a value should only be true or "
 "false, indicated by checking or unchecking a checkbox."
@@ -2234,7 +2713,7 @@ msgstr ""
 "oder falsch sein soll, was durch das Aktivieren oder Deaktivieren eines "
 "Kontrollkästchens angezeigt wird."
 
-#: ../../content/applications/studio/fields.rst:242
+#: ../../content/applications/studio/fields.rst:268
 msgid ""
 ":guilabel:`Button`: displays a radio button. The widget works without "
 "switching to the edit mode."
@@ -2242,7 +2721,7 @@ msgstr ""
 ":guilabel:`Schaltfläche`: zeigt einen Radiobutton an. Das Widget "
 "funktioniert, ohne in den Bearbeitungsmodus zu wechseln."
 
-#: ../../content/applications/studio/fields.rst:243
+#: ../../content/applications/studio/fields.rst:269
 msgid ""
 ":guilabel:`Toggle`: displays a toggle button. The widget works without "
 "switching to the edit mode."
@@ -2254,11 +2733,11 @@ msgstr ""
 msgid "Examples of Checkbox fields with different widgets"
 msgstr "Beispiele der Kontrollkästchenfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:253
+#: ../../content/applications/studio/fields.rst:279
 msgid "Selection (`selection`)"
 msgstr "Auswahl (`selection`)"
 
-#: ../../content/applications/studio/fields.rst:255
+#: ../../content/applications/studio/fields.rst:281
 msgid ""
 "The :guilabel:`Selection` field is used when users should select a single "
 "value from a group of predefined values."
@@ -2266,7 +2745,7 @@ msgstr ""
 "Das Feld :guilabel:`Auswahl` wird verwendet, wenn Benutzer einen einzelnen "
 "Wert aus einer Gruppe von vordefinierten Werten auswählen sollen."
 
-#: ../../content/applications/studio/fields.rst:260
+#: ../../content/applications/studio/fields.rst:286
 msgid ""
 ":guilabel:`Badges`: displays all selectable values simultaneously inside "
 "rectangular shapes, organized horizontally."
@@ -2274,7 +2753,7 @@ msgstr ""
 ":guilabel:`Abzeichen`: zeigt alle auswählbaren Werte gleichzeitig in "
 "rechteckigen Formen an, die horizontal angeordnet sind."
 
-#: ../../content/applications/studio/fields.rst:262
+#: ../../content/applications/studio/fields.rst:288
 msgid ""
 ":guilabel:`Priority`: displays star symbols instead of values, which can be "
 "used to indicate an importance or satisfaction level, for example. This has "
@@ -2288,8 +2767,8 @@ msgstr ""
 "fields/simple-fields-priority>`, obwohl für letzteres bereits vier "
 "Prioritätswerte vordefiniert sind."
 
-#: ../../content/applications/studio/fields.rst:266
-#: ../../content/applications/studio/fields.rst:392
+#: ../../content/applications/studio/fields.rst:292
+#: ../../content/applications/studio/fields.rst:416
 msgid ""
 ":guilabel:`Radio`: displays all selectable values at the same time as radio "
 "buttons."
@@ -2297,7 +2776,7 @@ msgstr ""
 ":guilabel:`Radio`: zeigt alle auswählbaren Werte gleichzeitig als "
 "Radiobuttons an."
 
-#: ../../content/applications/studio/fields.rst:269
+#: ../../content/applications/studio/fields.rst:295
 msgid ""
 "By default, radio buttons are organized vertically. "
 "Enable :guilabel:`Display horizontally` to switch the way they are displayed."
@@ -2305,7 +2784,7 @@ msgstr ""
 "Standardmäßig sind die Radiobuttons vertikal angeordnet. Aktivieren "
 "Sie :guilabel:`Horizontal anzeigen`, um die Art der Anzeige zu ändern."
 
-#: ../../content/applications/studio/fields.rst:272
+#: ../../content/applications/studio/fields.rst:298
 msgid ""
 ":guilabel:`Status Bar`: displays all selectable values at the same time as "
 "an arrow progress bar."
@@ -2313,7 +2792,7 @@ msgstr ""
 ":guilabel:`Statusleiste`: zeigt alle auswählbaren Werte gleichzeitig als "
 "Fortschrittsleiste in Form eines Pfeils an."
 
-#: ../../content/applications/studio/fields.rst:275
+#: ../../content/applications/studio/fields.rst:301
 msgid ""
 "By default, values on the status bar are selectable. "
 "Disable :guilabel:`Clickable` to prevent the value being edited on the UI."
@@ -2326,11 +2805,11 @@ msgstr ""
 msgid "Examples of Selection fields with different widgets"
 msgstr "Beispiele der Auswahlfelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:286
+#: ../../content/applications/studio/fields.rst:312
 msgid "Priority (`selection`)"
 msgstr "Priorität (`selection`)"
 
-#: ../../content/applications/studio/fields.rst:288
+#: ../../content/applications/studio/fields.rst:314
 msgid ""
 "The :guilabel:`Priority` field is used to display a three-star rating "
 "system, which can be used to indicate importance or satisfaction level. This "
@@ -2351,7 +2830,7 @@ msgstr ""
 "und :guilabel:`Auswahl` die gleichen Auswirkungen wie unter :ref:`Auswahl "
 "<studio/fields/simple-fields/selection>` beschrieben."
 
-#: ../../content/applications/studio/fields.rst:296
+#: ../../content/applications/studio/fields.rst:322
 msgid ""
 "To change the number of available stars by adding or removing values, "
 "click :guilabel:`Edit Values`. Note that the first value is equal to 0 stars "
@@ -2368,11 +2847,11 @@ msgstr ""
 msgid "Example of a Priority field"
 msgstr "Beispiel eines Prioritätsfelds"
 
-#: ../../content/applications/studio/fields.rst:308
+#: ../../content/applications/studio/fields.rst:334
 msgid "File (`binary`)"
 msgstr "Datei (`binary`)"
 
-#: ../../content/applications/studio/fields.rst:310
+#: ../../content/applications/studio/fields.rst:336
 msgid ""
 "The :guilabel:`File` field is used to upload any type of file, or sign a "
 "form (:guilabel:`Sign` widget)."
@@ -2380,7 +2859,7 @@ msgstr ""
 "Das Feld :guilabel:`Datei` dient zum Hochladen einer beliebigen Datei oder "
 "zum Unterschreiben eines Formulars (:guilabel:`Unterzeichnen`-Widget)."
 
-#: ../../content/applications/studio/fields.rst:313
+#: ../../content/applications/studio/fields.rst:339
 msgid ""
 ":guilabel:`Image`: users can upload an image file, which is then displayed "
 "in :ref:`Form view <studio/views/general/form>`. This has the same effect as "
@@ -2391,7 +2870,7 @@ msgstr ""
 "hat die gleiche Wirkung wie die Verwendung des Feldes :ref:`Bild<studio/"
 "fields/simple-fields-image>`."
 
-#: ../../content/applications/studio/fields.rst:316
+#: ../../content/applications/studio/fields.rst:342
 msgid ""
 ":guilabel:`PDF Viewer`: users can upload a PDF file, which can be then "
 "browsed from the :ref:`Form view <studio/views/general/form>`."
@@ -2400,7 +2879,7 @@ msgstr ""
 "in der :ref:`Formularansicht <studio/views/general/form>` durchsucht werden "
 "kann."
 
-#: ../../content/applications/studio/fields.rst:318
+#: ../../content/applications/studio/fields.rst:344
 msgid ""
 ":guilabel:`Sign`: users can electronically sign the form. This has the same "
 "effect as selecting the :ref:`Sign field <studio/fields/simple-fields-sign>`."
@@ -2413,11 +2892,11 @@ msgstr ""
 msgid "Examples of File fields with different widgets"
 msgstr "Beispiele der Dateifelder mit unterschiedlichen Widgets"
 
-#: ../../content/applications/studio/fields.rst:329
+#: ../../content/applications/studio/fields.rst:355
 msgid "Image (`binary`)"
 msgstr "Bild (`binary`)"
 
-#: ../../content/applications/studio/fields.rst:331
+#: ../../content/applications/studio/fields.rst:357
 msgid ""
 "The :guilabel:`Image` field is used to upload an image and display it "
 "in :ref:`Form view <studio/views/general/form>`. This field type is "
@@ -2435,7 +2914,7 @@ msgstr ""
 "und :guilabel:`Unterzeichnen` die gleichen Auswirkungen wie "
 "unter :ref:`Datei <studio/fields/simple-fields-file>` beschrieben."
 
-#: ../../content/applications/studio/fields.rst:338
+#: ../../content/applications/studio/fields.rst:364
 msgid ""
 "To change the display size of uploaded images, "
 "select :guilabel:`Small`, :guilabel:`Medium`, or :guilabel:`Large` under "
@@ -2445,11 +2924,11 @@ msgstr ""
 "Sie :guilabel:`Klein`, :guilabel:`Mittel` oder :guilabel:`Groß` unter der "
 "Option :guilabel:`Größe`."
 
-#: ../../content/applications/studio/fields.rst:344
+#: ../../content/applications/studio/fields.rst:370
 msgid "Sign (`binary`)"
 msgstr "Signatur (`binary`)"
 
-#: ../../content/applications/studio/fields.rst:346
+#: ../../content/applications/studio/fields.rst:372
 msgid ""
 "The :guilabel:`Sign` field is used to sign the form electronically. This "
 "field type is a :ref:`File field <studio/fields/simple-fields-file>` with "
@@ -2466,7 +2945,7 @@ msgstr ""
 "gleichen Auswirkungen wie unter :ref:`Datei <studio/fields/simple-fields-"
 "file>` beschrieben."
 
-#: ../../content/applications/studio/fields.rst:352
+#: ../../content/applications/studio/fields.rst:378
 msgid ""
 "To give users the :guilabel:`Auto` option when having to draw their "
 "signature, select one of the available :guilabel:`Auto-complete with` fields "
@@ -2483,30 +2962,15 @@ msgstr ""
 "nur auf dem Modell). Die Signatur wird automatisch unter Verwendung der "
 "Daten aus dem ausgewählten Feld erstellt."
 
-#: ../../content/applications/studio/fields.rst:361
+#: ../../content/applications/studio/fields.rst:387
 msgid "Relational fields"
 msgstr "Beziehungsfelder"
 
-#: ../../content/applications/studio/fields.rst:363
-msgid ""
-"Relational fields are used to link and display the data from records on "
-"another model."
-msgstr ""
-"Beziehungsfelder werden zur Verknüpfung und Anzeige von Daten aus "
-"Datensätzen eines anderen Modells verwendet."
-
-#: ../../content/applications/studio/fields.rst:366
-msgid ""
-"Non-default widgets, when available, are presented as bullet points below."
-msgstr ""
-"Widgets, die nicht standardmäßig verfügbar sind, werden im Folgenden als "
-"Aufzählungspunkte dargestellt."
-
-#: ../../content/applications/studio/fields.rst:371
+#: ../../content/applications/studio/fields.rst:395
 msgid "Many2One (`many2one`)"
 msgstr "Many2One (`many2one`)"
 
-#: ../../content/applications/studio/fields.rst:373
+#: ../../content/applications/studio/fields.rst:397
 msgid ""
 "The :guilabel:`Many2One` field is used to link another record (from another "
 "model) to the record being edited. The record's name from the other model is "
@@ -2517,7 +2981,7 @@ msgstr ""
 "Der Name des Datensatzes aus dem anderen Modell wird dann in dem zu "
 "bearbeitenden Datensatz angezeigt."
 
-#: ../../content/applications/studio/fields.rst:377
+#: ../../content/applications/studio/fields.rst:401
 msgid ""
 "On the *Sales Order* model, the :guilabel:`Customer` field is "
 "a :guilabel:`Many2One` field pointing at the *Contact* model. This allows "
@@ -2532,7 +2996,7 @@ msgstr ""
 msgid "Diagram showing a many2one relationship"
 msgstr "Diagramm mit einer many2one-Beziehung"
 
-#: ../../content/applications/studio/fields.rst:385
+#: ../../content/applications/studio/fields.rst:409
 msgid ""
 "To prevent users from creating a new record in the linked model, "
 "tick :guilabel:`Disable creation`."
@@ -2540,7 +3004,7 @@ msgstr ""
 "Um zu verhindern, dass Benutzer einen neuen Datensatz in dem verknüpften "
 "Modell anlegen, markieren Sie :guilabel:`Erstellung deaktivieren`."
 
-#: ../../content/applications/studio/fields.rst:387
+#: ../../content/applications/studio/fields.rst:411
 msgid ""
 "To prevent users from opening records in a pop-up window, "
 "tick :guilabel:`Disable opening`."
@@ -2548,7 +3012,7 @@ msgstr ""
 "Um zu verhindern, dass Benutzer Datensätze in einem Pop-up-Fenster öffnen, "
 "markieren Sie :guilabel:`Öffnen deaktivieren`."
 
-#: ../../content/applications/studio/fields.rst:388
+#: ../../content/applications/studio/fields.rst:412
 msgid ""
 "To help users only select the right record, click on :guilabel:`Domain` to "
 "create a filter."
@@ -2556,7 +3020,7 @@ msgstr ""
 "Um Benutzern zu helfen, nur den richtigen Datensatz auszuwählen, klicken Sie "
 "auf :guilabel:`Domain`, um einen Filter zu erstellen."
 
-#: ../../content/applications/studio/fields.rst:390
+#: ../../content/applications/studio/fields.rst:414
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI."
@@ -2564,11 +3028,11 @@ msgstr ""
 ":guilabel:`Abzeichen`: zeigt den Wert in einer runden Form an, ähnlich wie "
 "ein Tag. Der Wert kann auf der Benutzeroberfläche nicht bearbeitet werden."
 
-#: ../../content/applications/studio/fields.rst:397
+#: ../../content/applications/studio/fields.rst:421
 msgid "One2Many (`one2many`)"
 msgstr "One2Many (`one2many`)"
 
-#: ../../content/applications/studio/fields.rst:399
+#: ../../content/applications/studio/fields.rst:423
 msgid ""
 "The :guilabel:`One2Many` field is used to display the existing relations "
 "between a record on the current model and multiple records from another "
@@ -2578,7 +3042,7 @@ msgstr ""
 "zwischen einem Datensatz im aktuellen Modell und mehreren Datensätzen aus "
 "einem anderen Modell anzuzeigen."
 
-#: ../../content/applications/studio/fields.rst:403
+#: ../../content/applications/studio/fields.rst:427
 msgid ""
 "You could add a :guilabel:`One2Many` field on the *Contact* model to look at "
 "**one** customer's **many** sales orders."
@@ -2590,7 +3054,7 @@ msgstr ""
 msgid "Diagram showing a one2many relationship"
 msgstr "Diagramm mit einer one2many-Beziehung"
 
-#: ../../content/applications/studio/fields.rst:410
+#: ../../content/applications/studio/fields.rst:434
 msgid ""
 "To use a :guilabel:`One2Many` field, the two models must have been linked "
 "already using a :ref:`Many2One field <studio/fields/relational-fields-"
@@ -2603,11 +3067,11 @@ msgstr ""
 "unabhängig voneinander: Es wird eine Rückwärtssuche nach bestehenden "
 "Many2One-Beziehungen durchgeführt."
 
-#: ../../content/applications/studio/fields.rst:417
+#: ../../content/applications/studio/fields.rst:441
 msgid "Lines (`one2many`)"
 msgstr "Zeilen (`one2many`)"
 
-#: ../../content/applications/studio/fields.rst:419
+#: ../../content/applications/studio/fields.rst:443
 msgid ""
 "The :guilabel:`Lines` field is used to create a table with rows and columns "
 "(e.g., the lines of products on a sales order)."
@@ -2616,7 +3080,7 @@ msgstr ""
 "Spalten zu erstellen (z. B. die Zeilen der Produkte in einem "
 "Verkaufsauftrag)."
 
-#: ../../content/applications/studio/fields.rst:423
+#: ../../content/applications/studio/fields.rst:447
 msgid ""
 "To modify the columns, click on the :guilabel:`Lines` field and "
 "then :guilabel:`Edit List View`. To edit the form that pops up when a user "
@@ -2633,11 +3097,11 @@ msgstr ""
 msgid "Example of a Lines field"
 msgstr "Beispiel eines Zeilenfelds"
 
-#: ../../content/applications/studio/fields.rst:435
+#: ../../content/applications/studio/fields.rst:459
 msgid "Many2Many (`many2many`)"
 msgstr "Many2Many (`many2many`)"
 
-#: ../../content/applications/studio/fields.rst:437
+#: ../../content/applications/studio/fields.rst:461
 msgid ""
 "The :guilabel:`Many2Many` field is used to link multiple records from "
 "another model to multiple records on the current model. Many2Many fields can "
@@ -2652,7 +3116,7 @@ msgstr ""
 "verwenden, genau wie :ref:`Many2One-Felder <studio/fields/relational-fields-"
 "many2one>`."
 
-#: ../../content/applications/studio/fields.rst:443
+#: ../../content/applications/studio/fields.rst:467
 msgid ""
 "On the *Task* model, the :guilabel:`Assignees` field is "
 "a :guilabel:`Many2Many` field pointing at the *Contact* model. This allows a "
@@ -2668,14 +3132,14 @@ msgstr ""
 msgid "Diagram showing many2many relationships"
 msgstr "Diagramm mit many2many-Beziehungen"
 
-#: ../../content/applications/studio/fields.rst:450
+#: ../../content/applications/studio/fields.rst:474
 msgid ""
 ":guilabel:`Checkboxes`: users can select several values using checkboxes."
 msgstr ""
 ":guilabel:`Kontrollkästchen`: Benutzer können mit Hilfe von Kontrollkästchen "
 "mehrere Werte auswählen."
 
-#: ../../content/applications/studio/fields.rst:451
+#: ../../content/applications/studio/fields.rst:475
 msgid ""
 ":guilabel:`Tags`: users can select several values appearing in rounded "
 "shapes, also known as *tags*. This has the same effect as selecting "
@@ -2686,11 +3150,11 @@ msgstr ""
 "gleiche Wirkung wie die Auswahl des Feldes :ref:`Stichwörter <studio/fields/"
 "relational-fields-tags>`."
 
-#: ../../content/applications/studio/fields.rst:458
+#: ../../content/applications/studio/fields.rst:482
 msgid "Tags (`many2many`)"
 msgstr "Stichwörter (`many2many`)"
 
-#: ../../content/applications/studio/fields.rst:460
+#: ../../content/applications/studio/fields.rst:484
 msgid ""
 "The :guilabel:`Tags` field is used to display several values from another "
 "model appearing in rounded shapes, also known as *tags*. This field type is "
@@ -2709,7 +3173,7 @@ msgstr ""
 "Auswirkungen wie unter :ref:`Many2Many <studio/fields/relational-fields-"
 "many2many>` beschrieben."
 
-#: ../../content/applications/studio/fields.rst:467
+#: ../../content/applications/studio/fields.rst:491
 msgid ""
 "To display tags with different background colors, tick :guilabel:`Use "
 "colors`."
@@ -2721,11 +3185,11 @@ msgstr ""
 msgid "Example of a Tags field"
 msgstr "Beispiel eines Stichwortfelds"
 
-#: ../../content/applications/studio/fields.rst:477
+#: ../../content/applications/studio/fields.rst:501
 msgid "Related Field (`related`)"
 msgstr "Zugehöriges Feld (`related`)"
 
-#: ../../content/applications/studio/fields.rst:479
+#: ../../content/applications/studio/fields.rst:503
 msgid ""
 "A :guilabel:`Related Field` is not a relational field per se; no "
 "relationship is created between models. It uses an existing relationship to "
@@ -2736,7 +3200,7 @@ msgstr ""
 "eine bestehende Beziehung, um Informationen aus einem anderen Datensatz "
 "abzurufen und anzuzeigen."
 
-#: ../../content/applications/studio/fields.rst:483
+#: ../../content/applications/studio/fields.rst:507
 msgid ""
 "To display the email address of a customer on the *Sales Order* model, use "
 "the :guilabel:`Related Field` `partner_id.email` by "
@@ -2746,15 +3210,267 @@ msgstr ""
 "verwenden Sie das :guilabel:`Zugehörige Feld` `partner_id.email`, indem "
 "Sie :guilabel:`Kunde` und dann :guilabel:`E-Mail` auswählen."
 
-#: ../../content/applications/studio/fields.rst:489
-msgid "Properties"
-msgstr "Eigenschaften"
+#: ../../content/applications/studio/fields.rst:513
+msgid "Add a field to a view"
+msgstr "Feld zu einer Ansicht hinzufügen"
 
-#: ../../content/applications/studio/fields.rst:492
+#: ../../content/applications/studio/fields.rst:515
+msgid "With Studio, it is possible to add:"
+msgstr "Mit Studio ist es möglich, Folgendes hinzuzufügen:"
+
+#: ../../content/applications/studio/fields.rst:517
+msgid ""
+":ref:`a new field <studio/fields/add-new>` to a :ref:`form <studio/views/"
+"general/form>` or :ref:`list view <studio/views/multiple-records/list>` of a "
+"model"
+msgstr ""
+":ref:`ein neues Feld <studio/fields/add-new>` zu einer :ref:`Formular "
+"<studio/views/general/form>`- oder :ref:`Listenansicht <studio/views/"
+"multiple-records/list>` eines Modells"
+
+#: ../../content/applications/studio/fields.rst:519
+msgid ""
+":ref:`an existing field <studio/fields/add-existing>`, i.e., a field that "
+"already exists on the :doc:`model <models_modules_apps>` in question, to "
+"*any* view of that model"
+msgstr ""
+":ref:`ein vorhandenes Feld <studio/fields/add-existing>`, d. h. ein Feld, "
+"das bereits im betreffenden :doc:`Modell <models_modules_apps>` vorhanden "
+"ist, zu *jeder* Ansicht dieses Modells"
+
+#: ../../content/applications/studio/fields.rst:523
+msgid ""
+"Add a new field to a form or list view to save it to the model and make it "
+"available as an existing field in other views of the same model."
+msgstr ""
+"Fügen Sie einer Formular- oder Listenansicht ein neues Feld hinzu, um es im "
+"Modell zu speichern und als vorhandenes Feld in anderen Ansichten desselben "
+"Modells verfügbar zu machen."
+
+#: ../../content/applications/studio/fields.rst:529
+msgid "Add a new field"
+msgstr "Neues Feld hinzufügen"
+
+#: ../../content/applications/studio/fields.rst:532
+msgid ""
+"Activate :ref:`developer mode <developer-mode>` *before* adding a new field "
+"to see, and be able to edit, the field's technical name during configuration."
+msgstr ""
+"Aktivieren Sie den :ref:`Entwicklermodus <developer-mode>` *bevor* Sie ein "
+"neues Feld hinzufügen, um den technischen Namen des Feldes während der "
+"Konfiguration sehen und bearbeiten zu können."
+
+#: ../../content/applications/studio/fields.rst:535
+msgid "To add a new field, follow these steps:"
+msgstr "Um ein neues Feld hinzuzufügen, führen Sie diese Schritte aus:"
+
+#: ../../content/applications/studio/fields.rst:537
+msgid ""
+"Navigate to the relevant form or list view, then click the :icon:`oi-studio` "
+"(:guilabel:`Toggle Studio`) icon in the upper-right corner. Alternatively, "
+"with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
+"icon, then navigate to the relevant form or list view."
+msgstr ""
+"Navigieren Sie zur relevanten Formular- oder Listenansicht und klicken Sie "
+"dann auf das :icon:`oi-studio` (:guilabel:`Studio umschalten`)-Symbol in der "
+"oberen rechten Ecke. Alternativ können Sie bei geöffneter App auf das "
+":icon:`oi-studio` (:guilabel:`Studio umschalten`)-Symbol klicken und dann "
+"zur relevanten Formular- oder Listenansicht navigieren."
+
+#: ../../content/applications/studio/fields.rst:542
+msgid ""
+"In the :icon:`fa-plus` :guilabel:`Add` tab, drag the relevant :ref:`field "
+"type <studio/fields/field-types>` from the :guilabel:`New Fields` section "
+"and drop it in the desired position. If the new field is a :ref:`relational "
+"field <studio/fields/relational-fields>`, select the relevant reciprocal "
+"field, model, or related field in the pop-up."
+msgstr ""
+"Ziehen Sie im Tab :icon:`fa-plus` :guilabel:`Hinzufügen` den relevanten "
+":ref:`Feldtyp <studio/fields/field-types>` aus dem Abschnitt :guilabel:`Neue "
+"Felder` und legen Sie ihn an der gewünschten Position ab. Wenn das neue Feld "
+"ein :ref:`Beziehungsfeld <studio/fields/relational-fields>` ist, wählen Sie "
+"das relevante reziproke Feld, Modell oder zugehörige Feld im Pop-up aus."
+
+#: ../../content/applications/studio/fields.rst:547
+msgid ""
+"In the :icon:`fa-server` :guilabel:`Properties` tab, configure the "
+"field's :ref:`properties <studio/fields/properties>`:"
+msgstr ""
+"Konfigurieren Sie im Tab :icon:`fa-server` :guilabel:`Eigenschaften` die "
+":ref:`Eigenschaften <studio/fields/properties>` des Feldes:"
+
+#: ../../content/applications/studio/fields.rst:550
+msgid ""
+"Enter the :guilabel:`Label` to be displayed as the field name on the UI; "
+"this is also used to generate the default technical name of the field."
+msgstr ""
+"Geben Sie die :guilabel:`Bezeichnung` ein, die als Feldname auf der "
+"Benutzeroberfläche angezeigt werden soll. Diese wird auch zur Generierung "
+"des technischen Standardnamens des Feldes verwendet."
+
+#: ../../content/applications/studio/fields.rst:552
+msgid ""
+"Click anywhere outside the :guilabel:`Label` field to see "
+"the :guilabel:`Technical Name` updated with the default technical name."
+msgstr ""
+"Klicken Sie außerhalb des Feldes :guilabel:`Bezeichnung`, um zu sehen, wie "
+"der :guilabel:`Technische Name` mit dem technischen Standardnamen "
+"aktualisiert wird."
+
+#: ../../content/applications/studio/fields.rst:556
+msgid ""
+"The :guilabel:`Technical Name` of a new field can be edited in Studio during "
+"the configuration process. At any other time, a field's technical name can "
+"only be :ref:`modified via the technical settings of the database <studio/"
+"fields/properties-technical-name-change>`."
+msgstr ""
+"Der :guilabel:`Technische Name` eines neuen Feldes kann in Studio während "
+"des Konfigurationsprozesses bearbeitet werden. Zu jedem anderen Zeitpunkt "
+"kann der technische Name eines Feldes nur :ref:`über die technischen "
+"Einstellungen der Datenbank geändert werden <studio/fields/properties-"
+"technical-name-change>`."
+
+#: ../../content/applications/studio/fields.rst:560
+msgid ""
+"The technical name of a new field added using Studio is by default prefixed "
+"by `x_studio_`."
+msgstr ""
+"Der technische Name eines neuen Feldes, das mit Studio hinzugefügt wurde, "
+"ist standardmäßig mit `x_studio_` präfixiert."
+
+#: ../../content/applications/studio/fields.rst:563
+msgid ""
+"Optionally, select a different :guilabel:`Widget` via the dropdown; the "
+"default widget for the :ref:`field type <studio/fields/field-types>` is "
+"selected by default."
+msgstr ""
+"Wählen Sie optional ein anderes :guilabel:`Widget` über das Dropdown-Menü "
+"aus. Standardmäßig ist das Standard-Widget für den :ref:`Feldtyp <studio/"
+"fields/field-types>` ausgewählt."
+
+#: ../../content/applications/studio/fields.rst:565
+msgid ""
+"Optionally, configure any other :ref:`field properties <studio/fields/"
+"properties>`."
+msgstr ""
+"Konfigurieren Sie optional weitere :ref:`Feldeigenschaften <studio/fields/"
+"properties>`."
+
+#: ../../content/applications/studio/fields.rst:567
+#: ../../content/applications/studio/fields.rst:593
+#: ../../content/applications/studio/fields.rst:722
+msgid "Click :guilabel:`Close` in the top-right corner to close Studio."
+msgstr ""
+"Klicken Sie auf :guilabel:`Schließen` in der oberen rechten Ecke, um Studio "
+"zu schließen."
+
+#: ../../content/applications/studio/fields.rst:572
+msgid "Add an existing field"
+msgstr "Vorhandenes Feld hinzufügen"
+
+#: ../../content/applications/studio/fields.rst:574
+msgid ""
+"To add a field that exists on the model but that is not present on the "
+"current view, follow these steps:"
+msgstr ""
+"Um ein Feld hinzuzufügen, das im Modell vorhanden ist, aber nicht in der "
+"aktuellen Ansicht angezeigt wird, gehen Sie wie folgt vor:"
+
+#: ../../content/applications/studio/fields.rst:577
+#: ../../content/applications/studio/fields.rst:709
+#: ../../content/applications/studio/fields.rst:759
+msgid ""
+"Navigate to the relevant view, then click the :icon:`oi-studio` "
+"(:guilabel:`Toggle Studio`) icon in the upper-right corner. Alternatively, "
+"with any app open, click the :icon:`oi-studio` (:guilabel:`Toggle Studio`) "
+"icon, then navigate to the relevant view."
+msgstr ""
+"Navigieren Sie zur entsprechenden Ansicht und klicken Sie auf das :icon:`oi-"
+"studio` (:guilabel:`Studio umschalten`) Symbol in der oberen rechten Ecke. "
+"Alternativ können Sie bei geöffneter App auf das :icon:`oi-studio` "
+"(:guilabel:`Studio umschalten`) Symbol klicken und dann zur entsprechenden "
+"Ansicht navigieren."
+
+#: ../../content/applications/studio/fields.rst:580
+msgid ""
+"In the :icon:`fa-plus` :guilabel:`Add` tab, in the left panel, "
+"click :guilabel:`Existing Fields` :icon:`fa-caret-right` to reveal a list of "
+"all the model's fields that are not currently present in the view."
+msgstr ""
+"Klicken Sie im :icon:`fa-plus` :guilabel:`Hinzufügen`-Reiter im linken Panel "
+"auf :guilabel:`Vorhandene Felder` :icon:`fa-caret-right`, um eine Liste "
+"aller Felder des Modells anzuzeigen, die momentan nicht in der Ansicht "
+"vorhanden sind."
+
+#: ../../content/applications/studio/fields.rst:583
+msgid "Drag the relevant field and drop it in the desired position."
+msgstr ""
+"Ziehen Sie das gewünschte Feld und legen Sie es an der gewünschten Position "
+"ab."
+
+#: ../../content/applications/studio/fields.rst:584
+msgid ""
+"In the :icon:`fa-server` :guilabel:`Properties` tab, configure the "
+"relevant :ref:`properties <studio/fields/properties>` for the field in the "
+"current view."
+msgstr ""
+"Konfigurieren Sie im :icon:`fa-server` :guilabel:`Eigenschaften`-Reiter die "
+"relevanten :ref:`Eigenschaften <studio/fields/properties>` für das Feld in "
+"der aktuellen Ansicht."
+
+#: ../../content/applications/studio/fields.rst:588
+msgid ""
+"Various properties can be configured independently for different views, if "
+"needed, such as the :guilabel:`Label`, the :guilabel:`Widget`, the "
+"visibility of the field for certain user groups, as well as whether or not "
+"the field is :guilabel:`Invisible`, :guilabel:`Required`, "
+"or :guilabel:`Readonly`."
+msgstr ""
+"Verschiedene Eigenschaften können bei Bedarf unabhängig für verschiedene "
+"Ansichten konfiguriert werden, wie z. B. die :guilabel:`Bezeichnung`, das "
+":guilabel:`Widget`, die Sichtbarkeit des Feldes für bestimmte "
+"Benutzergruppen sowie ob das Feld :guilabel:`Unsichtbar`, "
+":guilabel:`Erforderlich` oder :guilabel:`Schreibgeschützt` ist."
+
+#: ../../content/applications/studio/fields.rst:598
+msgid "Field properties"
+msgstr "Feldeigenschaften"
+
+#: ../../content/applications/studio/fields.rst:600
+msgid ""
+"A series of :ref:`general properties <studio/fields/properties-general>` can "
+"be configured for most combinations of :ref:`field type and widget <studio/"
+"fields/field-types>`. Additional properties are available depending on the "
+"specific field type and widget selected. For example, :guilabel:`Date & "
+"Time` fields using the :guilabel:`Date & Time` or :guilabel:`Date Range` "
+"widget have various :ref:`specific properties <studio/fields/properties-date-"
+"datetime>` that can be configured."
+msgstr ""
+"Für die meisten Kombinationen von :ref:`Feldtyp und Widget <studio/fields/"
+"properties-general>` kann eine Reihe von :ref:`allgemeinen Eigenschaften "
+"<studio/fields/field-types>` konfiguriert werden. Zusätzliche Eigenschaften "
+"sind je nach ausgewähltem Feldtyp und Widget verfügbar. Beispielsweise "
+"verfügen :guilabel:`Datum & Uhrzeit`-Felder mit dem :guilabel:`Datum & "
+"Uhrzeit`- oder :guilabel:`Datumsbereich`-Widget über verschiedene "
+":ref:`spezifische Eigenschaften <studio/fields/properties-date-datetime>`, "
+"die konfiguriert werden können."
+
+#: ../../content/applications/studio/fields.rst:609
 msgid "General properties"
 msgstr "Allgemeine Eigenschaften"
 
-#: ../../content/applications/studio/fields.rst:494
+#: ../../content/applications/studio/fields.rst:611
+msgid ""
+":guilabel:`Class`: Use `Bootstrap <https://getbootstrap.com/docs/5.3/"
+"examples/cheatsheet/>`_ or other custom classes defined in Odoo to customize "
+"how the field is styled and displayed on the UI."
+msgstr ""
+":guilabel:`Klasse`: Verwenden Sie `Bootstrap <https://getbootstrap.com/docs/"
+"5.3/examples/cheatsheet/>`_ oder andere in Odoo definierte "
+"benutzerdefinierte Klassen, um die Darstellung und Anzeige des Feldes in der "
+"Benutzeroberfläche anzupassen."
+
+#: ../../content/applications/studio/fields.rst:614
 msgid ""
 ":guilabel:`Invisible`: Enable this property when it is not necessary for "
 "users to view a field on the UI. This helps declutter the UI by only showing "
@@ -2765,17 +3481,7 @@ msgstr ""
 "Dadurch wird die Benutzeroberfläche übersichtlicher, da nur die wesentlichen "
 "Felder angezeigt werden, die für eine bestimmte Situation erforderlich sind."
 
-#: ../../content/applications/studio/fields.rst:498
-msgid ""
-"The :guilabel:`Invisible` attribute also applies inside Studio. To view "
-"hidden fields in Studio, click on a view's :guilabel:`View` tab and "
-"enable :guilabel:`Show Invisible Elements`."
-msgstr ""
-"Das Attribut :guilabel:`Unsichtbar` gilt auch in Studio. Um verborgene "
-"Felder in Studio anzuzeigen, klicken Sie auf den Reiter :guilabel:`Ansicht` "
-"und aktivieren Sie :guilabel:`Unsichtbare Elemente anzeigen`."
-
-#: ../../content/applications/studio/fields.rst:501
+#: ../../content/applications/studio/fields.rst:618
 msgid ""
 ":guilabel:`Required`: Enable this property if a field should always be "
 "completed by the user before being able to proceed."
@@ -2783,7 +3489,7 @@ msgstr ""
 ":guilabel:`Erforderlich`: Aktivieren Sie diese Eigenschaft, wenn ein Feld "
 "immer vom Benutzer ausgefüllt werden muss, bevor er fortfahren kann."
 
-#: ../../content/applications/studio/fields.rst:504
+#: ../../content/applications/studio/fields.rst:621
 msgid ""
 ":guilabel:`Readonly`: Enable this property if users should not be able to "
 "modify a field."
@@ -2791,40 +3497,47 @@ msgstr ""
 ":guilabel:`Schreibgeschützt`: Aktivieren Sie diese Eigenschaft, wenn "
 "Benutzer ein Feld nicht bearbeiten dürfen."
 
-#: ../../content/applications/studio/fields.rst:507
+#: ../../content/applications/studio/fields.rst:624
 msgid ""
-"You can choose to enable :guilabel:`Invisible`, :guilabel:`Required` "
-"and :guilabel:`Readonly` for specific records only by clicking "
+"The :guilabel:`Invisible` property also applies inside Studio. To view "
+"hidden fields in Studio, click on a view's :guilabel:`View` tab and "
+"enable :guilabel:`Show Invisible Elements`."
+msgstr ""
+"Die Eigenschaft :guilabel:`Unsichtbar` gilt auch innerhalb von Studio. Um "
+"ausgeblendete Felder in Studio anzuzeigen, klicken Sie im "
+":guilabel:`Ansicht`-Reiter einer Ansicht und aktivieren Sie "
+":guilabel:`Unsichtbare Elemente anzeigen`."
+
+#: ../../content/applications/studio/fields.rst:626
+msgid ""
+"The :guilabel:`Invisible`, :guilabel:`Required`, and :guilabel:`Readonly` "
+"properties can be enabled for specific records only by clicking "
 "on :guilabel:`Conditional` and creating a filter."
 msgstr ""
-"Sie können :guilabel:`Unsichtbar`, :guilabel:`Erforderlich` "
-"and :guilabel:`Schreibgeschützt` nur auf bestimmte Datensätze anwenden, "
-"indem Sie auf :guilabel:`Bedingt` klicken und einen Filter erstellen."
+"Die Eigenschaften :guilabel:`Unsichtbar`, :guilabel:`Erforderlich` und "
+":guilabel:`Schreibgeschützt` können nur für bestimmte Datensätze aktiviert "
+"werden, indem Sie auf :guilabel:`Bedingt` klicken und einen Filter erstellen."
 
-#: ../../content/applications/studio/fields.rst:511
+#: ../../content/applications/studio/fields.rst:630
 msgid ""
-"On the *Form* view of the *Contact* model, the :guilabel:`Title` field only "
+"On the form view of the *Contact* model, the :guilabel:`Title` field only "
 "appears when :guilabel:`Individual` is selected, as that field would not be "
 "helpful for a :guilabel:`Company` contact."
 msgstr ""
-"In der *Formularansicht* des Modells *Kontakt* wird das "
-"Feld :guilabel:`Titel` nur angezeigt, wenn :guilabel:`Einzelperson` "
-"ausgewählt ist, da dieses Feld für einen :guilabel:`Unternehmenskontakt` "
-"nicht hilfreich wäre."
+"In der Formularansicht des *Kontakt*-Modells erscheint das Feld "
+":guilabel:`Titel` nur, wenn :guilabel:`Einzelperson` ausgewählt ist, da "
+"dieses Feld für einen :guilabel:`Unternehmen`-Kontakt nicht hilfreich wäre."
 
-#: ../../content/applications/studio/fields.rst:515
+#: ../../content/applications/studio/fields.rst:634
 msgid ""
-":guilabel:`Label`: the field's name on the UI. This is not the name used in "
-"the PostgreSQL database. To view and change the latter, activate "
-"the :ref:`developer mode <developer-mode>` and edit the :guilabel:`Technical "
-"Name`."
+":guilabel:`Label`: This is the field name on the UI; the label is used to "
+"generate the technical name of the field."
 msgstr ""
-":guilabel:`Bezeichnung`: der Name des Felds auf der Benutzeroberfläche. Dies "
-"ist nicht derselbe Name, der in der PostgreSQL-Datenbank verwendet wird. Um "
-"letzteren anzuzeigen und zu ändern, aktivieren Sie den :ref:`Entwicklermodus "
-"<developer-mode>` und bearbeiten Sie den :guilabel:`Technischen Name`."
+":guilabel:`Bezeichnung`: Dies ist der Feldname in der Benutzeroberfläche. "
+"Die Bezeichnung wird verwendet, um den technischen Namen des Feldes zu "
+"generieren."
 
-#: ../../content/applications/studio/fields.rst:519
+#: ../../content/applications/studio/fields.rst:637
 msgid ""
 ":guilabel:`Help Tooltip`: To explain the purpose of a field, add a "
 "description. The text is displayed inside a tooltip box when hovering with "
@@ -2835,7 +3548,29 @@ msgstr ""
 "Sie mit der Maus über das Fragezeichen neben der Beschriftung des Feldes "
 "fahren."
 
-#: ../../content/applications/studio/fields.rst:523
+#: ../../content/applications/studio/fields.rst:641
+msgid ""
+":guilabel:`Technical Name`: To view a field's technical name in Studio (and, "
+"during the configuration of a new field, edit it if desired), "
+"activate :ref:`developer mode <developer-mode>`."
+msgstr ""
+":guilabel:`Technischer Name`: Um den technischen Namen eines Feldes in "
+"Studio anzuzeigen (und ihn während der Konfiguration eines neuen Feldes bei "
+"Bedarf zu bearbeiten), aktivieren Sie den :ref:`Entwicklermodus <developer-"
+"mode>`."
+
+#: ../../content/applications/studio/fields.rst:646
+msgid ""
+"If this field needs to be updated but is no longer editable via Studio, the "
+"technical name can be :ref:`modified via the technical settings of the "
+"database <studio/fields/properties-technical-name-change>`."
+msgstr ""
+"Wenn dieses Feld aktualisiert werden muss, aber nicht mehr über Studio "
+"bearbeitbar ist, kann der technische Name über die :ref:`technischen "
+"Einstellungen der Datenbank geändert werden <studio/fields/properties-"
+"technical-name-change>`."
+
+#: ../../content/applications/studio/fields.rst:650
 msgid ""
 ":guilabel:`Widget`: To change the default appearance or functionality of a "
 "field, select one of the available widgets."
@@ -2843,17 +3578,27 @@ msgstr ""
 ":guilabel:`Widget`: Um das Standardaussehen oder die Funktionalität eines "
 "Feldes zu ändern, wählen Sie eines der verfügbaren Widgets."
 
-#: ../../content/applications/studio/fields.rst:526
+#: ../../content/applications/studio/fields.rst:653
 msgid ""
 ":guilabel:`Placeholder`: To provide an example of how a field should be "
-"completed, add placeholder text. The text appears in light gray until a "
-"value is entered."
+"completed, add a fixed placeholder text. The text appears in light gray "
+"until a value is entered."
 msgstr ""
-":guilabel:`Platzhalter`: Um ein Beispiel dafür zu geben, wie ein Feld "
-"ausgefüllt werden sollte, fügen Sie Platzhalter-Text hinzu. Er wird in "
-"hellgrau angezeigt, bis ein Wert eingegeben wird."
+":guilabel:`Platzhalter`: Um ein Beispiel zu geben, wie ein Feld ausgefüllt "
+"werden soll, fügen Sie einen festen Platzhaltertext hinzu. Der Text "
+"erscheint hellgrau, bis ein Wert eingegeben wird."
 
-#: ../../content/applications/studio/fields.rst:529
+#: ../../content/applications/studio/fields.rst:656
+msgid ""
+":guilabel:`Dynamic Placeholder`: To provide the value of the selected field "
+"as an example of how a field should be completed. The text appears in light "
+"gray until a value is entered."
+msgstr ""
+":guilabel:`Dynamischer Platzhalter`: Um den Wert des ausgewählten Feldes als "
+"Beispiel zu geben, wie ein Feld ausgefüllt werden soll. Der Text erscheint "
+"hellgrau, bis ein Wert eingegeben wird."
+
+#: ../../content/applications/studio/fields.rst:659
 msgid ""
 ":guilabel:`Default value`: To display a default value in a field when a "
 "record is created, add a value."
@@ -2861,7 +3606,7 @@ msgstr ""
 ":guilabel:`Standardwert`: Um einen Standardwert in einem Feld anzuzeigen, "
 "wenn ein Datensatz erstellt wird, fügen Sie einen Wert hinzu."
 
-#: ../../content/applications/studio/fields.rst:532
+#: ../../content/applications/studio/fields.rst:662
 msgid ""
 ":guilabel:`Allow visibility to groups`: To limit which users can view the "
 "field, select one or more user access :ref:`groups <access-rights/groups>`."
@@ -2870,7 +3615,7 @@ msgstr ""
 "Benutzer das Feld sehen können, wählen Sie eine oder "
 "mehrere :ref:`Benutzerzugriffsgruppen <access-rights/groups>` aus."
 
-#: ../../content/applications/studio/fields.rst:534
+#: ../../content/applications/studio/fields.rst:664
 msgid ""
 ":guilabel:`Forbid visibility to groups`: To prevent certain users from "
 "seeing the field, select one or more user access :ref:`groups <access-rights/"
@@ -2880,48 +3625,44 @@ msgstr ""
 "bestimmte Benutzer das Feld sehen können, wählen Sie eine oder "
 "mehrere :ref:`Benutzerzugriffsgruppen <access-rights/groups>` aus."
 
-#: ../../content/applications/studio/fields.rst:540
+#: ../../content/applications/studio/fields.rst:670
 msgid "Properties for Date & Time fields"
 msgstr "Eigenschaften für Felder vom Typ „Datum & Uhrzeit“"
 
-#: ../../content/applications/studio/fields.rst:542
+#: ../../content/applications/studio/fields.rst:672
 msgid ""
-"For :guilabel:`Date & Time` fields that have the :guilabel:`Date & Time` "
-"or :guilabel:`Date Range` widget set, some specific properties are available:"
+"For :guilabel:`Date & Time` fields using the :guilabel:`Date & Time` "
+"or :guilabel:`Date Range` widget, some specific properties are available:"
 msgstr ""
-"Für Felder vom Typ :guilabel:`Datum & Uhrzeit`, für die das "
-"Widget :guilabel:`Datum & Uhrzeit` oder :guilabel:`Datumsbereich` festgelegt "
-"ist, stehen einige spezifische Eigenschaften zur Verfügung:"
+"Für :guilabel:`Datum & Zeit`-Felder, die das :guilabel:`Datum & Zeit`- oder "
+":guilabel:`Datumsbereich`-Widget verwenden, sind einige spezifische "
+"Eigenschaften verfügbar:"
 
-#: ../../content/applications/studio/fields.rst:545
+#: ../../content/applications/studio/fields.rst:675
 msgid ""
 ":guilabel:`Minimal precision`: Determine the smallest date unit that must be "
-"selected in the date selector. The possible values "
-"are :guilabel:`Day`, :guilabel:`Month`, :guilabel:`Year` "
-"or :guilabel:`Decade`. If no value is selected, the user must select a day "
-"in the date selector."
+"selected in the date selector. The possible values are `Day`, `Month`, "
+"`Year` or `Decade`. If no value is selected, the user must select a day in "
+"the date selector."
 msgstr ""
-":guilabel:`Minimale Genauigkeit`: Legen Sie die kleinste Datumsangabe fest, "
-"die im Datumsauswahlfeld ausgewählt werden muss. Die möglichen Werte "
-"sind :guilabel:`Tage`, :guilabel:`Monate`, :guilabel:`Jahre` "
-"oder :guilabel:`Jahrzehnte`. Wenn kein Wert ausgewählt ist, muss der "
-"Benutzer einen Tag im Datumsauswahlfeld auswählen."
+":guilabel:`Minimale Genauigkeit`: Legt die kleinste Datumseinheit fest, die "
+"im Datumsauswahlfenster ausgewählt werden muss. Mögliche Werte sind `Tag`, "
+"`Monat`, `Jahr` oder `Dekade`. Wenn kein Wert ausgewählt ist, muss der "
+"Benutzer einen Tag im Datumsauswahlfenster auswählen."
 
-#: ../../content/applications/studio/fields.rst:548
+#: ../../content/applications/studio/fields.rst:678
 msgid ""
 ":guilabel:`Maximal precision`: Determine the largest date unit that can be "
-"used to navigate the date selector. The possible values "
-"are :guilabel:`Day`, :guilabel:`Month`, :guilabel:`Year` "
-"or :guilabel:`Decade`. If no value is selected, the user can navigate the "
-"date selector by decade."
+"used to navigate the date selector. The possible values are `Day`, `Month`, "
+"`Year` or `Decade`. If no value is selected, the user can navigate the date "
+"selector by decade."
 msgstr ""
-":guilabel:`Maximale Genauigkeit`: Legen Sie die größte Datumsangabe fest, "
-"die zum Navigieren im Datumsauswahlfeld verwendet werden kann. Die möglichen "
-"Werte sind :guilabel:`Tage`, :guilabel:`Monate`, :guilabel:`Jahre` "
-"oder :guilabel:`Jahrzehnte`. Wenn kein Wert ausgewählt ist, kann der "
-"Benutzer im Datumsauswahlfeld nach Jahrzehnten navigieren."
+":guilabel:`Maximale Genauigkeit`: Legt die größte Datumseinheit fest, die "
+"zur Navigation im Datumsauswahlfenster verwendet werden kann. Mögliche Werte "
+"sind `Tag`, `Monat`, `Jahr` oder `Dekade`. Wenn kein Wert ausgewählt ist, "
+"kann der Benutzer das Datumsauswahlfenster nach Dekaden navigieren."
 
-#: ../../content/applications/studio/fields.rst:551
+#: ../../content/applications/studio/fields.rst:681
 msgid ""
 ":guilabel:`Warning for future dates`: Enable this property to display a "
 "warning icon if a future date is selected."
@@ -2929,7 +3670,7 @@ msgstr ""
 ":guilabel:`Warnung für zukünftige Daten`: Aktivieren Sie diese Eigenschaft, "
 "um ein Warnsymbol anzuzeigen, wenn ein zukünftiges Datum ausgewählt wird."
 
-#: ../../content/applications/studio/fields.rst:553
+#: ../../content/applications/studio/fields.rst:683
 msgid ""
 ":guilabel:`Condensed display`: Enable this property to show days, months and "
 "hours with no leading zeros, e.g., `4/2/2025 8:05:00` instead of `04/02/2025 "
@@ -2939,7 +3680,7 @@ msgstr ""
 "Monate und Stunden ohne führende Nullen anzuzeigen, z. B. `4/2/2025 8:05:00` "
 "anstelle von `04/02/2025 08:05:00`."
 
-#: ../../content/applications/studio/fields.rst:555
+#: ../../content/applications/studio/fields.rst:685
 msgid ""
 ":guilabel:`Show time`: This property is enabled by default "
 "for :guilabel:`Date & Time` fields. On a read-only field, disable the "
@@ -2952,7 +3693,7 @@ msgstr ""
 "Dadurch kann beispielsweise eine Listenansicht übersichtlicher gestaltet "
 "werden."
 
-#: ../../content/applications/studio/fields.rst:558
+#: ../../content/applications/studio/fields.rst:688
 msgid ""
 ":guilabel:`Show seconds`: This property is enabled by default "
 "for :guilabel:`Date & Time` fields. Disable the property to show only hours "
@@ -2962,7 +3703,7 @@ msgstr ""
 "Felder vom Typ :guilabel:`Datum & Uhrzeit` aktiviert. Deaktivieren Sie die "
 "Eigenschaft, um nur Stunden und Minuten anzuzeigen."
 
-#: ../../content/applications/studio/fields.rst:560
+#: ../../content/applications/studio/fields.rst:690
 msgid ""
 ":guilabel:`Time interval`: Enter a value to determine the minute intervals "
 "shown in the time selector. For example, enter 15 to allow quarter-hour "
@@ -2973,7 +3714,7 @@ msgstr ""
 "beispielsweise 15 ein, um Viertelstundenintervalle zuzulassen. Der "
 "Standardwert ist auf 5 Minuten festgelegt."
 
-#: ../../content/applications/studio/fields.rst:563
+#: ../../content/applications/studio/fields.rst:693
 msgid ""
 ":guilabel:`Earliest accepted date`: Enter the earliest date that can be "
 "selected in the date selector in ISO-format, i.e., `YYYY-MM-DD`. If the "
@@ -2986,7 +3727,7 @@ msgstr ""
 "Datum ist, geben Sie `heute` ein. Im Datumswähler sind Daten vor dem "
 "frühesten akzeptierten Datum ausgegraut."
 
-#: ../../content/applications/studio/fields.rst:567
+#: ../../content/applications/studio/fields.rst:697
 msgid ""
 ":guilabel:`Latest accepted date`: Enter the latest date that can be selected "
 "in the date selector in ISO-format, i.e., `YYYY-MM-DD`. If the current date "
@@ -2998,6 +3739,157 @@ msgstr ""
 "`JJJJ-MM-TT`. Wenn das aktuelle Datum immer das späteste akzeptierte Datum "
 "ist, geben Sie `heute` ein. Im Datumswähler sind Daten nach dem spätesten "
 "akzeptierten Datum ausgegraut."
+
+#: ../../content/applications/studio/fields.rst:705
+msgid "Modify a field's properties"
+msgstr "Eigenschaften eines Feldes ändern"
+
+#: ../../content/applications/studio/fields.rst:707
+msgid "To modify the properties of a field, follow these steps:"
+msgstr "Um die Eigenschaften eines Feldes zu ändern, gehen Sie wie folgt vor:"
+
+#: ../../content/applications/studio/fields.rst:712
+#: ../../content/applications/studio/fields.rst:762
+msgid "Click on the relevant field."
+msgstr "Klicken Sie auf das entsprechende Feld."
+
+#: ../../content/applications/studio/fields.rst:713
+msgid ""
+"In the :icon:`fa-server` :guilabel:`Properties` tab, make any desired "
+"changes to the :ref:`field properties <studio/fields/properties>`."
+msgstr ""
+"Nehmen Sie im :icon:`fa-server` :guilabel:`Eigenschaften`-Tab die "
+"gewünschten Änderungen an den :ref:`Feldeigenschaften <studio/fields/"
+"properties>` vor."
+
+#: ../../content/applications/studio/fields.rst:717
+msgid ""
+"Various properties can be configured independently for different views, such "
+"as the :guilabel:`Label`, the :guilabel:`Widget`, the visibility of the "
+"field for certain user groups, as well as whether or not the field "
+"is :guilabel:`Invisible`, :guilabel:`Required`, or :guilabel:`Readonly`."
+msgstr ""
+"Verschiedene Eigenschaften können unabhängig voneinander für verschiedene "
+"Ansichten konfiguriert werden, wie z. B. die :guilabel:`Bezeichnung`, das "
+":guilabel:`Widget`, die Sichtbarkeit des Feldes für bestimmte "
+"Benutzergruppen sowie ob das Feld :guilabel:`Unsichtbar`, "
+":guilabel:`Erforderlich` oder :guilabel:`Schreibgeschützt` ist."
+
+#: ../../content/applications/studio/fields.rst:725
+msgid ""
+"The :guilabel:`Technical Name` of a field (visible in Studio "
+"with :ref:`developer mode <developer-mode>` activated) cannot be modified in "
+"Studio; this can be done :ref:`via the technical settings of the database "
+"<studio/fields/properties-technical-name-change>`."
+msgstr ""
+"Der :guilabel:`Technische Name` eines Feldes (in Studio mit aktiviertem "
+":ref:`Entwicklermodus <developer-mode>` sichtbar) kann in Studio nicht "
+"geändert werden. Dies kann :ref:`über die technischen Einstellungen der "
+"Datenbank <studio/fields/properties-technical-name-change>` erfolgen."
+
+#: ../../content/applications/studio/fields.rst:732
+msgid "Modify a field's technical name"
+msgstr "Technischen Namen eines Feldes ändern"
+
+#: ../../content/applications/studio/fields.rst:734
+msgid ""
+"To modify the technical name of a field, activate :ref:`developer mode "
+"<developer-mode>`, then follow these steps:"
+msgstr ""
+"Um den technischen Namen eines Feldes zu ändern, aktivieren Sie den "
+":ref:`Entwicklermodus <developer-mode>` und gehen Sie dann wie folgt vor:"
+
+#: ../../content/applications/studio/fields.rst:737
+msgid "With the field open in Studio, copy the technical name of the field."
+msgstr ""
+"Kopieren Sie bei geöffnetem Feld in Studio den technischen Namen des Feldes."
+
+#: ../../content/applications/studio/fields.rst:738
+msgid ""
+":ref:`Remove the field <studio/fields/remove>` from *all* views in Studio, "
+"then click :guilabel:`Close` to close Studio."
+msgstr ""
+":ref:`Entfernen Sie das Feld <studio/fields/remove>` aus *allen* Ansichten "
+"in Studio und klicken Sie dann auf :guilabel:`Schließen`, um Studio zu "
+"schließen."
+
+#: ../../content/applications/studio/fields.rst:740
+msgid "Navigate to :menuselection:`Settings app --> Technical --> Fields`."
+msgstr ""
+"Navigieren Sie zu :menuselection:`Einstellungen --> Technisch --> Felder`."
+
+#: ../../content/applications/studio/fields.rst:741
+msgid ""
+"Paste the copied technical name into the search bar, then open the relevant "
+"field."
+msgstr ""
+"Fügen Sie den kopierten technischen Namen in die Suchleiste ein und öffnen "
+"Sie dann das entsprechende Feld."
+
+#: ../../content/applications/studio/fields.rst:742
+msgid "Modify the :guilabel:`Field Name` as needed."
+msgstr "Ändern Sie den :guilabel:`Feldnamen` nach Bedarf."
+
+#: ../../content/applications/studio/fields.rst:744
+msgid ""
+"Once the field's technical name has been updated, the field can then "
+"be :ref:`added (back) to the relevant view(s) <studio/fields/add-existing>` "
+"from the list of existing fields."
+msgstr ""
+"Sobald der technische Name des Feldes aktualisiert wurde, kann das Feld dann "
+"aus der Liste der vorhandenen Felder :ref:`zu den relevanten Ansichten "
+"hinzugefügt (zurückgefügt) werden <studio/fields/add-existing>`."
+
+#: ../../content/applications/studio/fields.rst:748
+msgid ""
+"When updating the technical name of a field, make sure to keep at least the "
+"`x_` prefix, which is required for any custom field; for fields created "
+"using Studio, keep the `x_studio_` prefix to allow such fields to be more "
+"easily identified."
+msgstr ""
+"Achten Sie beim Aktualisieren des technischen Namens eines Feldes darauf, "
+"mindestens das Präfix `x_` beizubehalten, das für jedes benutzerdefinierte "
+"Feld erforderlich ist. Behalten Sie bei Feldern, die mit Studio erstellt "
+"wurden, das Präfix `x_studio_` bei, damit solche Felder leichter "
+"identifiziert werden können."
+
+#: ../../content/applications/studio/fields.rst:755
+msgid "Remove a field from a view"
+msgstr "Ein Feld aus einer Ansicht entfernen"
+
+#: ../../content/applications/studio/fields.rst:757
+msgid "To remove a field from a view, follow these steps:"
+msgstr "Um ein Feld aus einer Ansicht zu entfernen, gehen Sie wie folgt vor:"
+
+#: ../../content/applications/studio/fields.rst:763
+msgid ""
+"Scroll to the bottom of the :guilabel:`Properties` tab, then "
+"click :guilabel:`Remove from view`."
+msgstr ""
+"Scrollen Sie zum Ende der Registerkarte :guilabel:`Eigenschaften` und "
+"klicken Sie auf :guilabel:`Aus Ansicht entfernen`."
+
+#: ../../content/applications/studio/fields.rst:764
+msgid "Click :guilabel:`Ok` to confirm the action."
+msgstr "Klicken Sie auf :guilabel:`Ok`, um die Aktion zu bestätigen."
+
+#: ../../content/applications/studio/fields.rst:767
+msgid ""
+"A removed field can be easily :ref:`added back to the view <studio/fields/"
+"add-existing>` at a later stage, if needed."
+msgstr ""
+"Ein entferntes Feld kann bei Bedarf später problemlos :ref:`wieder zur "
+"Ansicht hinzugefügt <studio/fields/add-existing>` werden."
+
+#: ../../content/applications/studio/fields.rst:769
+msgid ""
+"If the intention is to declutter the view, it is also possible "
+"to :ref:`modify a field <studio/fields/modify>` and make "
+"it :guilabel:`Invisible` on the view in question."
+msgstr ""
+"Wenn die Absicht besteht, die Ansicht übersichtlicher zu gestalten, ist es "
+"auch möglich, :ref:`ein Feld zu ändern <studio/fields/modify>` und es in der "
+"betreffenden Ansicht :guilabel:`Unsichtbar` zu machen."
 
 #: ../../content/applications/studio/models_modules_apps.rst:3
 msgid "Models, modules, and apps"
@@ -3556,7 +4448,7 @@ msgstr ""
 "Klicken Sie auf die Schaltfläche :guilabel:`Exportieren`, um die ZIP-Datei "
 "herunterzuladen."
 
-#: ../../content/applications/studio/models_modules_apps.rst:-1
+#: ../../content/applications/studio/models_modules_apps.rst:None
 msgid "Choosing to export both data and demo data"
 msgstr "Auswahl zum Export von Daten und Demodaten"
 
@@ -3614,11 +4506,11 @@ msgstr "PDF-Berichte"
 msgid ""
 "With Studio, you can :ref:`edit existing PDF reports <studio/pdf-reports/"
 "edit>` (e.g., invoices, quotations, etc.) or :ref:`create new ones <studio/"
-"pdf-reports/edit>`."
+"pdf-reports/create>`."
 msgstr ""
-"Mit Studio können Sie :ref:`vorhandene PDF-Berichte <studio/pdf-reports/"
-"edit>` (z. B. Rechnungen, Angebote usw.) bearbeiten oder :ref:`neue Berichte "
-"erstellen <studio/pdf-reports/edit>`."
+"Mit Studio können Sie :ref:`bestehende PDF-Berichte bearbeiten <studio/pdf-"
+"reports/edit>` (z. B. Rechnungen, Angebote usw.) oder :ref:`neue erstellen "
+"<studio/pdf-reports/create>`."
 
 #: ../../content/applications/studio/pdf_reports.rst:11
 msgid "Default layout"
@@ -4093,7 +4985,7 @@ msgstr ""
 "bestimmter Bedingungen anzuzeigen/auszublenden. Klicken Sie auf den Block, "
 "um die Bedingungen anzuzeigen."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "View conditions applied to a block."
 msgstr "Anzeige der auf einen Block angewandten Bedingungen."
 
@@ -4104,7 +4996,7 @@ msgstr ""
 "Wählen Sie eine Wert aus, um eine Vorschau des Endresulats zu sehen und "
 "gegebenenfalls zu bearbeiten."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "Preview the output of another condition."
 msgstr "Vorschau des Resultas einer anderen Bedingung."
 
@@ -4188,7 +5080,7 @@ msgstr ""
 "Standardwert an, der angezeigt wird, wenn das Feld nicht im Datensatz "
 "vervollständigt wurde, und drücken Sie `Enter`."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "Select a related field."
 msgstr "Wählen Sie ein zugehöriges Feld aus."
 
@@ -4265,7 +5157,7 @@ msgstr ""
 "neben der Zeile, klicken Sie auf das violette Rechteck und wählen Sie eine "
 "Option aus."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "List of available options for editing table structure."
 msgstr "Liste der verfügbaren Optionen zur Bearbeitung der Tabellenstruktur."
 
@@ -4361,7 +5253,7 @@ msgstr ""
 "hinzu. Das sich öffnende Dialogfeld zeigt das Quellobjekt für das Feld (z. "
 "B. das Modell *Aufttragszeilen*) und die Liste der verfügbaren Felder an."
 
-#: ../../content/applications/studio/pdf_reports.rst:-1
+#: ../../content/applications/studio/pdf_reports.rst:None
 msgid "List of available fields for the sale order lines model."
 msgstr ""
 "Liste der verfügbaren Felder für das Modell für Verkaufsauftragszeilen."
@@ -5493,6 +6385,177 @@ msgstr ""
 msgid "Sales Analysis Report model's Bar chart on Graph view"
 msgstr ""
 "Das Balkendiagramm des Verkaufsanalyseberichtsmodells in der Diagrammansicht"
+
+#~ msgid ""
+#~ "With Studio, you can :ref:`edit existing PDF reports <studio/pdf-reports/"
+#~ "edit>` (e.g., invoices, quotations, etc.) or :ref:`create new ones "
+#~ "<studio/pdf-reports/edit>`."
+#~ msgstr ""
+#~ "Mit Studio können Sie :ref:`vorhandene PDF-Berichte <studio/pdf-reports/"
+#~ "edit>` (z. B. Rechnungen, Angebote usw.) bearbeiten oder :ref:`neue "
+#~ "Berichte erstellen <studio/pdf-reports/edit>`."
+
+#~ msgid ""
+#~ "Fields structure the models of a database. If you picture a model as a "
+#~ "table or spreadsheet, fields are the columns where data is stored in the "
+#~ "records (i.e., the rows). Fields also define the type of data that is "
+#~ "stored within them. How the data is presented and formatted on "
+#~ "the :abbr:`UI (User Interface)` is defined by their widget."
+#~ msgstr ""
+#~ "Felder strukturieren die Modelle einer Datenbank. Wenn Sie sich ein "
+#~ "Modell als Tabelle oder Tabellenkalkulation vorstellen, sind Felder die "
+#~ "Spalten, in denen die Daten in den Datensätzen (d. h. den Zeilen) "
+#~ "gespeichert werden. Felder definieren auch die Art der Daten, die in "
+#~ "ihnen gespeichert sind. Wie die Daten auf der :abbr:`UI "
+#~ "(Benutzeroberfläche)` dargestellt und formatiert werden, wird durch ihr "
+#~ "Widget definiert."
+
+#~ msgid ""
+#~ "From a technical point of view, there are 15 field types in Odoo. "
+#~ "However, you can choose from 20 fields in Studio, as some field types are "
+#~ "available more than once with a different default widget."
+#~ msgstr ""
+#~ "Aus technischer Sicht gibt es 15 Feldtypen in Odoo. In Studio können Sie "
+#~ "jedoch aus 20 Feldern wählen, da einige Feldtypen mehr als einmal mit "
+#~ "einem anderen Standard-Widget verfügbar sind."
+
+#~ msgid ""
+#~ ":guilabel:`New Fields` can only be added to the :ref:`studio/views/"
+#~ "general/form` and :ref:`studio/views/multiple-records/list` views. On "
+#~ "other views, you can only add :guilabel:`Existing Fields` :dfn:`(fields "
+#~ "already on the model)`."
+#~ msgstr ""
+#~ ":guilabel:`Neue Felder` können nur zu den Ansichten :ref:`studio/views/"
+#~ "general/form` und :ref:`studio/views/multiple-records/list` hinzugefügt "
+#~ "werden. In anderen Ansichten können Sie nur :guilabel:`Vorhandene "
+#~ "Felder` :dfn:`(Felder, die bereits im Modell enthalten sind)` hinzufügen."
+
+#~ msgid ""
+#~ "Simple fields contain basic values, such as text, numbers, files, etc."
+#~ msgstr ""
+#~ "Einfache Felder enthalten grundlegende Werte, wie Text, Zahlen, Dateien "
+#~ "usw."
+
+#~ msgid ""
+#~ "Non-default widgets, when available, are presented as bullet points or "
+#~ "sub-headings below."
+#~ msgstr ""
+#~ "Widgets, die nicht standardmäßig verfügbar sind, werden im Folgenden als "
+#~ "Aufzählungspunkte oder Untertitel dargestellt."
+
+#~ msgid ""
+#~ "This works differently than selecting the :ref:`Image field <studio/"
+#~ "fields/simple-fields-image>` directly, as the image is not stored in Odoo "
+#~ "when using a :guilabel:`Text` field with the :guilabel:`Image` widget. "
+#~ "For example, it can be useful if you want to save disk space."
+#~ msgstr ""
+#~ "Dies funktioniert anders als die direkte Auswahl des :ref:`Bildfeldes "
+#~ "<studio/fields/simple-fields-image>`, da das Bild nicht in Odoo "
+#~ "gespeichert wird, wenn Sie ein :guilabel:`Text`-Feld mit "
+#~ "dem :guilabel:`Bild`-Widget verwenden. Dies kann zum Beispiel nützlich "
+#~ "sein, wenn Sie Speicherplatz sparen möchten."
+
+#~ msgid ""
+#~ "Relational fields are used to link and display the data from records on "
+#~ "another model."
+#~ msgstr ""
+#~ "Beziehungsfelder werden zur Verknüpfung und Anzeige von Daten aus "
+#~ "Datensätzen eines anderen Modells verwendet."
+
+#~ msgid ""
+#~ "Non-default widgets, when available, are presented as bullet points below."
+#~ msgstr ""
+#~ "Widgets, die nicht standardmäßig verfügbar sind, werden im Folgenden als "
+#~ "Aufzählungspunkte dargestellt."
+
+#~ msgid "Properties"
+#~ msgstr "Eigenschaften"
+
+#~ msgid ""
+#~ "The :guilabel:`Invisible` attribute also applies inside Studio. To view "
+#~ "hidden fields in Studio, click on a view's :guilabel:`View` tab and "
+#~ "enable :guilabel:`Show Invisible Elements`."
+#~ msgstr ""
+#~ "Das Attribut :guilabel:`Unsichtbar` gilt auch in Studio. Um verborgene "
+#~ "Felder in Studio anzuzeigen, klicken Sie auf den "
+#~ "Reiter :guilabel:`Ansicht` und aktivieren Sie :guilabel:`Unsichtbare "
+#~ "Elemente anzeigen`."
+
+#~ msgid ""
+#~ "You can choose to enable :guilabel:`Invisible`, :guilabel:`Required` "
+#~ "and :guilabel:`Readonly` for specific records only by clicking "
+#~ "on :guilabel:`Conditional` and creating a filter."
+#~ msgstr ""
+#~ "Sie können :guilabel:`Unsichtbar`, :guilabel:`Erforderlich` "
+#~ "and :guilabel:`Schreibgeschützt` nur auf bestimmte Datensätze anwenden, "
+#~ "indem Sie auf :guilabel:`Bedingt` klicken und einen Filter erstellen."
+
+#~ msgid ""
+#~ "On the *Form* view of the *Contact* model, the :guilabel:`Title` field "
+#~ "only appears when :guilabel:`Individual` is selected, as that field would "
+#~ "not be helpful for a :guilabel:`Company` contact."
+#~ msgstr ""
+#~ "In der *Formularansicht* des Modells *Kontakt* wird das "
+#~ "Feld :guilabel:`Titel` nur angezeigt, wenn :guilabel:`Einzelperson` "
+#~ "ausgewählt ist, da dieses Feld für einen :guilabel:`Unternehmenskontakt` "
+#~ "nicht hilfreich wäre."
+
+#~ msgid ""
+#~ ":guilabel:`Label`: the field's name on the UI. This is not the name used "
+#~ "in the PostgreSQL database. To view and change the latter, activate "
+#~ "the :ref:`developer mode <developer-mode>` and edit "
+#~ "the :guilabel:`Technical Name`."
+#~ msgstr ""
+#~ ":guilabel:`Bezeichnung`: der Name des Felds auf der Benutzeroberfläche. "
+#~ "Dies ist nicht derselbe Name, der in der PostgreSQL-Datenbank verwendet "
+#~ "wird. Um letzteren anzuzeigen und zu ändern, aktivieren Sie "
+#~ "den :ref:`Entwicklermodus <developer-mode>` und bearbeiten Sie "
+#~ "den :guilabel:`Technischen Name`."
+
+#~ msgid ""
+#~ ":guilabel:`Placeholder`: To provide an example of how a field should be "
+#~ "completed, add placeholder text. The text appears in light gray until a "
+#~ "value is entered."
+#~ msgstr ""
+#~ ":guilabel:`Platzhalter`: Um ein Beispiel dafür zu geben, wie ein Feld "
+#~ "ausgefüllt werden sollte, fügen Sie Platzhalter-Text hinzu. Er wird in "
+#~ "hellgrau angezeigt, bis ein Wert eingegeben wird."
+
+#~ msgid ""
+#~ "For :guilabel:`Date & Time` fields that have the :guilabel:`Date & Time` "
+#~ "or :guilabel:`Date Range` widget set, some specific properties are "
+#~ "available:"
+#~ msgstr ""
+#~ "Für Felder vom Typ :guilabel:`Datum & Uhrzeit`, für die das "
+#~ "Widget :guilabel:`Datum & Uhrzeit` oder :guilabel:`Datumsbereich` "
+#~ "festgelegt ist, stehen einige spezifische Eigenschaften zur Verfügung:"
+
+#~ msgid ""
+#~ ":guilabel:`Minimal precision`: Determine the smallest date unit that must "
+#~ "be selected in the date selector. The possible values "
+#~ "are :guilabel:`Day`, :guilabel:`Month`, :guilabel:`Year` "
+#~ "or :guilabel:`Decade`. If no value is selected, the user must select a "
+#~ "day in the date selector."
+#~ msgstr ""
+#~ ":guilabel:`Minimale Genauigkeit`: Legen Sie die kleinste Datumsangabe "
+#~ "fest, die im Datumsauswahlfeld ausgewählt werden muss. Die möglichen "
+#~ "Werte sind :guilabel:`Tage`, :guilabel:`Monate`, :guilabel:`Jahre` "
+#~ "oder :guilabel:`Jahrzehnte`. Wenn kein Wert ausgewählt ist, muss der "
+#~ "Benutzer einen Tag im Datumsauswahlfeld auswählen."
+
+#~ msgid ""
+#~ ":guilabel:`Maximal precision`: Determine the largest date unit that can "
+#~ "be used to navigate the date selector. The possible values "
+#~ "are :guilabel:`Day`, :guilabel:`Month`, :guilabel:`Year` "
+#~ "or :guilabel:`Decade`. If no value is selected, the user can navigate the "
+#~ "date selector by decade."
+#~ msgstr ""
+#~ ":guilabel:`Maximale Genauigkeit`: Legen Sie die größte Datumsangabe fest, "
+#~ "die zum Navigieren im Datumsauswahlfeld verwendet werden kann. Die "
+#~ "möglichen Werte "
+#~ "sind :guilabel:`Tage`, :guilabel:`Monate`, :guilabel:`Jahre` "
+#~ "oder :guilabel:`Jahrzehnte`. Wenn kein Wert ausgewählt ist, kann der "
+#~ "Benutzer im Datumsauswahlfeld nach Jahrzehnten navigieren."
 
 #~ msgid ""
 #~ "**Studio** is a toolbox used to customize Odoo without coding knowledge. "

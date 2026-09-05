@@ -11,6 +11,8 @@ respective quantities, that are needed to produce or repair a product. In Odoo, 
 blueprints for manufactured goods and kits, and often include production operations and step-by-step
 guidelines, as well.
 
+.. _manufacturing/basic_setup/bom-setup:
+
 BoM setup
 =========
 
@@ -230,6 +232,8 @@ calculate costs, and define how components are consumed.
 .. image:: bill_configuration/misc-tab.png
    :align: center
    :alt: Show the *Miscellaneous* tab of the BoM.
+
+.. _manufacturing/bill_configuration/by-products:
 
 Add by-products to BoMs
 =======================

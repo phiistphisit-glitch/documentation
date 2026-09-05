@@ -18,7 +18,7 @@ To Odoo Online
 
 .. important::
    - Odoo Online is *not* compatible with **non-standard apps**.
-   - The database's current version must be :doc:`supported <supported_versions>`.
+   - The database's current version must be :doc:`supported <standard_extended_support>`.
 
 #. Create a :ref:`duplicate of the database <on-premise/duplicate>`.
 #. In this duplicate, uninstall all **non-standard apps**.
@@ -26,8 +26,22 @@ To Odoo Online
 #. `Create a support ticket <https://www.odoo.com/help-form>`_ including the following:
 
    - your **subscription number**,
-   - the **URL** you want to use for the database (e.g., `company.odoo.com`), and
-   - the **dump** as an attachment or as a link to the file (required for 60 MB+ files).
+   - the **URL** you want to use for the database (e.g., `company.odoo.com`),
+   - the **dump** as an attachment or as a link to the file (required for 60 MB+ files),
+   - the **region** you wish to be hosted in,
+
+     .. note::
+        The list of available regions is available in `our privacy policy <https://www.odoo.com/privacy#data-transfer>`_.
+
+   - the **name** you want for the database,
+   - what **version** the database is in,
+   - the login (email) of the **administrator** user,
+   - whether you wish to have a first **test** deployment, and
+
+     .. tip::
+        This is strongly recommended, especially if you have ever installed third-party apps.
+
+   - **when** you will want the production database to be put online (day, time of day, and your timezone).
 
 #. Odoo then makes sure the database is compatible before putting it online. In case of technical
    issues during the process, Odoo might contact you.
@@ -39,17 +53,17 @@ To Odoo Online
 To Odoo.sh
 ----------
 
-Follow the instructions found in :ref:`the Import your database section
-<odoo_sh_import_your_database>` of the Odoo.sh *Create your project* documentation.
+Follow the instructions found in :ref:`the Import a database section <odoo-sh/create/import>` of the
+Odoo.sh *Create a project* documentation.
 
 Transferring an Odoo Online database
 ====================================
 
 .. important::
-   Odoo Online's :ref:`intermediary versions <supported_versions>` are not supported by Odoo.sh or
-   on-premise. Therefore, if the database to transfer is running an intermediary version, it must be
-   upgraded first to the next :ref:`major version <supported_versions>`, waiting for its release if
-   necessary.
+   Odoo Online's :doc:`intermediary versions <standard_extended_support>` are not supported by
+   Odoo.sh or on-premise. Therefore, if the database to transfer is running an intermediary version,
+   it must be upgraded first to the next :doc:`major version <standard_extended_support>`, waiting
+   for its release if necessary.
 
    .. example::
       Transferring an online database running on Odoo 16.3 would require first upgrading it to Odoo
@@ -82,8 +96,8 @@ To Odoo.sh
    next to the database name, then selecting :icon:`fa-cloud-download` :guilabel:`Download`. If the
    download fails due to the file being too large, `contact Odoo support
    <https://www.odoo.com/help>`_.
-#. Follow the instructions found in :ref:`the Import your database section
-   <odoo_sh_import_your_database>` of the Odoo.sh *Create your project* documentation.
+#. Follow the instructions found in :ref:`the Import a database section <odoo-sh/create/import>` of
+   the Odoo.sh *Create a project* documentation.
 
 Transferring an Odoo.sh database
 ================================
@@ -119,5 +133,5 @@ To Odoo Online
 To on-premise
 -------------
 
-#. Download a :ref:`backup of your Odoo.sh production database <odoo_sh_branches_backups>`.
+#. Download a :ref:`backup of your Odoo.sh production database <odoo-sh/branches/tabs/backups>`.
 #. Restore the database from the database manager on your local server using the backup.

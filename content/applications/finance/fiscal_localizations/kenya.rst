@@ -200,6 +200,12 @@ per branch.
    - Creating an invoice on **branch 2**: INV/2024/00001;
    - Creating an invoice on the **parent company**: INV/2024/00001.
 
+Integration tokens
+------------------
+
+To obtain integration tokens for eTIMS, send a request to the following email address:
+etims@mail.odoo.com.
+
 Insurance
 =========
 
@@ -305,8 +311,8 @@ This is the **advised sales flow** in Odoo when selling:
 #. Create a **sales order**.
 #. :guilabel:`Validate` the delivery.
 #. :guilabel:`Confirm` the invoice.
-#. Click :guilabel:`Send and print`, and then enable :guilabel:`Send to eTIMS`.
-#. Click :guilabel:`Send & print` to send the invoice.
+#. Click :guilabel:`Send`, and then enable :guilabel:`Send to eTIMS`.
+#. Click :guilabel:`Send` to send the invoice.
 
 Once the invoice has been sent and signed by the KRA, the following information can be found on
 it:

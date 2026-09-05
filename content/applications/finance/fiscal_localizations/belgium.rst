@@ -2,6 +2,56 @@
 Belgium
 =======
 
+.. _localizations_belgium/configuration/modules:
+
+Modules
+=======
+
+The following modules are installed automatically with the Belgian localization:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 25 25 50
+
+   * - Name
+     - Technical name
+     - Description
+   * - :guilabel:`Belgium - Accounting`
+     - `l10n_be`
+     - Belgian :ref:`fiscal localization package <fiscal_localizations/packages>`, complete with
+       the Belgian chart of accounts, taxes, tax report, and fiscal positions
+   * - :guilabel:`Belgium - Accounting Reports`
+     - `l10n_be_reports`
+     - Module providing Belgian accounting reports
+   * - :guilabel:`Belgium - Accounting Reports (post wizard)`
+     - `l10n_be_reports_post_wizard`
+     - Enables the VAT wizard when posting a tax return journal entry
+   * - :guilabel:`Belgium - Accounting Reports - Prorata Deduction`
+     - `l10n_be_reports_prorata`
+     - Provides the option to add the prorata deduction to the VAT export
+   * - :guilabel:`Belgium - Accounting Reports - SMS`
+     - `l10n_be_report_sms`
+     - Bridge module between Belgian accounting and SMS
+   * - :guilabel:`Belgium - Import SODA files`
+     - `l10n_be_soda`
+     - Module to import SODA files
+   * - :guilabel:`Belgium - Import Bank CODA Statements`
+     - `l10n_be_coda`
+     - Module to import CODA bank statements
+   * - :guilabel:`Belgium - Disallowed Expenses Data`
+     - `l10n_be_disallowed_expenses`
+     - Disallowed expenses data
+
+.. note::
+   The localization's core modules are installed automatically with the localization. The rest can
+   be :ref:`installed <general/install>`.
+
+.. seealso::
+   - :doc:`Belgian Payroll localization documentation
+     <../../hr/payroll/payroll_localizations/belgium>`
+   - :doc:`Documentation on e-invoicing's legality and compliance in Belgium
+     <../accounting/customer_invoices/electronic_invoicing/belgium>`
+
 .. _belgium/configuration:
 
 Configuration
@@ -34,6 +84,10 @@ it in, click :guilabel:`Save`, and then :guilabel:`Setup` to configure it furthe
 
 Taxes
 =====
+
+.. important::
+   When submitting your tax returns, make sure to use XML or VAT format files. These are the only
+   file formats accepted by the Belgian tax authorities.
 
 Default Belgian taxes are created automatically when the :guilabel:`Belgium - Accounting` and
 the :guilabel:`Belgium - Accounting Reports` modules are installed. Each tax impacts the Belgian
@@ -79,9 +133,34 @@ the tax amount and allocates it to the corresponding accounts based on the tax r
    .. image:: belgium/deductible-tax.png
       :alt: Example of not-fully deductible tax
 
+Vehicle tax deduction
+---------------------
+
+.. note::
+   To see the tax deductibility of a vehicle, the **Belgium - Disallowed Expenses Fleet**
+   (`l10n_be_account_disallowed_expenses_fleet`) module must be :doc:`installed
+   <../../general/apps_modules>`.
+
+A vehicle's tax deductibility rate varies depending on its type (car or bicycle) and several
+factors, such as fuel type, CO2 emissions, engine power, etc.
+
+To view the **tax deductibility percentage** for a specific vehicle, open the **Fleet** app,
+navigate to :menuselection:`Configuration --> Models`, and select a vehicle model. Locate the
+:guilabel:`Tax Deduction` field, which is found under the :guilabel:`Engine` section for cars, or
+the :guilabel:`Vehicle Information` section for bicycles.
+
+.. important::
+   The :guilabel:`Tax Deduction` field is strictly **informative** and is computed automatically
+   based on the vehicle's specifications. It is **not** used for any automated calculations within
+   the **Accounting** app and should not be confused with the :ref:`tax rate deductibility
+   <belgium/non-deductible>` used on :ref:`tax grids <tax-returns/tax-grids>`. Instead, your
+   accountant can reference this field to manually apply the correct deductible rate to invoices or
+   disallowed expenses.
+
 .. seealso::
-  - :doc:`Taxes <../accounting/taxes>`
-  - :doc:`../accounting/reporting/tax_returns`
+   - :doc:`Taxes <../accounting/taxes>`
+   - :doc:`../accounting/reporting/tax_returns`
+   - :ref:`Vehicle models <fleet/models>`
 
 .. _belgium/reports:
 
@@ -431,15 +510,97 @@ Potential issues
     :guilabel:`CodaBox` section, click on :guilabel:`Manage Connection`, then click on
     :guilabel:`Revoke`.
 
-Electronic invoicing
-====================
+.. _belgium/codaclean:
 
-Odoo supports the **Peppol BIS Billing 3.0 (UBL)** electronic invoicing format. To enable it for a
-customer, go to :menuselection:`Accounting --> Customers --> Customers`, open their contact form,
-and under the :guilabel:`Accounting` tab, select the :guilabel:`Peppol BIS Billing 3.0` format.
+Codaclean
+---------
+
+**Codaclean** is a service that allows Belgian companies and accounting firms to access bank
+information and statements. Odoo provides a way to import such statements and their transactions
+automatically.
+
+.. _belgium/codaclean-configuration:
+
+Configuration
+~~~~~~~~~~~~~
+
+.. note::
+   Make sure to :ref:`install <general/install>` the :guilabel:`Codaclean` (`l10n_be_codaclean`)
+   module.
+
+
+.. _belgium/codaclean-configuration-connection:
+
+Connection with Odoo
+********************
+
+To connect Odoo with Codaclean, follow these steps:
+
+#. Open the Settings app, navigate to the :ref:`Companies <general/companies/company>` section, and
+   click :icon:`oi-arrow-right` :guilabel:`Manage Companies` to make sure the company's
+   :guilabel:`Country` is set to :guilabel:`Belgium`.
+#. Go to :menuselection:`Accounting --> Configuration --> Settings` and scroll to the
+   :guilabel:`Codaclean` section.
+#. Click :guilabel:`Manage Connection` to open the connection wizard, enter the Codaclean
+   :guilabel:`Username` and :guilabel:`Password` and click :guilabel:`Connect`.
+
+The :guilabel:`Status` is updated to :guilabel:`Connected`.
+
+.. tip::
+   Once the connection is established, the :guilabel:`Manage Connection` wizard provides two options:
+
+   - Update Codaclean credentials: Enter the new :guilabel:`Username` and :guilabel:`Password`, then
+     click :guilabel:`Change Credentials`.
+   - Remove Codaclean connection: Click :guilabel:`Disconnect`; no :guilabel:`Username` or
+     :guilabel:`Password` is required.
+
+.. _belgium/codaclean-configuration-journal:
+
+Journal creation
+****************
+
+A specific bank journal must be created for Codaclean synchronization. To do so, :doc:`create a new
+bank journal <../accounting/bank>`, make sure to enter the correct IBAN in the :guilabel:`Bank
+Account Number` field, and select :guilabel:`Codaclean Syncronization` in the :guilabel:`Bank Feeds`
+field.
+
+.. tip::
+   For bank transactions in different currencies, it is recommended to create a separate journal for
+   each currency, using the same bank account.
+
+.. _belgium/codaclean-synchronization:
+
+Synchronization
+~~~~~~~~~~~~~~~
+
+Once the connection is established, Odoo is synchronized with Codaclean, and new CODA files received
+via Codaclean are checked every twelve hours.
+
+.. tip::
+   To manually check for new CODA files, go to the Accounting Dashboard and click :guilabel:`Fetch
+   from Codaclean` on the relevant :ref:`journal <belgium/codaclean-configuration-journal>` .
+
+.. _belgium/peppol:
+
+Electronic invoicing with Peppol
+================================
+
+As of 1 January 2026, all Belgian companies must be registered on the Peppol network to send and
+receive electronic invoices.
+
+To activate Peppol, refer to the :ref:`Peppol documentation <accounting/e-invoicing/peppol>`,
+ensuring during :ref:`registration <accounting/e-invoicing/peppol-registration>` that:
+
+- The :guilabel:`Peppol EAS` field is set to :guilabel:`0208 - Numero d'entreprise /
+  ondernemingsnummer / Unternehmensnummer`.
+- the :guilabel:`Peppol Endpoint` field is set to the company registry number.
+
+In addition, when veryfing that a customer is :ref:`registered as a Peppol participant
+<accounting/e-invoicing/contact-verification>`, ensure the :guilabel:`Format` field is set to
+:guilabel:`BIS Billing 3.0`.
 
 .. seealso::
-   :doc:`../accounting/customer_invoices/electronic_invoicing`
+   :ref:`Peppol documentation <accounting/e-invoicing/peppol>`
 
 .. _belgium/cash-discount:
 
@@ -481,7 +642,7 @@ The Odoo POS system is certified for databases hosted on **Odoo Online**, **Odoo
 **On-Premise**.
 
 .. seealso::
-   :doc:`/administration/supported_versions`
+   :doc:`/administration/standard_extended_support`
 
 A `certified POS system <https://www.systemedecaisseenregistreuse.be/systemes-certifies>`_ must
 adhere to rigorous government regulations, which means it operates differently from a non-certified
@@ -604,3 +765,35 @@ VAT signing card
 When you open a POS session and make your initial transaction, you are prompted to enter the PIN
 provided with your :abbr:`VSC (VAT signing card)`. The card is delivered by the :abbr:`FPS (Service
 Public Federal Finances)` upon `registration <https://www.systemedecaisseenregistreuse.be/fr/enregistrement>`_.
+
+WinBooks import
+===============
+
+Before importing your data in Odoo, you must prepare the data to be exported. Open **WinBooks** and
+navigate to :menuselection:`Maintenance --> Backup`. Then, select to export the following data as a
+`.zip` file:
+
+- Chart of accounts,
+- Contacts,
+- Taxes,
+- History of journal entries,
+- Documents.
+
+.. note::
+   - The following WinBooks Desktop versions are supported: 5.50, 6, 7, and 8.
+   - File sizes beyond 396 MB may not work during the import.
+
+To import your data into Odoo, :doc:`install <../../general/apps_modules>` the module
+:guilabel:`Account Winbooks Import` (`account_winbooks_import`). Then, open the **Accounting app**,
+and go to :menuselection:`Configuration --> Settings`. Under the :guilabel:`Accounting Import`
+section, click :icon:`oi-arrow-right` :guilabel:`Import`. Finally, click :guilabel:`Import WBK` and
+upload the previously prepared `.zip` file.
+
+Check :guilabel:`Import only open years` if you wish to import only open years. Years closed in
+WinBooks are likely to have incomplete data. The counterpart of incomplete entries will be set in a
+suspense account.
+
+If you choose to import years closed in WinBooks, enter the code of the suspense account used to
+balance incomplete entries in the :guilabel:`Suspense Account Code` field.
+
+Once configured, click :guilabel:`Import` to import your data into Odoo.

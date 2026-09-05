@@ -54,92 +54,54 @@ Currency Rate Live Update
 
 You can update automatically your currencies rates based on the Federal
 Tax Administration from Switzerland. For this, go in
-:menuselection:`Accounting --> Settings`, activate the multi-currencies setting and choose the service
-you want.
+:menuselection:`Accounting --> Settings`, activate the multi-currencies setting and choose the
+service you want.
 
 .. image:: switzerland/switzerland04.png
     :align: center
 
-Updated VAT for January 2018
+Updated VAT for January 2025
 ============================
 
-Starting from the 1st January 2018, new reduced VAT rates will be
-applied in Switzerland. The normal 8.0% rate will switch to 7.7% and the
-specific rate for the hotel sector will switch from 3.8% to 3.7%.
+Starting from the 1st January 2025, new increased VAT rates are applied in Switzerland. The normal
+8.0% rate switched to 8.1% and the specific rate for the hotel sector switched to 3.8%. Basic needs
+goods have a reduced rate of 2.6% applied.
 
-How to update your taxes in Odoo Enterprise (Odoo Online or On-premise)?
-------------------------------------------------------------------------
+.. _switzerland/iso20022:
 
-If you have the V11.1 version, all the work is already been done, you
-don't have to do anything.
+ISO 20022 and SEPA pain versions
+================================
 
-If you have started on an earlier version, you first have to update the
-module "Switzerland - Accounting Reports". For this, you go in
-:menuselection:`Apps --> remove the filter "Apps" --> search for "Switzerland - Accounting Reports" --> open the module --> click on "upgrade"`.
+Switzerland uses a specific, localized version of the :ref:`ISO 20022
+<accounting/sepa_payments/iso20022>` format. To configure the appropriate Swiss format, open the
+**Accounting** app, go to :menuselection:`Configuration --> Journals`, and open your **bank**
+journal. Click the :guilabel:`Outgoing Payments` tab, then click :guilabel:`Add a line`, and select
+:guilabel:`Swiss ISO20022`.
 
-.. image:: switzerland/switzerland05.png
-    :align: center
+If you need to make :doc:`SEPA payments <../accounting/payments/sepa_payments>`, you can configure a
+specific PAIN version. Go to :menuselection:`Configuration --> Journals` and open your
+:guilabel:`Bank` journal. Depending on your configuration needs:
 
-Once it has been done, you can work on creating new taxes for the
-updated rates.
+- Click the :guilabel:`Incoming Payments` tab, click :guilabel:`Add a line`, select a SEPA payment
+  method, and choose a version from the :guilabel:`SEPA Pain Version` field.
+- Click the :guilabel:`Outgoing Payments` tab, click :guilabel:`Add a line`, select a SEPA payment
+  method, and choose a version from the :guilabel:`XML Format` field.
 
-.. tip::
-    **Do not suppress or modify the existing taxes** (8.0% and 3.8%).
-    You want to keep them since you may have to use both rates for a short
-    period of time. Instead, remember to archive them once you have encoded
-    all your 2017 transactions.
+.. _switzerland/export-xml:
 
-The creation of such taxes should be done in the following manner:
+Export XML files
+================
 
--  **Purchase taxes**: copy the origin tax, change its name, label on
-   invoice, rate and tax group (effective from v10 only)
+.. note::
+    To set the **PAIN** version used for XML exports, refer to this :ref:`section
+    <switzerland/iso20022>`.
 
--  **Sale taxes**: copy the origin tax, change its name, label on
-   invoice, rate and tax group (effective from v10 only). Since the
-   vat report now shows the details for old and new rates, you
-   should also set the tags accordingly to
+To generate the daily XML payment files required by your online banking portal, :ref:`create a batch
+payment <accounting/batch/creation>`. Odoo attaches the generated XML file directly to the chatter,
+where you can download it for submission to your bank.
 
-   -  For 7.7% taxes: Switzerland VAT Form: grid 302 base, Switzerland
-      VAT Form: grid 302 tax
+On the **batch payment creation** screen, before clicking :guilabel:`Validate`, you can define which
+parties will bear the charges through the :guilabel:`Charge Bearer` field.
 
-   -  For 3.7% taxes: Switzerland VAT Form: grid 342 base, Switzerland
-      VAT Form: grid 342 tax
-
-You'll find below, as examples, the correct configuration for all taxes
-included in Odoo by default
-
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| **Tax Name**                                    | **Rate**   | **Label on Invoice**   | **Tax Group (effective from V10)**   | **Tax Scope**   | **Tag**                                                                   |
-+=================================================+============+========================+======================================+=================+===========================================================================+
-| TVA 7.7% sur achat B&S (TN)                     | 7.7%       | 7.7% achat             | TVA 7.7%                             | Purchases       | Switzerland VAT Form: grid 400                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 7.7% sur achat B&S (Incl. TN)               | 7.7%       | 7.7% achat Incl.       | TVA 7.7%                             | Purchases       | Switzerland VAT Form: grid 400                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 7.7% sur invest. et autres ch. (TN)         | 7.7%       | 7.7% invest.           | TVA 7.7%                             | Purchases       | Switzerland VAT Form: grid 405                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 7.7% sur invest. et autres ch. (Incl. TN)   | 7.7%       | 7.7% invest. Incl.     | TVA 7.7%                             | Purchases       | Switzerland VAT Form: grid 405                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 3.7% sur achat B&S (TS)                     | 3.7%       | 3.7% achat             | TVA 3.7%                             | Purchases       | Switzerland VAT Form: grid 400                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 3.7% sur achat B&S (Incl. TS)               | 3.7%       | 3.7% achat Incl.       | TVA 3.7%                             | Purchases       | Switzerland VAT Form: grid 400                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 3.7% sur invest. et autres ch. (TS)         | 3.7%       | 3.7% invest            | TVA 3.7%                             | Purchases       | Switzerland VAT Form: grid 405                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA 3.7% sur invest. et autres ch. (Incl. TS)   | 3.7%       | 3.7% invest Incl.      | TVA 3.7%                             | Purchases       | Switzerland VAT Form: grid 405                                            |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA due a 7.7% (TN)                             | 7.7%       | 7.7%                   | TVA 7.7%                             | Sales           | Switzerland VAT Form: grid 302 base, Switzerland VAT Form: grid 302 tax   |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA due à 7.7% (Incl. TN)                       | 7.7%       | 7.7% Incl.             | TVA 7.7%                             | Sales           | Switzerland VAT Form: grid 302 base, Switzerland VAT Form: grid 302 tax   |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA due à 3.7% (TS)                             | 3.7%       | 3.7%                   | TVA 3.7%                             | Sales           | Switzerland VAT Form: grid 342 base, Switzerland VAT Form: grid 342 tax   |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-| TVA due a 3.7% (Incl. TS)                       | 3.7%       | 3.7% Incl.             | TVA 3.7%                             | Sales           | Switzerland VAT Form: grid 342 base, Switzerland VAT Form: grid 342 tax   |
-+-------------------------------------------------+------------+------------------------+--------------------------------------+-----------------+---------------------------------------------------------------------------+
-
-If you have questions or remarks, please contact our support using
-odoo.com/help.
-
-.. tip::
-    Don't forget to update your fiscal positions. If you have a version
-    11.1 (or higher), there is nothing to do. Otherwise, you will also
-    have to update your fiscal positions accordingly.
+.. seealso::
+   :doc:`../accounting/bank/bank_synchronization`

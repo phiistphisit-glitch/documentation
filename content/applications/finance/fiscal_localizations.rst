@@ -23,7 +23,10 @@ country when the related app is installed. The rest can be manually :ref:`instal
 view the currently supported countries and access their specific documentation.
 
 .. note::
-   Each company in a multi-company environment can use different fiscal localization modules.
+   In a :doc:`multi-company <../general/companies/multi_company>` environment, each company can use
+   different fiscal localization modules. However, :ref:`branches <accounting/branches>` always
+   follow the parent company's localization. Therefore, entities operating in different countries
+   should be set up as companies, not branches.
 
 Verify the right package of modules is installed by going to :menuselection:`Accounting -->
 Configuration --> Settings` and checking the :guilabel:`Package` field under the :guilabel:`Fiscal
@@ -67,7 +70,7 @@ Fiscal localization modules are available for the countries listed below.
 - Comoros
 - Congo
 - Costa Rica
-- Croatia
+- :doc:`Croatia <fiscal_localizations/croatia>`
 - Cyprus
 - Czech Republic
 - Democratic Republic of the Congo
@@ -88,7 +91,7 @@ Fiscal localization modules are available for the countries listed below.
 - Guinea-Bissau
 - Honduras
 - :doc:`Hong Kong <fiscal_localizations/hong_kong>`
-- Hungary
+- :doc:`Hungary <fiscal_localizations/hungary>`
 - :doc:`India <fiscal_localizations/india>`
 - :doc:`Indonesia <fiscal_localizations/indonesia>`
 - :doc:`Italy <fiscal_localizations/italy>`
@@ -114,11 +117,12 @@ Fiscal localization modules are available for the countries listed below.
 - Niger
 - Nigeria
 - Norway
+- :doc:`Oman <fiscal_localizations/oman>`
 - Pakistan
 - Panama
 - :doc:`Peru <fiscal_localizations/peru>`
 - :doc:`Philippines <fiscal_localizations/philippines>`
-- Poland
+- :doc:`Poland <fiscal_localizations/poland>`
 - Portugal
 - Qatar
 - :doc:`Romania <fiscal_localizations/romania>`
@@ -133,7 +137,7 @@ Fiscal localization modules are available for the countries listed below.
 - :doc:`Spain <fiscal_localizations/spain>`
 - Sweden
 - :doc:`Switzerland <fiscal_localizations/switzerland>`
-- Taiwan
+- :doc:`Taiwan <fiscal_localizations/taiwan>`
 - Tanzania
 - :doc:`Thailand <fiscal_localizations/thailand>`
 - Tunisia
@@ -159,6 +163,7 @@ Fiscal localization modules are available for the countries listed below.
    fiscal_localizations/canada
    fiscal_localizations/chile
    fiscal_localizations/colombia
+   fiscal_localizations/croatia
    fiscal_localizations/denmark
    fiscal_localizations/ecuador
    fiscal_localizations/egypt
@@ -166,6 +171,7 @@ Fiscal localization modules are available for the countries listed below.
    fiscal_localizations/germany
    fiscal_localizations/guatemala
    fiscal_localizations/hong_kong
+   fiscal_localizations/hungary
    fiscal_localizations/india
    fiscal_localizations/indonesia
    fiscal_localizations/italy
@@ -176,13 +182,16 @@ Fiscal localization modules are available for the countries listed below.
    fiscal_localizations/mexico
    fiscal_localizations/netherlands
    fiscal_localizations/new_zealand
+   fiscal_localizations/oman
    fiscal_localizations/peru
    fiscal_localizations/philippines
+   fiscal_localizations/poland
    fiscal_localizations/romania
    fiscal_localizations/saudi_arabia
    fiscal_localizations/singapore
    fiscal_localizations/spain
    fiscal_localizations/switzerland
+   fiscal_localizations/taiwan
    fiscal_localizations/thailand
    fiscal_localizations/united_arab_emirates
    fiscal_localizations/united_kingdom

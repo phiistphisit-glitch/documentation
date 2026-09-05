@@ -190,7 +190,7 @@ Let us now improve our content.
    :align: center
 
 .. seealso::
-   `Owl's slot system <{OWL_PATH}/doc/reference/slots.md>`_
+   `Owl's slot system <{OWL_PATH}/doc/v2/reference/slots.md>`_
 
 4. Call the server, add some statistics
 =======================================
@@ -305,15 +305,15 @@ changes.
 
 
 #. Update the statistics service to reload data every 10 minutes (to test it, use 10s instead!)
-#. Modify it to return a `reactive <{OWL_PATH}/doc/reference/reactivity.md#reactive>`_ object.
+#. Modify it to return a `reactive <{OWL_PATH}/doc/v2/reference/reactivity.md#reactive>`_ object.
    Reloading data should update the reactive object in place.
 #. The `Dashboard` component can now use it with a `useState`
 
 .. seealso::
-  - `Documentation on reactivity <{OWL_PATH}/doc/reference/reactivity.md>`_
+  - `Documentation on reactivity <{OWL_PATH}/doc/v2/reference/reactivity.md>`_
   - `Example: Use of reactive in a service
-    <https://github.com/odoo/odoo/blob/1f4e583ba20a01f4c44b0a4ada42c4d3bb074273/
-    addons/web/static/src/core/debug/profiling/profiling_service.js#L30>`_
+    <https://github.com/odoo/odoo/blob/bb1b5aed9b6d96ae1b0d044341812b51ed72a05d/
+    addons/mail/static/src/discuss/call/common/rtc_service.js#L124>`_
 
 8. Lazy loading the dashboard
 =============================

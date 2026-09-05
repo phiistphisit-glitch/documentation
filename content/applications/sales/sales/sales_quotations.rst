@@ -130,6 +130,7 @@ more detail and information, such as :doc:`quotation templates <sales_quotations
 
    sales_quotations/create_quotations
    sales_quotations/quote_template
+   sales_quotations/margin
    sales_quotations/optional_products
    sales_quotations/get_signature_to_validate
    sales_quotations/get_paid_to_validate
@@ -137,3 +138,4 @@ more detail and information, such as :doc:`quotation templates <sales_quotations
    sales_quotations/different_addresses
    sales_quotations/orders_and_variants
    sales_quotations/pdf_quote_builder
+   sales_quotations/custom_signatures

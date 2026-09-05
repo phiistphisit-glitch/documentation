@@ -133,6 +133,22 @@ The chart of accounts for Peru is based on the most updated version of the :abbr
 Contable General Empresarial)`, which is grouped in several categories and is compatible with NIIF
 accounting.
 
+.. _peru/configuration-ple:
+
+PLE reports
+~~~~~~~~~~~
+
+ .. important::
+    For the generation of :ref:`PLE reports <peru/reports-ple>`, the type of chart of accounts is
+    not set by default, and must be set manually.
+
+To set the appropriate type of chart of accounts for the generation of PLE reports, open the
+**Accounting** app, go to :menuselection:`Configuration --> Settings`, and scroll down to the
+:guilabel:`Peruvian Electronic Invoicing` section.
+
+In the :guilabel:`PLE Type of CoA` field, select the required chart of accounts from the dropdown,
+and click :guilabel:`Save`.
+
 .. _peru-accounting-settings:
 
 Accounting Settings
@@ -564,11 +580,34 @@ When creating exportation invoices, take into account the next considerations:
 Advance Payments
 ****************
 
-#. Create the advance payment Invoice and apply its related payment.
-#. Create the final invoice without considering the advance payment.
-#. Create a credit note for the Final invoice with the advance payment amount.
-#. Reconcile the Credit note with the final invoice.
-#. The remaining balance on the final invoice should be paid with a regular payment transaction.
+.. note::
+   Because the SUNAT does not allow negative in filings, a workaround is required when reporting
+   down payments.
+
+#. Open the sales order requiring a down payment.
+#. Click :guilabel:`Create Invoice` and select :guilabel:`Down payment (percentage)` or
+   :guilabel:`Down payment (fixed amount)`. Enter the amount, then click :guilabel:`Create Draft`.
+#. Check that all information is correct. If yes, click :guilabel:`Confirm`. If not, make the
+   necessary changes before confirming.
+#. Navigate back to the sales order and click :menuselection:`Create Invoice --> Regular Invoice -->
+   Create Draft` to proceed with invoice creation.
+#. From the invoice, remove the section separation *and* the down payment invoice line by clicking
+   the :icon:`fa-trash-o` :guilabel:`(trash bin)` icon, and :guilabel:`Confirm`.
+
+   .. image:: peru/invoice-line-section-trash-bin.png
+      :alt: Removing invoice lines and section.
+
+#. Once confirmed, click :guilabel:`Credit Note`, then :guilabel:`Reverse`, and finally remove all
+   invoice lines by clicking the :icon:`fa-trash-o` :guilabel:`(trash bin)` icon. The invoice should
+   be clear of any product.
+#. Next, click :guilabel:`Add a line`. Click the :icon:`fa-bars` :guilabel:`(bars)` icon, enter a
+   description (e.g., `Down Payment`), and input the :guilabel:`Price`. Click :guilabel:`Confirm`.
+
+   .. image:: peru/down-payment-description.png
+      :alt: Adding down payment description.
+
+#. After issuing the credit note and if not done automatically, reconcile it with the final invoice.
+#. The final invoice's remaining balance **must** be paid with a regular payment transaction.
 
 Detraction Invoices
 *******************
@@ -923,7 +962,7 @@ Configuration
 After configuring the Peruvian :ref:`electronic invoicing <peru-accounting-settings>` flow, complete
 the following configurations for the **eCommerce** flow:
 
-- :ref:`Client account registration <ecommerce/checkout/policy>`;
+- :ref:`Client account registration <ecommerce/customer_accounts/checkout-access>`;
 - :ref:`Automatic invoice <handling/legal>`;
 - :doc:`../../websites/ecommerce/products`: Set the :guilabel:`Invoicing Policy` to
   :guilabel:`Ordered quantities` and define the desired :guilabel:`Customer taxes`.
@@ -965,6 +1004,10 @@ Reports
 
 Permanent inventory reports: |PLE| 12.1 and |PLE| 13.1
 ------------------------------------------------------
+
+.. note::
+   Make sure to :ref:`set <peru/configuration-ple>` the appropriate type of chart of accounts for
+   your PLE reports.
 
 Odoo can produce two permanent inventory reports as `.txt` files for Peruvian accounting: |PLE| 12.1
 and |PLE| 13.1. All inventory transactions made need to be reported.

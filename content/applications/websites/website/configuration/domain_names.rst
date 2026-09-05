@@ -102,24 +102,10 @@ your domain name with a mailbox.
 Use a subdomain
 ~~~~~~~~~~~~~~~
 
-You can create a subdomain (e.g., `subdomain.yourdomain.com`) to use as an alias domain for the
-database. It allows users to create records in the database from emails received on their
-`email@subdomain.yourdomain.com` alias.
+Create a dedicated subdomain (for example, ``mail.mydomain.com``) to :ref:`route incoming emails
+directly to your Odoo database via DNS records <dns_record_setup>`.
 
-To do so, open the `database manager <https://www.odoo.com/my/databases>`_, click the
-:icon:`fa-gear` (:guilabel:`gear`) button next to the database name and select :icon:`fa-globe`
-:guilabel:`Domain Names`. Click :guilabel:`DNS`, then :guilabel:`Add DNS record` and select
-:guilabel:`CNAME`. Next, enter the desired subdomain in the :guilabel:`Name` field (e.g.,
-`subdomain`), the original database domain with a period at the end (e.g., `mycompany.odoo.com.`) in
-the :guilabel:`Content` field, and click :guilabel:`Add record`.
-
-Then, add the alias domain as your *own domain* by clicking :guilabel:`Use my own domain`, entering
-the alias domain (e.g., `subdomain.yourdomain.com`), clicking :guilabel:`Verify`, and then
-:guilabel:`I confirm, it's done`.
-
-Finally, go to your database and open the :guilabel:`Settings`. Under the :guilabel:`Alias Domain`
-field, enter the alias domain (e.g., `subdomain.yourdomain.com`), click :guilabel:`Create`, and then
-:guilabel:`Save`.
+.. _domain-name/external-email:
 
 Use an external email provider
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -209,13 +195,16 @@ Configure an existing domain name
 If you already have a domain name, you can use it for your Odoo website.
 
 .. warning::
-   It is strongly recommended to follow **in order** these three steps to avoid any :ref:`SSL
-   certificate validation <domain-name/ssl>` issues:
+   To avoid potential :ref:`SSL certificate validation <domain-name/ssl>` issues, it is strongly
+   recommended to follow these five steps, in the specified order:
 
-   #. :ref:`Add a CNAME record <domain-name/cname>`
-   #. :ref:`Redirect your naked domain name <domain-name/naked>` (optional, but recommended)
-   #. :ref:`Map your domain name to your Odoo database <domain-name/db-map>`
-   #. :ref:`Map your domain name to your Odoo website <domain-name/website-map>`
+   #. Set up :ref:`URL redirections <website/pages/URL-redirection>` before transferring the domain
+      name to preserve the website's SEO.
+   #. :ref:`Add a CNAME record. <domain-name/cname>`
+   #. :ref:`Redirect your naked domain name. <domain-name/naked>` (This step is optional, but
+      recommended.)
+   #. :ref:`Map your domain name to your Odoo database. <domain-name/db-map>`
+   #. :ref:`Map your domain name to your Odoo website. <domain-name/website-map>`
 
 .. _domain-name/cname:
 
@@ -365,7 +354,7 @@ Map a domain name to an Odoo database
          :alt: Mapping a domain name to an Odoo.sh branch
 
       .. seealso::
-         :ref:`Odoo.sh branches: settings tab <odoosh-gettingstarted-branches-tabs-settings>`
+         :ref:`Odoo.sh branches: settings tab <odoo-sh/branches/tabs/settings>`
 
 .. _domain-name/ssl:
 
@@ -378,7 +367,8 @@ protocol.
 
 Odoo generates a separate SSL certificate for each domain :ref:`mapped to a database
 <domain-name/db-map>` using `Let's Encrypt's certificate authority and ACME protocol
-<https://letsencrypt.org/how-it-works/>`_.
+<https://letsencrypt.org/how-it-works/>`_. Any CAA records configured for the domain must `allow
+Let's Encrypt <https://letsencrypt.org/docs/caa/>`_, otherwise certificate generation may fail.
 
 .. note::
    - Certificate generation may take up to 24 hours.
@@ -450,8 +440,3 @@ the one you want to configure. In the :guilabel:`Domain` field, enter the addres
    :guilabel:`Company` under :menuselection:`Website --> Configuration --> Settings`. Doing so
    indicates Odoo which URL to use as the :ref:`base URL <domain-name/web-base-url>` according to
    the company in use.
-
-.. tip::
-   When migrating from an existing website, make sure to set up the necessary :ref:`redirects <website/pages/url-redirection>`
-   before adding your domain name. For example, if a previous URL like `/path/about/something`
-   existed, redirect it to the new corresponding page on your Odoo website, such as `/something`.

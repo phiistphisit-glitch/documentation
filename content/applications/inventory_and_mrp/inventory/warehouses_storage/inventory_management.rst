@@ -137,7 +137,9 @@ provide helpful context, and distinguish between internal and external locations
 
    inventory_management/warehouses
    inventory_management/use_locations
+   inventory_management/operation_type
    inventory_management/count_products
    inventory_management/cycle_counts
    inventory_management/scrap_inventory
-   inventory_management/product_catalog
+   inventory_management/reception_report
+

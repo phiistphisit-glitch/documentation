@@ -250,8 +250,8 @@ create errors.
    :menuselection:`Settings --> Technical --> Automation: Scheduled Actions`.
 
 .. seealso::
-   For more information about crons when using Odoo.sh, check out :doc:`Odoo.sh frequent technical
-   questions <../../../administration/odoo_sh/advanced/frequent_technical_questions>`.
+   For more information about crons when using Odoo.sh, check out the :ref:`Odoo.sh and scheduled
+   actions documentation <odoo-sh/advanced/scheduled>`.
 
 .. _email-issues-outgoing-execution-time-campaigns:
 
@@ -319,7 +319,7 @@ Email is not received
 
       .. seealso::
          For more information on logs and how to access them via the Odoo.sh dashboard, refer to the
-         :ref:`Odoo.sh logs documentation <odoosh/logs>`.
+         :ref:`Odoo.sh logs documentation <odoo-sh/branches/tabs/logs>`.
 
          For more information on accessing logs via the command line, refer to the :ref:`developer
          logging documentation <reference/cmdline/server/logging>`.

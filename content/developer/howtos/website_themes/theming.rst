@@ -750,6 +750,14 @@ By reading the source code, templates related to options are easily found.
    <template id="..." inherit_id="..." name="..." active="True"/>
    <template id="..." inherit_id="..." name="..." active="False"/>
 
+.. seealso::
+
+   In such cases, the ``<template id="...">`` syntax should be preferred over
+   the ``<record id="..." model="ir.ui.view">`` syntax when defining the record
+   in XML.
+
+   See :ref:`reference/data/template`, especially about the ``active`` value.
+
 .. _theming/module/views/presets:
 
 Presets
@@ -816,17 +824,21 @@ This is a non-exhaustive list of the frequently used bundles for a website:
    * - Bundle
      - Description
    * - web._assets_primary_variables
-     - Mainly used for the `primary_variables.scss` file
+     - Defines the primary SCSS variables (colors, fonts, spacing, etc) used as the main theming
+       layer across all bundles. Mainly used for the :file:`primary_variables.scss` file.
    * - web._assets_secondary_variables
-     - Mainly used for the `secondary_variables.scss` file
+     - Defines secondary SCSS variables that depend on and extend the primary variables. Mainly
+       used for the :file:`secondary_variables.scss` file.
    * - web._assets_frontend_helpers
-     - Mainly used for the `bootstrap_overridden.scss` file
+     - Provides frontend-specific Bootstrap overrides to be included before any frontend SCSS
+       compilation. Mainly used for the :file:`bootstrap_overridden.scss` file.
    * - web.assets_frontend
-     - You can add all your custom SCSS, JS or QWeb JS files
+     - Provides the base assets required to render and interact with Odoo's frontend. You can add
+       all your custom SCSS, JS or client-side QWeb templates.
    * - website.assets_wysiwyg
-     - Add your JS files related to the Website Builder options behaviors (for instance, a custom
-       method for your custom building block)
-   * - website.assets_wysiwyg
+     - Provides the assets loaded into the web editor context, including edit-mode styles, custom
+       method for a custom building block, etc).
+   * - web._assets_bootstrap
      - If you need to extend Boostrap through the Bootstrap Utilities API, for example
 
 .. _theming/assets/styles:
@@ -893,7 +905,7 @@ brings the benefit of a better developer experience with better integration with
 
 .. tip::
    - Use a linter (JSHint, ...).
-   - Never add minified JavaScript libraries.
+   - Always add minified JavaScript libraries.
    - Add `'use strict';` at the top of every old-style module (this is automatic for new-style
      modules).
    - Use `js_` prefixed CSS classes on elements you target with JavaScript.

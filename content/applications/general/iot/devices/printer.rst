@@ -15,7 +15,7 @@ control point or a quality check.
 Connection
 ==========
 
-IoT systems support printers connected through USB, network connection, or Bluetooth.
+IoT systems support printers connected through USB or network connection.
 `Supported printers <https://www.odoo.com/page/iot-hardware>`__ are detected automatically, and
 appear in the :guilabel:`Devices` list of the IoT app.
 
@@ -352,12 +352,14 @@ Additionally, a new printer needs to be added to reduce the print delay that occ
 the driver.
 
 .. important::
-   The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use with Odoo and IoT
-   systems. This device combines two printers: a label printer and a tape printer. When configuring
-   the following processes, it is essential to select the correct model (either DYMO LabelWriter 450
-   DUO Label (en) or DYMO LabelWriter 450 DUO Tape (en)). For consistency, the following processes
-   outline configuration steps for the DYMO LabelWriter 450 DUO Label (en) model. Adjust the model
-   selections as needed.
+   - The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer for use with Odoo and IoT
+     systems. This device combines two printers: a label printer and a tape printer. When
+     configuring the following processes, it is essential to select the correct model (either DYMO
+     LabelWriter 450 DUO Label (en) or DYMO LabelWriter 450 DUO Tape (en)). For consistency, the
+     following processes outline configuration steps for the DYMO LabelWriter 450 DUO Label (en)
+     model. Adjust the model selections as needed.
+   - DYMO Series 5 printers are not compatible with the :doc:`IoT box <../iot_box>` and
+     require pairing with a :doc:`Windows virtual IoT <../windows_iot>`.
 
 .. _printer/dymo/update_drivers:
 
@@ -449,6 +451,20 @@ corresponding template.
 .. seealso::
    `Zebra's instructions on printing ZPL files
    <https://supportcommunity.zebra.com/s/article/Print-a-zpl-file-using-the-Generic-Text-Printer>`_
+
+The printer appears multiple times
+----------------------------------
+
+If the printer appears multiple times on the :ref:`IoT box's <iot/iot-box/homepage>` or
+:ref:`Windows virtual IoT's <iot/windows-iot/homepage>` homepage and/or in the list of
+:guilabel:`Devices` on the :ref:`IoT system's form <iot/connect/IoT-form>`, the cause is usually the
+CUPS auto-discovery feature. This feature allows to list all detected printers together with all
+available drivers, creating one entry for each printer–driver pair.
+
+Simply select the entry that works best and ignore the others.
+
+.. note::
+   Workarounds exist to disable the CUPS auto-discovery feature.
 
 Barcode scanner issues
 ======================
